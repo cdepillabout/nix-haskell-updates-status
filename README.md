@@ -1,10 +1,10 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1686189](https://hydra.nixos.org/eval/1686189) of nixpkgs commit [873ebe9](https://github.com/NixOS/nixpkgs/commits/873ebe97858b0483ca51ef0fcd7d34c813c1e0c2) as of 2021-07-15 05:17 UTC*
+*evaluation [1686189](https://hydra.nixos.org/eval/1686189) of nixpkgs commit [873ebe9](https://github.com/NixOS/nixpkgs/commits/873ebe97858b0483ca51ef0fcd7d34c813c1e0c2) as of 2021-07-15 06:09 UTC*
 #### Build summary
 
  | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
  | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1686189?filter=.aarch64-linux) | 24 | 73 | 6 |  | 6557 | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1686189?filter=.aarch64-linux) | 23 | 73 | 6 |  | 6557 | 
  | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1686189?filter=.x86_64-darwin) | 72 | 44 | 3 | 1 | 6495 | 
  | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1686189?filter=.x86_64-linux) | 8 | 2 | 1 |  | 6689 | 
 #### Maintained packages with build failure
@@ -24,9 +24,6 @@
   - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/147739314) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/147736724) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/147724893) [haskell.compiler.integer-simple](https://hydra.nixos.org/eval/1686189?filter=haskell.compiler.integer-simple.ghc901)
   -   [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/147736016) [pkgsMusl.haskell.compiler](https://hydra.nixos.org/eval/1686189?filter=pkgsMusl.haskell.compiler.ghc901)
   -   [[:penguin::x:]](https://hydra.nixos.org/build/147738963) [pkgsMusl.haskell.compiler.integer-simple](https://hydra.nixos.org/eval/1686189?filter=pkgsMusl.haskell.compiler.integer-simple.ghc901)
-- [ ] [hercules-ci-agent](https://hydra.nixos.org/eval/1686189?filter=hercules-ci-agent) @roberth
-  - [[:iphone::x:]](https://hydra.nixos.org/build/147793912) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/147726243) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/147793929) [toplevel](https://hydra.nixos.org/eval/1686189?filter=hercules-ci-agent)
-  - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/147721791) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/147730689) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/147722478) [haskellPackages](https://hydra.nixos.org/eval/1686189?filter=haskellPackages.hercules-ci-agent)
 #### Maintained packages with failed dependency
 - [ ] [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/147768479) [mergeable](https://hydra.nixos.org/eval/1686189?filter=mergeable) @cdepillabout @maralorn @sternenseemann
 #### Unmaintained packages with build failure
@@ -264,3 +261,12 @@
 
 
 ----------------------------------------------------------------------
+
+This README.md is automatically updated every 6 hours with the status of the
+[`haskell-updates` branch/jobset on Hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
+from [Nixpkgs](https://github.com/NixOS/nixpkgs).  This is mostly only of
+interest to the [Nixpkgs Haskell maintainers](https://github.com/orgs/NixOS/teams/haskell).
+
+See the
+[haskell-modules/HACKING.md](https://github.com/NixOS/nixpkgs/blob/haskell-updates/pkgs/development/haskell-modules/HACKING.md)
+file for more information about this build report.
