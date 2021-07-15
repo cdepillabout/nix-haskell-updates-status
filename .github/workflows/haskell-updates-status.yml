@@ -1,10 +1,14 @@
 
 name: "Haskell Updates Status"
+
 on:
-  pull_request:
-  push:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    # Update every 6 hours
+    - cron:  '0 */6 * * *'
+
 jobs:
-  tests:
+  update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
