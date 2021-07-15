@@ -1,0 +1,14 @@
+
+name: "Haskell Updates Status"
+on:
+  pull_request:
+  push:
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: cachix/install-nix-action@v13
+        with:
+          nix_path: nixpkgs=https://github.com/NixOS/nixpkgs/archive/haskell-updates.tar.gz
+      - run: ./update.sh
