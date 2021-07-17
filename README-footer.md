@@ -9,3 +9,8 @@ interest to the [Nixpkgs Haskell maintainers](https://github.com/orgs/NixOS/team
 See the
 [haskell-modules/HACKING.md](https://github.com/NixOS/nixpkgs/blob/haskell-updates/pkgs/development/haskell-modules/HACKING.md)
 file for more information about this build report.
+
+You can force the GitHub Action to run (and the README.md to be updated) by
+manually running the Action.  To do this, go to the Action list screen
+(https://github.com/cdepillabout/nix-haskell-updates-status/actions),
+click on any of the Workflow runs, and then click the `Re-run jobs` button.
