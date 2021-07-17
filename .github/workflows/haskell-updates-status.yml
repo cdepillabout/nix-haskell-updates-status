@@ -18,7 +18,14 @@ jobs:
         with:
           nix_path: nixpkgs=https://github.com/NixOS/nixpkgs/archive/haskell-updates.tar.gz
 
-      - run: |
+      - name: Run ./update.sh
+        run: |
+          # Create the updated README.md using the script from this checkout.
+          ./update.sh
+          mv README.md ../README.md-new
+
+      - name: Update README.md on main branch
+        run: |
           # Set GitHub Actions Bot email address and user name.
           git config --global user.name 'github-actions'
           git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
@@ -26,9 +33,6 @@ jobs:
           # Get the current commit that we are running this workflow from.
           commit=$(git rev-parse --short HEAD)
 
-          # Create the updated README.md using the script from this checkout.
-          ./update.sh
-          mv README.md ../README.md-new
 
           # Checkout the remote main branch.
           git fetch
