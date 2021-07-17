@@ -5,8 +5,7 @@ on:
   schedule:
     # * is a special character in YAML so you have to quote this string
     # Update every 6 hours
-    # - cron:  '0 */6 * * *'
-    - cron:  '*/10 * * * *'
+    - cron:  '0 */6 * * *'
 
 jobs:
   update:
@@ -32,7 +31,6 @@ jobs:
 
           # Get the current commit that we are running this workflow from.
           commit=$(git rev-parse --short HEAD)
-
 
           # Checkout the remote main branch.
           git fetch
