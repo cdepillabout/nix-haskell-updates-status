@@ -14,29 +14,16 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      # - uses: cachix/install-nix-action@v13
-      #   with:
-      #     nix_path: nixpkgs=https://github.com/NixOS/nixpkgs/archive/haskell-updates.tar.gz
+      - uses: cachix/install-nix-action@v13
+        with:
+          nix_path: nixpkgs=https://github.com/NixOS/nixpkgs/archive/haskell-updates.tar.gz
 
       - run: |
           # Set GitHub Actions Bot email address and user name.
           git config --global user.name 'github-actions'
           git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
 
-          git status
-
-          git rev-parse HEAD
-
-          cat .git/HEAD
-
-          git diff
-
-          pwd
-
-          ls -la
-
-          ls -la ..
-
+          # Get the current commit that we are running this workflow from.
           commit=$(git rev-parse --short HEAD)
 
           # Create the updated README.md using the script from this checkout.
@@ -46,6 +33,8 @@ jobs:
           # Checkout the remote main branch.
           git fetch
           git reset --hard origin/main
+
+          # Check in our new README.md file and push it to the remote main branch.
           mv ../README.md-new ./README.md
           git add README.md
           git commit -m "Updated README.md from update.sh at ${commit}"
