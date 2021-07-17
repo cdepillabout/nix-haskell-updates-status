@@ -37,14 +37,16 @@ jobs:
 
           ls -la ..
 
-          # Store the current
+          commit=$(git rev-parse --short HEAD)
 
-          # Create a branch to store the generated README.md file.
+          # Create the updated README.md using the script from this checkout.
+          ./update.sh
+          mv README.md ../README.md-new
 
-
-          # Generate the new README.md file.
-          # ./update.sh
-          # mv README.md
-          # git commit -am "Automated report"
-          # git push
-          # ./update.sh
+          # Checkout the remote main branch.
+          git fetch
+          git reset --hard origin/main
+          mv ../README.md-new ./README.md
+          git add README.md
+          git commit -m "Updated README.md from update.sh at ${commit}"
+          git push origin HEAD:main
