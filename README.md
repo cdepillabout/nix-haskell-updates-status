@@ -1,12 +1,12 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1691497](https://hydra.nixos.org/eval/1691497) of nixpkgs commit [3b93976](https://github.com/NixOS/nixpkgs/commits/3b93976ebec94cacf928ab6db576cc994c8f710f) as of 2021-08-02 06:14 UTC*
+*evaluation [1691497](https://hydra.nixos.org/eval/1691497) of nixpkgs commit [3b93976](https://github.com/NixOS/nixpkgs/commits/3b93976ebec94cacf928ab6db576cc994c8f710f) as of 2021-08-02 12:19 UTC*
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1691497?filter=.aarch64-linux) | 28 | 68 | 10 | 1 | 6586 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1691497?filter=.x86_64-darwin) | 78 | 48 | 4 |  | 6518 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1691497?filter=.x86_64-linux) | 5 | 12 |  |  | 6723 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1691497?filter=.aarch64-linux) | 28 | 68 | 10 | 6587 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1691497?filter=.x86_64-darwin) | 78 | 48 | 4 | 6518 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1691497?filter=.x86_64-linux) | 5 | 12 |  | 6723 | 
 #### Maintained packages with failed dependency
 - [ ] [ghc8104](https://hydra.nixos.org/eval/1691497?filter=ghc8104) @kosmikus @marcweber @peti
   - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/149082525) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/149079996) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/149083545) [haskell.compiler](https://hydra.nixos.org/eval/1691497?filter=haskell.compiler.ghc8104)
