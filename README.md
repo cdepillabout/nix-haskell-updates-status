@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1693961](https://hydra.nixos.org/eval/1693961) of nixpkgs commit [6c52cce](https://github.com/NixOS/nixpkgs/commits/6c52cce59b32a1a6ce6c7bc5369b8564c82ce6d2) as of 2021-08-08 12:18 UTC*
+*evaluation [1693961](https://hydra.nixos.org/eval/1693961) of nixpkgs commit [6c52cce](https://github.com/NixOS/nixpkgs/commits/6c52cce59b32a1a6ce6c7bc5369b8564c82ce6d2) as of 2021-08-08 18:13 UTC*
 #### Build summary
 
  | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
