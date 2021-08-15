@@ -1,12 +1,12 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1695826](https://hydra.nixos.org/eval/1695826) of nixpkgs commit [caa9f45](https://github.com/NixOS/nixpkgs/commits/caa9f451d1efab9f542db49d065e5479ea573c36) as of 2021-08-14 18:15 UTC*
+*evaluation [1695826](https://hydra.nixos.org/eval/1695826) of nixpkgs commit [caa9f45](https://github.com/NixOS/nixpkgs/commits/caa9f451d1efab9f542db49d065e5479ea573c36) as of 2021-08-15 00:56 UTC*
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1695826?filter=.aarch64-linux) | 19 | 9 |  | 6674 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1695826?filter=.x86_64-darwin) | 53 | 34 | 7 | 6560 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1695826?filter=.x86_64-linux) | 2 | 8 |  | 6741 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1695826?filter=.aarch64-linux) | 19 | 9 |  |  | 6674 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1695826?filter=.x86_64-darwin) | 53 | 34 | 4 | 3 | 6560 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1695826?filter=.x86_64-linux) | 2 | 8 |  |  | 6741 | 
 #### Maintained packages with failed dependency
 - [ ] [ghc8104](https://hydra.nixos.org/eval/1695826?filter=ghc8104) @kosmikus @marcweber @peti
   - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/149082525) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/149079996) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/149083545) [haskell.compiler](https://hydra.nixos.org/eval/1695826?filter=haskell.compiler.ghc8104)
