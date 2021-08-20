@@ -1,12 +1,12 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1697544](https://hydra.nixos.org/eval/1697544) of nixpkgs commit [79f38d7](https://github.com/NixOS/nixpkgs/commits/79f38d76c27a05176411ec7bd049f48e2c1cc81c) as of 2021-08-20 06:14 UTC*
+*evaluation [1697544](https://hydra.nixos.org/eval/1697544) of nixpkgs commit [79f38d7](https://github.com/NixOS/nixpkgs/commits/79f38d76c27a05176411ec7bd049f48e2c1cc81c) as of 2021-08-20 12:18 UTC*
 #### Build summary
 
  | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
  | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1697544?filter=.aarch64-linux) | 18 | 9 | 3 | 41 | 6619 | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1697544?filter=.aarch64-linux) | 18 | 9 | 3 |  | 6657 | 
  | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1697544?filter=.x86_64-darwin) | 50 | 38 | 4 | 16 | 6531 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1697544?filter=.x86_64-linux) |  | 8 |  | 2 | 6726 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1697544?filter=.x86_64-linux) |  | 8 |  |  | 6728 | 
 #### Maintained packages with failed dependency
 - [ ] [ghc8106](https://hydra.nixos.org/eval/1697544?filter=ghc8106) @kosmikus @marcweber @peti
   - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/150142134) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/150136607) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/150148504) [haskell.compiler](https://hydra.nixos.org/eval/1697544?filter=haskell.compiler.ghc8106)
