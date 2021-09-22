@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1706781](https://hydra.nixos.org/eval/1706781) of nixpkgs commit [e749b2a](https://github.com/NixOS/nixpkgs/commits/e749b2a8d479da91e5a66090453b139ea7c207e4) as of 2021-09-22 06:14 UTC*
+*evaluation [1706781](https://hydra.nixos.org/eval/1706781) of nixpkgs commit [e749b2a](https://github.com/NixOS/nixpkgs/commits/e749b2a8d479da91e5a66090453b139ea7c207e4) as of 2021-09-22 12:18 UTC*
 
 :yellow_circle: **Potential issues**
   * `mergeable` jobset is not finished.
@@ -148,56 +148,56 @@
 #### Top 50 broken packages, sorted by number of reverse dependencies
 <details><summary>50 job(s) </summary>
 
-[gogol-core](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.gogol-core&query=haskellPackages.gogol-core) :arrow_heading_up: 182
-[haskell98](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.haskell98&query=haskellPackages.haskell98) :arrow_heading_up: 153
-[dependent-map](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.dependent-map&query=haskellPackages.dependent-map) :arrow_heading_up: 108
-[cryptohash-sha256](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.cryptohash-sha256&query=haskellPackages.cryptohash-sha256) :arrow_heading_up: 57
-[enumerator](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.enumerator&query=haskellPackages.enumerator) :arrow_heading_up: 56
-[polysemy](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.polysemy&query=haskellPackages.polysemy) :arrow_heading_up: 51
-[derive](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.derive&query=haskellPackages.derive) :arrow_heading_up: 48
-[contiguous](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.contiguous&query=haskellPackages.contiguous) :arrow_heading_up: 45
-[MonadCatchIO-transformers](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.MonadCatchIO-transformers&query=haskellPackages.MonadCatchIO-transformers) :arrow_heading_up: 41
-[parseargs](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.parseargs&query=haskellPackages.parseargs) :arrow_heading_up: 41
-[bytesmith](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.bytesmith&query=haskellPackages.bytesmith) :arrow_heading_up: 35
-[data-lens](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.data-lens&query=haskellPackages.data-lens) :arrow_heading_up: 34
-[distributed-process](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.distributed-process&query=haskellPackages.distributed-process) :arrow_heading_up: 30
-[iteratee](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.iteratee&query=haskellPackages.iteratee) :arrow_heading_up: 29
-[jmacro](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.jmacro&query=haskellPackages.jmacro) :arrow_heading_up: 29
-[ip](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.ip&query=haskellPackages.ip) :arrow_heading_up: 26
-[either-unwrap](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.either-unwrap&query=haskellPackages.either-unwrap) :arrow_heading_up: 25
-[HList](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.HList&query=haskellPackages.HList) :arrow_heading_up: 23
-[sydtest](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.sydtest&query=haskellPackages.sydtest) :arrow_heading_up: 23
-[Crypto](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.Crypto&query=haskellPackages.Crypto) :arrow_heading_up: 22
-[SciBaseTypes](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.SciBaseTypes&query=haskellPackages.SciBaseTypes) :arrow_heading_up: 22
-[haskelldb](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.haskelldb&query=haskellPackages.haskelldb) :arrow_heading_up: 22
-[hsc3](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.hsc3&query=haskellPackages.hsc3) :arrow_heading_up: 22
-[wxdirect](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.wxdirect&query=haskellPackages.wxdirect) :arrow_heading_up: 22
-[BiobaseTypes](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.BiobaseTypes&query=haskellPackages.BiobaseTypes) :arrow_heading_up: 21
-[wxc](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.wxc&query=haskellPackages.wxc) :arrow_heading_up: 21
-[biocore](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.biocore&query=haskellPackages.biocore) :arrow_heading_up: 20
-[secp256k1-haskell](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.secp256k1-haskell&query=haskellPackages.secp256k1-haskell) :arrow_heading_up: 20
-[wxcore](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.wxcore&query=haskellPackages.wxcore) :arrow_heading_up: 20
-[attoparsec-enumerator](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.attoparsec-enumerator&query=haskellPackages.attoparsec-enumerator) :arrow_heading_up: 19
-[bytestring-show](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.bytestring-show&query=haskellPackages.bytestring-show) :arrow_heading_up: 19
-[bytestring-trie](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.bytestring-trie&query=haskellPackages.bytestring-trie) :arrow_heading_up: 19
-[numhask](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.numhask&query=haskellPackages.numhask) :arrow_heading_up: 19
-[polysemy-plugin](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.polysemy-plugin&query=haskellPackages.polysemy-plugin) :arrow_heading_up: 19
-[wx](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.wx&query=haskellPackages.wx) :arrow_heading_up: 19
-[BiobaseENA](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.BiobaseENA&query=haskellPackages.BiobaseENA) :arrow_heading_up: 18
-[asn1-data](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.asn1-data&query=haskellPackages.asn1-data) :arrow_heading_up: 18
-[dbus-core](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.dbus-core&query=haskellPackages.dbus-core) :arrow_heading_up: 18
-[gtksourceview2](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.gtksourceview2&query=haskellPackages.gtksourceview2) :arrow_heading_up: 18
-[BiobaseXNA](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.BiobaseXNA&query=haskellPackages.BiobaseXNA) :arrow_heading_up: 17
-[HGamer3D-Data](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.HGamer3D-Data&query=haskellPackages.HGamer3D-Data) :arrow_heading_up: 17
-[certificate](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.certificate&query=haskellPackages.certificate) :arrow_heading_up: 17
-[dbus-client](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.dbus-client&query=haskellPackages.dbus-client) :arrow_heading_up: 17
-[gconf](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.gconf&query=haskellPackages.gconf) :arrow_heading_up: 17
-[gtk-serialized-event](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.gtk-serialized-event&query=haskellPackages.gtk-serialized-event) :arrow_heading_up: 17
-[uuid-orphans](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.uuid-orphans&query=haskellPackages.uuid-orphans) :arrow_heading_up: 17
-[cuda](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.cuda&query=haskellPackages.cuda) :arrow_heading_up: 16
-[happstack-jmacro](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.happstack-jmacro&query=haskellPackages.happstack-jmacro) :arrow_heading_up: 16
-[manatee-core](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.manatee-core&query=haskellPackages.manatee-core) :arrow_heading_up: 16
-[monads-fd](https://search.nixos.org/packages?channel=unstable&show=haskellPackages.monads-fd&query=haskellPackages.monads-fd) :arrow_heading_up: 16
+[gogol-core](https://packdeps.haskellers.com/reverse/gogol-core) :arrow_heading_up: 182  
+[haskell98](https://packdeps.haskellers.com/reverse/haskell98) :arrow_heading_up: 153  
+[dependent-map](https://packdeps.haskellers.com/reverse/dependent-map) :arrow_heading_up: 108  
+[cryptohash-sha256](https://packdeps.haskellers.com/reverse/cryptohash-sha256) :arrow_heading_up: 57  
+[enumerator](https://packdeps.haskellers.com/reverse/enumerator) :arrow_heading_up: 56  
+[polysemy](https://packdeps.haskellers.com/reverse/polysemy) :arrow_heading_up: 51  
+[derive](https://packdeps.haskellers.com/reverse/derive) :arrow_heading_up: 48  
+[contiguous](https://packdeps.haskellers.com/reverse/contiguous) :arrow_heading_up: 45  
+[MonadCatchIO-transformers](https://packdeps.haskellers.com/reverse/MonadCatchIO-transformers) :arrow_heading_up: 41  
+[parseargs](https://packdeps.haskellers.com/reverse/parseargs) :arrow_heading_up: 41  
+[bytesmith](https://packdeps.haskellers.com/reverse/bytesmith) :arrow_heading_up: 35  
+[data-lens](https://packdeps.haskellers.com/reverse/data-lens) :arrow_heading_up: 34  
+[distributed-process](https://packdeps.haskellers.com/reverse/distributed-process) :arrow_heading_up: 30  
+[iteratee](https://packdeps.haskellers.com/reverse/iteratee) :arrow_heading_up: 29  
+[jmacro](https://packdeps.haskellers.com/reverse/jmacro) :arrow_heading_up: 29  
+[ip](https://packdeps.haskellers.com/reverse/ip) :arrow_heading_up: 26  
+[either-unwrap](https://packdeps.haskellers.com/reverse/either-unwrap) :arrow_heading_up: 25  
+[HList](https://packdeps.haskellers.com/reverse/HList) :arrow_heading_up: 23  
+[sydtest](https://packdeps.haskellers.com/reverse/sydtest) :arrow_heading_up: 23  
+[Crypto](https://packdeps.haskellers.com/reverse/Crypto) :arrow_heading_up: 22  
+[SciBaseTypes](https://packdeps.haskellers.com/reverse/SciBaseTypes) :arrow_heading_up: 22  
+[haskelldb](https://packdeps.haskellers.com/reverse/haskelldb) :arrow_heading_up: 22  
+[hsc3](https://packdeps.haskellers.com/reverse/hsc3) :arrow_heading_up: 22  
+[wxdirect](https://packdeps.haskellers.com/reverse/wxdirect) :arrow_heading_up: 22  
+[BiobaseTypes](https://packdeps.haskellers.com/reverse/BiobaseTypes) :arrow_heading_up: 21  
+[wxc](https://packdeps.haskellers.com/reverse/wxc) :arrow_heading_up: 21  
+[biocore](https://packdeps.haskellers.com/reverse/biocore) :arrow_heading_up: 20  
+[secp256k1-haskell](https://packdeps.haskellers.com/reverse/secp256k1-haskell) :arrow_heading_up: 20  
+[wxcore](https://packdeps.haskellers.com/reverse/wxcore) :arrow_heading_up: 20  
+[attoparsec-enumerator](https://packdeps.haskellers.com/reverse/attoparsec-enumerator) :arrow_heading_up: 19  
+[bytestring-show](https://packdeps.haskellers.com/reverse/bytestring-show) :arrow_heading_up: 19  
+[bytestring-trie](https://packdeps.haskellers.com/reverse/bytestring-trie) :arrow_heading_up: 19  
+[numhask](https://packdeps.haskellers.com/reverse/numhask) :arrow_heading_up: 19  
+[polysemy-plugin](https://packdeps.haskellers.com/reverse/polysemy-plugin) :arrow_heading_up: 19  
+[wx](https://packdeps.haskellers.com/reverse/wx) :arrow_heading_up: 19  
+[BiobaseENA](https://packdeps.haskellers.com/reverse/BiobaseENA) :arrow_heading_up: 18  
+[asn1-data](https://packdeps.haskellers.com/reverse/asn1-data) :arrow_heading_up: 18  
+[dbus-core](https://packdeps.haskellers.com/reverse/dbus-core) :arrow_heading_up: 18  
+[gtksourceview2](https://packdeps.haskellers.com/reverse/gtksourceview2) :arrow_heading_up: 18  
+[BiobaseXNA](https://packdeps.haskellers.com/reverse/BiobaseXNA) :arrow_heading_up: 17  
+[HGamer3D-Data](https://packdeps.haskellers.com/reverse/HGamer3D-Data) :arrow_heading_up: 17  
+[certificate](https://packdeps.haskellers.com/reverse/certificate) :arrow_heading_up: 17  
+[dbus-client](https://packdeps.haskellers.com/reverse/dbus-client) :arrow_heading_up: 17  
+[gconf](https://packdeps.haskellers.com/reverse/gconf) :arrow_heading_up: 17  
+[gtk-serialized-event](https://packdeps.haskellers.com/reverse/gtk-serialized-event) :arrow_heading_up: 17  
+[uuid-orphans](https://packdeps.haskellers.com/reverse/uuid-orphans) :arrow_heading_up: 17  
+[cuda](https://packdeps.haskellers.com/reverse/cuda) :arrow_heading_up: 16  
+[happstack-jmacro](https://packdeps.haskellers.com/reverse/happstack-jmacro) :arrow_heading_up: 16  
+[manatee-core](https://packdeps.haskellers.com/reverse/manatee-core) :arrow_heading_up: 16  
+[monads-fd](https://packdeps.haskellers.com/reverse/monads-fd) :arrow_heading_up: 16  
 </details>
 
 
