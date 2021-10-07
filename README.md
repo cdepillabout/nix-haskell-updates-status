@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1711366](https://hydra.nixos.org/eval/1711366) of nixpkgs commit [6bd7a35](https://github.com/NixOS/nixpkgs/commits/6bd7a35f23124c946d046f2bfdf77cfebbbf5f33) as of 2021-10-07 00:39 UTC*
+*evaluation [1711366](https://hydra.nixos.org/eval/1711366) of nixpkgs commit [6bd7a35](https://github.com/NixOS/nixpkgs/commits/6bd7a35f23124c946d046f2bfdf77cfebbbf5f33) as of 2021-10-07 06:15 UTC*
 
 :yellow_circle: **Potential issues**
   * `mergeable` jobset is not finished.
@@ -11,7 +11,7 @@
  | --- | --- | --- | --- | --- | --- | 
  | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1711366?filter=.aarch64-linux) | 19 | 13 | 4 |  | 6868 | 
  | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1711366?filter=.x86_64-darwin) |  |  |  | 6857 |  | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1711366?filter=.x86_64-linux) | 1 | 2 | 1 | 13 | 6934 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1711366?filter=.x86_64-linux) | 1 | 2 | 1 | 2 | 6943 | 
 #### Unmaintained packages with build failure
 <details><summary>20 job(s) </summary>
 
