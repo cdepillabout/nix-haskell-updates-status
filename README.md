@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1713020](https://hydra.nixos.org/eval/1713020) of nixpkgs commit [0e90a1f](https://github.com/NixOS/nixpkgs/commits/0e90a1f13d89507dead4397e9ff499a9c95b01e3) as of 2021-10-13 18:15 UTC*
+*evaluation [1713020](https://hydra.nixos.org/eval/1713020) of nixpkgs commit [0e90a1f](https://github.com/NixOS/nixpkgs/commits/0e90a1f13d89507dead4397e9ff499a9c95b01e3) as of 2021-10-14 00:37 UTC*
 
 :red_circle: **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -11,7 +11,7 @@
  | --- | --- | --- | --- | --- | --- | 
  | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1713020?filter=.aarch64-linux) | 23 | 21 | 7 |  | 6858 | 
  | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1713020?filter=.x86_64-darwin) |  |  |  | 6862 |  | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1713020?filter=.x86_64-linux) | 6 | 11 | 1 | 1 | 6936 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1713020?filter=.x86_64-linux) | 6 | 11 | 1 |  | 6936 | 
 #### Maintained packages with failed dependency
 - [ ] [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/155770344) [hyper-haskell](https://hydra.nixos.org/eval/1713020?filter=hyper-haskell) @rvl
 - [ ] [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/155915257) [maintained](https://hydra.nixos.org/eval/1713020?filter=maintained) @cdepillabout @expipiplus1 @maralorn @sternenseemann
