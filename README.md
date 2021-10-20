@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1714516](https://hydra.nixos.org/eval/1714516) of nixpkgs commit [5364917](https://github.com/NixOS/nixpkgs/commits/53649178d457a4c921d47a73a8469fc618f57f5f) as of 2021-10-20 00:39 UTC*
+*evaluation [1714516](https://hydra.nixos.org/eval/1714516) of nixpkgs commit [5364917](https://github.com/NixOS/nixpkgs/commits/53649178d457a4c921d47a73a8469fc618f57f5f) as of 2021-10-20 06:16 UTC*
 
 :red_circle: **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -7,11 +7,11 @@
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1714516?filter=.aarch64-linux) | 23 | 20 | 4 |  | 6861 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1714516?filter=.x86_64-darwin) | 60 | 55 | 4 | 8 | 6740 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1714516?filter=.x86_64-linux) | 6 | 15 | 1 |  | 6931 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1714516?filter=.aarch64-linux) | 23 | 20 | 4 | 6861 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1714516?filter=.x86_64-darwin) | 60 | 55 | 5 | 6744 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1714516?filter=.x86_64-linux) | 6 | 15 | 1 | 6931 | 
 #### Maintained packages with build failure
 - [ ] [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/156352058) [[:apple::x:]](https://hydra.nixos.org/build/156352061) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/156352060) [haskellPackages.svgcairo](https://hydra.nixos.org/eval/1714516?filter=haskellPackages.svgcairo) @dalpd
 #### Maintained packages with failed dependency
