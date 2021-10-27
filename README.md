@@ -1,16 +1,15 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1716337](https://hydra.nixos.org/eval/1716337) of nixpkgs commit [792e9c4](https://github.com/NixOS/nixpkgs/commits/792e9c43a5620e0dcbc207db9167910629a5359e) as of 2021-10-27 06:16 UTC*
+*evaluation [1716337](https://hydra.nixos.org/eval/1716337) of nixpkgs commit [792e9c4](https://github.com/NixOS/nixpkgs/commits/792e9c43a5620e0dcbc207db9167910629a5359e) as of 2021-10-27 12:20 UTC*
 
-:yellow_circle: **Potential issues**
-  * `maintained` jobset is not finished.
+:green_circle: **Ready to merge**
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1716337?filter=.aarch64-linux) | 27 | 14 | 6 | 7 | 7047 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1716337?filter=.x86_64-darwin) | 68 | 46 | 5 |  | 6937 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1716337?filter=.x86_64-linux) | 11 | 7 | 1 | 1 | 7127 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1716337?filter=.aarch64-linux) | 27 | 14 | 6 | 7054 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1716337?filter=.x86_64-darwin) | 68 | 46 | 5 | 6937 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1716337?filter=.x86_64-linux) | 11 | 7 | 1 | 7128 | 
 #### Maintained packages with failed dependency
 - [ ] [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/156536715) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/156534343) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/156530011) [tamarin-prover](https://hydra.nixos.org/eval/1716337?filter=tamarin-prover) @thoughtpolice
 #### Unmaintained packages with build failure
