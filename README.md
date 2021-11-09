@@ -1,16 +1,16 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1720276](https://hydra.nixos.org/eval/1720276) of nixpkgs commit [e176608](https://github.com/NixOS/nixpkgs/commits/e1766085b3541a3e68bbfc844e67b27adfb43cea) as of 2021-11-09 06:15 UTC*
+*evaluation [1720276](https://hydra.nixos.org/eval/1720276) of nixpkgs commit [e176608](https://github.com/NixOS/nixpkgs/commits/e1766085b3541a3e68bbfc844e67b27adfb43cea) as of 2021-11-09 12:19 UTC*
 
 :yellow_circle: **Potential issues**
   * `maintained` jobset failed.
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1720276?filter=.aarch64-linux) | 38 | 26 | 5 | 7054 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1720276?filter=.x86_64-darwin) | 73 | 50 | 9 | 6943 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1720276?filter=.x86_64-linux) | 19 | 15 | 1 | 7130 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | HydraFailure :construction: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1720276?filter=.aarch64-linux) | 38 | 26 | 5 |  | 7054 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1720276?filter=.x86_64-darwin) | 73 | 50 | 8 | 1 | 6943 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1720276?filter=.x86_64-linux) | 19 | 15 | 1 |  | 7130 | 
 #### Maintained packages with failed dependency
 - [ ] [cabal-install](https://hydra.nixos.org/eval/1720276?filter=cabal-install) @peti
   - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/157562297) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/157567662) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/157564150) [toplevel](https://hydra.nixos.org/eval/1720276?filter=cabal-install)
