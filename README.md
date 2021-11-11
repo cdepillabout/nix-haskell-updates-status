@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1720636](https://hydra.nixos.org/eval/1720636) of nixpkgs commit [da2c9c6](https://github.com/NixOS/nixpkgs/commits/da2c9c6eabc7f94675736bab02d1d70726410764) as of 2021-11-10 18:13 UTC*
+*evaluation [1720636](https://hydra.nixos.org/eval/1720636) of nixpkgs commit [da2c9c6](https://github.com/NixOS/nixpkgs/commits/da2c9c6eabc7f94675736bab02d1d70726410764) as of 2021-11-11 00:37 UTC*
 
 :green_circle: **Ready to merge**
 
@@ -9,7 +9,7 @@
  | --- | --- | --- | --- | --- | --- | 
  | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1720636?filter=.aarch64-linux) | 36 | 25 | 5 |  | 7058 | 
  | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1720636?filter=.x86_64-darwin) | 71 | 48 | 8 | 1 | 6948 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1720636?filter=.x86_64-linux) | 17 | 13 | 1 |  | 7135 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1720636?filter=.x86_64-linux) | 17 | 13 |  | 1 | 7135 | 
 #### Maintained packages with failed dependency
 - [ ] [cabal-install](https://hydra.nixos.org/eval/1720636?filter=cabal-install) @peti
   - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/157562297) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/157567662) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/157564150) [toplevel](https://hydra.nixos.org/eval/1720636?filter=cabal-install)
