@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1721491](https://hydra.nixos.org/eval/1721491) of nixpkgs commit [f618f8b](https://github.com/NixOS/nixpkgs/commits/f618f8ba385527b09fb5ba4e914de9667ddc55cf) as of 2021-11-12 18:15 UTC*
+*evaluation [1721491](https://hydra.nixos.org/eval/1721491) of nixpkgs commit [f618f8b](https://github.com/NixOS/nixpkgs/commits/f618f8ba385527b09fb5ba4e914de9667ddc55cf) as of 2021-11-13 00:36 UTC*
 
 :red_circle: **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -7,11 +7,11 @@
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | HydraFailure :construction: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1721491?filter=.aarch64-linux) | 29 | 39 | 5 |  | 1 | 7037 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1721491?filter=.x86_64-darwin) | 63 | 55 | 3 |  |  | 6936 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1721491?filter=.x86_64-linux) | 11 | 44 | 3 | 1 |  | 7093 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | HydraFailure :construction: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1721491?filter=.aarch64-linux) | 29 | 39 | 5 |  | 7038 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1721491?filter=.x86_64-darwin) | 63 | 55 | 3 |  | 6936 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1721491?filter=.x86_64-linux) | 11 | 44 | 3 | 1 | 7093 | 
 #### Maintained packages with build failure
 - [ ] [[:iphone::x:]](https://hydra.nixos.org/build/158026361) [[:apple::x:]](https://hydra.nixos.org/build/158027000) [[:penguin::x:]](https://hydra.nixos.org/build/158023981) [haskellPackages.ghcide](https://hydra.nixos.org/eval/1721491?filter=haskellPackages.ghcide) @maralorn
 - [ ] [git-annex](https://hydra.nixos.org/eval/1721491?filter=git-annex) @peti
