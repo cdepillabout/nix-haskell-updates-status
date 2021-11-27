@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1725833](https://hydra.nixos.org/eval/1725833) of nixpkgs commit [c83509f](https://github.com/NixOS/nixpkgs/commits/c83509f73db280ca9094cdd33967e887f091542c) as of 2021-11-27 06:14 UTC*
+*evaluation [1725833](https://hydra.nixos.org/eval/1725833) of nixpkgs commit [c83509f](https://github.com/NixOS/nixpkgs/commits/c83509f73db280ca9094cdd33967e887f091542c) as of 2021-11-27 12:18 UTC*
 
 :red_circle: **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -7,11 +7,11 @@
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Canceled :no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1725833?filter=.aarch64-linux) | 38 | 117 | 4 |  |  | 6956 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1725833?filter=.x86_64-darwin) |  |  |  | 7053 | 1 | 5 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1725833?filter=.x86_64-linux) | 3 | 11 |  |  |  | 7140 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Canceled :no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1725833?filter=.aarch64-linux) | 38 | 117 | 4 |  | 6956 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1725833?filter=.x86_64-darwin) |  |  |  | 7053 | 6 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1725833?filter=.x86_64-linux) | 3 | 11 |  |  | 7140 | 
 #### Maintained packages with build failure
 - [ ] [[:iphone::x:]](https://hydra.nixos.org/build/159691447) [[:apple::no_entry_sign:]](https://hydra.nixos.org/build/159689530) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/159698832) [haskellPackages.candid](https://hydra.nixos.org/eval/1725833?filter=haskellPackages.candid) @nomeata
 - [ ] [pretty-simple](https://hydra.nixos.org/eval/1725833?filter=pretty-simple) @cdepillabout
