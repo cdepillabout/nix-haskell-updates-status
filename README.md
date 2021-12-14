@@ -1,16 +1,15 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1730481](https://hydra.nixos.org/eval/1730481) of nixpkgs commit [248a27f](https://github.com/NixOS/nixpkgs/commits/248a27fa15a2df5c0391f541a0c4719a6bd5a96d) as of 2021-12-13 18:15 UTC*
+*evaluation [1730481](https://hydra.nixos.org/eval/1730481) of nixpkgs commit [248a27f](https://github.com/NixOS/nixpkgs/commits/248a27fa15a2df5c0391f541a0c4719a6bd5a96d) as of 2021-12-14 00:43 UTC*
 
-:yellow_circle: **Potential issues**
-  * `maintained` jobset is not finished.
+:green_circle: **Ready to merge**
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1730481?filter=.aarch64-linux) | 20 | 16 | 1 |  | 7117 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1730481?filter=.x86_64-darwin) | 51 | 26 | 2 |  | 7015 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1730481?filter=.x86_64-linux) |  |  |  | 1 | 7188 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1730481?filter=.aarch64-linux) | 20 | 16 | 1 | 7117 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1730481?filter=.x86_64-darwin) | 51 | 26 | 2 | 7015 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1730481?filter=.x86_64-linux) |  |  |  | 7189 | 
 #### Maintained packages with failed dependency
 - [ ] [cabal-install](https://hydra.nixos.org/eval/1730481?filter=cabal-install) @peti
   - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/160444227) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/160448434) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/160441986) [toplevel](https://hydra.nixos.org/eval/1730481?filter=cabal-install)
