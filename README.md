@@ -1,15 +1,15 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1731453](https://hydra.nixos.org/eval/1731453) of nixpkgs commit [2189a53](https://github.com/NixOS/nixpkgs/commits/2189a53dad0e48ea7211c32cc1832a82001d976b) as of 2021-12-17 00:41 UTC*
+*evaluation [1731453](https://hydra.nixos.org/eval/1731453) of nixpkgs commit [2189a53](https://github.com/NixOS/nixpkgs/commits/2189a53dad0e48ea7211c32cc1832a82001d976b) as of 2021-12-17 06:16 UTC*
 
 :green_circle: **Ready to merge**
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1731453?filter=.aarch64-linux) | 20 | 18 | 1 |  | 7120 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1731453?filter=.x86_64-darwin) | 51 | 26 | 2 |  | 7019 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1731453?filter=.x86_64-linux) |  |  |  | 1 | 7193 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1731453?filter=.aarch64-linux) | 20 | 18 | 1 | 7120 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1731453?filter=.x86_64-darwin) | 51 | 26 | 2 | 7019 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1731453?filter=.x86_64-linux) |  |  |  | 7193 | 
 #### Maintained packages with failed dependency
 - [ ] [cabal-install](https://hydra.nixos.org/eval/1731453?filter=cabal-install) @peti
   - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/160444227) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/160448434) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/160441986) [toplevel](https://hydra.nixos.org/eval/1731453?filter=cabal-install)
