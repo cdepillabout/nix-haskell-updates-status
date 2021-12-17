@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1731453](https://hydra.nixos.org/eval/1731453) of nixpkgs commit [2189a53](https://github.com/NixOS/nixpkgs/commits/2189a53dad0e48ea7211c32cc1832a82001d976b) as of 2021-12-17 12:19 UTC*
+*evaluation [1731453](https://hydra.nixos.org/eval/1731453) of nixpkgs commit [2189a53](https://github.com/NixOS/nixpkgs/commits/2189a53dad0e48ea7211c32cc1832a82001d976b) as of 2021-12-17 18:15 UTC*
 
 :green_circle: **Ready to merge**
 
