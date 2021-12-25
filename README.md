@@ -1,17 +1,17 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1733488](https://hydra.nixos.org/eval/1733488) of nixpkgs commit [0587013](https://github.com/NixOS/nixpkgs/commits/0587013dd2719891573732e5c0fd718e92b25501) as of 2021-12-25 00:39 UTC*
+*evaluation [1733488](https://hydra.nixos.org/eval/1733488) of nixpkgs commit [0587013](https://github.com/NixOS/nixpkgs/commits/0587013dd2719891573732e5c0fd718e92b25501) as of 2021-12-25 06:16 UTC*
 
 :red_circle: **Branch not mergeable**
   * `mergeable` jobset failed.
-  * `maintained` jobset is not finished.
+  * `maintained` jobset failed.
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | HydraFailure :construction: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1733488?filter=.aarch64-linux) | 41 | 30 | 4 |  |  | 7105 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1733488?filter=.x86_64-darwin) | 74 | 43 | 2 | 3 | 2 | 6994 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1733488?filter=.x86_64-linux) | 27 | 20 |  |  | 8 | 7159 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | HydraFailure :construction: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1733488?filter=.aarch64-linux) | 41 | 30 | 4 |  | 7105 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1733488?filter=.x86_64-darwin) | 74 | 43 | 2 | 5 | 6994 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1733488?filter=.x86_64-linux) | 27 | 20 |  | 1 | 7165 | 
 #### Maintained packages with failed dependency
 - [ ] [cabal-install](https://hydra.nixos.org/eval/1733488?filter=cabal-install) @peti
   - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/161842705) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/161829849) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/161842586) [toplevel](https://hydra.nixos.org/eval/1733488?filter=cabal-install)
