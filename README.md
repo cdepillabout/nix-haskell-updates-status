@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1734512](https://hydra.nixos.org/eval/1734512) of nixpkgs commit [45b9a80](https://github.com/NixOS/nixpkgs/commits/45b9a80f6193a7075a447ba83bd1c6285524928f) as of 2021-12-29 18:17 UTC*
+*evaluation [1734512](https://hydra.nixos.org/eval/1734512) of nixpkgs commit [45b9a80](https://github.com/NixOS/nixpkgs/commits/45b9a80f6193a7075a447ba83bd1c6285524928f) as of 2021-12-30 00:40 UTC*
 
 :red_circle: **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -7,11 +7,11 @@
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1734512?filter=.aarch64-linux) | 20 | 19 | 3 |  | 7146 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1734512?filter=.x86_64-darwin) | 226 | 334 | 3 | 24 | 6547 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1734512?filter=.x86_64-linux) | 3 | 2 |  |  | 7216 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1734512?filter=.aarch64-linux) | 20 | 19 | 3 | 7146 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1734512?filter=.x86_64-darwin) | 227 | 334 | 3 | 6569 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1734512?filter=.x86_64-linux) | 3 | 2 |  | 7216 | 
 #### Maintained packages with build failure
 - [ ] [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/162563797) [[:apple::x:]](https://hydra.nixos.org/build/162561988) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/162561496) [haskellPackages.arbtt](https://hydra.nixos.org/eval/1734512?filter=haskellPackages.arbtt) @rvl
 - [ ] [dhall](https://hydra.nixos.org/eval/1734512?filter=dhall) @Gabriel439
@@ -83,10 +83,10 @@
   - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/162563091) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/162565630) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/162563755) [haskellPackages](https://hydra.nixos.org/eval/1734512?filter=haskellPackages.haskell-ci)
 - [ ] [haskell-language-server](https://hydra.nixos.org/eval/1734512?filter=haskell-language-server) @maralorn
   - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/162749958) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/162749977) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/162749948) [toplevel](https://hydra.nixos.org/eval/1734512?filter=haskell-language-server)
-  - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/162749959) [[:apple::hourglass_flowing_sand:]](https://hydra.nixos.org/build/162749935) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/162749917) [haskell.packages.ghc8107](https://hydra.nixos.org/eval/1734512?filter=haskell.packages.ghc8107.haskell-language-server)
+  - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/162749959) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/162749935) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/162749917) [haskell.packages.ghc8107](https://hydra.nixos.org/eval/1734512?filter=haskell.packages.ghc8107.haskell-language-server)
   - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/162749919) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/162749956) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/162749955) [haskell.packages.ghc884](https://hydra.nixos.org/eval/1734512?filter=haskell.packages.ghc884.haskell-language-server)
   - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/162749953) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/162749980) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/162749961) [haskell.packages.ghc902](https://hydra.nixos.org/eval/1734512?filter=haskell.packages.ghc902.haskell-language-server)
-  - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/162749985) [[:apple::hourglass_flowing_sand:]](https://hydra.nixos.org/build/162749930) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/162749969) [haskellPackages](https://hydra.nixos.org/eval/1734512?filter=haskellPackages.haskell-language-server)
+  - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/162749985) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/162749930) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/162749969) [haskellPackages](https://hydra.nixos.org/eval/1734512?filter=haskellPackages.haskell-language-server)
 - [ ] [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/162562771) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/162565794) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/162561593) [hci](https://hydra.nixos.org/eval/1734512?filter=hci) @roberth
 - [ ] [hercules-ci-agent](https://hydra.nixos.org/eval/1734512?filter=hercules-ci-agent) @roberth
   - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/162563139) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/162564457) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/162562211) [toplevel](https://hydra.nixos.org/eval/1734512?filter=hercules-ci-agent)
@@ -160,7 +160,7 @@
 - [ ] [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/162565287) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/162560133) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/162565560) [haskellPackages.weeder](https://hydra.nixos.org/eval/1734512?filter=haskellPackages.weeder) @maralorn
 - [ ] [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/162563781) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/162564676) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/162566516) [haskellPackages.yarn2nix](https://hydra.nixos.org/eval/1734512?filter=haskellPackages.yarn2nix) @sternenseemann
 #### Unmaintained packages with build failure
-<details><summary>247 job(s) </summary>
+<details><summary>248 job(s) </summary>
 
 - [ ] [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/162561897) [[:apple::x:]](https://hydra.nixos.org/build/162564186) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/162560419) [haskellPackages.amazonka-core](https://hydra.nixos.org/eval/1734512?filter=haskellPackages.amazonka-core)  :arrow_heading_up: 153 | 186
 - [ ] [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/162563580) [[:apple::x:]](https://hydra.nixos.org/build/162566583) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/162565394) [haskellPackages.wai-websockets](https://hydra.nixos.org/eval/1734512?filter=haskellPackages.wai-websockets)  :arrow_heading_up: 21 | 74
@@ -313,6 +313,7 @@
 - [ ] [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/162351767) [[:apple::x:]](https://hydra.nixos.org/build/162349259) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/162351255) [haskellPackages.hid](https://hydra.nixos.org/eval/1734512?filter=haskellPackages.hid) 
 - [ ] [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/162561415) [[:apple::x:]](https://hydra.nixos.org/build/162559855) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/162565132) [haskellPackages.highlight](https://hydra.nixos.org/eval/1734512?filter=haskellPackages.highlight) 
 - [ ] [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/162562210) [[:apple::x:]](https://hydra.nixos.org/build/162565230) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/162563627) [haskellPackages.hinotify-conduit](https://hydra.nixos.org/eval/1734512?filter=haskellPackages.hinotify-conduit) 
+- [ ] [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/162749947) [[:apple::x:]](https://hydra.nixos.org/build/162749965) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/162749928) [haskellPackages.hls-rename-plugin](https://hydra.nixos.org/eval/1734512?filter=haskellPackages.hls-rename-plugin) 
 - [ ] [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/162562006) [[:apple::x:]](https://hydra.nixos.org/build/162559329) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/162560064) [haskellPackages.hoggl](https://hydra.nixos.org/eval/1734512?filter=haskellPackages.hoggl) 
 - [ ] [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/162566017) [[:apple::x:]](https://hydra.nixos.org/build/162563942) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/162564578) [haskellPackages.hopenpgp-tools](https://hydra.nixos.org/eval/1734512?filter=haskellPackages.hopenpgp-tools) 
 - [ ] [[:iphone::x:]](https://hydra.nixos.org/build/162567100) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/162564174) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/162561429) [haskellPackages.hq](https://hydra.nixos.org/eval/1734512?filter=haskellPackages.hq) 
