@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1735549](https://hydra.nixos.org/eval/1735549) of nixpkgs commit [b0c7650](https://github.com/NixOS/nixpkgs/commits/b0c76508ef985738a3b0f58420603b8933e03c12) as of 2022-01-02 00:43 UTC*
+*evaluation [1735549](https://hydra.nixos.org/eval/1735549) of nixpkgs commit [b0c7650](https://github.com/NixOS/nixpkgs/commits/b0c76508ef985738a3b0f58420603b8933e03c12) as of 2022-01-02 06:16 UTC*
 
 :red_circle: **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -7,11 +7,11 @@
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1735549?filter=.aarch64-linux) | 20 | 19 | 3 |  | 7143 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1735549?filter=.x86_64-darwin) | 221 | 334 | 3 |  | 6570 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1735549?filter=.x86_64-linux) | 3 | 2 |  | 1 | 7213 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1735549?filter=.aarch64-linux) | 20 | 19 | 3 | 7143 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1735549?filter=.x86_64-darwin) | 221 | 334 | 3 | 6570 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1735549?filter=.x86_64-linux) | 3 | 2 |  | 7213 | 
 #### Maintained packages with build failure
 - [ ] [dhall](https://hydra.nixos.org/eval/1735549?filter=dhall) @Gabriel439
   - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/162559711) [[:apple::x:]](https://hydra.nixos.org/build/162559483) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/162564313) [toplevel](https://hydra.nixos.org/eval/1735549?filter=dhall)
