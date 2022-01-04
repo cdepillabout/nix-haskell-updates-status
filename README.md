@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1736135](https://hydra.nixos.org/eval/1736135) of nixpkgs commit [44a74d1](https://github.com/NixOS/nixpkgs/commits/44a74d1b8f75f71cbe4320c9c34690a5e8565936) as of 2022-01-04 06:16 UTC*
+*evaluation [1736135](https://hydra.nixos.org/eval/1736135) of nixpkgs commit [44a74d1](https://github.com/NixOS/nixpkgs/commits/44a74d1b8f75f71cbe4320c9c34690a5e8565936) as of 2022-01-04 12:21 UTC*
 
 :red_circle: **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -7,11 +7,11 @@
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1736135?filter=.aarch64-linux) | 20 | 19 | 3 | 2 | 7143 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1736135?filter=.x86_64-darwin) | 88 | 59 | 5 |  | 6976 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1736135?filter=.x86_64-linux) | 3 | 2 |  | 1 | 7213 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1736135?filter=.aarch64-linux) | 20 | 19 | 3 | 7145 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1736135?filter=.x86_64-darwin) | 88 | 59 | 5 | 6976 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1736135?filter=.x86_64-linux) | 3 | 2 |  | 7213 | 
 #### Maintained packages with build failure
 - [ ] [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/162565108) [[:apple::x:]](https://hydra.nixos.org/build/162560895) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/162560035) [haskellPackages.xmonad-contrib_0_17_0](https://hydra.nixos.org/eval/1736135?filter=haskellPackages.xmonad-contrib_0_17_0) @peti
 #### Maintained packages with failed dependency
