@@ -1,16 +1,16 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1737570](https://hydra.nixos.org/eval/1737570) of nixpkgs commit [8cfaa61](https://github.com/NixOS/nixpkgs/commits/8cfaa61875142fc738b777968254f246cb72b34d) as of 2022-01-11 12:20 UTC*
+*evaluation [1737570](https://hydra.nixos.org/eval/1737570) of nixpkgs commit [8cfaa61](https://github.com/NixOS/nixpkgs/commits/8cfaa61875142fc738b777968254f246cb72b34d) as of 2022-01-11 18:16 UTC*
 
 :red_circle: **Branch not mergeable**
   * No `maintained` job found.
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1737570?filter=.aarch64-linux) | 26 | 25 | 4 | 1 | 7133 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1737570?filter=.x86_64-darwin) | 64 | 38 | 9 |  | 7017 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1737570?filter=.x86_64-linux) | 7 | 9 |  |  | 7207 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1737570?filter=.aarch64-linux) | 26 | 25 | 4 | 7134 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1737570?filter=.x86_64-darwin) | 64 | 38 | 9 | 7017 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1737570?filter=.x86_64-linux) | 7 | 9 |  | 7207 | 
 #### Maintained packages with build failure
 - [ ] [haskell-ci](https://hydra.nixos.org/eval/1737570?filter=haskell-ci) @sternenseemann
   - [[:iphone::x:]](https://hydra.nixos.org/build/163744614) [[:apple::x:]](https://hydra.nixos.org/build/163745024) [[:penguin::x:]](https://hydra.nixos.org/build/163744720) [toplevel](https://hydra.nixos.org/eval/1737570?filter=haskell-ci)
