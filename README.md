@@ -1,16 +1,16 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1739760](https://hydra.nixos.org/eval/1739760) of nixpkgs commit [45ac516](https://github.com/NixOS/nixpkgs/commits/45ac516cdfc59bc1420fc4bb5be2d5f9d1dea63e) as of 2022-01-23 06:16 UTC*
+*evaluation [1739760](https://hydra.nixos.org/eval/1739760) of nixpkgs commit [45ac516](https://github.com/NixOS/nixpkgs/commits/45ac516cdfc59bc1420fc4bb5be2d5f9d1dea63e) as of 2022-01-23 12:20 UTC*
 
 :yellow_circle: **Potential issues**
   * `maintained` jobset failed.
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1739760?filter=.aarch64-linux) | 21 | 21 | 4 | 6 | 7136 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1739760?filter=.x86_64-darwin) | 54 | 28 | 4 |  | 7034 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1739760?filter=.x86_64-linux) | 5 | 1 |  |  | 7211 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1739760?filter=.aarch64-linux) | 21 | 21 | 4 | 7142 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1739760?filter=.x86_64-darwin) | 54 | 28 | 4 | 7034 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1739760?filter=.x86_64-linux) | 5 | 1 |  | 7211 | 
 #### Maintained packages with build failure
 - [ ] [[:iphone::x:]](https://hydra.nixos.org/build/164945798) [[:apple::x:]](https://hydra.nixos.org/build/164942500) [[:penguin::x:]](https://hydra.nixos.org/build/164948454) [haskellPackages.arbtt](https://hydra.nixos.org/eval/1739760?filter=haskellPackages.arbtt) @rvl
 #### Maintained packages with failed dependency
