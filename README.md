@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1741527](https://hydra.nixos.org/eval/1741527) of nixpkgs commit [855b9f8](https://github.com/NixOS/nixpkgs/commits/855b9f8d7d532b8dff80856886b10d6cbba3c326) as of 2022-02-01 12:20 UTC*
+*evaluation [1741527](https://hydra.nixos.org/eval/1741527) of nixpkgs commit [855b9f8](https://github.com/NixOS/nixpkgs/commits/855b9f8d7d532b8dff80856886b10d6cbba3c326) as of 2022-02-01 18:16 UTC*
 
 :red_circle: **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -37,7 +37,7 @@
   - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/166144485) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/165679487) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/166144487) [haskell.packages.ghc884](https://hydra.nixos.org/eval/1741527?filter=haskell.packages.ghc884.nix-paths)
   - [[:iphone::hourglass_flowing_sand:]](https://hydra.nixos.org/build/166144516) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/166143621) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/166144502) [haskell.packages.ghc902](https://hydra.nixos.org/eval/1741527?filter=haskell.packages.ghc902.nix-paths)
   - [[:iphone::hourglass_flowing_sand:]](https://hydra.nixos.org/build/166144529) [[:apple::hourglass_flowing_sand:]](https://hydra.nixos.org/build/166143608) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/166144488) [haskell.packages.ghc921](https://hydra.nixos.org/eval/1741527?filter=haskell.packages.ghc921.nix-paths)
-  - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/166144496) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/165679488) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/166144518) [haskellPackages](https://hydra.nixos.org/eval/1741527?filter=haskellPackages.nix-paths)
+  - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/166144496) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/165679488) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/166144518) [haskellPackages](https://hydra.nixos.org/eval/1741527?filter=haskellPackages.nix-paths)
 #### Unmaintained packages with build failure
 <details><summary>68 job(s) </summary>
 
