@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1744253](https://hydra.nixos.org/eval/1744253) of nixpkgs commit [4f79aed](https://github.com/NixOS/nixpkgs/commits/4f79aedea0796b71a21ccf46b6b5bfe79952611d) as of 2022-02-16 12:19 UTC*
+*evaluation [1744253](https://hydra.nixos.org/eval/1744253) of nixpkgs commit [4f79aed](https://github.com/NixOS/nixpkgs/commits/4f79aedea0796b71a21ccf46b6b5bfe79952611d) as of 2022-02-16 18:16 UTC*
 
 :red_circle: **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -7,11 +7,11 @@
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1744253?filter=.aarch64-linux) | 18 | 21 | 4 | 1 | 7188 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1744253?filter=.x86_64-darwin) | 56 | 39 | 2 |  | 7068 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1744253?filter=.x86_64-linux) |  | 2 |  | 1 | 7257 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1744253?filter=.aarch64-linux) | 18 | 21 | 5 | 7188 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1744253?filter=.x86_64-darwin) | 56 | 39 | 2 | 7068 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1744253?filter=.x86_64-linux) |  | 2 | 1 | 7257 | 
 #### Maintained packages with failed dependency
 - [ ] [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/167435980) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/167441149) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/167436046) [arion](https://hydra.nixos.org/eval/1744253?filter=arion) @roberth
 - [ ] [cabal-install](https://hydra.nixos.org/eval/1744253?filter=cabal-install) @peti
