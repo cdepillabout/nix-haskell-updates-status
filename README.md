@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1747010](https://hydra.nixos.org/eval/1747010) of nixpkgs commit [3e7b347](https://github.com/NixOS/nixpkgs/commits/3e7b3470cede1eb0f315786f563e0146f7781c84) as of 2022-03-06 06:18 UTC*
+*evaluation [1747010](https://hydra.nixos.org/eval/1747010) of nixpkgs commit [3e7b347](https://github.com/NixOS/nixpkgs/commits/3e7b3470cede1eb0f315786f563e0146f7781c84) as of 2022-03-06 12:21 UTC*
 
 :red_circle: **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -10,7 +10,7 @@
  | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | HydraFailure :construction: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
  | --- | --- | --- | --- | --- | --- | --- | 
  | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1747010?filter=.aarch64-linux) | 717 | 843 | 1 |  |  | 5712 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1747010?filter=.x86_64-darwin) | 747 | 841 | 1 | 1 | 1 | 5614 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1747010?filter=.x86_64-darwin) | 748 | 841 | 1 | 1 |  | 5614 | 
  | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1747010?filter=.x86_64-linux) | 703 | 836 | 1 |  | 3 | 5763 | 
 #### Maintained packages with build failure
 - [ ] [[:iphone::x:]](https://hydra.nixos.org/build/168636245) [[:apple::x:]](https://hydra.nixos.org/build/168636724) [[:penguin::x:]](https://hydra.nixos.org/build/168628694) [haskellPackages.arch-web](https://hydra.nixos.org/eval/1747010?filter=haskellPackages.arch-web) @berberman
@@ -35,8 +35,8 @@
   - [[:iphone::heavy_exclamation_mark:]](https://hydra.nixos.org/build/168640959) [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/168634860) [toplevel](https://hydra.nixos.org/eval/1747010?filter=taffybar)
   - [[:iphone::x:]](https://hydra.nixos.org/build/168635460) [[:penguin::x:]](https://hydra.nixos.org/build/168639821) [haskellPackages](https://hydra.nixos.org/eval/1747010?filter=haskellPackages.taffybar)
 - [ ] [vaultenv](https://hydra.nixos.org/eval/1747010?filter=vaultenv) @lnl7 @manveru
-  - [[:iphone::x:]](https://hydra.nixos.org/build/168882565) [[:apple::hourglass_flowing_sand:]](https://hydra.nixos.org/build/168882566) [[:penguin::hourglass_flowing_sand:]](https://hydra.nixos.org/build/168882562) [toplevel](https://hydra.nixos.org/eval/1747010?filter=vaultenv)
-  - [[:iphone::x:]](https://hydra.nixos.org/build/168882567) [[:apple::hourglass_flowing_sand:]](https://hydra.nixos.org/build/168882563) [[:penguin::hourglass_flowing_sand:]](https://hydra.nixos.org/build/168882561) [haskellPackages](https://hydra.nixos.org/eval/1747010?filter=haskellPackages.vaultenv)
+  - [[:iphone::x:]](https://hydra.nixos.org/build/168882565) [[:apple::x:]](https://hydra.nixos.org/build/168882566) [[:penguin::hourglass_flowing_sand:]](https://hydra.nixos.org/build/168882562) [toplevel](https://hydra.nixos.org/eval/1747010?filter=vaultenv)
+  - [[:iphone::x:]](https://hydra.nixos.org/build/168882567) [[:apple::x:]](https://hydra.nixos.org/build/168882563) [[:penguin::hourglass_flowing_sand:]](https://hydra.nixos.org/build/168882561) [haskellPackages](https://hydra.nixos.org/eval/1747010?filter=haskellPackages.vaultenv)
 - [ ] [[:iphone::x:]](https://hydra.nixos.org/build/168634483) [[:apple::x:]](https://hydra.nixos.org/build/168636769) [[:penguin::x:]](https://hydra.nixos.org/build/168635124) [haskellPackages.yarn2nix](https://hydra.nixos.org/eval/1747010?filter=haskellPackages.yarn2nix) @sternenseemann
 #### Maintained packages with failed dependency
 - [ ] [cabal-install](https://hydra.nixos.org/eval/1747010?filter=cabal-install) @peti
