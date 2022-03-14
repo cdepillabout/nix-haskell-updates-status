@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1748729](https://hydra.nixos.org/eval/1748729) of nixpkgs commit [6182623](https://github.com/NixOS/nixpkgs/commits/6182623035c440ebf2443386dad725b99fd367ab) as of 2022-03-14 07:00 UTC*
+*evaluation [1748729](https://hydra.nixos.org/eval/1748729) of nixpkgs commit [6182623](https://github.com/NixOS/nixpkgs/commits/6182623035c440ebf2443386dad725b99fd367ab) as of 2022-03-14 12:23 UTC*
 
 :red_circle: **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -7,11 +7,11 @@
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Canceled :no_entry_sign: | HydraFailure :construction: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1748729?filter=.aarch64-linux) | 715 | 843 | 4 |  |  |  | 5716 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1748729?filter=.x86_64-darwin) | 683 | 613 | 1 | 1 | 345 |  | 5581 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1748729?filter=.x86_64-linux) | 676 | 806 | 1 |  | 40 | 4 | 5786 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Canceled :no_entry_sign: | HydraFailure :construction: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1748729?filter=.aarch64-linux) | 715 | 843 | 4 |  |  | 5716 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1748729?filter=.x86_64-darwin) | 683 | 613 | 1 | 1 | 345 | 5581 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1748729?filter=.x86_64-linux) | 676 | 806 | 1 | 4 | 40 | 5786 | 
 #### Maintained packages with build failure
 - [ ] [[:iphone::x:]](https://hydra.nixos.org/build/168918261) [[:apple::x:]](https://hydra.nixos.org/build/168915064) [[:penguin::x:]](https://hydra.nixos.org/build/168917666) [haskellPackages.arch-web](https://hydra.nixos.org/eval/1748729?filter=haskellPackages.arch-web) @berberman
 - [ ] [dhall-lsp-server](https://hydra.nixos.org/eval/1748729?filter=dhall-lsp-server) @Gabriel439
