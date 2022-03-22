@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1750355](https://hydra.nixos.org/eval/1750355) of nixpkgs commit [cf3e30f](https://github.com/NixOS/nixpkgs/commits/cf3e30f70fa3b148fb1b91e192a645fc666f93db) as of 2022-03-22 06:18 UTC*
+*evaluation [1750355](https://hydra.nixos.org/eval/1750355) of nixpkgs commit [cf3e30f](https://github.com/NixOS/nixpkgs/commits/cf3e30f70fa3b148fb1b91e192a645fc666f93db) as of 2022-03-22 12:23 UTC*
 
 :yellow_circle: **Potential issues**
   * `maintained` jobset failed.
@@ -9,7 +9,7 @@
  | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
  | --- | --- | --- | --- | --- | --- | 
  | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1750355?filter=.aarch64-linux) | 706 | 728 | 8 |  | 5846 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1750355?filter=.x86_64-linux) | 694 | 723 | 1 | 18 | 5897 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1750355?filter=.x86_64-linux) | 694 | 723 | 1 | 17 | 5897 | 
 #### Maintained packages with build failure
 - [ ] [[:iphone::x:]](https://hydra.nixos.org/build/169750838) [[:penguin::x:]](https://hydra.nixos.org/build/169742795) [haskellPackages.arch-web](https://hydra.nixos.org/eval/1750355?filter=haskellPackages.arch-web) @berberman
 - [ ] [[:iphone::x:]](https://hydra.nixos.org/build/170101168) [[:penguin::x:]](https://hydra.nixos.org/build/170100854) [haskellPackages.elm-export-persistent](https://hydra.nixos.org/eval/1750355?filter=haskellPackages.elm-export-persistent) @jb55
