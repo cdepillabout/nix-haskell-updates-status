@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1751597](https://hydra.nixos.org/eval/1751597) of nixpkgs commit [f0839d8](https://github.com/NixOS/nixpkgs/commits/f0839d8bcdcbf06d8d06207a2804be0c373d7f5e) as of 2022-03-28 00:56 UTC*
+*evaluation [1751597](https://hydra.nixos.org/eval/1751597) of nixpkgs commit [f0839d8](https://github.com/NixOS/nixpkgs/commits/f0839d8bcdcbf06d8d06207a2804be0c373d7f5e) as of 2022-03-28 06:18 UTC*
 
 :yellow_circle: **Potential issues**
   * `maintained` jobset failed.
@@ -8,8 +8,8 @@
 
  | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
  | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1751597?filter=.aarch64-linux) | 58 | 102 | 7 | 3 | 6188 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1751597?filter=.x86_64-linux) | 37 | 75 | 4 | 14 | 6265 | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1751597?filter=.aarch64-linux) | 58 | 102 | 8 |  | 6190 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1751597?filter=.x86_64-linux) | 37 | 75 | 4 | 10 | 6268 | 
 #### Maintained packages with build failure
 - [ ] [[:iphone::x:]](https://hydra.nixos.org/build/171072783) [[:penguin::x:]](https://hydra.nixos.org/build/171073360) [haskellPackages.dhall-text](https://hydra.nixos.org/eval/1751597?filter=haskellPackages.dhall-text) @Gabriel439
 - [ ] [[:iphone::x:]](https://hydra.nixos.org/build/171072113) [[:penguin::x:]](https://hydra.nixos.org/build/171072136) [haskellPackages.elm-export-persistent](https://hydra.nixos.org/eval/1751597?filter=haskellPackages.elm-export-persistent) @jb55
