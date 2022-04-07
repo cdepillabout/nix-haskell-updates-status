@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1753788](https://hydra.nixos.org/eval/1753788) of nixpkgs commit [3bde757](https://github.com/NixOS/nixpkgs/commits/3bde7576132241b83f37d53d09bac5ba8458a1ee) as of 2022-04-07 06:18 UTC*
+*evaluation [1753788](https://hydra.nixos.org/eval/1753788) of nixpkgs commit [3bde757](https://github.com/NixOS/nixpkgs/commits/3bde7576132241b83f37d53d09bac5ba8458a1ee) as of 2022-04-07 12:26 UTC*
 
 :red_circle: **Branch not mergeable**
   * No `mergeable` job found.
@@ -7,11 +7,11 @@
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1753788?filter=.aarch64-linux) | 34 | 44 | 11 | 1 | 6202 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1753788?filter=.x86_64-darwin) | 68 | 46 | 4 |  | 6117 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1753788?filter=.x86_64-linux) | 14 | 19 | 5 |  | 6288 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1753788?filter=.aarch64-linux) | 34 | 44 | 11 | 6203 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1753788?filter=.x86_64-darwin) | 68 | 46 | 4 | 6117 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1753788?filter=.x86_64-linux) | 14 | 19 | 5 | 6288 | 
 #### Maintained packages with build failure
 - [ ] [ghcHEAD](https://hydra.nixos.org/eval/1753788?filter=ghcHEAD) @cdepillabout @expipiplus1 @guibou @maralorn @sternenseemann
   - [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/172205308) [[:penguin::x:]](https://hydra.nixos.org/build/172208112) [haskell.compiler](https://hydra.nixos.org/eval/1753788?filter=haskell.compiler.ghcHEAD)
