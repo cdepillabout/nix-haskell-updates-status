@@ -1,16 +1,16 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1753955](https://hydra.nixos.org/eval/1753955) of nixpkgs commit [7954a24](https://github.com/NixOS/nixpkgs/commits/7954a245e70238e08078baef7ff6459a67e229c3) as of 2022-04-08 12:23 UTC*
+*evaluation [1753955](https://hydra.nixos.org/eval/1753955) of nixpkgs commit [7954a24](https://github.com/NixOS/nixpkgs/commits/7954a245e70238e08078baef7ff6459a67e229c3) as of 2022-04-08 18:19 UTC*
 
 :yellow_circle: **Potential issues**
   * `maintained` jobset failed.
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1753955?filter=.aarch64-linux) | 34 | 46 | 11 | 1 | 6203 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1753955?filter=.x86_64-darwin) | 68 | 46 | 4 |  | 6121 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1753955?filter=.x86_64-linux) | 14 | 19 | 5 |  | 6292 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1753955?filter=.aarch64-linux) | 34 | 46 | 12 | 6203 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1753955?filter=.x86_64-darwin) | 68 | 46 | 4 | 6121 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1753955?filter=.x86_64-linux) | 14 | 19 | 5 | 6292 | 
 #### Maintained packages with build failure
 - [ ] [ghcHEAD](https://hydra.nixos.org/eval/1753955?filter=ghcHEAD) @cdepillabout @expipiplus1 @guibou @maralorn @sternenseemann
   - [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/172205308) [[:penguin::x:]](https://hydra.nixos.org/build/172208112) [haskell.compiler](https://hydra.nixos.org/eval/1753955?filter=haskell.compiler.ghcHEAD)
