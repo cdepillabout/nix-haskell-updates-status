@@ -1,16 +1,16 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1755689](https://hydra.nixos.org/eval/1755689) of nixpkgs commit [783cd72](https://github.com/NixOS/nixpkgs/commits/783cd7221f2fa041bca2f0ab9fa356570fa6c3d5) as of 2022-04-15 18:17 UTC*
+*evaluation [1755689](https://hydra.nixos.org/eval/1755689) of nixpkgs commit [783cd72](https://github.com/NixOS/nixpkgs/commits/783cd7221f2fa041bca2f0ab9fa356570fa6c3d5) as of 2022-04-16 00:55 UTC*
 
 :yellow_circle: **Potential issues**
   * `maintained` jobset failed.
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1755689?filter=.aarch64-linux) | 30 | 41 | 4 |  | 6214 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1755689?filter=.x86_64-darwin) | 64 | 28 | 4 | 2 | 6133 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1755689?filter=.x86_64-linux) | 10 | 19 | 5 | 1 | 6288 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1755689?filter=.aarch64-linux) | 30 | 41 | 4 | 6214 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1755689?filter=.x86_64-darwin) | 64 | 28 | 4 | 6135 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1755689?filter=.x86_64-linux) | 10 | 19 | 5 | 6288 | 
 #### Maintained packages with build failure
 - [ ] [[:iphone::x:]](https://hydra.nixos.org/build/173515403) [[:apple::x:]](https://hydra.nixos.org/build/173517460) [[:penguin::x:]](https://hydra.nixos.org/build/173521384) [haskellPackages.graphql-parser](https://hydra.nixos.org/eval/1755689?filter=haskellPackages.graphql-parser) @Lassulus
 - [ ] [[:iphone::x:]](https://hydra.nixos.org/build/173517051) [[:apple::x:]](https://hydra.nixos.org/build/173514655) [[:penguin::x:]](https://hydra.nixos.org/build/173522045) [hasura-graphql-engine](https://hydra.nixos.org/eval/1755689?filter=hasura-graphql-engine) @Lassulus
