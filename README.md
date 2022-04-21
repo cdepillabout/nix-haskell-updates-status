@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1757013](https://hydra.nixos.org/eval/1757013) of nixpkgs commit [6fe5365](https://github.com/NixOS/nixpkgs/commits/6fe53651df918682280ecac0cec950b055e1facf) as of 2022-04-21 12:24 UTC*
+*evaluation [1757013](https://hydra.nixos.org/eval/1757013) of nixpkgs commit [6fe5365](https://github.com/NixOS/nixpkgs/commits/6fe53651df918682280ecac0cec950b055e1facf) as of 2022-04-21 18:20 UTC*
 
 :red_circle: **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -7,11 +7,11 @@
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1757013?filter=.aarch64-linux) | 30 | 764 | 41 | 1 | 5464 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1757013?filter=.x86_64-darwin) | 67 | 38 | 4 |  | 6128 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1757013?filter=.x86_64-linux) | 15 | 20 | 8 |  | 6284 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1757013?filter=.aarch64-linux) | 30 | 764 | 41 | 5465 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1757013?filter=.x86_64-darwin) | 67 | 38 | 4 | 6128 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1757013?filter=.x86_64-linux) | 15 | 20 | 8 | 6284 | 
 #### Maintained packages with build failure
 - [ ] [ghc8102BinaryMinimal](https://hydra.nixos.org/eval/1757013?filter=ghc8102BinaryMinimal) @cdepillabout @expipiplus1 @guibou @maralorn @sternenseemann
   - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/173859847) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/173869157) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/173863013) [haskell.compiler](https://hydra.nixos.org/eval/1757013?filter=haskell.compiler.ghc8102BinaryMinimal)
