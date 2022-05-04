@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1759544](https://hydra.nixos.org/eval/1759544) of nixpkgs commit [6a8a221](https://github.com/NixOS/nixpkgs/commits/6a8a22133fae643f0a43b0c53c28d3a944193b4f) as of 2022-05-04 12:29 UTC*
+*evaluation [1759544](https://hydra.nixos.org/eval/1759544) of nixpkgs commit [6a8a221](https://github.com/NixOS/nixpkgs/commits/6a8a22133fae643f0a43b0c53c28d3a944193b4f) as of 2022-05-04 18:20 UTC*
 
 :red_circle: **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -19,7 +19,7 @@
   - [[:iphone::hourglass::no_entry_sign:]](https://hydra.nixos.org/build/175422523) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/175408160) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/175414981) [haskell.packages.ghc8107](https://hydra.nixos.org/eval/1759544?filter=haskell.packages.ghc8107.haskell-language-server)
   - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/175415377) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/175414618) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/175423631) [haskell.packages.ghc884](https://hydra.nixos.org/eval/1759544?filter=haskell.packages.ghc884.haskell-language-server)
   - [[:iphone::heavy_exclamation_mark:]](https://hydra.nixos.org/build/175409769) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/175413825) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/175412286) [haskell.packages.ghc902](https://hydra.nixos.org/eval/1759544?filter=haskell.packages.ghc902.haskell-language-server)
-  - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/175418266) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/175424795) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/175406466) [haskell.packages.ghc922](https://hydra.nixos.org/eval/1759544?filter=haskell.packages.ghc922.haskell-language-server)
+  - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/175418266) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/175424795) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/175406466) [haskell.packages.ghc922](https://hydra.nixos.org/eval/1759544?filter=haskell.packages.ghc922.haskell-language-server)
   - [[:iphone::heavy_exclamation_mark:]](https://hydra.nixos.org/build/175422468) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/175411385) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/175408038) [haskellPackages](https://hydra.nixos.org/eval/1759544?filter=haskellPackages.haskell-language-server)
 - [ ] [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/175440328) [maintained](https://hydra.nixos.org/eval/1759544?filter=maintained) @cdepillabout @expipiplus1 @maralorn @sternenseemann
 - [ ] [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/175410398) [mergeable](https://hydra.nixos.org/eval/1759544?filter=mergeable) @cdepillabout @expipiplus1 @maralorn @sternenseemann
