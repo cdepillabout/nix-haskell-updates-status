@@ -1,17 +1,16 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1760309](https://hydra.nixos.org/eval/1760309) of nixpkgs commit [6ca420f](https://github.com/NixOS/nixpkgs/commits/6ca420f7970bc686cce3be5debbd4cf16cfb112d) as of 2022-05-08 00:58 UTC*
+*evaluation [1760309](https://hydra.nixos.org/eval/1760309) of nixpkgs commit [6ca420f](https://github.com/NixOS/nixpkgs/commits/6ca420f7970bc686cce3be5debbd4cf16cfb112d) as of 2022-05-08 06:18 UTC*
 
 :yellow_circle: **Potential issues**
   * `maintained` jobset failed.
-  * `mergeable` jobset is not finished.
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1760309?filter=.aarch64-linux) | 28 | 38 | 25 | 1 | 6189 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1760309?filter=.x86_64-darwin) | 59 | 32 | 4 |  | 6128 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1760309?filter=.x86_64-linux) | 5 | 14 | 7 | 1 | 6284 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1760309?filter=.aarch64-linux) | 28 | 38 | 25 | 6189 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1760309?filter=.x86_64-darwin) | 59 | 32 | 4 | 6128 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1760309?filter=.x86_64-linux) | 5 | 14 | 7 | 6285 | 
 #### Maintained packages with failed dependency
 - [ ] [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/175776558) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/175776430) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/175772076) [haskellPackages.essence-of-live-coding-pulse](https://hydra.nixos.org/eval/1760309?filter=haskellPackages.essence-of-live-coding-pulse) @turion
 - [ ] [git-annex](https://hydra.nixos.org/eval/1760309?filter=git-annex) @peti
