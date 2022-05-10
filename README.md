@@ -1,18 +1,19 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1760748](https://hydra.nixos.org/eval/1760748) of nixpkgs commit [440710c](https://github.com/NixOS/nixpkgs/commits/440710cb693b51e7ca76d434d44f6a74b6516d27) as of 2022-05-09 18:19 UTC*
+*evaluation [1760748](https://hydra.nixos.org/eval/1760748) of nixpkgs commit [440710c](https://github.com/NixOS/nixpkgs/commits/440710cb693b51e7ca76d434d44f6a74b6516d27) as of 2022-05-10 01:28 UTC*
 
 :yellow_circle: **Potential issues**
-  * `maintained` jobset is not finished.
+  * `maintained` jobset failed.
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1760748?filter=.aarch64-linux) | 28 | 37 | 25 | 1 | 6189 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1760748?filter=.x86_64-darwin) | 59 | 31 | 4 | 1 | 6128 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1760748?filter=.x86_64-linux) | 5 | 12 | 7 | 2 | 6285 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1760748?filter=.aarch64-linux) | 28 | 37 | 25 | 6190 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1760748?filter=.x86_64-darwin) | 59 | 31 | 4 | 6129 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1760748?filter=.x86_64-linux) | 5 | 13 | 7 | 6286 | 
 #### Maintained packages with failed dependency
 - [ ] [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/175776558) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/175776430) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/175772076) [haskellPackages.essence-of-live-coding-pulse](https://hydra.nixos.org/eval/1760748?filter=haskellPackages.essence-of-live-coding-pulse) @turion
+- [ ] [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/176211331) [maintained](https://hydra.nixos.org/eval/1760748?filter=maintained) @cdepillabout @expipiplus1 @maralorn @sternenseemann
 - [ ] [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/175416207) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/175407623) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/175409970) [haskellPackages.pulse-simple](https://hydra.nixos.org/eval/1760748?filter=haskellPackages.pulse-simple) @turion
 #### Unmaintained packages with build failure
 <details><summary>79 job(s) </summary>
