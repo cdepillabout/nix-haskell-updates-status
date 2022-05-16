@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1762017](https://hydra.nixos.org/eval/1762017) of nixpkgs commit [f8e82ba](https://github.com/NixOS/nixpkgs/commits/f8e82bab5be86899d4d4b00abaf29ee2cd21fad9) as of 2022-05-16 06:21 UTC*
+*evaluation [1762017](https://hydra.nixos.org/eval/1762017) of nixpkgs commit [f8e82ba](https://github.com/NixOS/nixpkgs/commits/f8e82bab5be86899d4d4b00abaf29ee2cd21fad9) as of 2022-05-16 12:27 UTC*
 
 :red_circle: **Branch not mergeable**
   * No `mergeable` job found.
@@ -7,11 +7,11 @@
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | HydraFailure :construction: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1762017?filter=.aarch64-linux) | 19 | 32 | 7 |  | 7 | 6215 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1762017?filter=.x86_64-darwin) | 53 | 18 | 4 | 2 | 7 | 6140 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1762017?filter=.x86_64-linux) | 1 | 12 | 4 |  | 8 | 6285 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | HydraFailure :construction: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1762017?filter=.aarch64-linux) | 19 | 32 | 7 |  | 6221 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1762017?filter=.x86_64-darwin) | 53 | 18 | 4 | 2 | 6146 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1762017?filter=.x86_64-linux) | 1 | 12 | 4 |  | 6291 | 
 #### Maintained packages with failed dependency
 - [ ] [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/176742900) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/176741730) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/176742292) [tamarin-prover](https://hydra.nixos.org/eval/1762017?filter=tamarin-prover) @thoughtpolice
 #### Unmaintained packages with build failure
