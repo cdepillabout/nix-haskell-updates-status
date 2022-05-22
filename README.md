@@ -1,9 +1,9 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1763009](https://hydra.nixos.org/eval/1763009) of nixpkgs commit [197e220](https://github.com/NixOS/nixpkgs/commits/197e220e46da449793e7acc20fbdaba173d7a556) as of 2022-05-22 03:03 UTC*
+*evaluation [1763009](https://hydra.nixos.org/eval/1763009) of nixpkgs commit [197e220](https://github.com/NixOS/nixpkgs/commits/197e220e46da449793e7acc20fbdaba173d7a556) as of 2022-05-22 06:18 UTC*
 
 :red_circle: **Branch not mergeable**
   * `mergeable` jobset failed.
-  * `maintained` jobset is not finished.
+  * `maintained` jobset failed.
 
 #### Build summary
 
@@ -11,9 +11,17 @@
  | --- | --- | --- | --- | --- | --- | 
  | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1763009?filter=.aarch64-linux) |  | 4044 | 2280 | 10 | 4 | 
  | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1763009?filter=.x86_64-darwin) | 1 |  | 6234 |  | 5 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1763009?filter=.x86_64-linux) |  |  | 6310 | 15 | 14 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1763009?filter=.x86_64-linux) | 3 |  | 6310 |  | 26 | 
 #### Maintained packages with failed dependency
+- [ ] [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/177826657) [maintained](https://hydra.nixos.org/eval/1763009?filter=maintained) @cdepillabout @expipiplus1 @maralorn @sternenseemann
 - [ ] [[:iphone::hourglass::no_entry_sign:]](https://hydra.nixos.org/build/177794507) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/177804335) [[:penguin::no_entry_sign:]](https://hydra.nixos.org/build/177794781) [tamarin-prover](https://hydra.nixos.org/eval/1763009?filter=tamarin-prover) @thoughtpolice
+#### Unmaintained packages with failed dependency
+<details><summary>2 job(s) </summary>
+
+- [ ] [[:iphone::hourglass_flowing_sand:]](https://hydra.nixos.org/build/177826658) [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/177826649) [haskellPackages.hbro](https://hydra.nixos.org/eval/1763009?filter=haskellPackages.hbro)  :arrow_heading_up: 1 | 1
+- [ ] [[:iphone::hourglass_flowing_sand:]](https://hydra.nixos.org/build/177826670) [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/177826664) [haskellPackages.hbro-contrib](https://hydra.nixos.org/eval/1763009?filter=haskellPackages.hbro-contrib) 
+</details>
+
 #### Top 50 broken packages, sorted by number of reverse dependencies
 <details><summary>50 job(s) </summary>
 
