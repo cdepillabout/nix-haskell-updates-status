@@ -1,19 +1,19 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1762941](https://hydra.nixos.org/eval/1762941) of nixpkgs commit [62074a5](https://github.com/NixOS/nixpkgs/commits/62074a54da9060e4586fea0e6ca6d9ed429f9789) as of 2022-05-21 20:20 UTC*
+*evaluation [1763009](https://hydra.nixos.org/eval/1763009) of nixpkgs commit [197e220](https://github.com/NixOS/nixpkgs/commits/197e220e46da449793e7acc20fbdaba173d7a556) as of 2022-05-22 03:03 UTC*
 
 :red_circle: **Branch not mergeable**
   * `mergeable` jobset failed.
-  * `maintained` jobset failed.
+  * `maintained` jobset is not finished.
 
 #### Build summary
 
- | Platform | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Canceled :no_entry_sign: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1762941?filter=.aarch64-linux) |  | 4051 | 2283 | 4 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1762941?filter=.x86_64-darwin) | 1 |  | 6234 | 5 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1762941?filter=.x86_64-linux) |  | 1 | 6322 | 14 | 
+ | Platform | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Canceled :no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1763009?filter=.aarch64-linux) |  | 4044 | 2280 | 10 | 4 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1763009?filter=.x86_64-darwin) | 1 |  | 6234 |  | 5 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1763009?filter=.x86_64-linux) |  |  | 6310 | 15 | 14 | 
 #### Maintained packages with failed dependency
-- [ ] [[:iphone::hourglass::no_entry_sign:]](https://hydra.nixos.org/build/177794507) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/177804335) [[:penguin::no_entry_sign:]](https://hydra.nixos.org/build/177794781) [tamarin-prover](https://hydra.nixos.org/eval/1762941?filter=tamarin-prover) @thoughtpolice
+- [ ] [[:iphone::hourglass::no_entry_sign:]](https://hydra.nixos.org/build/177794507) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/177804335) [[:penguin::no_entry_sign:]](https://hydra.nixos.org/build/177794781) [tamarin-prover](https://hydra.nixos.org/eval/1763009?filter=tamarin-prover) @thoughtpolice
 #### Top 50 broken packages, sorted by number of reverse dependencies
 <details><summary>50 job(s) </summary>
 
