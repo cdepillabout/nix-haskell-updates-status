@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1763339](https://hydra.nixos.org/eval/1763339) of nixpkgs commit [3b5c6b8](https://github.com/NixOS/nixpkgs/commits/3b5c6b8b049380368ba8f3f6417b7cecaefc6a00) as of 2022-05-24 08:48 UTC*
+*evaluation [1763397](https://hydra.nixos.org/eval/1763397) of nixpkgs commit [19c61aa](https://github.com/NixOS/nixpkgs/commits/19c61aa22c3673456e059ed876f2a1e710f3cf19) as of 2022-05-24 14:52 UTC*
 
 :red_circle: **Branch not mergeable**
   * Too many outstanding jobs on x86_64-linux.
@@ -11,9 +11,9 @@
 
  | Platform | Unfinished :hourglass_flowing_sand: | 
  | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1763339?filter=.aarch64-linux) | 6296 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1763339?filter=.x86_64-darwin) | 6240 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1763339?filter=.x86_64-linux) | 6329 | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1763397?filter=.aarch64-linux) | 6296 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1763397?filter=.x86_64-darwin) | 6240 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1763397?filter=.x86_64-linux) | 6329 | 
 #### Top 50 broken packages, sorted by number of reverse dependencies
 <details><summary>50 job(s) </summary>
 
