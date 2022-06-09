@@ -1,16 +1,16 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1766350](https://hydra.nixos.org/eval/1766350) of nixpkgs commit [7c22499](https://github.com/NixOS/nixpkgs/commits/7c22499b746fa5bdae6ec3d6e5ade3764c41901d) as of 2022-06-09 06:19 UTC*
+*evaluation [1766350](https://hydra.nixos.org/eval/1766350) of nixpkgs commit [7c22499](https://github.com/NixOS/nixpkgs/commits/7c22499b746fa5bdae6ec3d6e5ade3764c41901d) as of 2022-06-09 12:27 UTC*
 
 :yellow_circle: **Potential issues**
   * `maintained` jobset failed.
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1766350?filter=.aarch64-linux) | 24 | 31 | 5 | 1 | 6248 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1766350?filter=.x86_64-darwin) | 64 | 25 | 4 |  | 6160 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1766350?filter=.x86_64-linux) | 3 | 8 | 4 |  | 6326 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1766350?filter=.aarch64-linux) | 24 | 31 | 5 | 6249 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1766350?filter=.x86_64-darwin) | 64 | 25 | 4 | 6160 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1766350?filter=.x86_64-linux) | 3 | 8 | 4 | 6326 | 
 #### Maintained packages with build failure
 - [ ] [[:iphone::x:]](https://hydra.nixos.org/build/179745480) [[:apple::x:]](https://hydra.nixos.org/build/179746884) [[:penguin::x:]](https://hydra.nixos.org/build/179747154) [haskellPackages.hnix](https://hydra.nixos.org/eval/1766350?filter=haskellPackages.hnix) @Anton-Latukha
 #### Maintained packages with failed dependency
