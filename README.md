@@ -1,16 +1,16 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1766839](https://hydra.nixos.org/eval/1766839) of nixpkgs commit [d76d78d](https://github.com/NixOS/nixpkgs/commits/d76d78d894d6e63a9e84562c9a81f9f943276eeb) as of 2022-06-12 12:21 UTC*
+*evaluation [1766839](https://hydra.nixos.org/eval/1766839) of nixpkgs commit [d76d78d](https://github.com/NixOS/nixpkgs/commits/d76d78d894d6e63a9e84562c9a81f9f943276eeb) as of 2022-06-12 18:16 UTC*
 
 :yellow_circle: **Potential issues**
   * `maintained` jobset failed.
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1766839?filter=.aarch64-linux) | 24 | 31 | 5 | 1 | 6249 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1766839?filter=.x86_64-darwin) | 64 | 25 | 4 | 1 | 6160 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1766839?filter=.x86_64-linux) | 3 | 8 | 4 | 1 | 6326 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1766839?filter=.aarch64-linux) | 24 | 31 | 5 | 6250 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1766839?filter=.x86_64-darwin) | 64 | 25 | 4 | 6161 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1766839?filter=.x86_64-linux) | 3 | 8 | 4 | 6327 | 
 #### Maintained packages with build failure
 - [ ] [[:iphone::x:]](https://hydra.nixos.org/build/179745480) [[:apple::x:]](https://hydra.nixos.org/build/179746884) [[:penguin::x:]](https://hydra.nixos.org/build/179747154) [haskellPackages.hnix](https://hydra.nixos.org/eval/1766839?filter=haskellPackages.hnix) @Anton-Latukha
 #### Maintained packages with failed dependency
