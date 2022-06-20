@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1767979](https://hydra.nixos.org/eval/1767979) of nixpkgs commit [fe2a5e2](https://github.com/NixOS/nixpkgs/commits/fe2a5e2ebb786d134dc942e1a09ed8557a856312) as of 2022-06-20 08:12 UTC*
+*evaluation [1767979](https://hydra.nixos.org/eval/1767979) of nixpkgs commit [fe2a5e2](https://github.com/NixOS/nixpkgs/commits/fe2a5e2ebb786d134dc942e1a09ed8557a856312) as of 2022-06-20 12:26 UTC*
 
 :red_circle: **Branch not mergeable**
   * Too many outstanding jobs on x86_64-linux.
@@ -9,11 +9,32 @@
 
 #### Build summary
 
- | Platform | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1767979?filter=.aarch64-linux) | 6355 | 7 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1767979?filter=.x86_64-darwin) | 6296 | 7 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1767979?filter=.x86_64-linux) | 6385 | 16 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1767979?filter=.aarch64-linux) |  |  | 6352 | 20 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1767979?filter=.x86_64-darwin) |  |  | 6293 | 12 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1767979?filter=.x86_64-linux) | 7 | 4 | 1305 | 5124 | 
+#### Unmaintained packages with build failure
+<details><summary>7 job(s) </summary>
+
+- [ ] [[:iphone::hourglass_flowing_sand:]](https://hydra.nixos.org/build/180927258) [[:apple::hourglass_flowing_sand:]](https://hydra.nixos.org/build/180923721) [[:penguin::x:]](https://hydra.nixos.org/build/180924963) [haskellPackages.yaml-unscrambler](https://hydra.nixos.org/eval/1767979?filter=haskellPackages.yaml-unscrambler)  :arrow_heading_up: 1 | 2
+- [ ] [[:iphone::hourglass_flowing_sand:]](https://hydra.nixos.org/build/180927024) [[:apple::hourglass_flowing_sand:]](https://hydra.nixos.org/build/180928924) [[:penguin::x:]](https://hydra.nixos.org/build/180918018) [haskellPackages.kazura-queue](https://hydra.nixos.org/eval/1767979?filter=haskellPackages.kazura-queue)  :arrow_heading_up: 1 | 1
+- [ ] [[:iphone::hourglass_flowing_sand:]](https://hydra.nixos.org/build/180921359) [[:apple::hourglass_flowing_sand:]](https://hydra.nixos.org/build/180923230) [[:penguin::x:]](https://hydra.nixos.org/build/180914666) [haskellPackages.polysemy-http](https://hydra.nixos.org/eval/1767979?filter=haskellPackages.polysemy-http)  :arrow_heading_up: 0 | 2
+- [ ] [[:iphone::hourglass_flowing_sand:]](https://hydra.nixos.org/build/180922666) [[:apple::hourglass_flowing_sand:]](https://hydra.nixos.org/build/180914990) [[:penguin::x:]](https://hydra.nixos.org/build/180922194) [haskellPackages.witness](https://hydra.nixos.org/eval/1767979?filter=haskellPackages.witness)  :arrow_heading_up: 0 | 1
+- [ ] [[:iphone::hourglass_flowing_sand:]](https://hydra.nixos.org/build/180913657) [[:apple::hourglass_flowing_sand:]](https://hydra.nixos.org/build/180919450) [[:penguin::x:]](https://hydra.nixos.org/build/180926665) [haskellPackages.hasql-resource-pool](https://hydra.nixos.org/eval/1767979?filter=haskellPackages.hasql-resource-pool) 
+- [ ] [[:iphone::hourglass_flowing_sand:]](https://hydra.nixos.org/build/180928970) [[:apple::hourglass_flowing_sand:]](https://hydra.nixos.org/build/180924399) [[:penguin::x:]](https://hydra.nixos.org/build/180920093) [haskellPackages.hw-lazy](https://hydra.nixos.org/eval/1767979?filter=haskellPackages.hw-lazy) 
+- [ ] [[:iphone::hourglass_flowing_sand:]](https://hydra.nixos.org/build/180924038) [[:apple::hourglass_flowing_sand:]](https://hydra.nixos.org/build/180927046) [[:penguin::x:]](https://hydra.nixos.org/build/180925195) [haskellPackages.interval-patterns](https://hydra.nixos.org/eval/1767979?filter=haskellPackages.interval-patterns) 
+</details>
+
+#### Unmaintained packages with failed dependency
+<details><summary>4 job(s) </summary>
+
+- [ ] [[:iphone::hourglass_flowing_sand:]](https://hydra.nixos.org/build/180929556) [[:apple::hourglass_flowing_sand:]](https://hydra.nixos.org/build/180916192) [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/180919868) [haskellPackages.domain](https://hydra.nixos.org/eval/1767979?filter=haskellPackages.domain)  :arrow_heading_up: 0 | 1
+- [ ] [[:iphone::hourglass_flowing_sand:]](https://hydra.nixos.org/build/180921983) [[:apple::hourglass_flowing_sand:]](https://hydra.nixos.org/build/180924028) [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/180922476) [haskellPackages.domain-aeson](https://hydra.nixos.org/eval/1767979?filter=haskellPackages.domain-aeson) 
+- [ ] [[:iphone::hourglass_flowing_sand:]](https://hydra.nixos.org/build/180913774) [[:apple::hourglass_flowing_sand:]](https://hydra.nixos.org/build/180919852) [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/180922777) [haskellPackages.domain-cereal](https://hydra.nixos.org/eval/1767979?filter=haskellPackages.domain-cereal) 
+- [ ] [[:iphone::hourglass_flowing_sand:]](https://hydra.nixos.org/build/180915093) [[:apple::hourglass_flowing_sand:]](https://hydra.nixos.org/build/180930665) [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/180916947) [haskellPackages.hriemann](https://hydra.nixos.org/eval/1767979?filter=haskellPackages.hriemann) 
+</details>
+
 #### Top 50 broken packages, sorted by number of reverse dependencies
 <details><summary>50 job(s) </summary>
 
