@@ -1,19 +1,24 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1769156](https://hydra.nixos.org/eval/1769156) of nixpkgs commit [c9e0650](https://github.com/NixOS/nixpkgs/commits/c9e0650b5149c01b0b769aa26c7159d96010c556) as of 2022-06-28 20:49 UTC*
+*evaluation [1769156](https://hydra.nixos.org/eval/1769156) of nixpkgs commit [c9e0650](https://github.com/NixOS/nixpkgs/commits/c9e0650b5149c01b0b769aa26c7159d96010c556) as of 2022-06-29 03:37 UTC*
 
 :red_circle: **Branch not mergeable**
   * Too many outstanding jobs on x86_64-linux.
   * Too many outstanding jobs on aarch64-linux.
+  * `maintained` jobset failed.
   * `mergeable` jobset is not finished.
-  * `maintained` jobset is not finished.
 
 #### Build summary
 
- | Platform | Unfinished :hourglass_flowing_sand: | 
- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1769156?filter=.aarch64-linux) | 6353 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1769156?filter=.x86_64-darwin) | 6298 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1769156?filter=.x86_64-linux) | 6387 | 
+ | Platform | DependencyFailed :heavy_exclamation_mark: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1769156?filter=.aarch64-linux) | 1 | 6346 | 14 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1769156?filter=.x86_64-darwin) | 1 | 6289 | 21 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1769156?filter=.x86_64-linux) | 2 | 6383 | 16 | 
+#### Maintained packages with failed dependency
+- [ ] [git-annex](https://hydra.nixos.org/eval/1769156?filter=git-annex) @peti
+  - [[:iphone::heavy_exclamation_mark:]](https://hydra.nixos.org/build/182110453) [[:apple::hourglass_flowing_sand:]](https://hydra.nixos.org/build/182125707) [[:penguin::hourglass_flowing_sand:]](https://hydra.nixos.org/build/182123342) [toplevel](https://hydra.nixos.org/eval/1769156?filter=git-annex)
+  - [[:iphone::heavy_exclamation_mark:]](https://hydra.nixos.org/build/182115004) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/182112585) [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/182121533) [haskellPackages](https://hydra.nixos.org/eval/1769156?filter=haskellPackages.git-annex)
+- [ ] [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/182118394) [maintained](https://hydra.nixos.org/eval/1769156?filter=maintained) @cdepillabout @expipiplus1 @maralorn @sternenseemann
 #### Top 50 broken packages, sorted by number of reverse dependencies
 <details><summary>50 job(s) </summary>
 
