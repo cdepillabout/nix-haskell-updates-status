@@ -1,16 +1,16 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1769658](https://hydra.nixos.org/eval/1769658) of nixpkgs commit [70fcdaa](https://github.com/NixOS/nixpkgs/commits/70fcdaa82a1936c69753698ffd8e7cbbc462970f) as of 2022-07-02 01:07 UTC*
+*evaluation [1769658](https://hydra.nixos.org/eval/1769658) of nixpkgs commit [70fcdaa](https://github.com/NixOS/nixpkgs/commits/70fcdaa82a1936c69753698ffd8e7cbbc462970f) as of 2022-07-02 02:48 UTC*
 
 :yellow_circle: **Potential issues**
   * `maintained` jobset failed.
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1769658?filter=.aarch64-linux) | 30 | 34 |  | 9 | 6284 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1769658?filter=.x86_64-darwin) | 58 | 27 | 2 |  | 6213 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1769658?filter=.x86_64-linux) | 9 | 12 |  | 8 | 6362 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1769658?filter=.aarch64-linux) | 30 | 34 |  | 6293 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1769658?filter=.x86_64-darwin) | 58 | 27 | 2 | 6213 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1769658?filter=.x86_64-linux) | 9 | 12 |  | 6370 | 
 #### Maintained packages with build failure
 - [ ] [matterhorn](https://hydra.nixos.org/eval/1769658?filter=matterhorn) @Kiwi
   - [[:iphone::x:]](https://hydra.nixos.org/build/182123738) [[:apple::x:]](https://hydra.nixos.org/build/182109375) [[:penguin::x:]](https://hydra.nixos.org/build/182124209) [toplevel](https://hydra.nixos.org/eval/1769658?filter=matterhorn)
