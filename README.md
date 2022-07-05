@@ -1,16 +1,16 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1769944](https://hydra.nixos.org/eval/1769944) of nixpkgs commit [3e2f6a2](https://github.com/NixOS/nixpkgs/commits/3e2f6a2e9c738012caabc77a7e8d060cfae0e67f) as of 2022-07-05 06:19 UTC*
+*evaluation [1769944](https://hydra.nixos.org/eval/1769944) of nixpkgs commit [3e2f6a2](https://github.com/NixOS/nixpkgs/commits/3e2f6a2e9c738012caabc77a7e8d060cfae0e67f) as of 2022-07-05 12:30 UTC*
 
 :yellow_circle: **Potential issues**
   * `maintained` jobset failed.
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1769944?filter=.aarch64-linux) | 34 | 51 |  | 7 | 6272 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1769944?filter=.x86_64-darwin) | 62 | 46 | 1 |  | 6198 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1769944?filter=.x86_64-linux) | 12 | 31 |  |  | 6355 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1769944?filter=.aarch64-linux) | 34 | 51 |  | 6279 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1769944?filter=.x86_64-darwin) | 62 | 46 | 1 | 6198 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1769944?filter=.x86_64-linux) | 12 | 31 |  | 6355 | 
 #### Maintained packages with build failure
 - [ ] [matterhorn](https://hydra.nixos.org/eval/1769944?filter=matterhorn) @Kiwi
   - [[:iphone::x:]](https://hydra.nixos.org/build/182123738) [[:apple::x:]](https://hydra.nixos.org/build/182109375) [[:penguin::x:]](https://hydra.nixos.org/build/182124209) [toplevel](https://hydra.nixos.org/eval/1769944?filter=matterhorn)
