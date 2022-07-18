@@ -1,25 +1,15 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1771979](https://hydra.nixos.org/eval/1771979) of nixpkgs commit [91bb48a](https://github.com/NixOS/nixpkgs/commits/91bb48ab478d5892af019b7531ccd85c4c96f0a3) as of 2022-07-18 12:26 UTC*
+*evaluation [1771979](https://hydra.nixos.org/eval/1771979) of nixpkgs commit [91bb48a](https://github.com/NixOS/nixpkgs/commits/91bb48ab478d5892af019b7531ccd85c4c96f0a3) as of 2022-07-18 18:19 UTC*
 
-:red_circle: **Branch not mergeable**
-  * `mergeable` jobset failed.
+:green_circle: **Ready to merge**
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1771979?filter=.aarch64-linux) | 28 | 22 |  | 6314 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1771979?filter=.x86_64-darwin) | 60 | 18 | 1 | 6229 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1771979?filter=.x86_64-linux) | 7 | 4 | 1 | 6388 | 
-#### Maintained packages with failed dependency
-- [ ] [haskell-language-server](https://hydra.nixos.org/eval/1771979?filter=haskell-language-server) @maralorn
-  - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/184066483) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/184064842) [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/184064707) [toplevel](https://hydra.nixos.org/eval/1771979?filter=haskell-language-server)
-  - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/184064685) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/184066400) [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/184066222) [haskell.packages.ghc8107](https://hydra.nixos.org/eval/1771979?filter=haskell.packages.ghc8107.haskell-language-server)
-  - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/184064635) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/184064672) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/184065112) [haskell.packages.ghc884](https://hydra.nixos.org/eval/1771979?filter=haskell.packages.ghc884.haskell-language-server)
-  - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/184062964) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/184063745) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/184065630) [haskell.packages.ghc902](https://hydra.nixos.org/eval/1771979?filter=haskell.packages.ghc902.haskell-language-server)
-  - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/184066188) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/184064016) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/184065218) [haskell.packages.ghc923](https://hydra.nixos.org/eval/1771979?filter=haskell.packages.ghc923.haskell-language-server)
-  - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/184066125) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/184066228) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/184065607) [haskellPackages](https://hydra.nixos.org/eval/1771979?filter=haskellPackages.haskell-language-server)
-- [ ] [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/184064511) [mergeable](https://hydra.nixos.org/eval/1771979?filter=mergeable) @cdepillabout @expipiplus1 @maralorn @sternenseemann
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | HydraFailure :construction: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1771979?filter=.aarch64-linux) | 28 | 22 |  |  | 6314 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1771979?filter=.x86_64-darwin) | 60 | 18 | 1 |  | 6229 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1771979?filter=.x86_64-linux) | 7 | 2 | 1 | 1 | 6389 | 
 #### Unmaintained packages with build failure
 <details><summary>81 job(s) </summary>
 
