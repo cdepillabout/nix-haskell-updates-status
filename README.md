@@ -1,16 +1,32 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1773382](https://hydra.nixos.org/eval/1773382) of nixpkgs commit [7f909b0](https://github.com/NixOS/nixpkgs/commits/7f909b041b9c149d9b029ae2e9a0c5e2a01412df) as of 2022-07-28 18:20 UTC*
+*evaluation [1773382](https://hydra.nixos.org/eval/1773382) of nixpkgs commit [7f909b0](https://github.com/NixOS/nixpkgs/commits/7f909b041b9c149d9b029ae2e9a0c5e2a01412df) as of 2022-07-29 01:09 UTC*
 
-:yellow_circle: **Potential issues** (and possibly [Evaluation Errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
-  * `mergeable` jobset is not finished.
+:red_circle: **Branch not mergeable**
+  * `mergeable` jobset failed.
 
 #### Build summary
 
  | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
  | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1773382?filter=.aarch64-linux) | 22 | 21 |  | 15 | 6333 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1773382?filter=.x86_64-darwin) | 55 | 18 | 1 | 16 | 6245 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1773382?filter=.x86_64-linux) | 2 | 1 | 3 | 22 | 6403 | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1773382?filter=.aarch64-linux) | 22 | 23 |  |  | 6335 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1773382?filter=.x86_64-darwin) | 55 | 18 | 1 | 15 | 6246 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1773382?filter=.x86_64-linux) | 2 | 3 | 3 |  | 6407 | 
+#### Maintained packages with failed dependency
+- [ ] [cabal-install](https://hydra.nixos.org/eval/1773382?filter=cabal-install) @peti
+  - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/185565222) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/185565026) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/185564111) [toplevel](https://hydra.nixos.org/eval/1773382?filter=cabal-install)
+  - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/185558342) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/185560465) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/185563273) [haskell.packages.ghc8107](https://hydra.nixos.org/eval/1773382?filter=haskell.packages.ghc8107.cabal-install)
+  - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/185561842) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/185566015) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/185556657) [haskell.packages.ghc884](https://hydra.nixos.org/eval/1773382?filter=haskell.packages.ghc884.cabal-install)
+  - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/185567289) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/185555947) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/185561410) [haskell.packages.ghc902](https://hydra.nixos.org/eval/1773382?filter=haskell.packages.ghc902.cabal-install)
+  - [[:iphone::heavy_exclamation_mark:]](https://hydra.nixos.org/build/185724757) [[:apple::hourglass_flowing_sand:]](https://hydra.nixos.org/build/185724804) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/185724788) [haskell.packages.ghc924](https://hydra.nixos.org/eval/1773382?filter=haskell.packages.ghc924.cabal-install)
+  - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/185564701) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/185566914) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/185565643) [haskellPackages](https://hydra.nixos.org/eval/1773382?filter=haskellPackages.cabal-install)
+- [ ] [haskell-language-server](https://hydra.nixos.org/eval/1773382?filter=haskell-language-server) @maralorn
+  - [[:iphone::heavy_exclamation_mark:]](https://hydra.nixos.org/build/185724789) [[:apple::hourglass_flowing_sand:]](https://hydra.nixos.org/build/185724805) [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/185724783) [toplevel](https://hydra.nixos.org/eval/1773382?filter=haskell-language-server)
+  - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/185553226) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/185569814) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/185564425) [haskell.packages.ghc8107](https://hydra.nixos.org/eval/1773382?filter=haskell.packages.ghc8107.haskell-language-server)
+  - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/185555703) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/185553884) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/185557709) [haskell.packages.ghc884](https://hydra.nixos.org/eval/1773382?filter=haskell.packages.ghc884.haskell-language-server)
+  - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/185555121) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/185558060) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/185565707) [haskell.packages.ghc902](https://hydra.nixos.org/eval/1773382?filter=haskell.packages.ghc902.haskell-language-server)
+  - [[:iphone::heavy_exclamation_mark:]](https://hydra.nixos.org/build/185724772) [[:apple::hourglass_flowing_sand:]](https://hydra.nixos.org/build/185724806) [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/185724796) [haskell.packages.ghc924](https://hydra.nixos.org/eval/1773382?filter=haskell.packages.ghc924.haskell-language-server)
+  - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/185553011) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/185568485) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/185561964) [haskellPackages](https://hydra.nixos.org/eval/1773382?filter=haskellPackages.haskell-language-server)
+- [ ] [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/185724811) [mergeable](https://hydra.nixos.org/eval/1773382?filter=mergeable) @cdepillabout @expipiplus1 @maralorn @sternenseemann
 #### Unmaintained packages with build failure
 <details><summary>73 job(s) </summary>
 
