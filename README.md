@@ -1,16 +1,16 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1773790](https://hydra.nixos.org/eval/1773790) of nixpkgs commit [eb9760b](https://github.com/NixOS/nixpkgs/commits/eb9760b8f787e8dfea21f76f98726ffaba37a46d) as of 2022-07-31 01:11 UTC*
+*evaluation [1773790](https://hydra.nixos.org/eval/1773790) of nixpkgs commit [eb9760b](https://github.com/NixOS/nixpkgs/commits/eb9760b8f787e8dfea21f76f98726ffaba37a46d) as of 2022-07-31 06:17 UTC*
 
 :red_circle: **Branch not mergeable**
   * `mergeable` jobset failed.
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1773790?filter=.aarch64-linux) | 22 | 22 |  | 5 | 6330 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1773790?filter=.x86_64-darwin) | 55 | 19 | 1 | 5 | 6243 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1773790?filter=.x86_64-linux) | 2 | 3 | 3 | 7 | 6401 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1773790?filter=.aarch64-linux) | 22 | 22 |  | 6335 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1773790?filter=.x86_64-darwin) | 55 | 19 | 1 | 6248 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1773790?filter=.x86_64-linux) | 2 | 3 | 3 | 6407 | 
 #### Maintained packages with failed dependency
 - [ ] [haskell-language-server](https://hydra.nixos.org/eval/1773790?filter=haskell-language-server) @maralorn
   - [[:iphone::heavy_exclamation_mark:]](https://hydra.nixos.org/build/185891294) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/185891335) [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/185891296) [toplevel](https://hydra.nixos.org/eval/1773790?filter=haskell-language-server)
