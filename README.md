@@ -1,16 +1,15 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1774321](https://hydra.nixos.org/eval/1774321) of nixpkgs commit [1d51c8b](https://github.com/NixOS/nixpkgs/commits/1d51c8b324f67a3a98d416e77300973777dcd877) as of 2022-08-03 06:18 UTC*
+*evaluation [1774321](https://hydra.nixos.org/eval/1774321) of nixpkgs commit [1d51c8b](https://github.com/NixOS/nixpkgs/commits/1d51c8b324f67a3a98d416e77300973777dcd877) as of 2022-08-03 12:28 UTC*
 
-:yellow_circle: **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
-  * `maintained` jobset is not finished.
+:green_circle: **Ready to merge** (if there are no [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | HydraFailure :construction: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1774321?filter=.aarch64-linux) | 20 | 20 | 3 |  | 5 | 6336 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1774321?filter=.x86_64-darwin) | 51 | 15 | 4 | 4 |  | 6254 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1774321?filter=.x86_64-linux) |  |  |  |  | 7 | 6415 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | HydraFailure :construction: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1774321?filter=.aarch64-linux) | 20 | 20 | 3 |  | 6341 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1774321?filter=.x86_64-darwin) | 51 | 15 | 4 | 4 | 6254 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1774321?filter=.x86_64-linux) |  |  |  |  | 6420 | 
 #### Unmaintained packages with build failure
 <details><summary>69 job(s) </summary>
 
