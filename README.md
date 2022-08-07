@@ -1,17 +1,15 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1774969](https://hydra.nixos.org/eval/1774969) of nixpkgs commit [148ab9d](https://github.com/NixOS/nixpkgs/commits/148ab9d6021eab52eddce341a5ffca411fa6771a) as of 2022-08-07 06:19 UTC*
+*evaluation [1774969](https://hydra.nixos.org/eval/1774969) of nixpkgs commit [148ab9d](https://github.com/NixOS/nixpkgs/commits/148ab9d6021eab52eddce341a5ffca411fa6771a) as of 2022-08-07 12:24 UTC*
 
-:yellow_circle: **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
-  * `mergeable` jobset is not finished.
-  * `maintained` jobset is not finished.
+:green_circle: **Ready to merge** (if there are no [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | OutputLimitExceeded :warning: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1774969?filter=.aarch64-linux) | 25 | 23 |  | 6 | 6 | 6604 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1774969?filter=.x86_64-darwin) | 60 | 9 |  | 4 | 4 | 6529 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1774969?filter=.x86_64-linux) | 5 |  | 1 | 6 | 8 | 6685 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | OutputLimitExceeded :warning: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1774969?filter=.aarch64-linux) | 25 | 23 |  | 6 | 6609 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1774969?filter=.x86_64-darwin) | 60 | 9 |  | 4 | 6532 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1774969?filter=.x86_64-linux) | 5 |  | 1 | 6 | 6692 | 
 #### Unmaintained packages with build failure
 <details><summary>79 job(s) </summary>
 
