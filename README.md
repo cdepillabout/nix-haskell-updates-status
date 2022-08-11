@@ -1,16 +1,16 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1775526](https://hydra.nixos.org/eval/1775526) of nixpkgs commit [c0804e6](https://github.com/NixOS/nixpkgs/commits/c0804e6f2163dec0646d7f3f96e724921eb83fce) as of 2022-08-11 06:20 UTC*
+*evaluation [1775526](https://hydra.nixos.org/eval/1775526) of nixpkgs commit [c0804e6](https://github.com/NixOS/nixpkgs/commits/c0804e6f2163dec0646d7f3f96e724921eb83fce) as of 2022-08-11 12:29 UTC*
 
 :yellow_circle: **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1775526?filter=.aarch64-linux) | 46 | 29 | 1 |  | 6603 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1775526?filter=.x86_64-darwin) | 78 | 15 | 1 | 1 | 6529 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1775526?filter=.x86_64-linux) | 25 | 7 |  |  | 6689 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1775526?filter=.aarch64-linux) | 46 | 29 | 1 | 6603 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1775526?filter=.x86_64-darwin) | 78 | 15 | 1 | 6530 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1775526?filter=.x86_64-linux) | 25 | 7 |  | 6689 | 
 #### Maintained packages with failed dependency
 - [ ] [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/187076299) [maintained](https://hydra.nixos.org/eval/1775526?filter=maintained) @cdepillabout @expipiplus1 @maralorn @sternenseemann
 - [ ] [matterhorn](https://hydra.nixos.org/eval/1775526?filter=matterhorn) @Kiwi
