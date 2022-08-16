@@ -1,15 +1,19 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1776359](https://hydra.nixos.org/eval/1776359) of nixpkgs commit [c096937](https://github.com/NixOS/nixpkgs/commits/c096937e1b56e5ea2c1c095d2ccb007a4efb316d) as of 2022-08-16 04:05 UTC*
+*evaluation [1776359](https://hydra.nixos.org/eval/1776359) of nixpkgs commit [c096937](https://github.com/NixOS/nixpkgs/commits/c096937e1b56e5ea2c1c095d2ccb007a4efb316d) as of 2022-08-16 04:37 UTC*
 
 :green_circle: **Ready to merge** (if there are no [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1776359?filter=.aarch64-linux) | 22 | 23 | 1 |  | 6606 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1776359?filter=.x86_64-darwin) | 54 | 9 | 1 |  | 6533 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1776359?filter=.x86_64-linux) | 1 |  |  | 1 | 6693 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1776359?filter=.aarch64-linux) | 22 | 23 | 1 | 6606 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1776359?filter=.x86_64-darwin) | 54 | 9 | 1 | 6533 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1776359?filter=.x86_64-linux) | 2 |  |  | 6693 | 
+#### Maintained packages with build failure
+- [ ] [xmonad](https://hydra.nixos.org/eval/1776359?filter=xmonad) @NeQuissimus @ivanbrennan @peti
+  - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/186372016) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/186372003) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/186371995) [haskellPackages](https://hydra.nixos.org/eval/1776359?filter=haskellPackages.xmonad)
+  -   [[:penguin::x:]](https://hydra.nixos.org/build/187388274) [nixosTests](https://hydra.nixos.org/eval/1776359?filter=nixosTests.xmonad)
 #### Unmaintained packages with build failure
 <details><summary>73 job(s) </summary>
 
