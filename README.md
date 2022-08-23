@@ -1,12 +1,12 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1777514](https://hydra.nixos.org/eval/1777514) of nixpkgs commit [6a5570d](https://github.com/NixOS/nixpkgs/commits/6a5570d3562cb01444f3e512a207bca4523a3cd4) as of 2022-08-23 12:27 UTC*
+*evaluation [1777514](https://hydra.nixos.org/eval/1777514) of nixpkgs commit [6a5570d](https://github.com/NixOS/nixpkgs/commits/6a5570d3562cb01444f3e512a207bca4523a3cd4) as of 2022-08-23 18:18 UTC*
 
 :yellow_circle: **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
-  * `maintained` jobset failed.
+  * `maintained` jobset is not finished.
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | HydraFailure :construction: | Success :heavy_check_mark: | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
  | --- | --- | --- | --- | --- | --- | 
  | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1777514?filter=.aarch64-linux) | 28 | 23 | 3 |  | 6603 | 
  | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1777514?filter=.x86_64-darwin) | 66 | 17 | 4 | 3 | 6513 | 
