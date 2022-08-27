@@ -1,9 +1,8 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1778071](https://hydra.nixos.org/eval/1778071) of nixpkgs commit [de5a47b](https://github.com/NixOS/nixpkgs/commits/de5a47be5f4defa09a54bc8faaba347051050c39) as of 2022-08-27 01:06 UTC*
+*evaluation [1778071](https://hydra.nixos.org/eval/1778071) of nixpkgs commit [de5a47b](https://github.com/NixOS/nixpkgs/commits/de5a47be5f4defa09a54bc8faaba347051050c39) as of 2022-08-27 06:18 UTC*
 
 :yellow_circle: **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `mergeable` jobset is not finished.
-  * `maintained` jobset is not finished.
 
 #### Build summary
 
@@ -11,7 +10,7 @@
  | --- | --- | --- | --- | --- | --- | --- | 
  | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1778071?filter=.aarch64-linux) | 33 | 25 | 3 |  | 5 | 6593 | 
  | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1778071?filter=.x86_64-darwin) | 15 | 1 |  | 4748 |  | 1846 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1778071?filter=.x86_64-linux) | 9 | 2 |  |  | 5 | 6685 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1778071?filter=.x86_64-linux) | 9 | 2 |  |  | 1 | 6687 | 
 #### Unmaintained packages with build failure
 <details><summary>51 job(s) </summary>
 
