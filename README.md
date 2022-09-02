@@ -1,16 +1,15 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1778991](https://hydra.nixos.org/eval/1778991) of nixpkgs commit [6b17188](https://github.com/NixOS/nixpkgs/commits/6b17188503645e3fbe48f7dfb31d7c1e814b55ff) as of 2022-09-02 06:40 UTC*
+*evaluation [1778991](https://hydra.nixos.org/eval/1778991) of nixpkgs commit [6b17188](https://github.com/NixOS/nixpkgs/commits/6b17188503645e3fbe48f7dfb31d7c1e814b55ff) as of 2022-09-02 12:28 UTC*
 
-:yellow_circle: **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
-  * `maintained` jobset is not finished.
+:green_circle: **Ready to merge** (if there are no [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1778991?filter=.aarch64-linux) | 33 | 25 |  | 14 | 6593 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1778991?filter=.x86_64-darwin) | 61 | 12 |  |  | 6537 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1778991?filter=.x86_64-linux) | 6 |  | 9 | 7 | 6686 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1778991?filter=.aarch64-linux) | 33 | 25 |  | 6606 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1778991?filter=.x86_64-darwin) | 61 | 12 |  | 6537 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1778991?filter=.x86_64-linux) | 6 |  | 9 | 6691 | 
 #### Unmaintained packages with build failure
 <details><summary>84 job(s) </summary>
 
