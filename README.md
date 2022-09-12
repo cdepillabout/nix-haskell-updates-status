@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1780367](https://hydra.nixos.org/eval/1780367) of nixpkgs commit [05f6bd4](https://github.com/NixOS/nixpkgs/commits/05f6bd4f6ce35018996c168b75aa3b6451fd792b) as of 2022-09-12 01:18 UTC*
+*evaluation [1780367](https://hydra.nixos.org/eval/1780367) of nixpkgs commit [05f6bd4](https://github.com/NixOS/nixpkgs/commits/05f6bd4f6ce35018996c168b75aa3b6451fd792b) as of 2022-09-12 06:55 UTC*
 
 :red_circle: **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -7,11 +7,11 @@
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1780367?filter=.aarch64-linux) | 32 | 30 |  | 7 | 6614 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1780367?filter=.x86_64-darwin) | 63 | 17 | 1 |  | 6546 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1780367?filter=.x86_64-linux) | 9 | 12 | 3 | 8 | 6695 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1780367?filter=.aarch64-linux) | 32 | 30 |  | 6621 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1780367?filter=.x86_64-darwin) | 63 | 17 | 1 | 6546 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1780367?filter=.x86_64-linux) | 9 | 12 | 3 | 6703 | 
 #### Maintained packages with build failure
 - [ ] [xmonad](https://hydra.nixos.org/eval/1780367?filter=xmonad) @NeQuissimus @ivanbrennan @peti
   - [[:iphone::x:]](https://hydra.nixos.org/build/190082638) [[:apple::x:]](https://hydra.nixos.org/build/190084996) [[:penguin::x:]](https://hydra.nixos.org/build/190081828) [haskellPackages](https://hydra.nixos.org/eval/1780367?filter=haskellPackages.xmonad)
