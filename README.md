@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1780684](https://hydra.nixos.org/eval/1780684) of nixpkgs commit [75f79c2](https://github.com/NixOS/nixpkgs/commits/75f79c209a689c6f0e95f07cc241ab23efc36c8b) as of 2022-09-14 18:19 UTC*
+*evaluation [1780684](https://hydra.nixos.org/eval/1780684) of nixpkgs commit [75f79c2](https://github.com/NixOS/nixpkgs/commits/75f79c209a689c6f0e95f07cc241ab23efc36c8b) as of 2022-09-15 01:20 UTC*
 
 :red_circle: **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -10,13 +10,10 @@
  | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
  | --- | --- | --- | --- | --- | 
  | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1780684?filter=.aarch64-linux) | 31 | 27 | 4 | 6623 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1780684?filter=.x86_64-darwin) | 63 | 8 | 7 | 6551 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1780684?filter=.x86_64-darwin) | 62 | 8 | 8 | 6551 | 
  | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1780684?filter=.x86_64-linux) | 10 | 5 | 4 | 6709 | 
 #### Maintained packages with build failure
 - [ ] [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/190503193) [[:apple::x:]](https://hydra.nixos.org/build/190503204) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/190503212) [hedgewars](https://hydra.nixos.org/eval/1780684?filter=hedgewars) @fpletz @kragniz
-- [ ] [spacecookie](https://hydra.nixos.org/eval/1780684?filter=spacecookie) @sternenseemann
-  - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/190435632) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/190421059) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/190421317) [toplevel](https://hydra.nixos.org/eval/1780684?filter=spacecookie)
-  - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/190421398) [[:apple::x:]](https://hydra.nixos.org/build/190434095) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/190424903) [haskellPackages](https://hydra.nixos.org/eval/1780684?filter=haskellPackages.spacecookie)
 #### Maintained packages with failed dependency
 - [ ] [haskell-language-server](https://hydra.nixos.org/eval/1780684?filter=haskell-language-server) @maralorn
   - [[:iphone::heavy_exclamation_mark:]](https://hydra.nixos.org/build/190429450) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/190425373) [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/190424293) [toplevel](https://hydra.nixos.org/eval/1780684?filter=haskell-language-server)
