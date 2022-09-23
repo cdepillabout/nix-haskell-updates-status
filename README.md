@@ -1,15 +1,15 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1781785](https://hydra.nixos.org/eval/1781785) of nixpkgs commit [c23c458](https://github.com/NixOS/nixpkgs/commits/c23c45883422c2774df210fe299fc34e3200eac6) as of 2022-09-23 12:31 UTC*
+*evaluation [1781785](https://hydra.nixos.org/eval/1781785) of nixpkgs commit [c23c458](https://github.com/NixOS/nixpkgs/commits/c23c45883422c2774df210fe299fc34e3200eac6) as of 2022-09-23 18:21 UTC*
 
 :green_circle: **Ready to merge** (if there are no [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1781785?filter=.aarch64-linux) | 28 | 25 | 9 |  | 6627 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1781785?filter=.x86_64-darwin) | 58 | 9 |  |  | 6563 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1781785?filter=.x86_64-linux) | 6 |  | 3 | 1 | 6721 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1781785?filter=.aarch64-linux) | 28 | 25 | 9 | 6627 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1781785?filter=.x86_64-darwin) | 58 | 9 |  | 6563 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1781785?filter=.x86_64-linux) | 6 |  | 4 | 6721 | 
 #### Maintained packages with build failure
 - [ ] [ghcHEAD](https://hydra.nixos.org/eval/1781785?filter=ghcHEAD) @cdepillabout @expipiplus1 @guibou @maralorn @sternenseemann
   - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/191933390) [[:apple::x:]](https://hydra.nixos.org/build/191933386) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/191933392) [haskell.compiler](https://hydra.nixos.org/eval/1781785?filter=haskell.compiler.ghcHEAD)
