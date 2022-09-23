@@ -1,21 +1,21 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1781717](https://hydra.nixos.org/eval/1781717) of nixpkgs commit [da60f2d](https://github.com/NixOS/nixpkgs/commits/da60f2dc9c95692804fa6575fa467e659de5031b) as of 2022-09-22 18:21 UTC*
+*evaluation [1781717](https://hydra.nixos.org/eval/1781717) of nixpkgs commit [da60f2d](https://github.com/NixOS/nixpkgs/commits/da60f2dc9c95692804fa6575fa467e659de5031b) as of 2022-09-23 01:21 UTC*
 
 :green_circle: **Ready to merge** (if there are no [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1781717?filter=.aarch64-linux) | 28 | 25 | 9 | 1 | 6626 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1781717?filter=.x86_64-darwin) | 58 | 9 |  |  | 6563 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1781717?filter=.x86_64-linux) | 6 |  | 3 | 2 | 6719 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1781717?filter=.aarch64-linux) | 28 | 25 | 9 | 6627 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1781717?filter=.x86_64-darwin) | 58 | 9 |  | 6563 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1781717?filter=.x86_64-linux) | 6 |  | 3 | 6721 | 
 #### Maintained packages with build failure
 - [ ] [ghcHEAD](https://hydra.nixos.org/eval/1781717?filter=ghcHEAD) @cdepillabout @expipiplus1 @guibou @maralorn @sternenseemann
-  - [[:iphone::hourglass_flowing_sand:]](https://hydra.nixos.org/build/191933390) [[:apple::x:]](https://hydra.nixos.org/build/191933386) [[:penguin::hourglass_flowing_sand:]](https://hydra.nixos.org/build/191933392) [haskell.compiler](https://hydra.nixos.org/eval/1781717?filter=haskell.compiler.ghcHEAD)
-  - [[:iphone::hourglass_flowing_sand:]](https://hydra.nixos.org/build/191933388) [[:apple::x:]](https://hydra.nixos.org/build/191933391) [[:penguin::hourglass_flowing_sand:]](https://hydra.nixos.org/build/191933387) [haskell.compiler.native-bignum](https://hydra.nixos.org/eval/1781717?filter=haskell.compiler.native-bignum.ghcHEAD)
-  -   [[:penguin::hourglass_flowing_sand:]](https://hydra.nixos.org/build/191933385) [pkgsMusl.haskell.compiler](https://hydra.nixos.org/eval/1781717?filter=pkgsMusl.haskell.compiler.ghcHEAD)
-  -   [[:penguin::hourglass_flowing_sand:]](https://hydra.nixos.org/build/191933393) [pkgsMusl.haskell.compiler.native-bignum](https://hydra.nixos.org/eval/1781717?filter=pkgsMusl.haskell.compiler.native-bignum.ghcHEAD)
+  - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/191933390) [[:apple::x:]](https://hydra.nixos.org/build/191933386) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/191933392) [haskell.compiler](https://hydra.nixos.org/eval/1781717?filter=haskell.compiler.ghcHEAD)
+  - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/191933388) [[:apple::x:]](https://hydra.nixos.org/build/191933391) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/191933387) [haskell.compiler.native-bignum](https://hydra.nixos.org/eval/1781717?filter=haskell.compiler.native-bignum.ghcHEAD)
+  -   [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/191933385) [pkgsMusl.haskell.compiler](https://hydra.nixos.org/eval/1781717?filter=pkgsMusl.haskell.compiler.ghcHEAD)
+  -   [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/191933393) [pkgsMusl.haskell.compiler.native-bignum](https://hydra.nixos.org/eval/1781717?filter=pkgsMusl.haskell.compiler.native-bignum.ghcHEAD)
 #### Unmaintained packages with build failure
 <details><summary>77 job(s) </summary>
 
