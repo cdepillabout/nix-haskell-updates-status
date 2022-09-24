@@ -1,16 +1,15 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1781906](https://hydra.nixos.org/eval/1781906) of nixpkgs commit [2c0cce7](https://github.com/NixOS/nixpkgs/commits/2c0cce7290eb3de5d5314e33ad0d253200d6086f) as of 2022-09-24 06:26 UTC*
+*evaluation [1781906](https://hydra.nixos.org/eval/1781906) of nixpkgs commit [2c0cce7](https://github.com/NixOS/nixpkgs/commits/2c0cce7290eb3de5d5314e33ad0d253200d6086f) as of 2022-09-24 12:30 UTC*
 
-:yellow_circle: **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
-  * `maintained` jobset is not finished.
+:green_circle: **Ready to merge** (if there are no [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1781906?filter=.aarch64-linux) | 28 | 25 | 9 | 8 | 6619 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1781906?filter=.x86_64-darwin) | 58 | 9 |  |  | 6563 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1781906?filter=.x86_64-linux) | 6 |  | 3 | 13 | 6710 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1781906?filter=.aarch64-linux) | 28 | 25 | 9 | 6627 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1781906?filter=.x86_64-darwin) | 58 | 9 |  | 6563 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1781906?filter=.x86_64-linux) | 6 |  | 3 | 6721 | 
 #### Maintained packages with build failure
 - [ ] [ghcHEAD](https://hydra.nixos.org/eval/1781906?filter=ghcHEAD) @cdepillabout @expipiplus1 @guibou @maralorn @sternenseemann
   - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/191933390) [[:apple::x:]](https://hydra.nixos.org/build/191933386) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/191933392) [haskell.compiler](https://hydra.nixos.org/eval/1781906?filter=haskell.compiler.ghcHEAD)
