@@ -1,9 +1,7 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1782280](https://hydra.nixos.org/eval/1782280) of nixpkgs commit [091e445](https://github.com/NixOS/nixpkgs/commits/091e445abc16c6ecd05b919a38d8785ea48f9de9) as of 2022-09-27 06:50 UTC*
+*evaluation [1782280](https://hydra.nixos.org/eval/1782280) of nixpkgs commit [091e445](https://github.com/NixOS/nixpkgs/commits/091e445abc16c6ecd05b919a38d8785ea48f9de9) as of 2022-09-27 12:33 UTC*
 
-:red_circle: **Branch not mergeable**
-  * `mergeable` jobset failed.
-  * `maintained` jobset failed.
+:green_circle: **Ready to merge** (if there are no [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
 
 #### Build summary
 
@@ -11,10 +9,7 @@
  | --- | --- | --- | --- | --- | 
  | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1782280?filter=.aarch64-linux) | 32 | 32 | 9 | 6614 | 
  | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1782280?filter=.x86_64-darwin) | 70 | 24 |  | 6534 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1782280?filter=.x86_64-linux) | 9 | 9 | 3 | 6707 | 
-#### Maintained packages with failed dependency
-- [ ] [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/192220118) [maintained](https://hydra.nixos.org/eval/1782280?filter=maintained) @cdepillabout @expipiplus1 @maralorn @sternenseemann
-- [ ] [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/192220131) [mergeable](https://hydra.nixos.org/eval/1782280?filter=mergeable) @cdepillabout @expipiplus1 @maralorn @sternenseemann
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1782280?filter=.x86_64-linux) | 9 | 7 | 3 | 6709 | 
 #### Unmaintained packages with build failure
 <details><summary>90 job(s) </summary>
 
