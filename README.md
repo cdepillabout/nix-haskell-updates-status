@@ -1,15 +1,15 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1782986](https://hydra.nixos.org/eval/1782986) of nixpkgs commit [ed251f3](https://github.com/NixOS/nixpkgs/commits/ed251f3eb422e9013b8cce924c5f91c6cb3929de) as of 2022-10-04 01:24 UTC*
+*evaluation [1782986](https://hydra.nixos.org/eval/1782986) of nixpkgs commit [ed251f3](https://github.com/NixOS/nixpkgs/commits/ed251f3eb422e9013b8cce924c5f91c6cb3929de) as of 2022-10-04 06:30 UTC*
 
 :green_circle: **Ready to merge** (if there are no [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1782986?filter=.aarch64-linux) | 24 | 32 |  |  | 6634 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1782986?filter=.x86_64-darwin) | 58 | 19 | 6 |  | 6542 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1782986?filter=.x86_64-linux) | 4 | 2 | 6 | 2 | 6712 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1782986?filter=.aarch64-linux) | 24 | 32 |  | 6634 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1782986?filter=.x86_64-darwin) | 58 | 19 | 6 | 6542 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1782986?filter=.x86_64-linux) | 4 | 2 | 6 | 6713 | 
 #### Maintained packages with failed dependency
 - [ ] [cabal2nix](https://hydra.nixos.org/eval/1782986?filter=cabal2nix) @peti
   - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/193034060) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/193030280) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/193030518) [toplevel](https://hydra.nixos.org/eval/1782986?filter=cabal2nix)
