@@ -1,16 +1,16 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1783771](https://hydra.nixos.org/eval/1783771) of nixpkgs commit [9fce308](https://github.com/NixOS/nixpkgs/commits/9fce308266713db19e80dbfd4fffcfbe00b9d14f) as of 2022-10-19 18:32 UTC*
+*evaluation [1783771](https://hydra.nixos.org/eval/1783771) of nixpkgs commit [9fce308](https://github.com/NixOS/nixpkgs/commits/9fce308266713db19e80dbfd4fffcfbe00b9d14f) as of 2022-10-20 01:19 UTC*
 
 :yellow_circle: **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1783771?filter=.aarch64-linux) | 31 | 32 | 6 | 6648 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1783771?filter=.x86_64-darwin) | 68 | 14 | 6 | 6567 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1783771?filter=.x86_64-linux) | 12 | 7 | 6 | 6729 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1783771?filter=.aarch64-linux) | 31 | 32 | 6654 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1783771?filter=.x86_64-darwin) | 68 | 14 | 6573 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1783771?filter=.x86_64-linux) | 12 | 7 | 6735 | 
 #### Maintained packages with build failure
 - [ ] [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/195669994) [[:apple::x:]](https://hydra.nixos.org/build/195671224) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/195670030) [haskellPackages.rel8](https://hydra.nixos.org/eval/1783771?filter=haskellPackages.rel8) @sternenseemann
 #### Maintained packages with failed dependency
