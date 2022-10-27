@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1784066](https://hydra.nixos.org/eval/1784066) of nixpkgs commit [078fef0](https://github.com/NixOS/nixpkgs/commits/078fef0069a747762075740acbc58927e0e3e2a7) as of 2022-10-26 18:20 UTC*
+*evaluation [1784066](https://hydra.nixos.org/eval/1784066) of nixpkgs commit [078fef0](https://github.com/NixOS/nixpkgs/commits/078fef0069a747762075740acbc58927e0e3e2a7) as of 2022-10-27 01:14 UTC*
 
 :yellow_circle: **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
