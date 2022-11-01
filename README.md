@@ -1,16 +1,15 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1784493](https://hydra.nixos.org/eval/1784493) of nixpkgs commit [ee368a7](https://github.com/NixOS/nixpkgs/commits/ee368a73b6b87d889d10b9c7b74c94946672c0c4) as of 2022-11-01 01:25 UTC*
+*evaluation [1784493](https://hydra.nixos.org/eval/1784493) of nixpkgs commit [ee368a7](https://github.com/NixOS/nixpkgs/commits/ee368a73b6b87d889d10b9c7b74c94946672c0c4) as of 2022-11-01 06:26 UTC*
 
-:yellow_circle: **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
-  * `maintained` jobset is not finished.
+:green_circle: **Ready to merge** (if there are no [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1784493?filter=.aarch64-linux) | 19 | 26 |  | 2 | 6646 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1784493?filter=.x86_64-darwin) | 53 | 7 | 5 |  | 6569 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1784493?filter=.x86_64-linux) |  |  |  | 6 | 6726 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1784493?filter=.aarch64-linux) | 19 | 26 |  | 6648 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1784493?filter=.x86_64-darwin) | 53 | 7 | 5 | 6569 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1784493?filter=.x86_64-linux) |  |  |  | 6730 | 
 #### Maintained packages with failed dependency
 - [ ] [haskell-language-server](https://hydra.nixos.org/eval/1784493?filter=haskell-language-server) @maralorn
   - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/196693552) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/196693540) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/196693507) [toplevel](https://hydra.nixos.org/eval/1784493?filter=haskell-language-server)
