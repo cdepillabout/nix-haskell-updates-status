@@ -1,18 +1,15 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1785067](https://hydra.nixos.org/eval/1785067) of nixpkgs commit [b11e56a](https://github.com/NixOS/nixpkgs/commits/b11e56a75c6768340906894681982335630b58c8) as of 2022-11-09 01:08 UTC*
+*evaluation [1785067](https://hydra.nixos.org/eval/1785067) of nixpkgs commit [b11e56a](https://github.com/NixOS/nixpkgs/commits/b11e56a75c6768340906894681982335630b58c8) as of 2022-11-09 12:32 UTC*
 
-:yellow_circle: **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
-  * `maintained` jobset is not finished.
+:green_circle: **Ready to merge** (if there are no [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1785067?filter=.aarch64-linux) | 26 | 23 | 2 | 2 | 6647 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1785067?filter=.x86_64-darwin) | 60 | 9 | 4 | 3 | 6565 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1785067?filter=.x86_64-linux) | 7 | 15 | 2 | 1 | 6716 | 
-#### Maintained packages with failed dependency
-- [ ] [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/197934200) [haskellPackages.reflex-dom](https://hydra.nixos.org/eval/1785067?filter=haskellPackages.reflex-dom) @maralorn
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1785067?filter=.aarch64-linux) | 26 | 23 | 2 | 6649 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1785067?filter=.x86_64-darwin) | 60 | 9 | 4 | 6568 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1785067?filter=.x86_64-linux) | 7 | 14 | 2 | 6718 | 
 #### Unmaintained packages with build failure
 <details><summary>78 job(s) </summary>
 
