@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1785643](https://hydra.nixos.org/eval/1785643) of nixpkgs commit [88ec79e](https://github.com/NixOS/nixpkgs/commits/88ec79e8f9cf08a65123641741698f145ab0f9a1) as of 2022-11-17 01:05 UTC*
+*evaluation [1785643](https://hydra.nixos.org/eval/1785643) of nixpkgs commit [88ec79e](https://github.com/NixOS/nixpkgs/commits/88ec79e8f9cf08a65123641741698f145ab0f9a1) as of 2022-11-17 06:18 UTC*
 
 :red_circle: **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -7,11 +7,11 @@
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1785643?filter=.aarch64-linux) | 24 | 28 | 1 | 1 | 6654 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1785643?filter=.x86_64-darwin) | 57 | 10 | 10 |  | 6568 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1785643?filter=.x86_64-linux) | 6 | 4 | 1 | 3 | 6733 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1785643?filter=.aarch64-linux) | 24 | 28 | 1 | 6655 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1785643?filter=.x86_64-darwin) | 57 | 10 | 10 | 6568 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1785643?filter=.x86_64-linux) | 6 | 4 | 1 | 6734 | 
 #### Maintained packages with failed dependency
 - [ ] [cabal2nix](https://hydra.nixos.org/eval/1785643?filter=cabal2nix) @peti
   - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/199001977) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/199001974) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/199001963) [toplevel](https://hydra.nixos.org/eval/1785643?filter=cabal2nix)
