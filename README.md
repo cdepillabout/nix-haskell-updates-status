@@ -1,17 +1,15 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1785739](https://hydra.nixos.org/eval/1785739) of nixpkgs commit [7e53f5f](https://github.com/NixOS/nixpkgs/commits/7e53f5f41cdc9923fd8a62a877cc3165de02b19d) as of 2022-11-18 12:26 UTC*
+*evaluation [1785739](https://hydra.nixos.org/eval/1785739) of nixpkgs commit [7e53f5f](https://github.com/NixOS/nixpkgs/commits/7e53f5f41cdc9923fd8a62a877cc3165de02b19d) as of 2022-11-18 18:18 UTC*
 
-:yellow_circle: **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
-  * `mergeable` jobset is not finished.
-  * `maintained` jobset is not finished.
+:green_circle: **Ready to merge** (if there are no [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1785739?filter=.aarch64-linux) | 24 | 27 | 1 | 1 | 6655 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1785739?filter=.x86_64-darwin) | 57 | 9 | 10 | 1 | 6568 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1785739?filter=.x86_64-linux) | 6 | 1 | 1 | 3 | 6734 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1785739?filter=.aarch64-linux) | 24 | 27 | 2 | 6655 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1785739?filter=.x86_64-darwin) | 57 | 9 | 11 | 6568 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1785739?filter=.x86_64-linux) | 6 | 1 | 2 | 6736 | 
 #### Maintained packages with failed dependency
 - [ ] [cabal2nix](https://hydra.nixos.org/eval/1785739?filter=cabal2nix) @peti
   - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/199001977) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/199001974) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/199001963) [toplevel](https://hydra.nixos.org/eval/1785739?filter=cabal2nix)
