@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1785983](https://hydra.nixos.org/eval/1785983) of nixpkgs commit [bc73da2](https://github.com/NixOS/nixpkgs/commits/bc73da29ee0978fa544c3733348b172bceafa549) as of 2022-11-23 18:17 UTC*
+*evaluation [1785983](https://hydra.nixos.org/eval/1785983) of nixpkgs commit [bc73da2](https://github.com/NixOS/nixpkgs/commits/bc73da29ee0978fa544c3733348b172bceafa549) as of 2022-11-24 01:37 UTC*
 
 :red_circle: **Branch not mergeable**
   * No `maintained` job found.
@@ -188,7 +188,7 @@
 - [ ] [[:iphone::x:]](https://hydra.nixos.org/build/199756877) [[:apple::x:]](https://hydra.nixos.org/build/199757135) [[:penguin::x:]](https://hydra.nixos.org/build/199756857) [haskellPackages.jsaddle](https://hydra.nixos.org/eval/1785983?filter=haskellPackages.jsaddle)  :arrow_heading_up: 20 | 56
 - [ ] [[:iphone::x:]](https://hydra.nixos.org/build/199750445) [[:apple::x:]](https://hydra.nixos.org/build/199747402) [[:penguin::x:]](https://hydra.nixos.org/build/199751899) [haskellPackages.storablevector](https://hydra.nixos.org/eval/1785983?filter=haskellPackages.storablevector)  :arrow_heading_up: 20 | 28
 - [ ] [[:iphone::x:]](https://hydra.nixos.org/build/199743512) [[:apple::x:]](https://hydra.nixos.org/build/199744213) [[:penguin::x:]](https://hydra.nixos.org/build/199750713) [haskellPackages.singletons-th](https://hydra.nixos.org/eval/1785983?filter=haskellPackages.singletons-th)  :arrow_heading_up: 15 | 30
-- [ ] [[:iphone::x:]](https://hydra.nixos.org/build/199750325) [[:apple::x:]](https://hydra.nixos.org/build/199753303) [[:penguin::x:]](https://hydra.nixos.org/build/199735952) [haskellPackages.ghc-exactprint](https://hydra.nixos.org/eval/1785983?filter=haskellPackages.ghc-exactprint)  :arrow_heading_up: 14 | 22
+- [ ] [[:iphone::x:]](https://hydra.nixos.org/build/199750325) [[:apple::x:]](https://hydra.nixos.org/build/199753303) [[:penguin::x:]](https://hydra.nixos.org/build/199735952) [haskellPackages.ghc-exactprint](https://hydra.nixos.org/eval/1785983?filter=haskellPackages.ghc-exactprint)  :arrow_heading_up: 12 | 22
 - [ ] [[:iphone::x:]](https://hydra.nixos.org/build/199753943) [[:apple::x:]](https://hydra.nixos.org/build/199746328) [[:penguin::x:]](https://hydra.nixos.org/build/199746725) [haskellPackages.multipart](https://hydra.nixos.org/eval/1785983?filter=haskellPackages.multipart)  :arrow_heading_up: 10 | 53
 - [ ] [[:iphone::x:]](https://hydra.nixos.org/build/199745367) [[:apple::x:]](https://hydra.nixos.org/build/199747498) [[:penguin::x:]](https://hydra.nixos.org/build/199748272) [haskellPackages.TypeCompose](https://hydra.nixos.org/eval/1785983?filter=haskellPackages.TypeCompose)  :arrow_heading_up: 9 | 46
 - [ ] [[:iphone::x:]](https://hydra.nixos.org/build/199765130) [[:apple::x:]](https://hydra.nixos.org/build/199765061) [[:penguin::x:]](https://hydra.nixos.org/build/199765145) [haskellPackages.reflex](https://hydra.nixos.org/eval/1785983?filter=haskellPackages.reflex)  :arrow_heading_up: 9 | 45
