@@ -1,16 +1,16 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1787412](https://hydra.nixos.org/eval/1787412) of nixpkgs commit [1baf257](https://github.com/NixOS/nixpkgs/commits/1baf25788efcec93dcd2346a41db9c8bf40729ce) as of 2022-12-13 06:18 UTC*
+*evaluation [1787412](https://hydra.nixos.org/eval/1787412) of nixpkgs commit [1baf257](https://github.com/NixOS/nixpkgs/commits/1baf25788efcec93dcd2346a41db9c8bf40729ce) as of 2022-12-13 12:25 UTC*
 
 :yellow_circle: **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1787412?filter=.aarch64-linux) | 427 | 285 | 3 |  | 6076 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1787412?filter=.x86_64-darwin) | 460 | 309 | 10 |  | 5956 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1787412?filter=.x86_64-linux) | 425 | 279 | 3 | 3 | 6129 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1787412?filter=.aarch64-linux) | 427 | 285 | 3 | 6076 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1787412?filter=.x86_64-darwin) | 460 | 309 | 10 | 5956 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1787412?filter=.x86_64-linux) | 425 | 279 | 3 | 6130 | 
 #### Maintained packages with build failure
 - [ ] [[:iphone::x:]](https://hydra.nixos.org/build/201108163) [[:apple::x:]](https://hydra.nixos.org/build/201107082) [[:penguin::x:]](https://hydra.nixos.org/build/201106063) [carp](https://hydra.nixos.org/eval/1787412?filter=carp) @jluttine
 - [ ] [emanote](https://hydra.nixos.org/eval/1787412?filter=emanote) @maralorn
