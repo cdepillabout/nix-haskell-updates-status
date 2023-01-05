@@ -1,16 +1,16 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1788768](https://hydra.nixos.org/eval/1788768) of nixpkgs commit [32e1f57](https://github.com/NixOS/nixpkgs/commits/32e1f57fbd2063b28d49beb1f20a3af722ad85f6) as of 2023-01-05 00:58 UTC*
+*evaluation [1788768](https://hydra.nixos.org/eval/1788768) of nixpkgs commit [32e1f57](https://github.com/NixOS/nixpkgs/commits/32e1f57fbd2063b28d49beb1f20a3af722ad85f6) as of 2023-01-05 06:17 UTC*
 
 :yellow_circle: **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1788768?filter=.aarch64-linux) | 18 | 13 | 2 |  | 6420 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1788768?filter=.x86_64-darwin) | 58 | 9 | 291 | 4 | 6034 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1788768?filter=.x86_64-linux) | 4 | 1 |  |  | 6482 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1788768?filter=.aarch64-linux) | 18 | 13 | 2 | 6420 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1788768?filter=.x86_64-darwin) | 58 | 9 | 295 | 6034 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1788768?filter=.x86_64-linux) | 4 | 1 |  | 6482 | 
 #### Maintained packages with build failure
 - [ ] [nix-diff](https://hydra.nixos.org/eval/1788768?filter=nix-diff) @Gabriella439 @sorki @terlar
   - [[:iphone::x:]](https://hydra.nixos.org/build/203929368) [[:apple::x:]](https://hydra.nixos.org/build/203929358) [[:penguin::x:]](https://hydra.nixos.org/build/203929325) [toplevel](https://hydra.nixos.org/eval/1788768?filter=nix-diff)
