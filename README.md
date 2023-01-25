@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1789638](https://hydra.nixos.org/eval/1789638) of nixpkgs commit [a67028b](https://github.com/NixOS/nixpkgs/commits/a67028b84298b2cebf715be41c3667bb8dca202d) as of 2023-01-24 18:17 UTC*
+*evaluation [1789638](https://hydra.nixos.org/eval/1789638) of nixpkgs commit [a67028b](https://github.com/NixOS/nixpkgs/commits/a67028b84298b2cebf715be41c3667bb8dca202d) as of 2023-01-25 00:56 UTC*
 
 :yellow_circle: **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
@@ -10,12 +10,11 @@
  | --- | --- | --- | --- | --- | --- | --- | 
  | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1789638?filter=.aarch64-linux) | 20 | 11 | 2 | 2 |  | 6435 | 
  | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1789638?filter=.x86_64-darwin) | 58 | 10 |  |  |  | 6342 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1789638?filter=.x86_64-linux) | 8 | 8 |  |  | 15 | 6476 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1789638?filter=.x86_64-linux) | 7 | 8 |  |  | 11 | 6480 | 
 #### Maintained packages with build failure
 - [ ] [ghc](https://hydra.nixos.org/eval/1789638?filter=ghc) @cdepillabout @expipiplus1 @guibou @maralorn @sternenseemann
   - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/205683761) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/205665535) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/205675489) [haskellPackages](https://hydra.nixos.org/eval/1789638?filter=haskellPackages.ghc)
   - [[:iphone::warning:]](https://hydra.nixos.org/build/206759811) [[:apple::x:]](https://hydra.nixos.org/build/206759813) [[:penguin::hourglass_flowing_sand:]](https://hydra.nixos.org/build/206759827) [pkgsCross.ghcjs.haskellPackages](https://hydra.nixos.org/eval/1789638?filter=pkgsCross.ghcjs.haskellPackages.ghc)
-- [ ] [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/206555574) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/205678633) [[:penguin::x:]](https://hydra.nixos.org/build/206555559) [haskellPackages.pg-client](https://hydra.nixos.org/eval/1789638?filter=haskellPackages.pg-client) @Lassulus
 #### Maintained packages with failed dependency
 - [ ] [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/206774842) [maintained](https://hydra.nixos.org/eval/1789638?filter=maintained) @cdepillabout @expipiplus1 @maralorn @sternenseemann
 #### Unmaintained packages with build failure
