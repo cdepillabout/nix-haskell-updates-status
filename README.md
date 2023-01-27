@@ -1,16 +1,15 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1789762](https://hydra.nixos.org/eval/1789762) of nixpkgs commit [4671a0d](https://github.com/NixOS/nixpkgs/commits/4671a0d96b10f87bbfc885dfb2f09c51139ea2e8) as of 2023-01-26 18:16 UTC*
+*evaluation [1789762](https://hydra.nixos.org/eval/1789762) of nixpkgs commit [4671a0d](https://github.com/NixOS/nixpkgs/commits/4671a0d96b10f87bbfc885dfb2f09c51139ea2e8) as of 2023-01-27 01:00 UTC*
 
-:yellow_circle: **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
-  * `maintained` jobset is not finished.
+:green_circle: **Ready to merge** (if there are no [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | OutputLimitExceeded :warning: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1789762?filter=.aarch64-linux) | 15 | 10 | 2 | 2 | 5 | 6433 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1789762?filter=.x86_64-darwin) | 54 | 9 |  |  |  | 6345 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1789762?filter=.x86_64-linux) | 1 |  |  |  | 7 | 6493 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | OutputLimitExceeded :warning: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1789762?filter=.aarch64-linux) | 15 | 10 | 2 | 2 | 6438 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1789762?filter=.x86_64-darwin) | 54 | 9 |  |  | 6345 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1789762?filter=.x86_64-linux) | 1 |  |  |  | 6500 | 
 #### Maintained packages with build failure
 - [ ] [ghc](https://hydra.nixos.org/eval/1789762?filter=ghc) @cdepillabout @expipiplus1 @guibou @maralorn @sternenseemann
   - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/205683761) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/205665535) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/205675489) [haskellPackages](https://hydra.nixos.org/eval/1789762?filter=haskellPackages.ghc)
