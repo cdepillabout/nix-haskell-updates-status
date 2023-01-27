@@ -1,21 +1,22 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1789784](https://hydra.nixos.org/eval/1789784) of nixpkgs commit [6f73d05](https://github.com/NixOS/nixpkgs/commits/6f73d05fb9c8260b17a1a8086ff1597a1d1b5444) as of 2023-01-27 06:17 UTC*
+*evaluation [1789784](https://hydra.nixos.org/eval/1789784) of nixpkgs commit [6f73d05](https://github.com/NixOS/nixpkgs/commits/6f73d05fb9c8260b17a1a8086ff1597a1d1b5444) as of 2023-01-27 12:23 UTC*
 
-:yellow_circle: **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
-  * `mergeable` jobset is not finished.
-  * `maintained` jobset is not finished.
+:green_circle: **Ready to merge** (if there are no [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | OutputLimitExceeded :warning: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1789784?filter=.aarch64-linux) | 15 | 10 | 2 | 2 | 6 | 6432 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1789784?filter=.x86_64-darwin) | 54 | 9 |  |  | 6 | 6339 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1789784?filter=.x86_64-linux) | 1 |  |  |  | 10 | 6491 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | OutputLimitExceeded :warning: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1789784?filter=.aarch64-linux) | 15 | 10 | 2 | 2 | 6438 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1789784?filter=.x86_64-darwin) | 54 | 9 |  |  | 6345 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1789784?filter=.x86_64-linux) | 2 |  |  |  | 6500 | 
 #### Maintained packages with build failure
 - [ ] [ghc](https://hydra.nixos.org/eval/1789784?filter=ghc) @cdepillabout @expipiplus1 @guibou @maralorn @sternenseemann
   - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/205683761) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/205665535) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/205675489) [haskellPackages](https://hydra.nixos.org/eval/1789784?filter=haskellPackages.ghc)
   - [[:iphone::warning:]](https://hydra.nixos.org/build/206759811) [[:apple::x:]](https://hydra.nixos.org/build/206759813) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/206759827) [pkgsCross.ghcjs.haskellPackages](https://hydra.nixos.org/eval/1789784?filter=pkgsCross.ghcjs.haskellPackages.ghc)
+- [ ] [xmonad](https://hydra.nixos.org/eval/1789784?filter=xmonad) @NeQuissimus @dschrempf @ivanbrennan @peti
+  - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/205669390) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/205679119) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/205672542) [haskellPackages](https://hydra.nixos.org/eval/1789784?filter=haskellPackages.xmonad)
+  -   [[:penguin::x:]](https://hydra.nixos.org/build/207063431) [nixosTests](https://hydra.nixos.org/eval/1789784?filter=nixosTests.xmonad)
 #### Unmaintained packages with build failure
 <details><summary>72 job(s) </summary>
 
