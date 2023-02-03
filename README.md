@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1790105](https://hydra.nixos.org/eval/1790105) of nixpkgs commit [69514aa](https://github.com/NixOS/nixpkgs/commits/69514aad3baa203399fe095c54dd98e04655214d) as of 2023-02-03 06:17 UTC*
+*evaluation [1790105](https://hydra.nixos.org/eval/1790105) of nixpkgs commit [69514aa](https://github.com/NixOS/nixpkgs/commits/69514aad3baa203399fe095c54dd98e04655214d) as of 2023-02-03 12:25 UTC*
 
 :red_circle: **Branch not mergeable**
   * No `maintained` job found.
@@ -7,11 +7,11 @@
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | OutputLimitExceeded :warning: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1790105?filter=.aarch64-linux) | 36 | 25 | 2 | 3 |  | 6430 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1790105?filter=.x86_64-darwin) | 82 | 53 |  | 154 |  | 6160 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1790105?filter=.x86_64-linux) | 21 | 14 |  | 1 | 3 | 6492 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | OutputLimitExceeded :warning: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1790105?filter=.aarch64-linux) | 36 | 25 | 2 | 3 | 6430 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1790105?filter=.x86_64-darwin) | 82 | 53 |  | 154 | 6160 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1790105?filter=.x86_64-linux) | 21 | 14 |  | 1 | 6493 | 
 #### Maintained packages with build failure
 - [ ] [[:apple::x:]](https://hydra.nixos.org/build/207555617) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/207554200) [haskellPackages.bytepatch](https://hydra.nixos.org/eval/1790105?filter=haskellPackages.bytepatch) @raehik
 - [ ] [ghc](https://hydra.nixos.org/eval/1790105?filter=ghc) @cdepillabout @expipiplus1 @guibou @maralorn @sternenseemann
