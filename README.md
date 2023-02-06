@@ -1,16 +1,16 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1790231](https://hydra.nixos.org/eval/1790231) of nixpkgs commit [328d6f8](https://github.com/NixOS/nixpkgs/commits/328d6f84992c24a62e59f42bd8ec32cd42f3225e) as of 2023-02-05 18:15 UTC*
+*evaluation [1790231](https://hydra.nixos.org/eval/1790231) of nixpkgs commit [328d6f8](https://github.com/NixOS/nixpkgs/commits/328d6f84992c24a62e59f42bd8ec32cd42f3225e) as of 2023-02-06 00:56 UTC*
 
 :yellow_circle: **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | OutputLimitExceeded :warning: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1790231?filter=.aarch64-linux) | 41 | 26 | 2 | 3 |  | 6436 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1790231?filter=.x86_64-darwin) | 88 | 46 |  | 153 | 1 | 6168 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1790231?filter=.x86_64-linux) | 26 | 15 |  | 1 | 13 | 6499 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | OutputLimitExceeded :warning: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1790231?filter=.aarch64-linux) | 41 | 26 | 2 | 3 | 6436 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1790231?filter=.x86_64-darwin) | 88 | 46 |  | 153 | 6169 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1790231?filter=.x86_64-linux) | 26 | 15 |  | 1 | 6500 | 
 #### Maintained packages with build failure
 - [ ] [[:apple::x:]](https://hydra.nixos.org/build/207555617) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/207554200) [haskellPackages.bytepatch](https://hydra.nixos.org/eval/1790231?filter=haskellPackages.bytepatch) @raehik
 - [ ] [ghc](https://hydra.nixos.org/eval/1790231?filter=ghc) @cdepillabout @expipiplus1 @guibou @maralorn @sternenseemann
