@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1790367](https://hydra.nixos.org/eval/1790367) of nixpkgs commit [bc06331](https://github.com/NixOS/nixpkgs/commits/bc0633140ba728d3f846c1567f2d7ab605797a90) as of 2023-02-08 18:18 UTC*
+*evaluation [1790367](https://hydra.nixos.org/eval/1790367) of nixpkgs commit [bc06331](https://github.com/NixOS/nixpkgs/commits/bc0633140ba728d3f846c1567f2d7ab605797a90) as of 2023-02-09 00:57 UTC*
 
 :yellow_circle: **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset is not finished.
@@ -8,9 +8,9 @@
 
  | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | OutputLimitExceeded :warning: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
  | --- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1790367?filter=.aarch64-linux) | 41 | 24 | 2 | 3 | 4 | 6433 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1790367?filter=.x86_64-darwin) | 88 | 43 |  | 153 | 3 | 6167 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1790367?filter=.x86_64-linux) | 26 | 12 |  | 1 | 8 | 6496 | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1790367?filter=.aarch64-linux) | 41 | 24 | 2 | 3 | 1 | 6436 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1790367?filter=.x86_64-darwin) | 88 | 43 |  | 153 | 1 | 6169 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1790367?filter=.x86_64-linux) | 26 | 12 |  | 1 | 4 | 6499 | 
 #### Maintained packages with build failure
 - [ ] [[:apple::x:]](https://hydra.nixos.org/build/207555617) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/207554200) [haskellPackages.bytepatch](https://hydra.nixos.org/eval/1790367?filter=haskellPackages.bytepatch) @raehik
 - [ ] [ghc](https://hydra.nixos.org/eval/1790367?filter=ghc) @cdepillabout @expipiplus1 @guibou @maralorn @sternenseemann
