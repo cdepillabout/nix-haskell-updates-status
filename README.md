@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1790990](https://hydra.nixos.org/eval/1790990) of nixpkgs commit [5fce642](https://github.com/NixOS/nixpkgs/commits/5fce642ce663fe67828a79f0afa5d777a191b1a4) as of 2023-02-21 01:01 UTC*
+*evaluation [1790990](https://hydra.nixos.org/eval/1790990) of nixpkgs commit [5fce642](https://github.com/NixOS/nixpkgs/commits/5fce642ce663fe67828a79f0afa5d777a191b1a4) as of 2023-02-21 06:17 UTC*
 
 :red_circle: **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -7,11 +7,11 @@
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1790990?filter=.aarch64-linux) | 18 | 11 | 5 |  | 6441 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1790990?filter=.x86_64-darwin) | 58 | 52 | 202 |  | 6107 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1790990?filter=.x86_64-linux) | 6 | 5 | 3 | 2 | 6499 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1790990?filter=.aarch64-linux) | 18 | 11 | 5 | 6441 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1790990?filter=.x86_64-darwin) | 58 | 52 | 202 | 6107 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1790990?filter=.x86_64-linux) | 6 | 5 | 3 | 6499 | 
 #### Maintained packages with build failure
 - [ ] [[:apple::x:]](https://hydra.nixos.org/build/209954454) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/209952263) [haskellPackages.bytepatch](https://hydra.nixos.org/eval/1790990?filter=haskellPackages.bytepatch) @raehik
 - [ ] [haskell-language-server](https://hydra.nixos.org/eval/1790990?filter=haskell-language-server) @maralorn
