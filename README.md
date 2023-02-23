@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1791102](https://hydra.nixos.org/eval/1791102) of nixpkgs commit [c784c1a](https://github.com/NixOS/nixpkgs/commits/c784c1a7e85eafc33e8c6a8852492a0a12dfc9f0) as of 2023-02-23 12:26 UTC*
+*evaluation [1791102](https://hydra.nixos.org/eval/1791102) of nixpkgs commit [c784c1a](https://github.com/NixOS/nixpkgs/commits/c784c1a7e85eafc33e8c6a8852492a0a12dfc9f0) as of 2023-02-23 18:18 UTC*
 
 :red_circle: **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -7,11 +7,11 @@
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | HydraFailure :construction: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1791102?filter=.aarch64-linux) | 17 | 10 | 5 |  | 6 | 6435 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1791102?filter=.x86_64-darwin) | 58 | 41 | 202 | 8 |  | 6112 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1791102?filter=.x86_64-linux) | 6 | 3 | 3 |  | 12 | 6492 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1791102?filter=.aarch64-linux) | 17 | 10 | 5 | 6 | 6435 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1791102?filter=.x86_64-darwin) | 58 | 41 | 202 |  | 6117 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1791102?filter=.x86_64-linux) | 6 | 3 | 3 | 12 | 6492 | 
 #### Maintained packages with build failure
 - [ ] [[:apple::x:]](https://hydra.nixos.org/build/209954454) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/209952263) [haskellPackages.bytepatch](https://hydra.nixos.org/eval/1791102?filter=haskellPackages.bytepatch) @raehik
 - [ ] [haskell-language-server](https://hydra.nixos.org/eval/1791102?filter=haskell-language-server) @maralorn
