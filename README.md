@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1791181](https://hydra.nixos.org/eval/1791181) of nixpkgs commit [9ace1d8](https://github.com/NixOS/nixpkgs/commits/9ace1d895c246d5a6fa9a405897d40f64b5167cd) as of 2023-02-24 18:18 UTC*
+*evaluation [1791181](https://hydra.nixos.org/eval/1791181) of nixpkgs commit [9ace1d8](https://github.com/NixOS/nixpkgs/commits/9ace1d895c246d5a6fa9a405897d40f64b5167cd) as of 2023-02-25 01:00 UTC*
 
 :red_circle: **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -7,11 +7,11 @@
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1791181?filter=.aarch64-linux) | 17 | 10 | 5 | 19 | 6442 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1791181?filter=.x86_64-darwin) | 58 | 41 | 202 | 19 | 6120 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1791181?filter=.x86_64-linux) | 6 | 4 | 3 |  | 6503 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1791181?filter=.aarch64-linux) | 17 | 10 | 5 | 6444 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1791181?filter=.x86_64-darwin) | 58 | 41 | 203 | 6120 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1791181?filter=.x86_64-linux) | 6 | 4 | 3 | 6503 | 
 #### Maintained packages with build failure
 - [ ] [[:apple::x:]](https://hydra.nixos.org/build/209954454) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/209952263) [haskellPackages.bytepatch](https://hydra.nixos.org/eval/1791181?filter=haskellPackages.bytepatch) @raehik
 - [ ] [haskell-language-server](https://hydra.nixos.org/eval/1791181?filter=haskell-language-server) @maralorn
@@ -21,7 +21,7 @@
   - [[:iphone::x:]](https://hydra.nixos.org/build/209953048) [[:apple::x:]](https://hydra.nixos.org/build/209954298) [[:penguin::x:]](https://hydra.nixos.org/build/209954137) [haskell.packages.ghc924](https://hydra.nixos.org/eval/1791181?filter=haskell.packages.ghc924.haskell-language-server)
   - [[:iphone::x:]](https://hydra.nixos.org/build/209954243) [[:apple::x:]](https://hydra.nixos.org/build/209955189) [[:penguin::x:]](https://hydra.nixos.org/build/209954491) [haskell.packages.ghc925](https://hydra.nixos.org/eval/1791181?filter=haskell.packages.ghc925.haskell-language-server)
   - [[:iphone::x:]](https://hydra.nixos.org/build/209953602) [[:apple::x:]](https://hydra.nixos.org/build/209954858) [[:penguin::x:]](https://hydra.nixos.org/build/209951540) [haskell.packages.ghc926](https://hydra.nixos.org/eval/1791181?filter=haskell.packages.ghc926.haskell-language-server)
-  - [[:iphone::hourglass_flowing_sand:]](https://hydra.nixos.org/build/210481137) [[:apple::hourglass_flowing_sand:]](https://hydra.nixos.org/build/210481112) [[:penguin::x:]](https://hydra.nixos.org/build/210481147) [haskell.packages.ghc944](https://hydra.nixos.org/eval/1791181?filter=haskell.packages.ghc944.haskell-language-server)
+  - [[:iphone::x:]](https://hydra.nixos.org/build/210481137) [[:apple::hourglass::no_entry_sign:]](https://hydra.nixos.org/build/210481112) [[:penguin::x:]](https://hydra.nixos.org/build/210481147) [haskell.packages.ghc944](https://hydra.nixos.org/eval/1791181?filter=haskell.packages.ghc944.haskell-language-server)
   - [[:iphone::x:]](https://hydra.nixos.org/build/209951643) [[:apple::x:]](https://hydra.nixos.org/build/209950937) [[:penguin::x:]](https://hydra.nixos.org/build/209951330) [haskellPackages](https://hydra.nixos.org/eval/1791181?filter=haskellPackages.haskell-language-server)
 #### Maintained packages with failed dependency
 - [ ] [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/210470667) [maintained](https://hydra.nixos.org/eval/1791181?filter=maintained) @cdepillabout @expipiplus1 @maralorn @sternenseemann
