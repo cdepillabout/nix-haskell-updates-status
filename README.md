@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1791458](https://hydra.nixos.org/eval/1791458) of nixpkgs commit [18c8b52](https://github.com/NixOS/nixpkgs/commits/18c8b52a1ef900bb2deaeaf47c2ac666f2509ffe) as of 2023-03-03 12:24 UTC*
+*evaluation [1791458](https://hydra.nixos.org/eval/1791458) of nixpkgs commit [18c8b52](https://github.com/NixOS/nixpkgs/commits/18c8b52a1ef900bb2deaeaf47c2ac666f2509ffe) as of 2023-03-03 18:18 UTC*
 
 :red_circle: **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -10,7 +10,7 @@
  | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
  | --- | --- | --- | --- | --- | 
  | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1791458?filter=.aarch64-linux) | 24 | 9 |  | 6473 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1791458?filter=.x86_64-darwin) | 72 | 97 | 55 | 6229 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1791458?filter=.x86_64-darwin) | 71 | 97 | 55 | 6230 | 
  | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1791458?filter=.x86_64-linux) | 14 | 8 | 8 | 6516 | 
 #### Maintained packages with failed dependency
 - [ ] [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/211241995) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/211238344) [haskellPackages.bytepatch](https://hydra.nixos.org/eval/1791458?filter=haskellPackages.bytepatch) @raehik
@@ -40,11 +40,10 @@
 - [ ] [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/211331129) [maintained](https://hydra.nixos.org/eval/1791458?filter=maintained) @cdepillabout @expipiplus1 @maralorn @sternenseemann
 - [ ] [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/211331132) [mergeable](https://hydra.nixos.org/eval/1791458?filter=mergeable) @cdepillabout @expipiplus1 @maralorn @sternenseemann
 #### Unmaintained packages with build failure
-<details><summary>85 job(s) </summary>
+<details><summary>84 job(s) </summary>
 
 - [ ] [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/211238367) [[:apple::x:]](https://hydra.nixos.org/build/211249055) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/211237276) [haskellPackages.haskell-gi](https://hydra.nixos.org/eval/1791458?filter=haskellPackages.haskell-gi)  :arrow_heading_up: 52 | 95
 - [ ] [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/211245619) [[:apple::x:]](https://hydra.nixos.org/build/211239730) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/211249625) [haskellPackages.indexed-list-literals](https://hydra.nixos.org/eval/1791458?filter=haskellPackages.indexed-list-literals)  :arrow_heading_up: 15 | 75
-- [ ] [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/211240364) [[:apple::x:]](https://hydra.nixos.org/build/211243440) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/211239571) [haskellPackages.graphviz](https://hydra.nixos.org/eval/1791458?filter=haskellPackages.graphviz)  :arrow_heading_up: 12 | 54
 - [ ] [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/211254039) [[:apple::x:]](https://hydra.nixos.org/build/211245399) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/211247469) [haskellPackages.bits-extra](https://hydra.nixos.org/eval/1791458?filter=haskellPackages.bits-extra)  :arrow_heading_up: 10 | 22
 - [ ] [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/211240691) [[:apple::x:]](https://hydra.nixos.org/build/211245193) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/211243678) [haskellPackages.di-core](https://hydra.nixos.org/eval/1791458?filter=haskellPackages.di-core)  :arrow_heading_up: 8 | 11
 - [ ] [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/211243017) [[:apple::x:]](https://hydra.nixos.org/build/211240263) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/211246442) [haskellPackages.X11-xft](https://hydra.nixos.org/eval/1791458?filter=haskellPackages.X11-xft)  :arrow_heading_up: 5 | 13
