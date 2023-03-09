@@ -1,16 +1,16 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1791680](https://hydra.nixos.org/eval/1791680) of nixpkgs commit [4bda2ab](https://github.com/NixOS/nixpkgs/commits/4bda2ab514930534471d9c1d814c4ece3aa942bc) as of 2023-03-09 06:18 UTC*
+*evaluation [1791680](https://hydra.nixos.org/eval/1791680) of nixpkgs commit [4bda2ab](https://github.com/NixOS/nixpkgs/commits/4bda2ab514930534471d9c1d814c4ece3aa942bc) as of 2023-03-09 12:25 UTC*
 
 :yellow_circle: **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1791680?filter=.aarch64-linux) | 24 | 3 |  |  | 6477 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1791680?filter=.x86_64-darwin) | 72 | 88 | 49 | 4 | 6237 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1791680?filter=.x86_64-linux) | 14 | 1 | 5 |  | 6524 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1791680?filter=.aarch64-linux) | 24 | 3 |  | 6477 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1791680?filter=.x86_64-darwin) | 72 | 88 | 49 | 6241 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1791680?filter=.x86_64-linux) | 14 | 1 | 5 | 6524 | 
 #### Maintained packages with build failure
 - [ ] [[:apple::x:]](https://hydra.nixos.org/build/211241995) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/211238344) [haskellPackages.bytepatch](https://hydra.nixos.org/eval/1791680?filter=haskellPackages.bytepatch) @raehik
 #### Maintained packages with failed dependency
