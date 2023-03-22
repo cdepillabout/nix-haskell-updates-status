@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1792373](https://hydra.nixos.org/eval/1792373) of nixpkgs commit [e6ecd31](https://github.com/NixOS/nixpkgs/commits/e6ecd31572724236e2a40cd1a354c3a5ed433c44) as of 2023-03-22 06:09 UTC*
+*evaluation [1792373](https://hydra.nixos.org/eval/1792373) of nixpkgs commit [e6ecd31](https://github.com/NixOS/nixpkgs/commits/e6ecd31572724236e2a40cd1a354c3a5ed433c44) as of 2023-03-22 12:09 UTC*
 
 :red_circle: **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -10,7 +10,7 @@
  | --- | --- | --- | --- | --- | 
  | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1792373?filter=.aarch64-darwin) | 70 | 15 | 2 | 6351 | 
  | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1792373?filter=.aarch64-linux) | 18 | 8 |  | 6485 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1792373?filter=.x86_64-darwin) | 60 | 13 | 2 | 6380 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1792373?filter=.x86_64-darwin) | 60 | 12 | 2 | 6380 | 
  | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1792373?filter=.x86_64-linux) | 9 | 6 |  | 6535 | 
 #### Maintained packages with build failure
 - [ ] [gitit](https://hydra.nixos.org/eval/1792373?filter=gitit) @Profpatsch @sternenseemann
@@ -18,18 +18,6 @@
   - [[:green_apple::heavy_check_mark:]](https://hydra.nixos.org/build/212836199) [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/212813012) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/212833558) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/212816280) [haskellPackages](https://hydra.nixos.org/eval/1792373?filter=haskellPackages.gitit)
 - [ ] [[:green_apple::x:]](https://hydra.nixos.org/build/212819221) [[:iphone::x:]](https://hydra.nixos.org/build/212835446) [[:apple::x:]](https://hydra.nixos.org/build/212832238) [[:penguin::x:]](https://hydra.nixos.org/build/212827991) [nix-output-monitor](https://hydra.nixos.org/eval/1792373?filter=nix-output-monitor) @maralorn
 #### Maintained packages with failed dependency
-- [ ] [cabal-install](https://hydra.nixos.org/eval/1792373?filter=cabal-install) @sternenseemann
-  - [[:green_apple::heavy_check_mark:]](https://hydra.nixos.org/build/213428046) [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/213428077) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/213428048) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/213428106) [toplevel](https://hydra.nixos.org/eval/1792373?filter=cabal-install)
-  - [[:green_apple::heavy_check_mark:]](https://hydra.nixos.org/build/213428059) [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/213428081) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/213428097) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/213428021) [haskell.packages.ghc8107](https://hydra.nixos.org/eval/1792373?filter=haskell.packages.ghc8107.cabal-install)
-  -  [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/213428117) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/213428026) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/213428116) [haskell.packages.ghc884](https://hydra.nixos.org/eval/1792373?filter=haskell.packages.ghc884.cabal-install)
-  - [[:green_apple::heavy_check_mark:]](https://hydra.nixos.org/build/213428031) [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/213428055) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/213428063) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/213428024) [haskell.packages.ghc902](https://hydra.nixos.org/eval/1792373?filter=haskell.packages.ghc902.cabal-install)
-  - [[:green_apple::heavy_check_mark:]](https://hydra.nixos.org/build/213428080) [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/213428090) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/213428123) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/213428110) [haskell.packages.ghc924](https://hydra.nixos.org/eval/1792373?filter=haskell.packages.ghc924.cabal-install)
-  - [[:green_apple::heavy_check_mark:]](https://hydra.nixos.org/build/213428022) [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/213428101) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/213428070) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/213428019) [haskell.packages.ghc925](https://hydra.nixos.org/eval/1792373?filter=haskell.packages.ghc925.cabal-install)
-  - [[:green_apple::heavy_check_mark:]](https://hydra.nixos.org/build/213428029) [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/213428072) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/213428033) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/213428039) [haskell.packages.ghc926](https://hydra.nixos.org/eval/1792373?filter=haskell.packages.ghc926.cabal-install)
-  - [[:green_apple::heavy_check_mark:]](https://hydra.nixos.org/build/213428017) [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/213428093) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/213428040) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/213428047) [haskell.packages.ghc927](https://hydra.nixos.org/eval/1792373?filter=haskell.packages.ghc927.cabal-install)
-  - [[:green_apple::heavy_check_mark:]](https://hydra.nixos.org/build/213428083) [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/213428004) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/213428121) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/213428052) [haskell.packages.ghc944](https://hydra.nixos.org/eval/1792373?filter=haskell.packages.ghc944.cabal-install)
-  - [[:green_apple::heavy_check_mark:]](https://hydra.nixos.org/build/213139560) [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/213139580) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/213139594) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/213139454) [haskell.packages.ghc961](https://hydra.nixos.org/eval/1792373?filter=haskell.packages.ghc961.cabal-install)
-  - [[:green_apple::heavy_check_mark:]](https://hydra.nixos.org/build/213428011) [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/213428007) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/213428064) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/213428095) [haskellPackages](https://hydra.nixos.org/eval/1792373?filter=haskellPackages.cabal-install)
 - [ ] [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/213428108) [mergeable](https://hydra.nixos.org/eval/1792373?filter=mergeable) @cdepillabout @expipiplus1 @maralorn @sternenseemann
 #### Unmaintained packages with build failure
 <details><summary>79 job(s) </summary>
