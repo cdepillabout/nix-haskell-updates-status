@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1792475](https://hydra.nixos.org/eval/1792475) of nixpkgs commit [16476cc](https://github.com/NixOS/nixpkgs/commits/16476ccdce65478f64864e5bc4c6320f1cd32a09) as of 2023-03-24 06:08 UTC*
+*evaluation [1792475](https://hydra.nixos.org/eval/1792475) of nixpkgs commit [16476cc](https://github.com/NixOS/nixpkgs/commits/16476ccdce65478f64864e5bc4c6320f1cd32a09) as of 2023-03-24 12:08 UTC*
 
 :red_circle: **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -7,12 +7,12 @@
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1792475?filter=.aarch64-darwin) | 63 | 27 |  |  | 6353 | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1792475?filter=.aarch64-linux) | 12 | 6 |  |  | 6496 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1792475?filter=.x86_64-darwin) | 56 | 10 | 1 |  | 6390 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1792475?filter=.x86_64-linux) | 4 | 5 |  | 4 | 6542 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1792475?filter=.aarch64-darwin) | 63 | 27 |  | 6353 | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1792475?filter=.aarch64-linux) | 12 | 6 |  | 6496 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1792475?filter=.x86_64-darwin) | 56 | 10 | 1 | 6390 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1792475?filter=.x86_64-linux) | 4 | 5 |  | 6544 | 
 #### Maintained packages with build failure
 - [ ] [gitit](https://hydra.nixos.org/eval/1792475?filter=gitit) @Profpatsch @sternenseemann
   - [[:green_apple::x:]](https://hydra.nixos.org/build/212824780) [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/212837521) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/212827322) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/212811791) [toplevel](https://hydra.nixos.org/eval/1792475?filter=gitit)
