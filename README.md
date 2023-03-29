@@ -1,18 +1,17 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1792742](https://hydra.nixos.org/eval/1792742) of nixpkgs commit [f9262fb](https://github.com/NixOS/nixpkgs/commits/f9262fba9c1d55a5058f912f9f25891aa66fd39e) as of 2023-03-29 18:16 UTC*
+*evaluation [1792742](https://hydra.nixos.org/eval/1792742) of nixpkgs commit [f9262fb](https://github.com/NixOS/nixpkgs/commits/f9262fba9c1d55a5058f912f9f25891aa66fd39e) as of 2023-03-29 23:39 UTC*
 
 :yellow_circle: **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
-  * `mergeable` jobset is not finished.
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1792742?filter=.aarch64-darwin) | 60 | 8 | 57 |  | 6310 | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1792742?filter=.aarch64-linux) | 14 | 12 |  |  | 6481 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1792742?filter=.x86_64-darwin) | 56 | 17 | 40 |  | 6344 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1792742?filter=.x86_64-linux) |  | 1 | 1 | 3 | 6541 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1792742?filter=.aarch64-darwin) | 60 | 8 | 57 | 6310 | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1792742?filter=.aarch64-linux) | 14 | 12 |  | 6481 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1792742?filter=.x86_64-darwin) | 56 | 17 | 40 | 6344 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1792742?filter=.x86_64-linux) |  | 1 | 1 | 6544 | 
 #### Maintained Darwin packages with build failure
 <details><summary>4 job(s) </summary>
 
