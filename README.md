@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1792837](https://hydra.nixos.org/eval/1792837) of nixpkgs commit [7841c98](https://github.com/NixOS/nixpkgs/commits/7841c98b5aced4f0540c69cb084391242c9be3f1) as of 2023-03-31 12:08 UTC*
+*evaluation [1792837](https://hydra.nixos.org/eval/1792837) of nixpkgs commit [7841c98](https://github.com/NixOS/nixpkgs/commits/7841c98b5aced4f0540c69cb084391242c9be3f1) as of 2023-03-31 18:08 UTC*
 
 :red_circle: **Branch not mergeable**
   * `mergeable` jobset failed.
