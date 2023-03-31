@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1792837](https://hydra.nixos.org/eval/1792837) of nixpkgs commit [7841c98](https://github.com/NixOS/nixpkgs/commits/7841c98b5aced4f0540c69cb084391242c9be3f1) as of 2023-03-31 06:08 UTC*
+*evaluation [1792837](https://hydra.nixos.org/eval/1792837) of nixpkgs commit [7841c98](https://github.com/NixOS/nixpkgs/commits/7841c98b5aced4f0540c69cb084391242c9be3f1) as of 2023-03-31 12:08 UTC*
 
 :red_circle: **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -7,12 +7,12 @@
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1792837?filter=.aarch64-darwin) | 70 | 193 | 296 |  | 5916 | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1792837?filter=.aarch64-linux) | 22 | 46 | 1 |  | 6467 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1792837?filter=.x86_64-darwin) | 67 | 56 | 16 | 4 | 6344 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1792837?filter=.x86_64-linux) | 15 | 46 | 1 |  | 6513 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1792837?filter=.aarch64-darwin) | 70 | 193 | 296 | 5916 | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1792837?filter=.aarch64-linux) | 22 | 46 | 1 | 6467 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1792837?filter=.x86_64-darwin) | 67 | 56 | 16 | 6348 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1792837?filter=.x86_64-linux) | 15 | 46 | 1 | 6513 | 
 #### Maintained Linux packages with build failure
 - [ ] [hercules-ci-agent](https://hydra.nixos.org/eval/1792837?filter=hercules-ci-agent) @roberth
   - [[:iphone::x:]](https://hydra.nixos.org/build/214510013) [[:penguin::x:]](https://hydra.nixos.org/build/214510003) [toplevel](https://hydra.nixos.org/eval/1792837?filter=hercules-ci-agent)
