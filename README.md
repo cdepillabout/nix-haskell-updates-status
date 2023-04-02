@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1792939](https://hydra.nixos.org/eval/1792939) of nixpkgs commit [4c0a636](https://github.com/NixOS/nixpkgs/commits/4c0a636de3d2e7515d7ea1079abbc2297f89ce34) as of 2023-04-02 12:08 UTC*
+*evaluation [1792939](https://hydra.nixos.org/eval/1792939) of nixpkgs commit [4c0a636](https://github.com/NixOS/nixpkgs/commits/4c0a636de3d2e7515d7ea1079abbc2297f89ce34) as of 2023-04-02 18:07 UTC*
 
 :red_circle: **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -12,7 +12,7 @@
  | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1792939?filter=.aarch64-darwin) | 80 | 22 | 436 |  | 5944 | 
  | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1792939?filter=.aarch64-linux) | 34 | 20 | 1 |  | 6484 | 
  | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1792939?filter=.x86_64-darwin) | 80 | 30 | 10 | 4 | 6360 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1792939?filter=.x86_64-linux) | 28 | 23 | 2 | 2 | 6525 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1792939?filter=.x86_64-linux) | 28 | 23 | 2 |  | 6525 | 
 #### Maintained Linux packages with build failure
 - [ ] [hercules-ci-agent](https://hydra.nixos.org/eval/1792939?filter=hercules-ci-agent) @roberth
   - [[:iphone::x:]](https://hydra.nixos.org/build/214600121) [[:penguin::x:]](https://hydra.nixos.org/build/214600592) [toplevel](https://hydra.nixos.org/eval/1792939?filter=hercules-ci-agent)
