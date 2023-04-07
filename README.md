@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1793187](https://hydra.nixos.org/eval/1793187) of nixpkgs commit [ee14a27](https://github.com/NixOS/nixpkgs/commits/ee14a276ab05e72f6dbf224ed5d85227f182984e) as of 2023-04-07 12:14 UTC*
+*evaluation [1793187](https://hydra.nixos.org/eval/1793187) of nixpkgs commit [ee14a27](https://github.com/NixOS/nixpkgs/commits/ee14a276ab05e72f6dbf224ed5d85227f182984e) as of 2023-04-07 18:08 UTC*
 
 :green_circle: **Ready to merge** (if there are no [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
 
@@ -9,8 +9,8 @@
  | --- | --- | --- | --- | --- | --- | 
  | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1793187?filter=.aarch64-darwin) | 70 | 17 | 409 |  | 5980 | 
  | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1793187?filter=.aarch64-linux) | 24 | 14 | 1 |  | 6497 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1793187?filter=.x86_64-darwin) | 69 | 24 | 11 | 2 | 6377 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1793187?filter=.x86_64-linux) | 20 | 13 | 2 | 2 | 6540 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1793187?filter=.x86_64-darwin) | 69 | 24 | 11 |  | 6377 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1793187?filter=.x86_64-linux) | 20 | 13 | 2 | 1 | 6540 | 
 #### Maintained Darwin packages with build failure
 <details><summary>3 job(s) </summary>
 
