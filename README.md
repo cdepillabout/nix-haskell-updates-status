@@ -1,17 +1,17 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1793235](https://hydra.nixos.org/eval/1793235) of nixpkgs commit [632d358](https://github.com/NixOS/nixpkgs/commits/632d358c647a48bafd6ab322239b78f30c2e93f8) as of 2023-04-08 06:08 UTC*
+*evaluation [1793235](https://hydra.nixos.org/eval/1793235) of nixpkgs commit [632d358](https://github.com/NixOS/nixpkgs/commits/632d358c647a48bafd6ab322239b78f30c2e93f8) as of 2023-04-08 12:09 UTC*
 
 :yellow_circle: **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1793235?filter=.aarch64-darwin) | 67 | 7 | 54 | 3 | 6314 | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1793235?filter=.aarch64-linux) | 19 | 6 |  |  | 6487 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1793235?filter=.x86_64-darwin) | 62 | 13 | 31 | 10 | 6344 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1793235?filter=.x86_64-linux) | 8 | 2 | 2 |  | 6536 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1793235?filter=.aarch64-darwin) | 67 | 7 | 56 | 6314 | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1793235?filter=.aarch64-linux) | 19 | 6 |  | 6487 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1793235?filter=.x86_64-darwin) | 62 | 13 | 34 | 6347 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1793235?filter=.x86_64-linux) | 8 | 2 | 2 | 6536 | 
 #### Maintained Linux packages with build failure
 - [ ] [haskell-ci](https://hydra.nixos.org/eval/1793235?filter=haskell-ci) @sternenseemann
   - [[:iphone::x:]](https://hydra.nixos.org/build/215308246) [[:penguin::x:]](https://hydra.nixos.org/build/215312342) [toplevel](https://hydra.nixos.org/eval/1793235?filter=haskell-ci)
