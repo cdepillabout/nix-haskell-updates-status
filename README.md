@@ -1,17 +1,17 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1793313](https://hydra.nixos.org/eval/1793313) of nixpkgs commit [4f4bfa9](https://github.com/NixOS/nixpkgs/commits/4f4bfa9b96898591a0115ecd7e661305e8e3199b) as of 2023-04-09 18:09 UTC*
+*evaluation [1793313](https://hydra.nixos.org/eval/1793313) of nixpkgs commit [4f4bfa9](https://github.com/NixOS/nixpkgs/commits/4f4bfa9b96898591a0115ecd7e661305e8e3199b) as of 2023-04-10 00:13 UTC*
 
 :yellow_circle: **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1793313?filter=.aarch64-darwin) | 66 | 7 | 56 |  | 6314 | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1793313?filter=.aarch64-linux) | 18 | 5 |  |  | 6488 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1793313?filter=.x86_64-darwin) | 61 | 12 | 34 | 1 | 6348 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1793313?filter=.x86_64-linux) | 7 | 1 | 2 | 3 | 6534 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1793313?filter=.aarch64-darwin) | 66 | 7 | 56 | 6314 | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1793313?filter=.aarch64-linux) | 18 | 5 |  | 6488 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1793313?filter=.x86_64-darwin) | 61 | 12 | 35 | 6348 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1793313?filter=.x86_64-linux) | 7 | 1 | 2 | 6537 | 
 #### Maintained Linux packages with failed dependency
 - [ ] [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/215398638) [maintained](https://hydra.nixos.org/eval/1793313?filter=maintained) @cdepillabout @expipiplus1 @maralorn @sternenseemann
 #### Maintained Darwin packages with build failure
