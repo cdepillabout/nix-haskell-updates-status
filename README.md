@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1793876](https://hydra.nixos.org/eval/1793876) of nixpkgs commit [09055b5](https://github.com/NixOS/nixpkgs/commits/09055b5598a5efaf40060a55811191653a2cd799) as of 2023-04-20 18:13 UTC*
+*evaluation [1793876](https://hydra.nixos.org/eval/1793876) of nixpkgs commit [09055b5](https://github.com/NixOS/nixpkgs/commits/09055b5598a5efaf40060a55811191653a2cd799) as of 2023-04-21 00:13 UTC*
 
 :red_circle: **Branch not mergeable**
   * No `maintained` job found.
@@ -9,7 +9,7 @@
  | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
  | --- | --- | --- | --- | --- | 
  | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1793876?filter=.aarch64-darwin) | 70 | 20 | 41 | 6344 | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1793876?filter=.aarch64-linux) | 13 | 52 |  | 6470 | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1793876?filter=.aarch64-linux) | 13 | 42 |  | 6480 | 
  | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1793876?filter=.x86_64-darwin) | 33 | 16 | 3040 | 3408 | 
  | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1793876?filter=.x86_64-linux) | 5 | 2 | 1 | 6564 | 
 #### Maintained Linux packages with build failure
@@ -19,19 +19,6 @@
 - [ ] [matterhorn](https://hydra.nixos.org/eval/1793876?filter=matterhorn) @Kiwi
   - [[:iphone::x:]](https://hydra.nixos.org/build/216846535) [[:penguin::x:]](https://hydra.nixos.org/build/216846472) [toplevel](https://hydra.nixos.org/eval/1793876?filter=matterhorn)
   - [[:iphone::x:]](https://hydra.nixos.org/build/216846539) [[:penguin::x:]](https://hydra.nixos.org/build/216846499) [haskellPackages](https://hydra.nixos.org/eval/1793876?filter=haskellPackages.matterhorn)
-#### Maintained Linux packages with failed dependency
-- [ ] [bench](https://hydra.nixos.org/eval/1793876?filter=bench) @Gabriella439
-  - [[:iphone::heavy_exclamation_mark:]](https://hydra.nixos.org/build/216733660) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/216735084) [toplevel](https://hydra.nixos.org/eval/1793876?filter=bench)
-  - [[:iphone::heavy_exclamation_mark:]](https://hydra.nixos.org/build/216741580) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/216752992) [haskellPackages](https://hydra.nixos.org/eval/1793876?filter=haskellPackages.bench)
-- [ ] [[:iphone::heavy_exclamation_mark:]](https://hydra.nixos.org/build/216738464) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/216753553) [haskellPackages.covariance](https://hydra.nixos.org/eval/1793876?filter=haskellPackages.covariance) @dschrempf
-- [ ] [[:iphone::heavy_exclamation_mark:]](https://hydra.nixos.org/build/216751934) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/216738727) [haskellPackages.elynx](https://hydra.nixos.org/eval/1793876?filter=haskellPackages.elynx) @dschrempf
-- [ ] [[:iphone::heavy_exclamation_mark:]](https://hydra.nixos.org/build/216753725) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/216757993) [haskellPackages.elynx-markov](https://hydra.nixos.org/eval/1793876?filter=haskellPackages.elynx-markov) @dschrempf
-- [ ] [[:iphone::heavy_exclamation_mark:]](https://hydra.nixos.org/build/216756537) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/216739185) [haskellPackages.elynx-tree](https://hydra.nixos.org/eval/1793876?filter=haskellPackages.elynx-tree) @dschrempf
-- [ ] [[:iphone::heavy_exclamation_mark:]](https://hydra.nixos.org/build/216753169) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/216732811) [haskellPackages.eventlog2html](https://hydra.nixos.org/eval/1793876?filter=haskellPackages.eventlog2html) @maralorn
-- [ ] [[:iphone::heavy_exclamation_mark:]](https://hydra.nixos.org/build/216739789) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/216746779) [haskellPackages.mcmc](https://hydra.nixos.org/eval/1793876?filter=haskellPackages.mcmc) @dschrempf
-- [ ] [[:iphone::heavy_exclamation_mark:]](https://hydra.nixos.org/build/216744669) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/216754006) [haskellPackages.monad-bayes](https://hydra.nixos.org/eval/1793876?filter=haskellPackages.monad-bayes) @turion
-- [ ] [[:iphone::heavy_exclamation_mark:]](https://hydra.nixos.org/build/216743197) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/216752986) [haskellPackages.slynx](https://hydra.nixos.org/eval/1793876?filter=haskellPackages.slynx) @dschrempf
-- [ ] [[:iphone::heavy_exclamation_mark:]](https://hydra.nixos.org/build/216734664) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/216753050) [haskellPackages.tlynx](https://hydra.nixos.org/eval/1793876?filter=haskellPackages.tlynx) @dschrempf
 #### Maintained Darwin packages with build failure
 <details><summary>9 job(s) </summary>
 
