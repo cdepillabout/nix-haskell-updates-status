@@ -1,17 +1,17 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1794152](https://hydra.nixos.org/eval/1794152) of nixpkgs commit [c8f5df5](https://github.com/NixOS/nixpkgs/commits/c8f5df5a8e9ed83f820e945e76b9015139660b29) as of 2023-04-26 06:08 UTC*
+*evaluation [1794152](https://hydra.nixos.org/eval/1794152) of nixpkgs commit [c8f5df5](https://github.com/NixOS/nixpkgs/commits/c8f5df5a8e9ed83f820e945e76b9015139660b29) as of 2023-04-26 12:18 UTC*
 
 :red_circle: **Branch not mergeable**
   * No `maintained` job found.
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1794152?filter=.aarch64-darwin) | 70 | 22 | 40 |  | 6359 | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1794152?filter=.aarch64-linux) | 18 | 45 |  |  | 6521 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1794152?filter=.x86_64-darwin) | 36 | 33 | 2998 | 4 | 3445 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1794152?filter=.x86_64-linux) | 11 | 7 | 1 |  | 6602 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1794152?filter=.aarch64-darwin) | 70 | 22 | 40 | 6359 | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1794152?filter=.aarch64-linux) | 18 | 45 |  | 6521 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1794152?filter=.x86_64-darwin) | 36 | 33 | 2998 | 3449 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1794152?filter=.x86_64-linux) | 11 | 7 | 1 | 6602 | 
 #### Maintained Linux packages with build failure
 - [ ] [[:iphone::x:]](https://hydra.nixos.org/build/217010164) [[:penguin::x:]](https://hydra.nixos.org/build/217010147) [haskellPackages.med-module](https://hydra.nixos.org/eval/1794152?filter=haskellPackages.med-module) @thielema
 #### Maintained Linux packages with failed dependency
