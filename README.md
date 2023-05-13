@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1794950](https://hydra.nixos.org/eval/1794950) of nixpkgs commit [d0e8d8f](https://github.com/NixOS/nixpkgs/commits/d0e8d8f7cdef7018747dfc6da68aca149753ed26) as of 2023-05-13 06:10 UTC*
+*evaluation [1794950](https://hydra.nixos.org/eval/1794950) of nixpkgs commit [d0e8d8f](https://github.com/NixOS/nixpkgs/commits/d0e8d8f7cdef7018747dfc6da68aca149753ed26) as of 2023-05-13 12:10 UTC*
 
 :red_circle: **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -7,12 +7,12 @@
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | Canceled :no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1794950?filter=.aarch64-darwin) |  |  | 6490 | 1 | 5 | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1794950?filter=.aarch64-linux) | 7 | 36 | 2993 |  | 3593 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1794950?filter=.x86_64-darwin) |  |  | 6507 | 1 | 7 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1794950?filter=.x86_64-linux) |  | 1 | 6594 | 1 | 19 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | Canceled :no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1794950?filter=.aarch64-darwin) |  |  | 6490 | 6 | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1794950?filter=.aarch64-linux) | 7 | 36 | 2993 | 3593 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1794950?filter=.x86_64-darwin) |  |  | 6507 | 8 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1794950?filter=.x86_64-linux) |  | 1 | 6594 | 20 | 
 #### Maintained Linux packages with failed dependency
 - [ ] [bench](https://hydra.nixos.org/eval/1794950?filter=bench) @Gabriella439
   - [[:iphone::heavy_exclamation_mark:]](https://hydra.nixos.org/build/219475112) [[:penguin::no_entry_sign:]](https://hydra.nixos.org/build/219490156) [toplevel](https://hydra.nixos.org/eval/1794950?filter=bench)
