@@ -1,17 +1,17 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1795040](https://hydra.nixos.org/eval/1795040) of nixpkgs commit [1718cfb](https://github.com/NixOS/nixpkgs/commits/1718cfb0477e1541d2b338fb927d67c69cb316c0) as of 2023-05-15 06:07 UTC*
+*evaluation [1795040](https://hydra.nixos.org/eval/1795040) of nixpkgs commit [1718cfb](https://github.com/NixOS/nixpkgs/commits/1718cfb0477e1541d2b338fb927d67c69cb316c0) as of 2023-05-15 12:09 UTC*
 
 :yellow_circle: **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1795040?filter=.aarch64-darwin) | 67 | 282 |  |  | 6149 | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1795040?filter=.aarch64-linux) | 15 | 6 | 1 |  | 6552 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1795040?filter=.x86_64-darwin) | 60 | 14 | 1 | 1 | 6441 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1795040?filter=.x86_64-linux) | 7 | 32 |  |  | 6575 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1795040?filter=.aarch64-darwin) | 67 | 282 |  | 6149 | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1795040?filter=.aarch64-linux) | 15 | 6 | 1 | 6552 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1795040?filter=.x86_64-darwin) | 60 | 14 | 1 | 6441 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1795040?filter=.x86_64-linux) | 7 | 32 |  | 6575 | 
 #### Maintained Linux packages with build failure
 - [ ] [xmonad](https://hydra.nixos.org/eval/1795040?filter=xmonad) @NeQuissimus @dschrempf @ivanbrennan @peti
   - [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/219825071) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/219821242) [haskellPackages](https://hydra.nixos.org/eval/1795040?filter=haskellPackages.xmonad)
