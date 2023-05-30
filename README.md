@@ -1,18 +1,19 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1795739](https://hydra.nixos.org/eval/1795739) of nixpkgs commit [9d886b0](https://github.com/NixOS/nixpkgs/commits/9d886b026546ede5ff40c6e09d2f6161c8fb1269) as of 2023-05-30 12:18 UTC*
+*evaluation [1795739](https://hydra.nixos.org/eval/1795739) of nixpkgs commit [9d886b0](https://github.com/NixOS/nixpkgs/commits/9d886b026546ede5ff40c6e09d2f6161c8fb1269) as of 2023-05-30 18:19 UTC*
 
 :yellow_circle: **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
-  * `mergeable` jobset is not finished.
-  * `maintained` jobset is not finished.
+  * `maintained` jobset failed.
 
 #### Build summary
 
  | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
  | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1795739?filter=.aarch64-darwin) | 59 | 7 |  | 24 | 6443 | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1795739?filter=.aarch64-linux) | 9 | 3 |  | 23 | 6572 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1795739?filter=.x86_64-darwin) | 55 | 7 | 1 | 24 | 6464 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1795739?filter=.x86_64-linux) | 1 |  |  | 28 | 6620 | 
+ | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1795739?filter=.aarch64-darwin) | 59 | 7 |  | 16 | 6450 | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1795739?filter=.aarch64-linux) | 9 | 3 |  | 14 | 6580 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1795739?filter=.x86_64-darwin) | 55 | 7 | 1 | 16 | 6471 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1795739?filter=.x86_64-linux) | 1 | 1 |  | 16 | 6630 | 
+#### Maintained Linux packages with failed dependency
+- [ ] [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/221987705) [maintained](https://hydra.nixos.org/eval/1795739?filter=maintained) @cdepillabout @expipiplus1 @maralorn @sternenseemann
 #### Maintained Darwin packages with build failure
 <details><summary>3 job(s) </summary>
 
