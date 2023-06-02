@@ -1,16 +1,16 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1795825](https://hydra.nixos.org/eval/1795825) of nixpkgs commit [e886abb](https://github.com/NixOS/nixpkgs/commits/e886abb2c7812b251a1b5f66593abb20c202905b) as of 2023-06-01 18:08 UTC*
+*evaluation [1795825](https://hydra.nixos.org/eval/1795825) of nixpkgs commit [e886abb](https://github.com/NixOS/nixpkgs/commits/e886abb2c7812b251a1b5f66593abb20c202905b) as of 2023-06-02 00:14 UTC*
 
 :green_circle: **Ready to merge** (if there are no [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1795825?filter=.aarch64-darwin) | 58 | 7 | 12 |  | 6456 | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1795825?filter=.aarch64-linux) | 9 | 3 |  |  | 6583 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1795825?filter=.x86_64-darwin) | 50 | 4 | 2 |  | 6483 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1795825?filter=.x86_64-linux) | 1 | 6 | 1 | 11 | 6626 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1795825?filter=.aarch64-darwin) | 58 | 7 | 12 | 6456 | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1795825?filter=.aarch64-linux) | 9 | 3 |  | 6583 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1795825?filter=.x86_64-darwin) | 50 | 4 | 2 | 6483 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1795825?filter=.x86_64-linux) | 1 | 6 | 1 | 6627 | 
 #### Maintained Darwin packages with build failure
 <details><summary>3 job(s) </summary>
 
