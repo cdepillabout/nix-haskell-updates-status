@@ -1,16 +1,16 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1796040](https://hydra.nixos.org/eval/1796040) of nixpkgs commit [dd2d950](https://github.com/NixOS/nixpkgs/commits/dd2d950a06ba0ea647600e021fdae2b4fd644c19) as of 2023-06-05 12:09 UTC*
+*evaluation [1796040](https://hydra.nixos.org/eval/1796040) of nixpkgs commit [dd2d950](https://github.com/NixOS/nixpkgs/commits/dd2d950a06ba0ea647600e021fdae2b4fd644c19) as of 2023-06-05 18:09 UTC*
 
 :green_circle: **Ready to merge** (if there are no [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1796040?filter=.aarch64-darwin) | 58 | 8 | 9 |  | 6455 | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1796040?filter=.aarch64-linux) | 9 | 3 |  |  | 6583 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1796040?filter=.x86_64-darwin) | 50 | 4 | 5 | 4 | 6479 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1796040?filter=.x86_64-linux) | 1 | 6 | 1 |  | 6627 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1796040?filter=.aarch64-darwin) | 58 | 8 | 9 | 6455 | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1796040?filter=.aarch64-linux) | 9 | 3 |  | 6583 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1796040?filter=.x86_64-darwin) | 50 | 4 | 9 | 6479 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1796040?filter=.x86_64-linux) | 1 | 6 | 1 | 6627 | 
 #### Maintained Darwin packages with build failure
 <details><summary>3 job(s) </summary>
 
