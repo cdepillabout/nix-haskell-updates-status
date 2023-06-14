@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1796466](https://hydra.nixos.org/eval/1796466) of nixpkgs commit [b37b2d4](https://github.com/NixOS/nixpkgs/commits/b37b2d4b09d6101f4f04d90b3e3362c90c2c4d71) as of 2023-06-14 06:09 UTC*
+*evaluation [1796466](https://hydra.nixos.org/eval/1796466) of nixpkgs commit [b37b2d4](https://github.com/NixOS/nixpkgs/commits/b37b2d4b09d6101f4f04d90b3e3362c90c2c4d71) as of 2023-06-14 12:13 UTC*
 
 :yellow_circle: **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
@@ -10,7 +10,7 @@
  | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
  | --- | --- | --- | --- | --- | --- | 
  | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1796466?filter=.aarch64-darwin) | 75 | 62 | 21 |  | 6374 | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1796466?filter=.aarch64-linux) | 23 | 65 |  | 18 | 6511 | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1796466?filter=.aarch64-linux) | 23 | 65 |  | 4 | 6524 | 
  | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1796466?filter=.x86_64-darwin) | 58 | 43 | 47 | 4 | 6402 | 
  | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1796466?filter=.x86_64-linux) | 16 | 14 | 1 | 23 | 6606 | 
 #### Maintained Linux packages with build failure
@@ -277,7 +277,6 @@
 [distributed-process](https://packdeps.haskellers.com/reverse/distributed-process) :arrow_heading_up: 30  
 [iteratee](https://packdeps.haskellers.com/reverse/iteratee) :arrow_heading_up: 29  
 [polysemy-resume](https://packdeps.haskellers.com/reverse/polysemy-resume) :arrow_heading_up: 27  
-[sydtest](https://packdeps.haskellers.com/reverse/sydtest) :arrow_heading_up: 27  
 [polysemy-conc](https://packdeps.haskellers.com/reverse/polysemy-conc) :arrow_heading_up: 26  
 [crypto-numbers](https://packdeps.haskellers.com/reverse/crypto-numbers) :arrow_heading_up: 25  
 [either-unwrap](https://packdeps.haskellers.com/reverse/either-unwrap) :arrow_heading_up: 25  
@@ -311,6 +310,7 @@
 [HGamer3D-Data](https://packdeps.haskellers.com/reverse/HGamer3D-Data) :arrow_heading_up: 17  
 [certificate](https://packdeps.haskellers.com/reverse/certificate) :arrow_heading_up: 17  
 [clash-prelude](https://packdeps.haskellers.com/reverse/clash-prelude) :arrow_heading_up: 17  
+[dbus-client](https://packdeps.haskellers.com/reverse/dbus-client) :arrow_heading_up: 17  
 </details>
 
 
