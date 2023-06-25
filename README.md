@@ -1,18 +1,18 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1796981](https://hydra.nixos.org/eval/1796981) of nixpkgs commit [f918438](https://github.com/NixOS/nixpkgs/commits/f9184387e15f084152d273b664c6e256f546b7ce) as of 2023-06-24 18:12 UTC*
+*evaluation [1796981](https://hydra.nixos.org/eval/1796981) of nixpkgs commit [f918438](https://github.com/NixOS/nixpkgs/commits/f9184387e15f084152d273b664c6e256f546b7ce) as of 2023-06-25 00:17 UTC*
 
 :yellow_circle: **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
+  * `maintained` jobset failed.
   * `mergeable` jobset is not finished.
-  * `maintained` jobset is not finished.
 
 #### Build summary
 
  | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
  | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1796981?filter=.aarch64-darwin) | 91 | 32 | 2 | 42 | 6419 | 
+ | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1796981?filter=.aarch64-darwin) | 91 | 32 | 2 | 3 | 6460 | 
  | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1796981?filter=.aarch64-linux) | 42 | 24 | 1 | 42 | 6566 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1796981?filter=.x86_64-darwin) | 87 | 36 | 1 | 42 | 6438 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1796981?filter=.x86_64-linux) | 38 | 22 | 2 | 46 | 6607 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1796981?filter=.x86_64-darwin) | 87 | 36 | 1 | 3 | 6478 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1796981?filter=.x86_64-linux) | 38 | 23 | 2 | 45 | 6607 | 
 #### Maintained Linux packages with build failure
 - [ ] [[:iphone::x:]](https://hydra.nixos.org/build/224870838) [[:penguin::x:]](https://hydra.nixos.org/build/224869905) [haskellPackages.comfort-blas](https://hydra.nixos.org/eval/1796981?filter=haskellPackages.comfort-blas) @thielema
 - [ ] [update-nix-fetchgit](https://hydra.nixos.org/eval/1796981?filter=update-nix-fetchgit) @expipiplus1 @sorki
@@ -24,6 +24,7 @@
   - [[:iphone::heavy_exclamation_mark:]](https://hydra.nixos.org/build/225081887) [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/225081857) [toplevel](https://hydra.nixos.org/eval/1796981?filter=emanote)
   - [[:iphone::heavy_exclamation_mark:]](https://hydra.nixos.org/build/225081892) [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/225081869) [haskellPackages](https://hydra.nixos.org/eval/1796981?filter=haskellPackages.emanote)
 - [ ] [[:iphone::heavy_exclamation_mark:]](https://hydra.nixos.org/build/224839430) [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/224842962) [haskellPackages.eventlog2html](https://hydra.nixos.org/eval/1796981?filter=haskellPackages.eventlog2html) @maralorn
+- [ ] [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/225329857) [maintained](https://hydra.nixos.org/eval/1796981?filter=maintained) @cdepillabout @expipiplus1 @maralorn @sternenseemann
 #### Maintained Darwin packages with build failure
 <details><summary>9 job(s) </summary>
 
