@@ -1,18 +1,17 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1796981](https://hydra.nixos.org/eval/1796981) of nixpkgs commit [f918438](https://github.com/NixOS/nixpkgs/commits/f9184387e15f084152d273b664c6e256f546b7ce) as of 2023-06-25 12:09 UTC*
+*evaluation [1796981](https://hydra.nixos.org/eval/1796981) of nixpkgs commit [f918438](https://github.com/NixOS/nixpkgs/commits/f9184387e15f084152d273b664c6e256f546b7ce) as of 2023-06-25 18:08 UTC*
 
 :yellow_circle: **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
-  * `mergeable` jobset is not finished.
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1796981?filter=.aarch64-darwin) | 91 | 32 | 3 |  | 6461 | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1796981?filter=.aarch64-linux) | 42 | 24 | 1 | 21 | 6587 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1796981?filter=.x86_64-darwin) | 87 | 36 | 1 |  | 6480 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1796981?filter=.x86_64-linux) | 38 | 23 | 2 | 45 | 6607 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1796981?filter=.aarch64-darwin) | 91 | 32 | 3 | 6461 | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1796981?filter=.aarch64-linux) | 42 | 24 | 1 | 6608 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1796981?filter=.x86_64-darwin) | 87 | 36 | 1 | 6480 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1796981?filter=.x86_64-linux) | 38 | 23 | 2 | 6652 | 
 #### Maintained Linux packages with build failure
 - [ ] [[:iphone::x:]](https://hydra.nixos.org/build/224870838) [[:penguin::x:]](https://hydra.nixos.org/build/224869905) [haskellPackages.comfort-blas](https://hydra.nixos.org/eval/1796981?filter=haskellPackages.comfort-blas) @thielema
 - [ ] [update-nix-fetchgit](https://hydra.nixos.org/eval/1796981?filter=update-nix-fetchgit) @expipiplus1 @sorki
