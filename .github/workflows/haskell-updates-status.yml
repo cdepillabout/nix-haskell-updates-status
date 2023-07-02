@@ -19,9 +19,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: cachix/install-nix-action@v13
-        with:
-          nix_path: nixpkgs=https://github.com/NixOS/nixpkgs/archive/haskell-updates.tar.gz
+      - uses: cachix/install-nix-action@v22
 
       - name: Run ./update.sh
         run: |
