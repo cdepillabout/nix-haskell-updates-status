@@ -7,6 +7,12 @@ on:
     # Update every 6 hours
     - cron:  '0 */6 * * *'
 
+  # Allow manually starting the GitHub Action from the browser.  This is nice for
+  # testing.  You can manually start the workflow by clicking the "Run workflow" button on
+  # https://github.com/cdepillabout/nix-haskell-updates-status/actions/workflows/haskell-updates-status.yml
+  workflow_dispatch:
+    inputs: {}
+
 jobs:
   update:
     runs-on: ubuntu-latest
