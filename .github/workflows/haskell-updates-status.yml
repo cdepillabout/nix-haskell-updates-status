@@ -21,6 +21,8 @@ jobs:
 
       - uses: cachix/install-nix-action@v22
 
+      - uses: DeterminateSystems/magic-nix-cache-action@v2
+
       - name: Run ./update.sh
         run: |
           # Create the updated README.md using the script from this checkout.
