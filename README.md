@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1798436](https://hydra.nixos.org/eval/1798436) of nixpkgs commit [9e1a350](https://github.com/NixOS/nixpkgs/commits/9e1a350173d6da3f6ceec64ce357e3d9db1918b1) as of 2023-08-11 12:08 UTC*
+*evaluation [1798436](https://hydra.nixos.org/eval/1798436) of nixpkgs commit [9e1a350](https://github.com/NixOS/nixpkgs/commits/9e1a350173d6da3f6ceec64ce357e3d9db1918b1) as of 2023-08-11 18:17 UTC*
 
 :red_circle: **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -7,12 +7,12 @@
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1798436?filter=.aarch64-darwin) | 452 | 245 | 32 |  | 5915 | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1798436?filter=.aarch64-linux) | 419 | 258 | 1 |  | 6036 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1798436?filter=.x86_64-darwin) | 441 | 237 | 95 | 2 | 5886 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1798436?filter=.x86_64-linux) | 416 | 234 | 1 | 2 | 6096 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1798436?filter=.aarch64-darwin) | 452 | 245 | 32 | 5915 | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1798436?filter=.aarch64-linux) | 419 | 258 | 1 | 6036 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1798436?filter=.x86_64-darwin) | 441 | 237 | 95 | 5886 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1798436?filter=.x86_64-linux) | 416 | 234 | 1 | 6096 | 
 #### Maintained Linux packages with build failure
 - [ ] [dhall-lsp-server](https://hydra.nixos.org/eval/1798436?filter=dhall-lsp-server) @Gabriella439
   - [[:iphone::x:]](https://hydra.nixos.org/build/230960119) [[:penguin::x:]](https://hydra.nixos.org/build/230960433) [toplevel](https://hydra.nixos.org/eval/1798436?filter=dhall-lsp-server)
