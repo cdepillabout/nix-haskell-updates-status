@@ -1,16 +1,16 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1799688](https://hydra.nixos.org/eval/1799688) of nixpkgs commit [9290456](https://github.com/NixOS/nixpkgs/commits/9290456dd6e43097e3ee6bad43e905c662b55043) as of 2023-09-27 00:22 UTC*
+*evaluation [1799688](https://hydra.nixos.org/eval/1799688) of nixpkgs commit [9290456](https://github.com/NixOS/nixpkgs/commits/9290456dd6e43097e3ee6bad43e905c662b55043) as of 2023-09-27 06:26 UTC*
 
 :yellow_circle: **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1799688?filter=.aarch64-darwin) | 85 | 57 | 7 | 1 | 6608 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1799688?filter=.x86_64-darwin) | 77 | 49 | 7 | 1 | 6637 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1799688?filter=.x86_64-linux) | 24 | 17 | 11 | 3 | 6818 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1799688?filter=.aarch64-darwin) | 85 | 57 | 7 | 6609 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1799688?filter=.x86_64-darwin) | 77 | 49 | 7 | 6638 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1799688?filter=.x86_64-linux) | 24 | 17 | 11 | 6820 | 
 #### Maintained Linux packages with build failure
 - [ ] [[:penguin::x:]](https://hydra.nixos.org/build/235456173) [haskellPackages.bytepatch](https://hydra.nixos.org/eval/1799688?filter=haskellPackages.bytepatch) @raehik
 #### Maintained Linux packages with failed dependency
