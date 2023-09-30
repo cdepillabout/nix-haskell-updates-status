@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1799860](https://hydra.nixos.org/eval/1799860) of nixpkgs commit [c0831fc](https://github.com/NixOS/nixpkgs/commits/c0831fce32bc37751102e5d9a1db078121fdb31f) as of 2023-09-30 12:11 UTC*
+*evaluation [1799860](https://hydra.nixos.org/eval/1799860) of nixpkgs commit [c0831fc](https://github.com/NixOS/nixpkgs/commits/c0831fce32bc37751102e5d9a1db078121fdb31f) as of 2023-09-30 18:10 UTC*
 
 :yellow_circle: **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `mergeable` jobset is not finished.
@@ -11,7 +11,7 @@
  | --- | --- | --- | --- | --- | --- | --- | 
  | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1799860?filter=.aarch64-darwin) | 82 | 73 | 7 | 1 | 1 | 6593 | 
  | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1799860?filter=.x86_64-darwin) | 79 | 44 | 7 |  | 1 | 6640 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1799860?filter=.x86_64-linux) | 23 | 15 | 13 |  | 36 | 6790 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1799860?filter=.x86_64-linux) | 23 | 15 | 13 |  | 35 | 6791 | 
 #### Maintained Linux packages with build failure
 - [ ] [[:penguin::x:]](https://hydra.nixos.org/build/236678340) [haskellPackages.bytepatch](https://hydra.nixos.org/eval/1799860?filter=haskellPackages.bytepatch) @raehik
 #### Maintained Linux packages with failed dependency
