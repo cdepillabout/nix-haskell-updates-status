@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1799801](https://hydra.nixos.org/eval/1799801) of nixpkgs commit [23bb2be](https://github.com/NixOS/nixpkgs/commits/23bb2be564fa9680bb4f237d0b6bcc0a6faa6e33) as of 2023-09-29 18:12 UTC*
+*evaluation [1799801](https://hydra.nixos.org/eval/1799801) of nixpkgs commit [23bb2be](https://github.com/NixOS/nixpkgs/commits/23bb2be564fa9680bb4f237d0b6bcc0a6faa6e33) as of 2023-09-30 00:22 UTC*
 
 :yellow_circle: **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset is not finished.
@@ -8,9 +8,9 @@
 
  | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
  | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1799801?filter=.aarch64-darwin) | 82 | 73 | 7 | 23 | 6592 | 
+ | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1799801?filter=.aarch64-darwin) | 82 | 73 | 7 | 22 | 6592 | 
  | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1799801?filter=.x86_64-darwin) | 79 | 44 | 7 | 23 | 6639 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1799801?filter=.x86_64-linux) | 24 | 15 | 14 | 31 | 6809 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1799801?filter=.x86_64-linux) | 24 | 15 | 14 | 16 | 6811 | 
 #### Maintained Linux packages with build failure
 - [ ] [[:penguin::x:]](https://hydra.nixos.org/build/236678340) [haskellPackages.bytepatch](https://hydra.nixos.org/eval/1799801?filter=haskellPackages.bytepatch) @raehik
 #### Maintained Linux packages with failed dependency
