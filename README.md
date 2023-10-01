@@ -1,23 +1,24 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1799860](https://hydra.nixos.org/eval/1799860) of nixpkgs commit [c0831fc](https://github.com/NixOS/nixpkgs/commits/c0831fce32bc37751102e5d9a1db078121fdb31f) as of 2023-09-30 18:10 UTC*
+*evaluation [1799860](https://hydra.nixos.org/eval/1799860) of nixpkgs commit [c0831fc](https://github.com/NixOS/nixpkgs/commits/c0831fce32bc37751102e5d9a1db078121fdb31f) as of 2023-10-01 00:25 UTC*
 
 :yellow_circle: **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
+  * `maintained` jobset failed.
   * `mergeable` jobset is not finished.
-  * `maintained` jobset is not finished.
 
 #### Build summary
 
  | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | HydraFailure :construction: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
  | --- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1799860?filter=.aarch64-darwin) | 82 | 73 | 7 | 1 | 1 | 6593 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1799860?filter=.x86_64-darwin) | 79 | 44 | 7 |  | 1 | 6640 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1799860?filter=.x86_64-linux) | 23 | 15 | 13 |  | 35 | 6791 | 
+ | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1799860?filter=.aarch64-darwin) | 82 | 73 | 7 | 1 |  | 6594 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1799860?filter=.x86_64-darwin) | 79 | 44 | 7 |  |  | 6641 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1799860?filter=.x86_64-linux) | 23 | 16 | 13 |  | 29 | 6796 | 
 #### Maintained Linux packages with build failure
 - [ ] [[:penguin::x:]](https://hydra.nixos.org/build/236678340) [haskellPackages.bytepatch](https://hydra.nixos.org/eval/1799860?filter=haskellPackages.bytepatch) @raehik
 #### Maintained Linux packages with failed dependency
 - [ ] [git-annex](https://hydra.nixos.org/eval/1799860?filter=git-annex) @peti @roosemberth
   - [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/236689240) [toplevel](https://hydra.nixos.org/eval/1799860?filter=git-annex)
   - [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/236678141) [haskellPackages](https://hydra.nixos.org/eval/1799860?filter=haskellPackages.git-annex)
+- [ ] [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237027571) [maintained](https://hydra.nixos.org/eval/1799860?filter=maintained) @cdepillabout @expipiplus1 @maralorn @sternenseemann
 - [ ] [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/236683091) [haskellPackages.structured-haskell-mode](https://hydra.nixos.org/eval/1799860?filter=haskellPackages.structured-haskell-mode) @peti
 #### Maintained Darwin packages with build failure
 <details><summary>5 job(s) </summary>
@@ -92,7 +93,7 @@
   - [[:green_apple::x:]](https://hydra.nixos.org/build/236678296) [[:apple::x:]](https://hydra.nixos.org/build/236686051) [[:penguin::x:]](https://hydra.nixos.org/build/236692058) [toplevel](https://hydra.nixos.org/eval/1799860?filter=futhark)
   - [[:green_apple::x:]](https://hydra.nixos.org/build/236682743) [[:apple::x:]](https://hydra.nixos.org/build/236677087) [[:penguin::x:]](https://hydra.nixos.org/build/236673091) [haskellPackages](https://hydra.nixos.org/eval/1799860?filter=haskellPackages.futhark)
 - [ ] [[:green_apple::x:]](https://hydra.nixos.org/build/236674487) [[:apple::x:]](https://hydra.nixos.org/build/236685306) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/236685473) [haskellPackages.gi-gdkx11](https://hydra.nixos.org/eval/1799860?filter=haskellPackages.gi-gdkx11)  :arrow_heading_up: 1 | 1
-- [ ] [[:green_apple::x:]](https://hydra.nixos.org/build/236694125) [[:apple::x:]](https://hydra.nixos.org/build/236678989) [[:penguin::hourglass_flowing_sand:]](https://hydra.nixos.org/build/237027574) [haskellPackages.openal-ffi](https://hydra.nixos.org/eval/1799860?filter=haskellPackages.openal-ffi)  :arrow_heading_up: 1 | 1
+- [ ] [[:green_apple::x:]](https://hydra.nixos.org/build/236694125) [[:apple::x:]](https://hydra.nixos.org/build/236678989) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/237027574) [haskellPackages.openal-ffi](https://hydra.nixos.org/eval/1799860?filter=haskellPackages.openal-ffi)  :arrow_heading_up: 1 | 1
 - [ ] [[:green_apple::x:]](https://hydra.nixos.org/build/236679413) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/236678145) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/236692664) [haskellPackages.stm-queue](https://hydra.nixos.org/eval/1799860?filter=haskellPackages.stm-queue)  :arrow_heading_up: 1 | 1
 - [ ] [[:apple::x:]](https://hydra.nixos.org/build/236682561) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/236681017) [haskellPackages.swisstable](https://hydra.nixos.org/eval/1799860?filter=haskellPackages.swisstable)  :arrow_heading_up: 1 | 1
 - [ ] [[:green_apple::x:]](https://hydra.nixos.org/build/236684065) [[:apple::x:]](https://hydra.nixos.org/build/236691696) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/236685837) [haskellPackages.sym](https://hydra.nixos.org/eval/1799860?filter=haskellPackages.sym)  :arrow_heading_up: 1 | 1
@@ -347,7 +348,6 @@
 [dbus-core](https://packdeps.haskellers.com/reverse/dbus-core) :arrow_heading_up: 18  
 [gtksourceview2](https://packdeps.haskellers.com/reverse/gtksourceview2) :arrow_heading_up: 18  
 [polysemy-process](https://packdeps.haskellers.com/reverse/polysemy-process) :arrow_heading_up: 18  
-[typerep-map](https://packdeps.haskellers.com/reverse/typerep-map) :arrow_heading_up: 18  
 [ukrainian-phonetics-basic](https://packdeps.haskellers.com/reverse/ukrainian-phonetics-basic) :arrow_heading_up: 18  
 [BiobaseXNA](https://packdeps.haskellers.com/reverse/BiobaseXNA) :arrow_heading_up: 17  
 [HGamer3D-Data](https://packdeps.haskellers.com/reverse/HGamer3D-Data) :arrow_heading_up: 17  
@@ -356,6 +356,7 @@
 [dbus-client](https://packdeps.haskellers.com/reverse/dbus-client) :arrow_heading_up: 17  
 [gconf](https://packdeps.haskellers.com/reverse/gconf) :arrow_heading_up: 17  
 [gtk-serialized-event](https://packdeps.haskellers.com/reverse/gtk-serialized-event) :arrow_heading_up: 17  
+[prelate](https://packdeps.haskellers.com/reverse/prelate) :arrow_heading_up: 17  
 </details>
 
 
