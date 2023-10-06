@@ -1,17 +1,17 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1800106](https://hydra.nixos.org/eval/1800106) of nixpkgs commit [acedba9](https://github.com/NixOS/nixpkgs/commits/acedba9942db47e16f9470bf193219ae86815867) as of 2023-10-06 00:21 UTC*
+*evaluation [1800106](https://hydra.nixos.org/eval/1800106) of nixpkgs commit [acedba9](https://github.com/NixOS/nixpkgs/commits/acedba9942db47e16f9470bf193219ae86815867) as of 2023-10-06 06:10 UTC*
 
-:yellow_circle: **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
-  * `mergeable` jobset is not finished.
-  * `maintained` jobset is not finished.
+:red_circle: **Branch not mergeable**
+  * `mergeable` jobset failed.
+  * `maintained` jobset failed.
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1800106?filter=.aarch64-darwin) | 114 | 53 | 7 | 7 | 6610 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1800106?filter=.x86_64-darwin) | 108 | 49 | 9 | 7 | 6633 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1800106?filter=.x86_64-linux) | 49 | 18 | 15 | 29 | 6802 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1800106?filter=.aarch64-darwin) | 114 | 54 | 7 | 6616 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1800106?filter=.x86_64-darwin) | 108 | 50 | 9 | 6639 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1800106?filter=.x86_64-linux) | 49 | 21 | 15 | 6821 | 
 #### Maintained Linux packages with build failure
 - [ ] [[:penguin::x:]](https://hydra.nixos.org/build/237237990) [haskellPackages.pandoc-crossref](https://hydra.nixos.org/eval/1800106?filter=haskellPackages.pandoc-crossref) @maralorn
 - [ ] [[:penguin::x:]](https://hydra.nixos.org/build/237235968) [haskellPackages.patat](https://hydra.nixos.org/eval/1800106?filter=haskellPackages.patat) @dalpd
@@ -20,7 +20,7 @@
   - [[:penguin::x:]](https://hydra.nixos.org/build/237239600) [haskellPackages](https://hydra.nixos.org/eval/1800106?filter=haskellPackages.stack)
 #### Maintained Linux packages with failed dependency
 - [ ] [cabal2nix](https://hydra.nixos.org/eval/1800106?filter=cabal2nix) @sternenseemann
-  - [[:penguin::hourglass_flowing_sand:]](https://hydra.nixos.org/build/237320376) [toplevel](https://hydra.nixos.org/eval/1800106?filter=cabal2nix)
+  - [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/237320376) [toplevel](https://hydra.nixos.org/eval/1800106?filter=cabal2nix)
   - [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/237246383) [haskell.packages.ghc8107](https://hydra.nixos.org/eval/1800106?filter=haskell.packages.ghc8107.cabal2nix)
   - [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/237243913) [haskell.packages.ghc884](https://hydra.nixos.org/eval/1800106?filter=haskell.packages.ghc884.cabal2nix)
   - [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/237229104) [haskell.packages.ghc902](https://hydra.nixos.org/eval/1800106?filter=haskell.packages.ghc902.cabal2nix)
@@ -35,8 +35,8 @@
   - [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237235388) [haskell.packages.ghc962](https://hydra.nixos.org/eval/1800106?filter=haskell.packages.ghc962.cabal2nix)
   - [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237234613) [haskell.packages.ghc963](https://hydra.nixos.org/eval/1800106?filter=haskell.packages.ghc963.cabal2nix)
   - [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/237241582) [haskellPackages](https://hydra.nixos.org/eval/1800106?filter=haskellPackages.cabal2nix)
-  - [[:penguin::hourglass_flowing_sand:]](https://hydra.nixos.org/build/237320346) [pkgsStatic.haskell.packages.native-bignum.ghc928](https://hydra.nixos.org/eval/1800106?filter=pkgsStatic.haskell.packages.native-bignum.ghc928.cabal2nix)
-  - [[:penguin::hourglass_flowing_sand:]](https://hydra.nixos.org/build/237320405) [pkgsStatic.haskellPackages](https://hydra.nixos.org/eval/1800106?filter=pkgsStatic.haskellPackages.cabal2nix)
+  - [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/237320346) [pkgsStatic.haskell.packages.native-bignum.ghc928](https://hydra.nixos.org/eval/1800106?filter=pkgsStatic.haskell.packages.native-bignum.ghc928.cabal2nix)
+  - [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/237320405) [pkgsStatic.haskellPackages](https://hydra.nixos.org/eval/1800106?filter=pkgsStatic.haskellPackages.cabal2nix)
 - [ ] [haskell-language-server](https://hydra.nixos.org/eval/1800106?filter=haskell-language-server) @maralorn
   - [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237237065) [toplevel](https://hydra.nixos.org/eval/1800106?filter=haskell-language-server)
   - [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237243751) [haskell.packages.ghc8107](https://hydra.nixos.org/eval/1800106?filter=haskell.packages.ghc8107.haskell-language-server)
@@ -52,6 +52,8 @@
   - [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237240674) [haskell.packages.ghc962](https://hydra.nixos.org/eval/1800106?filter=haskell.packages.ghc962.haskell-language-server)
   - [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237236842) [haskell.packages.ghc963](https://hydra.nixos.org/eval/1800106?filter=haskell.packages.ghc963.haskell-language-server)
   - [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237244806) [haskellPackages](https://hydra.nixos.org/eval/1800106?filter=haskellPackages.haskell-language-server)
+- [ ] [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237320420) [maintained](https://hydra.nixos.org/eval/1800106?filter=maintained) @cdepillabout @expipiplus1 @maralorn @sternenseemann
+- [ ] [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237320396) [mergeable](https://hydra.nixos.org/eval/1800106?filter=mergeable) @cdepillabout @expipiplus1 @maralorn @sternenseemann
 - [ ] [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237249304) [haskellPackages.structured-haskell-mode](https://hydra.nixos.org/eval/1800106?filter=haskellPackages.structured-haskell-mode) @peti
 - [ ] [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237242540) [tests.haskell.upstreamStackHpackVersion](https://hydra.nixos.org/eval/1800106?filter=tests.haskell.upstreamStackHpackVersion) @cdepillabout
 #### Maintained Darwin packages with build failure
@@ -72,7 +74,7 @@
 <details><summary>58 job(s) </summary>
 
 - [ ] [cabal2nix](https://hydra.nixos.org/eval/1800106?filter=cabal2nix) @sternenseemann
-  - [[:green_apple::hourglass_flowing_sand:]](https://hydra.nixos.org/build/237320416) [[:apple::hourglass_flowing_sand:]](https://hydra.nixos.org/build/237320379) [toplevel](https://hydra.nixos.org/eval/1800106?filter=cabal2nix)
+  - [[:green_apple::heavy_check_mark:]](https://hydra.nixos.org/build/237320416) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/237320379) [toplevel](https://hydra.nixos.org/eval/1800106?filter=cabal2nix)
   - [[:green_apple::heavy_check_mark:]](https://hydra.nixos.org/build/237248784) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/237236414) [haskell.packages.ghc8107](https://hydra.nixos.org/eval/1800106?filter=haskell.packages.ghc8107.cabal2nix)
   -  [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/237246517) [haskell.packages.ghc884](https://hydra.nixos.org/eval/1800106?filter=haskell.packages.ghc884.cabal2nix)
   - [[:green_apple::heavy_check_mark:]](https://hydra.nixos.org/build/237232939) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/237234591) [haskell.packages.ghc902](https://hydra.nixos.org/eval/1800106?filter=haskell.packages.ghc902.cabal2nix)
@@ -264,7 +266,7 @@
 </details>
 
 #### Unmaintained packages with failed dependency
-<details><summary>80 job(s) </summary>
+<details><summary>95 job(s) </summary>
 
 - [ ] [[:green_apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237230249) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237242920) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/237238399) [haskellPackages.di-handle](https://hydra.nixos.org/eval/1800106?filter=haskellPackages.di-handle)  :arrow_heading_up: 5 | 9
 - [ ] [[:green_apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237232510) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237229679) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/237240670) [haskellPackages.di-monad](https://hydra.nixos.org/eval/1800106?filter=haskellPackages.di-monad)  :arrow_heading_up: 5 | 9
@@ -317,6 +319,21 @@
 - [ ] [[:green_apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237298037) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237298033) [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237298039) [haskellPackages.tahoe-great-black-swamp](https://hydra.nixos.org/eval/1800106?filter=haskellPackages.tahoe-great-black-swamp)  :arrow_heading_up: 0 | 1
 - [ ] [[:green_apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237234920) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237249887) [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237247250) [haskellPackages.LPFP](https://hydra.nixos.org/eval/1800106?filter=haskellPackages.LPFP) 
 - [ ] [[:green_apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237243347) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237244008) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/237234610) [haskellPackages.async-refresh-tokens](https://hydra.nixos.org/eval/1800106?filter=haskellPackages.async-refresh-tokens) 
+- [ ] [cabal2nix-unstable](https://hydra.nixos.org/eval/1800106?filter=cabal2nix-unstable) 
+  - [[:green_apple::heavy_check_mark:]](https://hydra.nixos.org/build/237320401) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/237320408) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/237320427) [haskell.packages.ghc8107](https://hydra.nixos.org/eval/1800106?filter=haskell.packages.ghc8107.cabal2nix-unstable)
+  -  [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/237320454) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/237320433) [haskell.packages.ghc884](https://hydra.nixos.org/eval/1800106?filter=haskell.packages.ghc884.cabal2nix-unstable)
+  - [[:green_apple::heavy_check_mark:]](https://hydra.nixos.org/build/237320352) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/237320441) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/237320391) [haskell.packages.ghc902](https://hydra.nixos.org/eval/1800106?filter=haskell.packages.ghc902.cabal2nix-unstable)
+  - [[:green_apple::heavy_check_mark:]](https://hydra.nixos.org/build/237320387) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/237320351) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/237320430) [haskell.packages.ghc924](https://hydra.nixos.org/eval/1800106?filter=haskell.packages.ghc924.cabal2nix-unstable)
+  - [[:green_apple::heavy_check_mark:]](https://hydra.nixos.org/build/237320347) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/237320414) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/237320436) [haskell.packages.ghc925](https://hydra.nixos.org/eval/1800106?filter=haskell.packages.ghc925.cabal2nix-unstable)
+  - [[:green_apple::heavy_check_mark:]](https://hydra.nixos.org/build/237320369) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/237320460) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/237320386) [haskell.packages.ghc926](https://hydra.nixos.org/eval/1800106?filter=haskell.packages.ghc926.cabal2nix-unstable)
+  - [[:green_apple::heavy_check_mark:]](https://hydra.nixos.org/build/237320395) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/237320377) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/237320389) [haskell.packages.ghc927](https://hydra.nixos.org/eval/1800106?filter=haskell.packages.ghc927.cabal2nix-unstable)
+  - [[:green_apple::heavy_check_mark:]](https://hydra.nixos.org/build/237320435) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/237320458) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/237320421) [haskell.packages.ghc928](https://hydra.nixos.org/eval/1800106?filter=haskell.packages.ghc928.cabal2nix-unstable)
+  - [[:green_apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237320456) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/237320371) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/237320429) [haskell.packages.ghc945](https://hydra.nixos.org/eval/1800106?filter=haskell.packages.ghc945.cabal2nix-unstable)
+  - [[:green_apple::heavy_check_mark:]](https://hydra.nixos.org/build/237320438) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/237320404) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/237320413) [haskell.packages.ghc946](https://hydra.nixos.org/eval/1800106?filter=haskell.packages.ghc946.cabal2nix-unstable)
+  - [[:green_apple::heavy_check_mark:]](https://hydra.nixos.org/build/237320444) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/237320348) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/237320455) [haskell.packages.ghc947](https://hydra.nixos.org/eval/1800106?filter=haskell.packages.ghc947.cabal2nix-unstable)
+  - [[:green_apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237320437) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237320431) [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237320374) [haskell.packages.ghc962](https://hydra.nixos.org/eval/1800106?filter=haskell.packages.ghc962.cabal2nix-unstable)
+  - [[:green_apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237320365) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237320451) [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237320366) [haskell.packages.ghc963](https://hydra.nixos.org/eval/1800106?filter=haskell.packages.ghc963.cabal2nix-unstable)
+  - [[:green_apple::heavy_check_mark:]](https://hydra.nixos.org/build/237320449) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/237320446) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/237320394) [haskellPackages](https://hydra.nixos.org/eval/1800106?filter=haskellPackages.cabal2nix-unstable)
 - [ ] [[:green_apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237241757) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237236168) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/237243490) [haskellPackages.cardano-coin-selection](https://hydra.nixos.org/eval/1800106?filter=haskellPackages.cardano-coin-selection) 
 - [ ] [[:green_apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237239504) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237241801) [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237229537) [haskellPackages.credentials-cli](https://hydra.nixos.org/eval/1800106?filter=haskellPackages.credentials-cli) 
 - [ ] [[:green_apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237243586) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237232894) [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237232524) [haskellPackages.descriptive](https://hydra.nixos.org/eval/1800106?filter=haskellPackages.descriptive) 
