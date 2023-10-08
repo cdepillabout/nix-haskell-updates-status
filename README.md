@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1800188](https://hydra.nixos.org/eval/1800188) of nixpkgs commit [36bb7be](https://github.com/NixOS/nixpkgs/commits/36bb7be495eff53a5950ebfef834b97d0ea3ba92) as of 2023-10-08 06:09 UTC*
+*evaluation [1800188](https://hydra.nixos.org/eval/1800188) of nixpkgs commit [36bb7be](https://github.com/NixOS/nixpkgs/commits/36bb7be495eff53a5950ebfef834b97d0ea3ba92) as of 2023-10-08 12:11 UTC*
 
 :red_circle: **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -7,11 +7,13 @@
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1800188?filter=.aarch64-darwin) | 112 | 54 | 7 | 1 | 6618 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1800188?filter=.x86_64-darwin) | 106 | 50 | 9 | 3 | 6641 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1800188?filter=.x86_64-linux) | 46 | 20 | 15 | 12 | 6815 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1800188?filter=.aarch64-darwin) | 112 | 54 | 7 | 6619 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1800188?filter=.x86_64-darwin) | 106 | 50 | 9 | 6642 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1800188?filter=.x86_64-linux) | 47 | 20 | 15 | 6825 | 
+#### Maintained Linux packages with build failure
+- [ ] [[:penguin::x:]](https://hydra.nixos.org/build/237400378) [haskellPackages.pandoc-crossref](https://hydra.nixos.org/eval/1800188?filter=haskellPackages.pandoc-crossref) @maralorn
 #### Maintained Linux packages with failed dependency
 - [ ] [cabal2nix](https://hydra.nixos.org/eval/1800188?filter=cabal2nix) @sternenseemann
   - [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/237400379) [toplevel](https://hydra.nixos.org/eval/1800188?filter=cabal2nix)
