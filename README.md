@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1800232](https://hydra.nixos.org/eval/1800232) of nixpkgs commit [7ef0450](https://github.com/NixOS/nixpkgs/commits/7ef04509c21c715e910dd26e248d34643b47c107) as of 2023-10-09 06:10 UTC*
+*evaluation [1800232](https://hydra.nixos.org/eval/1800232) of nixpkgs commit [7ef0450](https://github.com/NixOS/nixpkgs/commits/7ef04509c21c715e910dd26e248d34643b47c107) as of 2023-10-09 12:13 UTC*
 
 :red_circle: **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -9,9 +9,9 @@
 
  | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
  | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1800232?filter=.aarch64-darwin) | 112 | 54 | 7 | 2 | 6619 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1800232?filter=.x86_64-darwin) | 106 | 50 | 9 | 2 | 6642 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1800232?filter=.x86_64-linux) | 47 | 20 | 15 | 8 | 6822 | 
+ | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1800232?filter=.aarch64-darwin) | 112 | 54 | 7 |  | 6619 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1800232?filter=.x86_64-darwin) | 106 | 50 | 9 |  | 6642 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1800232?filter=.x86_64-linux) | 47 | 20 | 15 | 2 | 6825 | 
 #### Maintained Linux packages with build failure
 - [ ] [[:penguin::x:]](https://hydra.nixos.org/build/237400378) [haskellPackages.pandoc-crossref](https://hydra.nixos.org/eval/1800232?filter=haskellPackages.pandoc-crossref) @maralorn
 #### Maintained Linux packages with failed dependency
