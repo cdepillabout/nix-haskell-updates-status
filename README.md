@@ -1,17 +1,17 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1800394](https://hydra.nixos.org/eval/1800394) of nixpkgs commit [55a0671](https://github.com/NixOS/nixpkgs/commits/55a067155374b79621dbbf4721b3cba7cecbb25f) as of 2023-10-13 06:10 UTC*
+*evaluation [1800394](https://hydra.nixos.org/eval/1800394) of nixpkgs commit [55a0671](https://github.com/NixOS/nixpkgs/commits/55a067155374b79621dbbf4721b3cba7cecbb25f) as of 2023-10-13 12:11 UTC*
 
 :red_circle: **Branch not mergeable**
   * `mergeable` jobset failed.
-  * `maintained` jobset is not finished.
+  * `maintained` jobset failed.
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1800394?filter=.aarch64-darwin) | 112 | 54 | 7 | 14 | 6607 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1800394?filter=.x86_64-darwin) | 106 | 48 | 9 | 14 | 6630 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1800394?filter=.x86_64-linux) | 47 | 17 | 15 | 27 | 6805 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1800394?filter=.aarch64-darwin) | 113 | 54 | 7 | 6618 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1800394?filter=.x86_64-darwin) | 107 | 48 | 9 | 6641 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1800394?filter=.x86_64-linux) | 48 | 18 | 15 | 6824 | 
 #### Maintained Linux packages with build failure
 - [ ] [[:penguin::x:]](https://hydra.nixos.org/build/237400378) [haskellPackages.pandoc-crossref](https://hydra.nixos.org/eval/1800394?filter=haskellPackages.pandoc-crossref) @maralorn
 #### Maintained Linux packages with failed dependency
@@ -30,6 +30,7 @@
   - [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237240674) [haskell.packages.ghc962](https://hydra.nixos.org/eval/1800394?filter=haskell.packages.ghc962.haskell-language-server)
   - [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237236842) [haskell.packages.ghc963](https://hydra.nixos.org/eval/1800394?filter=haskell.packages.ghc963.haskell-language-server)
   - [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237244806) [haskellPackages](https://hydra.nixos.org/eval/1800394?filter=haskellPackages.haskell-language-server)
+- [ ] [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/238048357) [maintained](https://hydra.nixos.org/eval/1800394?filter=maintained) @cdepillabout @expipiplus1 @maralorn @sternenseemann
 - [ ] [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237400580) [mergeable](https://hydra.nixos.org/eval/1800394?filter=mergeable) @cdepillabout @expipiplus1 @maralorn @sternenseemann
 - [ ] [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/237623360) [haskellPackages.structured-haskell-mode](https://hydra.nixos.org/eval/1800394?filter=haskellPackages.structured-haskell-mode) @peti
 #### Maintained Darwin packages with build failure
@@ -106,7 +107,7 @@
 </details>
 
 #### Unmaintained packages with build failure
-<details><summary>127 job(s) </summary>
+<details><summary>128 job(s) </summary>
 
 - [ ] [[:green_apple::x:]](https://hydra.nixos.org/build/237245506) [[:apple::x:]](https://hydra.nixos.org/build/237236822) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/237248701) [haskellPackages.di-core](https://hydra.nixos.org/eval/1800394?filter=haskellPackages.di-core)  :arrow_heading_up: 7 | 11
 - [ ] [[:green_apple::x:]](https://hydra.nixos.org/build/237241530) [[:apple::x:]](https://hydra.nixos.org/build/237246344) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/237241557) [haskellPackages.fmt](https://hydra.nixos.org/eval/1800394?filter=haskellPackages.fmt)  :arrow_heading_up: 6 | 24
@@ -196,6 +197,7 @@
 - [ ] [[:green_apple::x:]](https://hydra.nixos.org/build/237247104) [[:apple::x:]](https://hydra.nixos.org/build/237242697) [haskellPackages.gtk-mac-integration](https://hydra.nixos.org/eval/1800394?filter=haskellPackages.gtk-mac-integration) 
 - [ ] [[:green_apple::x:]](https://hydra.nixos.org/build/237234517) [[:apple::x:]](https://hydra.nixos.org/build/237248433) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/237240668) [haskellPackages.gtk-traymanager](https://hydra.nixos.org/eval/1800394?filter=haskellPackages.gtk-traymanager) 
 - [ ] [[:green_apple::x:]](https://hydra.nixos.org/build/237229283) [[:apple::x:]](https://hydra.nixos.org/build/237233957) [haskellPackages.gtk3-mac-integration](https://hydra.nixos.org/eval/1800394?filter=haskellPackages.gtk3-mac-integration) 
+- [ ] [[:green_apple::x:]](https://hydra.nixos.org/build/238048349) [[:apple::x:]](https://hydra.nixos.org/build/238048350) [[:penguin::x:]](https://hydra.nixos.org/build/238048371) [haskellPackages.haskoin-store](https://hydra.nixos.org/eval/1800394?filter=haskellPackages.haskoin-store) 
 - [ ] [[:green_apple::x:]](https://hydra.nixos.org/build/237244640) [[:apple::x:]](https://hydra.nixos.org/build/237238165) [[:penguin::x:]](https://hydra.nixos.org/build/237243271) [haskellPackages.hedgehog-gen](https://hydra.nixos.org/eval/1800394?filter=haskellPackages.hedgehog-gen) 
 - [ ] [[:green_apple::x:]](https://hydra.nixos.org/build/237236613) [[:apple::x:]](https://hydra.nixos.org/build/237238143) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/237229474) [haskellPackages.highlight](https://hydra.nixos.org/eval/1800394?filter=haskellPackages.highlight) 
 - [ ] [[:green_apple::x:]](https://hydra.nixos.org/build/237247459) [[:apple::x:]](https://hydra.nixos.org/build/237247978) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/237229824) [haskellPackages.hinotify-conduit](https://hydra.nixos.org/eval/1800394?filter=haskellPackages.hinotify-conduit) 
