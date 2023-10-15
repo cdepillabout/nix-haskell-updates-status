@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1800473](https://hydra.nixos.org/eval/1800473) of nixpkgs commit [d49bdad](https://github.com/NixOS/nixpkgs/commits/d49bdad5245ea429772dc835cc53f07f8b694973) as of 2023-10-15 06:11 UTC*
+*evaluation [1800473](https://hydra.nixos.org/eval/1800473) of nixpkgs commit [d49bdad](https://github.com/NixOS/nixpkgs/commits/d49bdad5245ea429772dc835cc53f07f8b694973) as of 2023-10-15 12:11 UTC*
 
 :red_circle: **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -7,11 +7,11 @@
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | HydraFailure :construction: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1800473?filter=.aarch64-darwin) | 114 | 54 | 7 | 1 | 7 | 6618 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1800473?filter=.x86_64-darwin) | 108 | 48 | 9 |  | 7 | 6642 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1800473?filter=.x86_64-linux) | 49 | 18 | 15 |  | 7 | 6825 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | HydraFailure :construction: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | --- | 
+ | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1800473?filter=.aarch64-darwin) | 114 | 54 | 7 | 1 | 6620 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1800473?filter=.x86_64-darwin) | 108 | 48 | 9 |  | 6644 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1800473?filter=.x86_64-linux) | 49 | 18 | 15 |  | 6827 | 
 #### Maintained Linux packages with build failure
 - [ ] [[:penguin::x:]](https://hydra.nixos.org/build/237400378) [haskellPackages.pandoc-crossref](https://hydra.nixos.org/eval/1800473?filter=haskellPackages.pandoc-crossref) @maralorn
 #### Maintained Linux packages with failed dependency
