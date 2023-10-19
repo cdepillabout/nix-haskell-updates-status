@@ -1,16 +1,16 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1800640](https://hydra.nixos.org/eval/1800640) of nixpkgs commit [3d06d76](https://github.com/NixOS/nixpkgs/commits/3d06d7622da1bceaed679db55cb70f405f516140) as of 2023-10-19 06:11 UTC*
+*evaluation [1800640](https://hydra.nixos.org/eval/1800640) of nixpkgs commit [3d06d76](https://github.com/NixOS/nixpkgs/commits/3d06d7622da1bceaed679db55cb70f405f516140) as of 2023-10-19 12:12 UTC*
 
 :yellow_circle: **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1800640?filter=.aarch64-darwin) | 113 | 56 | 7 |  | 6624 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1800640?filter=.x86_64-darwin) | 107 | 51 | 9 | 2 | 6647 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1800640?filter=.x86_64-linux) | 49 | 19 | 15 |  | 6831 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1800640?filter=.aarch64-darwin) | 113 | 56 | 7 | 6624 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1800640?filter=.x86_64-darwin) | 107 | 51 | 9 | 6647 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1800640?filter=.x86_64-linux) | 49 | 19 | 15 | 6831 | 
 #### Maintained Linux packages with build failure
 - [ ] [[:penguin::x:]](https://hydra.nixos.org/build/237400378) [haskellPackages.pandoc-crossref](https://hydra.nixos.org/eval/1800640?filter=haskellPackages.pandoc-crossref) @maralorn
 #### Maintained Linux packages with failed dependency
