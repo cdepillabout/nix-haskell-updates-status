@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1800907](https://hydra.nixos.org/eval/1800907) of nixpkgs commit [97ba4fa](https://github.com/NixOS/nixpkgs/commits/97ba4facba98267a6dd53bc0cfa4b1fc563ae2e2) as of 2023-10-24 18:10 UTC*
+*evaluation [1800907](https://hydra.nixos.org/eval/1800907) of nixpkgs commit [97ba4fa](https://github.com/NixOS/nixpkgs/commits/97ba4facba98267a6dd53bc0cfa4b1fc563ae2e2) as of 2023-10-25 00:21 UTC*
 
 :red_circle: **Branch not mergeable**
   * Too many outstanding jobs on x86_64-linux.
@@ -10,8 +10,8 @@
 
  | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
  | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1800907?filter=.aarch64-darwin) | 79 | 37 | 7 | 42 | 6584 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1800907?filter=.x86_64-darwin) | 70 | 37 | 9 | 43 | 6609 | 
+ | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1800907?filter=.aarch64-darwin) | 79 | 37 | 7 | 42 | 6585 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1800907?filter=.x86_64-darwin) | 70 | 37 | 9 | 41 | 6610 | 
  | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1800907?filter=.x86_64-linux) | 8 | 17 | 11 | 771 | 6113 | 
 #### Maintained Linux packages with build failure
 - [ ] [[:penguin::x:]](https://hydra.nixos.org/build/239250533) [haskellPackages.monad-bayes](https://hydra.nixos.org/eval/1800907?filter=haskellPackages.monad-bayes) @turion
