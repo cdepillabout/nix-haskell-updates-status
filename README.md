@@ -1,16 +1,16 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1800974](https://hydra.nixos.org/eval/1800974) of nixpkgs commit [26df24d](https://github.com/NixOS/nixpkgs/commits/26df24d5d1f4e90e929afb1dfd022e6a0a307a3c) as of 2023-10-26 12:12 UTC*
+*evaluation [1800974](https://hydra.nixos.org/eval/1800974) of nixpkgs commit [26df24d](https://github.com/NixOS/nixpkgs/commits/26df24d5d1f4e90e929afb1dfd022e6a0a307a3c) as of 2023-10-26 18:10 UTC*
 
 :yellow_circle: **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1800974?filter=.aarch64-darwin) | 80 | 36 | 7 |  | 6623 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1800974?filter=.x86_64-darwin) | 71 | 37 | 9 |  | 6647 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1800974?filter=.x86_64-linux) | 14 | 22 | 13 | 1 | 6816 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1800974?filter=.aarch64-darwin) | 80 | 36 | 7 | 6623 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1800974?filter=.x86_64-darwin) | 71 | 37 | 9 | 6647 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1800974?filter=.x86_64-linux) | 14 | 22 | 13 | 6816 | 
 #### Maintained Linux packages with build failure
 - [ ] [[:penguin::x:]](https://hydra.nixos.org/build/239249411) [agdaPackages._1lab](https://hydra.nixos.org/eval/1800974?filter=agdaPackages._1lab) @ncfavier
 - [ ] [[:penguin::x:]](https://hydra.nixos.org/build/239252695) [agdaPackages.agda-prelude](https://hydra.nixos.org/eval/1800974?filter=agdaPackages.agda-prelude) @alexarice @laMudri @turion
