@@ -1,31 +1,19 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1800974](https://hydra.nixos.org/eval/1800974) of nixpkgs commit [26df24d](https://github.com/NixOS/nixpkgs/commits/26df24d5d1f4e90e929afb1dfd022e6a0a307a3c) as of 2023-10-26 06:10 UTC*
+*evaluation [1800974](https://hydra.nixos.org/eval/1800974) of nixpkgs commit [26df24d](https://github.com/NixOS/nixpkgs/commits/26df24d5d1f4e90e929afb1dfd022e6a0a307a3c) as of 2023-10-26 12:12 UTC*
 
 :yellow_circle: **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1800974?filter=.aarch64-darwin) | 80 | 36 | 7 | 6623 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1800974?filter=.x86_64-darwin) | 71 | 37 | 9 | 6647 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1800974?filter=.x86_64-linux) | 15 | 22 | 13 | 6816 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | --- | 
+ | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1800974?filter=.aarch64-darwin) | 80 | 36 | 7 |  | 6623 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1800974?filter=.x86_64-darwin) | 71 | 37 | 9 |  | 6647 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1800974?filter=.x86_64-linux) | 14 | 22 | 13 | 1 | 6816 | 
 #### Maintained Linux packages with build failure
 - [ ] [[:penguin::x:]](https://hydra.nixos.org/build/239249411) [agdaPackages._1lab](https://hydra.nixos.org/eval/1800974?filter=agdaPackages._1lab) @ncfavier
 - [ ] [[:penguin::x:]](https://hydra.nixos.org/build/239252695) [agdaPackages.agda-prelude](https://hydra.nixos.org/eval/1800974?filter=agdaPackages.agda-prelude) @alexarice @laMudri @turion
-- [ ] [haskell-language-server](https://hydra.nixos.org/eval/1800974?filter=haskell-language-server) @maralorn
-  - [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/239373261) [toplevel](https://hydra.nixos.org/eval/1800974?filter=haskell-language-server)
-  - [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/239258159) [haskell.packages.ghc902](https://hydra.nixos.org/eval/1800974?filter=haskell.packages.ghc902.haskell-language-server)
-  - [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/239244676) [haskell.packages.ghc924](https://hydra.nixos.org/eval/1800974?filter=haskell.packages.ghc924.haskell-language-server)
-  - [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/239255679) [haskell.packages.ghc925](https://hydra.nixos.org/eval/1800974?filter=haskell.packages.ghc925.haskell-language-server)
-  - [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/239244592) [haskell.packages.ghc926](https://hydra.nixos.org/eval/1800974?filter=haskell.packages.ghc926.haskell-language-server)
-  - [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/239254745) [haskell.packages.ghc927](https://hydra.nixos.org/eval/1800974?filter=haskell.packages.ghc927.haskell-language-server)
-  - [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/239259832) [haskell.packages.ghc928](https://hydra.nixos.org/eval/1800974?filter=haskell.packages.ghc928.haskell-language-server)
-  - [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/239373229) [haskell.packages.ghc945](https://hydra.nixos.org/eval/1800974?filter=haskell.packages.ghc945.haskell-language-server)
-  - [[:penguin::x:]](https://hydra.nixos.org/build/239373266) [haskell.packages.ghc946](https://hydra.nixos.org/eval/1800974?filter=haskell.packages.ghc946.haskell-language-server)
-  - [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/239373246) [haskell.packages.ghc947](https://hydra.nixos.org/eval/1800974?filter=haskell.packages.ghc947.haskell-language-server)
-  - [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/239373287) [haskellPackages](https://hydra.nixos.org/eval/1800974?filter=haskellPackages.haskell-language-server)
 - [ ] [[:penguin::x:]](https://hydra.nixos.org/build/239250533) [haskellPackages.monad-bayes](https://hydra.nixos.org/eval/1800974?filter=haskellPackages.monad-bayes) @turion
 - [ ] [[:penguin::x:]](https://hydra.nixos.org/build/239253634) [agdaPackages.standard-library](https://hydra.nixos.org/eval/1800974?filter=agdaPackages.standard-library) @alexarice @jwiegley @laMudri @turion
 #### Maintained Linux packages with failed dependency
