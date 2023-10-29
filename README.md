@@ -1,17 +1,16 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1801105](https://hydra.nixos.org/eval/1801105) of nixpkgs commit [425871e](https://github.com/NixOS/nixpkgs/commits/425871e87862950c7ebebfe06125e1b72fcf22a5) as of 2023-10-29 12:11 UTC*
+*evaluation [1801105](https://hydra.nixos.org/eval/1801105) of nixpkgs commit [425871e](https://github.com/NixOS/nixpkgs/commits/425871e87862950c7ebebfe06125e1b72fcf22a5) as of 2023-10-29 18:10 UTC*
 
 :yellow_circle: **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
-  * `mergeable` jobset is not finished.
   * `maintained` jobset is not finished.
 
 #### Build summary
 
  | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
  | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1801105?filter=.aarch64-darwin) | 80 | 36 | 7 | 4 | 6620 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1801105?filter=.x86_64-darwin) | 71 | 37 | 9 | 4 | 6644 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1801105?filter=.x86_64-linux) | 13 | 20 | 13 | 22 | 6800 | 
+ | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1801105?filter=.aarch64-darwin) | 80 | 36 | 7 | 1 | 6622 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1801105?filter=.x86_64-darwin) | 71 | 37 | 9 | 1 | 6646 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1801105?filter=.x86_64-linux) | 13 | 20 | 13 | 18 | 6803 | 
 #### Maintained Linux packages with build failure
 - [ ] [[:penguin::x:]](https://hydra.nixos.org/build/239249411) [agdaPackages._1lab](https://hydra.nixos.org/eval/1801105?filter=agdaPackages._1lab) @ncfavier
 - [ ] [[:penguin::x:]](https://hydra.nixos.org/build/239252695) [agdaPackages.agda-prelude](https://hydra.nixos.org/eval/1801105?filter=agdaPackages.agda-prelude) @alexarice @laMudri @turion
