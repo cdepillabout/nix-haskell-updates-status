@@ -1,18 +1,17 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1801480](https://hydra.nixos.org/eval/1801480) of nixpkgs commit [8541e5a](https://github.com/NixOS/nixpkgs/commits/8541e5ab09d6d8928a362427e63aa41f2564b6d4) as of 2023-11-07 12:17 UTC*
+*evaluation [1801480](https://hydra.nixos.org/eval/1801480) of nixpkgs commit [8541e5a](https://github.com/NixOS/nixpkgs/commits/8541e5ab09d6d8928a362427e63aa41f2564b6d4) as of 2023-11-07 18:10 UTC*
 
 :yellow_circle: **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
-  * `mergeable` jobset is not finished.
 
 #### Build summary
 
- | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | HydraFailure :construction: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
- | --- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1801480?filter=.aarch64-darwin) | 72 | 31 | 7 | 1 |  | 6641 | 
- | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1801480?filter=.aarch64-linux) | 25 | 12 | 12 |  |  | 6787 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1801480?filter=.x86_64-darwin) | 63 | 22 | 7 |  |  | 6677 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1801480?filter=.x86_64-linux) | 11 | 2 | 12 |  | 11 | 6835 | 
+ | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | HydraFailure :construction: | Success :heavy_check_mark: | 
+ | --- | --- | --- | --- | --- | --- | 
+ | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1801480?filter=.aarch64-darwin) | 72 | 31 | 7 | 1 | 6641 | 
+ | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1801480?filter=.aarch64-linux) | 25 | 12 | 12 |  | 6787 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1801480?filter=.x86_64-darwin) | 63 | 22 | 7 |  | 6677 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1801480?filter=.x86_64-linux) | 11 | 2 | 12 |  | 6843 | 
 #### Maintained Linux packages with build failure
 - [ ] [[:iphone::x:]](https://hydra.nixos.org/build/239772252) [[:penguin::x:]](https://hydra.nixos.org/build/239250533) [haskellPackages.monad-bayes](https://hydra.nixos.org/eval/1801480?filter=haskellPackages.monad-bayes) @turion
 #### Maintained Linux packages with failed dependency
