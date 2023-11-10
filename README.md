@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1801560](https://hydra.nixos.org/eval/1801560) of nixpkgs commit [f10a9c9](https://github.com/NixOS/nixpkgs/commits/f10a9c90947faa4a399e6c98c9fa0ee5c4ae51c5) as of 2023-11-10 02:20 UTC*
+*evaluation [1801560](https://hydra.nixos.org/eval/1801560) of nixpkgs commit [f10a9c9](https://github.com/NixOS/nixpkgs/commits/f10a9c90947faa4a399e6c98c9fa0ee5c4ae51c5) as of 2023-11-10 06:15 UTC*
 
 :yellow_circle: **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
@@ -9,10 +9,10 @@
 
  | Platform | Failed :x: | DependencyFailed :heavy_exclamation_mark: | TimedOut :hourglass::no_entry_sign: | HydraFailure :construction: | Unfinished :hourglass_flowing_sand: | Success :heavy_check_mark: | 
  | --- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1801560?filter=.aarch64-darwin) | 71 | 31 | 7 | 1 | 2 | 6646 | 
+ | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1801560?filter=.aarch64-darwin) | 71 | 31 | 7 | 1 |  | 6646 | 
  | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1801560?filter=.aarch64-linux) | 24 | 12 | 12 |  | 23 | 6773 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1801560?filter=.x86_64-darwin) | 62 | 22 | 7 |  | 2 | 6682 | 
- | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1801560?filter=.x86_64-linux) | 10 | 3 | 12 |  | 3 | 6847 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1801560?filter=.x86_64-darwin) | 62 | 22 | 7 |  |  | 6682 | 
+ | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1801560?filter=.x86_64-linux) | 10 | 3 | 12 |  | 2 | 6847 | 
 #### Maintained Linux packages with failed dependency
 - [ ] [haskell-language-server](https://hydra.nixos.org/eval/1801560?filter=haskell-language-server) @maralorn
   - [[:iphone::hourglass_flowing_sand:]](https://hydra.nixos.org/build/240234358) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/240234452) [toplevel](https://hydra.nixos.org/eval/1801560?filter=haskell-language-server)
