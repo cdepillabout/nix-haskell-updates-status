@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1801674](https://hydra.nixos.org/eval/1801674) of nixpkgs commit [0126d4c](https://github.com/NixOS/nixpkgs/commits/0126d4c46f08064e7f3e5949c77bcc4d8377dae3) as of 2023-11-13 08:42 UTC*
+*evaluation [1801674](https://hydra.nixos.org/eval/1801674) of nixpkgs commit [0126d4c](https://github.com/NixOS/nixpkgs/commits/0126d4c46f08064e7f3e5949c77bcc4d8377dae3) as of 2023-11-13 12:12 UTC*
 
 :yellow_circle: **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `mergeable` jobset is not finished.
@@ -28,9 +28,6 @@
   - [[:iphone::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240478271) [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240478273) [haskell.packages.ghc962](https://hydra.nixos.org/eval/1801674?filter=haskell.packages.ghc962.haskell-language-server)
   - [[:iphone::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240478259) [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240478267) [haskell.packages.ghc963](https://hydra.nixos.org/eval/1801674?filter=haskell.packages.ghc963.haskell-language-server)
   - [[:iphone::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240475800) [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240475576) [haskellPackages](https://hydra.nixos.org/eval/1801674?filter=haskellPackages.haskell-language-server)
-- [ ] [[:iphone::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240506466) [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240506461) [haskell-language-server-ghc-9_0](https://hydra.nixos.org/eval/1801674?filter=haskell-language-server-ghc-9_0) @maralorn
-- [ ] [[:iphone::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240506467) [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240506470) [haskell-language-server-ghc-9_4](https://hydra.nixos.org/eval/1801674?filter=haskell-language-server-ghc-9_4) @maralorn
-- [ ] [[:iphone::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240506457) [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240506465) [haskell-language-server-ghc-9_6](https://hydra.nixos.org/eval/1801674?filter=haskell-language-server-ghc-9_6) @maralorn
 #### Maintained Darwin packages with build failure
 <details><summary>5 job(s) </summary>
 
@@ -42,7 +39,7 @@
 </details>
 
 #### Maintained Darwin packages with failed dependency
-<details><summary>28 job(s) </summary>
+<details><summary>25 job(s) </summary>
 
 - [ ] [[:green_apple::heavy_check_mark:]](https://hydra.nixos.org/build/240434850) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240436211) [haskellPackages.arch-web](https://hydra.nixos.org/eval/1801674?filter=haskellPackages.arch-web) @berberman
 - [ ] [[:green_apple::heavy_check_mark:]](https://hydra.nixos.org/build/240433785) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240438617) [haskellPackages.blockfrost-client](https://hydra.nixos.org/eval/1801674?filter=haskellPackages.blockfrost-client) @sorki
@@ -63,9 +60,6 @@
   - [[:green_apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240478264) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240478263) [haskell.packages.ghc962](https://hydra.nixos.org/eval/1801674?filter=haskell.packages.ghc962.haskell-language-server)
   - [[:green_apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240478261) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240478268) [haskell.packages.ghc963](https://hydra.nixos.org/eval/1801674?filter=haskell.packages.ghc963.haskell-language-server)
   - [[:green_apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240475684) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240475688) [haskellPackages](https://hydra.nixos.org/eval/1801674?filter=haskellPackages.haskell-language-server)
-- [ ] [[:green_apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240506462) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240506472) [haskell-language-server-ghc-9_0](https://hydra.nixos.org/eval/1801674?filter=haskell-language-server-ghc-9_0) @maralorn
-- [ ] [[:green_apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240506468) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240506464) [haskell-language-server-ghc-9_4](https://hydra.nixos.org/eval/1801674?filter=haskell-language-server-ghc-9_4) @maralorn
-- [ ] [[:green_apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240506458) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240506469) [haskell-language-server-ghc-9_6](https://hydra.nixos.org/eval/1801674?filter=haskell-language-server-ghc-9_6) @maralorn
 - [ ] [[:green_apple::heavy_check_mark:]](https://hydra.nixos.org/build/240433887) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240437621) [hci](https://hydra.nixos.org/eval/1801674?filter=hci) @roberth
 - [ ] [hercules-ci-agent](https://hydra.nixos.org/eval/1801674?filter=hercules-ci-agent) @roberth
   - [[:green_apple::heavy_check_mark:]](https://hydra.nixos.org/build/240434675) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240446498) [toplevel](https://hydra.nixos.org/eval/1801674?filter=hercules-ci-agent)
@@ -194,7 +188,7 @@
 </details>
 
 #### Unmaintained packages with failed dependency
-<details><summary>78 job(s) </summary>
+<details><summary>81 job(s) </summary>
 
 - [ ] [[:green_apple::heavy_check_mark:]](https://hydra.nixos.org/build/240446879) [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/240434716) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240437709) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/240447173) [haskellPackages.servant-client](https://hydra.nixos.org/eval/1801674?filter=haskellPackages.servant-client)  :arrow_heading_up: 26 | 140
 - [ ] [[:green_apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240445245) [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/240435322) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/240433274) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/240443604) [haskellPackages.di-handle](https://hydra.nixos.org/eval/1801674?filter=haskellPackages.di-handle)  :arrow_heading_up: 5 | 9
@@ -246,6 +240,9 @@
 - [ ] [[:green_apple::heavy_check_mark:]](https://hydra.nixos.org/build/240443442) [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/240434476) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/240436310) [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240432708) [haskellPackages.fastparser](https://hydra.nixos.org/eval/1801674?filter=haskellPackages.fastparser) 
 - [ ] [[:green_apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240443689) [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/240436866) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240440584) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/240432650) [haskellPackages.fmt-terminal-colors](https://hydra.nixos.org/eval/1801674?filter=haskellPackages.fmt-terminal-colors) 
 - [ ] [[:green_apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240439136) [[:iphone::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240444669) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240446221) [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240439404) [haskellPackages.google-maps-geocoding](https://hydra.nixos.org/eval/1801674?filter=haskellPackages.google-maps-geocoding) 
+- [ ] [[:green_apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240506462) [[:iphone::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240506466) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240506472) [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240506461) [haskell-language-server-ghc-9_0](https://hydra.nixos.org/eval/1801674?filter=haskell-language-server-ghc-9_0) 
+- [ ] [[:green_apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240506468) [[:iphone::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240506467) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240506464) [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240506470) [haskell-language-server-ghc-9_4](https://hydra.nixos.org/eval/1801674?filter=haskell-language-server-ghc-9_4) 
+- [ ] [[:green_apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240506458) [[:iphone::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240506457) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240506469) [[:penguin::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240506465) [haskell-language-server-ghc-9_6](https://hydra.nixos.org/eval/1801674?filter=haskell-language-server-ghc-9_6) 
 - [ ] [[:green_apple::heavy_check_mark:]](https://hydra.nixos.org/build/240433996) [[:iphone::heavy_check_mark:]](https://hydra.nixos.org/build/240445030) [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240445387) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/240437071) [haskellPackages.hasql-th](https://hydra.nixos.org/eval/1801674?filter=haskellPackages.hasql-th) 
 - [ ] [[:green_apple::heavy_check_mark:]](https://hydra.nixos.org/build/240443029) [[:iphone::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240441567) [[:apple::heavy_check_mark:]](https://hydra.nixos.org/build/240439805) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/240438408) [haskellPackages.hmatrix-nlopt](https://hydra.nixos.org/eval/1801674?filter=haskellPackages.hmatrix-nlopt) 
 - [ ] [[:apple::heavy_exclamation_mark:]](https://hydra.nixos.org/build/240442398) [[:penguin::heavy_check_mark:]](https://hydra.nixos.org/build/240445643) [haskellPackages.hs-swisstable-hashtables-class](https://hydra.nixos.org/eval/1801674?filter=haskellPackages.hs-swisstable-hashtables-class) 
