@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1801707](https://hydra.nixos.org/eval/1801707) of nixpkgs commit [3f9fd83](https://github.com/NixOS/nixpkgs/commits/3f9fd83d6b8042bc01e7d4776aed08f9e4ce8574) as of 2023-11-14 12:11 UTC*
+*evaluation [1801707](https://hydra.nixos.org/eval/1801707) of nixpkgs commit [3f9fd83](https://github.com/NixOS/nixpkgs/commits/3f9fd83d6b8042bc01e7d4776aed08f9e4ce8574) as of 2023-11-14 18:10 UTC*
 
 :yellow_circle: **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
@@ -11,7 +11,7 @@
  | --- | --- | --- | --- | --- | --- | --- | 
  | [aarch64-darwin :green_apple:](https://hydra.nixos.org/eval/1801707?filter=.aarch64-darwin) | 80 | 39 |  | 1 |  | 6641 | 
  | [aarch64-linux :iphone:](https://hydra.nixos.org/eval/1801707?filter=.aarch64-linux) | 30 | 12 | 1 | 10 | 21 | 6773 | 
- | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1801707?filter=.x86_64-darwin) | 71 | 63 | 1 |  | 2 | 6643 | 
+ | [x86_64-darwin :apple:](https://hydra.nixos.org/eval/1801707?filter=.x86_64-darwin) | 71 | 63 | 1 |  |  | 6643 | 
  | [x86_64-linux :penguin:](https://hydra.nixos.org/eval/1801707?filter=.x86_64-linux) | 16 | 14 | 3 |  | 1 | 6849 | 
 #### Maintained Linux packages with failed dependency
 - [ ] [haskell-language-server](https://hydra.nixos.org/eval/1801707?filter=haskell-language-server) @maralorn
