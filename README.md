@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1802218](https://hydra.nixos.org/eval/1802218) of nixpkgs commit [dba51c8](https://github.com/NixOS/nixpkgs/commits/dba51c8df8c8e01a7ce9a02f02c4cd11af25d49f) as of 2023-11-26 12:11 UTC*
+*evaluation [1802218](https://hydra.nixos.org/eval/1802218) of nixpkgs commit [dba51c8](https://github.com/NixOS/nixpkgs/commits/dba51c8df8c8e01a7ce9a02f02c4cd11af25d49f) as of 2023-11-26 18:10 UTC*
 
 :red_circle: **Branch not mergeable**
   * Too many outstanding jobs on x86_64-linux.
