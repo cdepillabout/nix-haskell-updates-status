@@ -1,17 +1,17 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1802681](https://hydra.nixos.org/eval/1802681) of nixpkgs commit [31dffd8](https://github.com/NixOS/nixpkgs/commits/31dffd86b89ff54e5ea5b7366c85b444c56c987e) as of 2023-12-08 14:25 UTC*
+*evaluation [1802681](https://hydra.nixos.org/eval/1802681) of nixpkgs commit [31dffd8](https://github.com/NixOS/nixpkgs/commits/31dffd86b89ff54e5ea5b7366c85b444c56c987e) as of 2023-12-08 20:12 UTC*
 
 🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | HydraFailure 🚧 | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1802681?filter=.aarch64-darwin) | 86 | 51 |  | 1 |  | 6655 | 
- | [aarch64-linux 📱](https://hydra.nixos.org/eval/1802681?filter=.aarch64-linux) | 30 | 20 | 3 |  | 1 | 6817 | 
- | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1802681?filter=.x86_64-darwin) | 73 | 42 | 1 |  |  | 6690 | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1802681?filter=.x86_64-linux) | 12 | 16 | 1 |  |  | 6878 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | HydraFailure 🚧 | Success ✅ | 
+ | --- | --- | --- | --- | --- | --- | 
+ | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1802681?filter=.aarch64-darwin) | 86 | 51 |  | 1 | 6655 | 
+ | [aarch64-linux 📱](https://hydra.nixos.org/eval/1802681?filter=.aarch64-linux) | 30 | 20 | 3 |  | 6818 | 
+ | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1802681?filter=.x86_64-darwin) | 73 | 42 | 1 |  | 6690 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1802681?filter=.x86_64-linux) | 12 | 16 | 1 |  | 6878 | 
 #### Maintained Linux packages with build failure
 - [ ] [[📱❌]](https://hydra.nixos.org/build/243329135) [[🐧✅]](https://hydra.nixos.org/build/243322653) [haskellPackages.board-games](https://hydra.nixos.org/eval/1802681?filter=haskellPackages.board-games) @thielema
 - [ ] [dhall-nix](https://hydra.nixos.org/eval/1802681?filter=dhall-nix) @Gabriella439
