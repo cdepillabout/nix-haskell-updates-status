@@ -1,17 +1,17 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1802722](https://hydra.nixos.org/eval/1802722) of nixpkgs commit [4e4b31d](https://github.com/NixOS/nixpkgs/commits/4e4b31df114b5ffe1a9cc41a54855ec603e5e96a) as of 2023-12-09 20:34 UTC*
+*evaluation [1802722](https://hydra.nixos.org/eval/1802722) of nixpkgs commit [4e4b31d](https://github.com/NixOS/nixpkgs/commits/4e4b31df114b5ffe1a9cc41a54855ec603e5e96a) as of 2023-12-10 00:31 UTC*
 
 🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | HydraFailure 🚧 | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1802722?filter=.aarch64-darwin) | 86 | 44 |  | 1 | 3 | 6657 | 
- | [aarch64-linux 📱](https://hydra.nixos.org/eval/1802722?filter=.aarch64-linux) | 30 | 12 | 3 |  | 5 | 6819 | 
- | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1802722?filter=.x86_64-darwin) | 73 | 34 | 1 |  | 3 | 6692 | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1802722?filter=.x86_64-linux) | 12 | 7 | 1 |  | 2 | 6881 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | HydraFailure 🚧 | Success ✅ | 
+ | --- | --- | --- | --- | --- | --- | 
+ | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1802722?filter=.aarch64-darwin) | 86 | 44 |  | 1 | 6658 | 
+ | [aarch64-linux 📱](https://hydra.nixos.org/eval/1802722?filter=.aarch64-linux) | 30 | 12 | 3 |  | 6821 | 
+ | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1802722?filter=.x86_64-darwin) | 73 | 34 | 1 |  | 6693 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1802722?filter=.x86_64-linux) | 12 | 7 | 1 |  | 6882 | 
 #### Maintained Linux packages with build failure
 - [ ] [[📱❌]](https://hydra.nixos.org/build/243329135) [[🐧✅]](https://hydra.nixos.org/build/243322653) [haskellPackages.board-games](https://hydra.nixos.org/eval/1802722?filter=haskellPackages.board-games) @thielema
 - [ ] [dhall-nix](https://hydra.nixos.org/eval/1802722?filter=dhall-nix) @Gabriella439
@@ -199,7 +199,7 @@
 - [ ] [[🍏❗]](https://hydra.nixos.org/build/243330380) [[📱✅]](https://hydra.nixos.org/build/243327073) [[🍎✅]](https://hydra.nixos.org/build/243332349) [[🐧✅]](https://hydra.nixos.org/build/243329048) [haskellPackages.di-monad](https://hydra.nixos.org/eval/1802722?filter=haskellPackages.di-monad)  ⤴️ 5 | 9
 - [ ] [[🍏❗]](https://hydra.nixos.org/build/243328431) [[📱✅]](https://hydra.nixos.org/build/243325802) [[🍎✅]](https://hydra.nixos.org/build/243328210) [[🐧✅]](https://hydra.nixos.org/build/243328181) [haskellPackages.di-df1](https://hydra.nixos.org/eval/1802722?filter=haskellPackages.di-df1)  ⤴️ 4 | 8
 - [ ] [hoogle](https://hydra.nixos.org/eval/1802722?filter=hoogle)  ⤴️ 2 | 4
-  - [[🍏✅]](https://hydra.nixos.org/build/243634652) [[📱⏳]](https://hydra.nixos.org/build/243634646) [[🍎⏳]](https://hydra.nixos.org/build/243634640) [[🐧✅]](https://hydra.nixos.org/build/243634677) [haskell.packages.ghc8107](https://hydra.nixos.org/eval/1802722?filter=haskell.packages.ghc8107.hoogle)
+  - [[🍏✅]](https://hydra.nixos.org/build/243634652) [[📱✅]](https://hydra.nixos.org/build/243634646) [[🍎✅]](https://hydra.nixos.org/build/243634640) [[🐧✅]](https://hydra.nixos.org/build/243634677) [haskell.packages.ghc8107](https://hydra.nixos.org/eval/1802722?filter=haskell.packages.ghc8107.hoogle)
   - [[🍏❗]](https://hydra.nixos.org/build/243634683) [[📱✅]](https://hydra.nixos.org/build/243634694) [[🍎✅]](https://hydra.nixos.org/build/243634645) [[🐧✅]](https://hydra.nixos.org/build/243634682) [haskell.packages.ghc902](https://hydra.nixos.org/eval/1802722?filter=haskell.packages.ghc902.hoogle)
   - [[🍏✅]](https://hydra.nixos.org/build/243329713) [[📱✅]](https://hydra.nixos.org/build/243330478) [[🍎✅]](https://hydra.nixos.org/build/243333020) [[🐧✅]](https://hydra.nixos.org/build/243332169) [haskell.packages.ghc924](https://hydra.nixos.org/eval/1802722?filter=haskell.packages.ghc924.hoogle)
   - [[🍏✅]](https://hydra.nixos.org/build/243329602) [[📱✅]](https://hydra.nixos.org/build/243326327) [[🍎✅]](https://hydra.nixos.org/build/243322569) [[🐧✅]](https://hydra.nixos.org/build/243324936) [haskell.packages.ghc925](https://hydra.nixos.org/eval/1802722?filter=haskell.packages.ghc925.hoogle)
