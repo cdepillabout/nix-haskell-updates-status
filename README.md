@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1802792](https://hydra.nixos.org/eval/1802792) of nixpkgs commit [e1f9606](https://github.com/NixOS/nixpkgs/commits/e1f960663ed45c19aaf0bb0149ff627548cbbf85) as of 2023-12-12 06:10 UTC*
+*evaluation [1802792](https://hydra.nixos.org/eval/1802792) of nixpkgs commit [e1f9606](https://github.com/NixOS/nixpkgs/commits/e1f960663ed45c19aaf0bb0149ff627548cbbf85) as of 2023-12-12 12:12 UTC*
 
 🔴 **Branch not mergeable**
   * Too many outstanding jobs on x86_64-linux.
@@ -9,12 +9,28 @@
 
 #### Build summary
 
- | Platform | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | 
- | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1802792?filter=.aarch64-darwin) | 6783 |  | 
- | [aarch64-linux 📱](https://hydra.nixos.org/eval/1802792?filter=.aarch64-linux) | 6864 |  | 
- | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1802792?filter=.x86_64-darwin) | 6802 |  | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1802792?filter=.x86_64-linux) | 6902 | 1 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1802792?filter=.aarch64-darwin) | 2 | 1 | 6566 | 220 | 
+ | [aarch64-linux 📱](https://hydra.nixos.org/eval/1802792?filter=.aarch64-linux) |  |  | 6684 | 184 | 
+ | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1802792?filter=.x86_64-darwin) | 1 |  | 6562 | 244 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1802792?filter=.x86_64-linux) |  |  | 6645 | 271 | 
+#### Maintained Darwin packages with failed dependency
+<details><summary>3 job(s) </summary>
+
+- [ ] [git-annex](https://hydra.nixos.org/eval/1802792?filter=git-annex) @peti @roosemberth
+  - [[🍏❗]](https://hydra.nixos.org/build/243803743) [[🍎⏳]](https://hydra.nixos.org/build/243805289) [toplevel](https://hydra.nixos.org/eval/1802792?filter=git-annex)
+  - [[🍏❗]](https://hydra.nixos.org/build/243803987) [[🍎⏳]](https://hydra.nixos.org/build/243817409) [haskellPackages](https://hydra.nixos.org/eval/1802792?filter=haskellPackages.git-annex)
+</details>
+
+#### Unmaintained packages with build failure
+<details><summary>3 job(s) </summary>
+
+- [ ] [[🍏❌]](https://hydra.nixos.org/build/243804073) [[📱⏳]](https://hydra.nixos.org/build/243824490) [[🍎⏳]](https://hydra.nixos.org/build/243829698) [[🐧⏳]](https://hydra.nixos.org/build/243824387) [haskellPackages.HsSyck](https://hydra.nixos.org/eval/1802792?filter=haskellPackages.HsSyck)  ⤴️ 1 | 10
+- [ ] [[🍏⏳]](https://hydra.nixos.org/build/243822851) [[📱⏳]](https://hydra.nixos.org/build/243825787) [[🍎❌]](https://hydra.nixos.org/build/243804298) [[🐧⏳]](https://hydra.nixos.org/build/243822085) [haskellPackages.al](https://hydra.nixos.org/eval/1802792?filter=haskellPackages.al) 
+- [ ] [[🍏❌]](https://hydra.nixos.org/build/243804051) [[📱⏳]](https://hydra.nixos.org/build/243807211) [[🍎⏳]](https://hydra.nixos.org/build/243825311) [[🐧⏳]](https://hydra.nixos.org/build/243819173) [haskellPackages.executable-hash](https://hydra.nixos.org/eval/1802792?filter=haskellPackages.executable-hash) 
+</details>
+
 #### Top 50 broken packages, sorted by number of reverse dependencies
 <details><summary>50 job(s) </summary>
 
