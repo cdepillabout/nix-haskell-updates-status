@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1802933](https://hydra.nixos.org/eval/1802933) of nixpkgs commit [fccc614](https://github.com/NixOS/nixpkgs/commits/fccc614684f2ac162ddd03409161a29e12febafa) as of 2023-12-17 06:15 UTC*
+*evaluation [1802933](https://hydra.nixos.org/eval/1802933) of nixpkgs commit [fccc614](https://github.com/NixOS/nixpkgs/commits/fccc614684f2ac162ddd03409161a29e12febafa) as of 2023-12-17 12:12 UTC*
 
 🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `mergeable` jobset is not finished.
@@ -12,7 +12,7 @@
  | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1802933?filter=.aarch64-darwin) | 85 | 57 |  | 1 | 4 | 6651 | 
  | [aarch64-linux 📱](https://hydra.nixos.org/eval/1802933?filter=.aarch64-linux) | 25 | 13 | 5 |  | 10 | 6817 | 
  | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1802933?filter=.x86_64-darwin) | 71 | 34 | 1 |  | 4 | 6697 | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1802933?filter=.x86_64-linux) | 15 | 10 | 2 |  | 19 | 6865 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1802933?filter=.x86_64-linux) | 15 | 10 | 2 |  | 15 | 6868 | 
 #### Maintained Linux packages with build failure
 - [ ] [dhall-nix](https://hydra.nixos.org/eval/1802933?filter=dhall-nix) @Gabriella439
   - [[📱❌]](https://hydra.nixos.org/build/243814699) [[🐧❌]](https://hydra.nixos.org/build/243810405) [toplevel](https://hydra.nixos.org/eval/1802933?filter=dhall-nix)
