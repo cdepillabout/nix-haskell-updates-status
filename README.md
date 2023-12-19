@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1802983](https://hydra.nixos.org/eval/1802983) of nixpkgs commit [3d56b81](https://github.com/NixOS/nixpkgs/commits/3d56b810ad2663b09377300f76a57a0baf775566) as of 2023-12-19 06:15 UTC*
+*evaluation [1802983](https://hydra.nixos.org/eval/1802983) of nixpkgs commit [3d56b81](https://github.com/NixOS/nixpkgs/commits/3d56b810ad2663b09377300f76a57a0baf775566) as of 2023-12-19 14:28 UTC*
 
 🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
@@ -8,10 +8,10 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | HydraFailure 🚧 | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1802983?filter=.aarch64-darwin) | 86 | 58 |  | 1 | 2 | 6651 | 
- | [aarch64-linux 📱](https://hydra.nixos.org/eval/1802983?filter=.aarch64-linux) | 26 | 13 | 5 |  | 2 | 6823 | 
- | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1802983?filter=.x86_64-darwin) | 72 | 35 | 2 |  | 2 | 6696 | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1802983?filter=.x86_64-linux) | 16 | 12 | 2 |  | 2 | 6876 | 
+ | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1802983?filter=.aarch64-darwin) | 86 | 58 |  | 1 |  | 6653 | 
+ | [aarch64-linux 📱](https://hydra.nixos.org/eval/1802983?filter=.aarch64-linux) | 26 | 13 | 5 |  | 1 | 6824 | 
+ | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1802983?filter=.x86_64-darwin) | 72 | 35 | 2 |  |  | 6698 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1802983?filter=.x86_64-linux) | 16 | 12 | 2 |  |  | 6878 | 
 #### Maintained Linux packages with build failure
 - [ ] [dhall-nix](https://hydra.nixos.org/eval/1802983?filter=dhall-nix) @Gabriella439
   - [[📱❌]](https://hydra.nixos.org/build/243814699) [[🐧❌]](https://hydra.nixos.org/build/243810405) [toplevel](https://hydra.nixos.org/eval/1802983?filter=dhall-nix)
