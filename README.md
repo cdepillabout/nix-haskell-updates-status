@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1803554](https://hydra.nixos.org/eval/1803554) of nixpkgs commit [245035e](https://github.com/NixOS/nixpkgs/commits/245035ea35346b58d481b25c3647231d4b965691) as of 2024-01-13 00:23 UTC*
+*evaluation [1803563](https://hydra.nixos.org/eval/1803563) of nixpkgs commit [13076e4](https://github.com/NixOS/nixpkgs/commits/13076e430b03d3a89e32228b463a7a3a89e6f3ba) as of 2024-01-13 06:11 UTC*
 
 🔴 **Branch not mergeable**
   * Too many outstanding jobs on x86_64-linux.
@@ -11,10 +11,10 @@
 
  | Platform | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | 
- | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1803554?filter=.aarch64-darwin) | 6792 |  | 
- | [aarch64-linux 📱](https://hydra.nixos.org/eval/1803554?filter=.aarch64-linux) | 6873 |  | 
- | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1803554?filter=.x86_64-darwin) | 6811 |  | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1803554?filter=.x86_64-linux) | 6912 | 1 | 
+ | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1803563?filter=.aarch64-darwin) | 6792 |  | 
+ | [aarch64-linux 📱](https://hydra.nixos.org/eval/1803563?filter=.aarch64-linux) | 6873 |  | 
+ | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1803563?filter=.x86_64-darwin) | 6811 |  | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1803563?filter=.x86_64-linux) | 6912 | 1 | 
 #### Top 50 broken packages, sorted by number of reverse dependencies
 <details><summary>50 job(s) </summary>
 
