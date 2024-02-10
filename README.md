@@ -1,20 +1,24 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1804227](https://hydra.nixos.org/eval/1804227) of nixpkgs commit [63f3a92](https://github.com/NixOS/nixpkgs/commits/63f3a9268c2d9142b3908a75d594b7082bf55dfc) as of 2024-02-10 06:09 UTC*
+*evaluation [1804227](https://hydra.nixos.org/eval/1804227) of nixpkgs commit [63f3a92](https://github.com/NixOS/nixpkgs/commits/63f3a9268c2d9142b3908a75d594b7082bf55dfc) as of 2024-02-10 13:34 UTC*
 
 🔴 **Branch not mergeable**
-  * Too many outstanding jobs on x86_64-linux.
-  * Too many outstanding jobs on aarch64-linux.
-  * `mergeable` jobset is not finished.
-  * `maintained` jobset is not finished.
+  * `mergeable` jobset failed.
+  * `maintained` jobset failed.
 
 #### Build summary
 
- | Platform | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | 
- | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1804227?filter=.aarch64-darwin) | 6956 |  | 
- | [aarch64-linux 📱](https://hydra.nixos.org/eval/1804227?filter=.aarch64-linux) | 7037 |  | 
- | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1804227?filter=.x86_64-darwin) | 6974 |  | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1804227?filter=.x86_64-linux) | 7076 | 1 | 
+ | Platform | DependencyFailed ❗ | Canceled 🚫 | Success ✅ | 
+ | --- | --- | --- | --- | 
+ | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1804227?filter=.aarch64-darwin) | 1 | 6955 |  | 
+ | [aarch64-linux 📱](https://hydra.nixos.org/eval/1804227?filter=.aarch64-linux) |  | 7036 | 1 | 
+ | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1804227?filter=.x86_64-darwin) |  | 6974 |  | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1804227?filter=.x86_64-linux) |  | 7076 | 1 | 
+#### Unmaintained packages with failed dependency
+<details><summary>1 job(s) </summary>
+
+- [ ] [[🍏❗]](https://hydra.nixos.org/build/249169837) [[📱🚫]](https://hydra.nixos.org/build/249173770) [[🍎🚫]](https://hydra.nixos.org/build/249179250) [[🐧🚫]](https://hydra.nixos.org/build/249180744) [haskellPackages.repa-devil](https://hydra.nixos.org/eval/1804227?filter=haskellPackages.repa-devil)  ⤴️ 4 | 4
+</details>
+
 #### Top 50 broken packages, sorted by number of reverse dependencies
 <details><summary>50 job(s) </summary>
 
