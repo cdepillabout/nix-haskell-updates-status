@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1804378](https://hydra.nixos.org/eval/1804378) of nixpkgs commit [2f576c1](https://github.com/NixOS/nixpkgs/commits/2f576c19f72184165ac7a318f9dee5936a15ef7b) as of 2024-02-17 06:14 UTC*
+*evaluation [1804378](https://hydra.nixos.org/eval/1804378) of nixpkgs commit [2f576c1](https://github.com/NixOS/nixpkgs/commits/2f576c19f72184165ac7a318f9dee5936a15ef7b) as of 2024-02-17 12:10 UTC*
 
 🔴 **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -7,12 +7,12 @@
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | HydraFailure 🚧 | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1804378?filter=.aarch64-darwin) | 575 | 358 | 2 |  |  | 6056 | 
- | [aarch64-linux 📱](https://hydra.nixos.org/eval/1804378?filter=.aarch64-linux) | 532 | 312 | 1 | 2 |  | 6215 | 
- | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1804378?filter=.x86_64-darwin) | 575 | 356 | 3 |  |  | 6070 | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1804378?filter=.x86_64-linux) | 529 | 325 | 3 |  | 1 | 6245 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | HydraFailure 🚧 | Success ✅ | 
+ | --- | --- | --- | --- | --- | --- | 
+ | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1804378?filter=.aarch64-darwin) | 575 | 358 | 2 |  | 6056 | 
+ | [aarch64-linux 📱](https://hydra.nixos.org/eval/1804378?filter=.aarch64-linux) | 532 | 312 | 1 | 2 | 6215 | 
+ | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1804378?filter=.x86_64-darwin) | 575 | 356 | 3 |  | 6070 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1804378?filter=.x86_64-linux) | 529 | 325 | 3 |  | 6246 | 
 #### Maintained Linux packages with build failure
 - [ ] [[📱❌]](https://hydra.nixos.org/build/249440449) [[🐧❌]](https://hydra.nixos.org/build/249449126) [haskellPackages.break](https://hydra.nixos.org/eval/1804378?filter=haskellPackages.break) @Gabriella439
 - [ ] [[📱❌]](https://hydra.nixos.org/build/249626840) [[🐧❌]](https://hydra.nixos.org/build/249631679) [carp](https://hydra.nixos.org/eval/1804378?filter=carp) @jluttine
