@@ -1,17 +1,17 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1804695](https://hydra.nixos.org/eval/1804695) of nixpkgs commit [38eff76](https://github.com/NixOS/nixpkgs/commits/38eff76eca85ed41f0630fe4f50cd92ba78310ff) as of 2024-03-02 06:09 UTC*
+*evaluation [1804695](https://hydra.nixos.org/eval/1804695) of nixpkgs commit [38eff76](https://github.com/NixOS/nixpkgs/commits/38eff76eca85ed41f0630fe4f50cd92ba78310ff) as of 2024-03-02 12:11 UTC*
 
 🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1804695?filter=.aarch64-darwin) | 576 | 320 | 1 |  | 6104 | 
- | [aarch64-linux 📱](https://hydra.nixos.org/eval/1804695?filter=.aarch64-linux) | 530 | 271 | 2 | 2 | 6267 | 
- | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1804695?filter=.x86_64-darwin) | 574 | 320 | 2 |  | 6131 | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1804695?filter=.x86_64-linux) | 528 | 283 | 1 | 5 | 6300 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Success ✅ | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1804695?filter=.aarch64-darwin) | 576 | 320 | 1 | 6104 | 
+ | [aarch64-linux 📱](https://hydra.nixos.org/eval/1804695?filter=.aarch64-linux) | 530 | 271 | 2 | 6268 | 
+ | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1804695?filter=.x86_64-darwin) | 574 | 320 | 2 | 6131 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1804695?filter=.x86_64-linux) | 528 | 283 | 1 | 6302 | 
 #### Maintained Linux packages with build failure
 - [ ] [[📱❌]](https://hydra.nixos.org/build/251114744) [[🐧❌]](https://hydra.nixos.org/build/251112269) [carp](https://hydra.nixos.org/eval/1804695?filter=carp) @jluttine
 - [ ] [[📱❌]](https://hydra.nixos.org/build/251105747) [[🐧❌]](https://hydra.nixos.org/build/251108860) [haskellPackages.dunai](https://hydra.nixos.org/eval/1804695?filter=haskellPackages.dunai) @turion
