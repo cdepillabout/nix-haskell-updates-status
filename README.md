@@ -1,17 +1,17 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1805187](https://hydra.nixos.org/eval/1805187) of nixpkgs commit [c774347](https://github.com/NixOS/nixpkgs/commits/c774347c25bf4c7e0a47e84dcbe18ca2bb9363a6) as of 2024-03-23 18:09 UTC*
+*evaluation [1805187](https://hydra.nixos.org/eval/1805187) of nixpkgs commit [c774347](https://github.com/NixOS/nixpkgs/commits/c774347c25bf4c7e0a47e84dcbe18ca2bb9363a6) as of 2024-03-24 00:25 UTC*
 
 🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1805187?filter=.aarch64-darwin) | 117 | 55 | 2 |  | 6175 | 
- | [aarch64-linux 📱](https://hydra.nixos.org/eval/1805187?filter=.aarch64-linux) | 59 | 23 | 2 |  | 6336 | 
- | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1805187?filter=.x86_64-darwin) | 110 | 62 | 3 |  | 6190 | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1805187?filter=.x86_64-linux) | 52 | 24 | 2 | 1 | 6380 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Success ✅ | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1805187?filter=.aarch64-darwin) | 117 | 55 | 2 | 6175 | 
+ | [aarch64-linux 📱](https://hydra.nixos.org/eval/1805187?filter=.aarch64-linux) | 59 | 23 | 2 | 6336 | 
+ | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1805187?filter=.x86_64-darwin) | 110 | 62 | 3 | 6190 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1805187?filter=.x86_64-linux) | 52 | 24 | 2 | 6381 | 
 #### Maintained Linux packages with build failure
 - [ ] [[📱❌]](https://hydra.nixos.org/build/253693935) [[🐧❌]](https://hydra.nixos.org/build/253683201) [carp](https://hydra.nixos.org/eval/1805187?filter=carp) @jluttine
 - [ ] [[📱❌]](https://hydra.nixos.org/build/253695083) [[🐧✅]](https://hydra.nixos.org/build/253703937) [haskellPackages.cpython](https://hydra.nixos.org/eval/1805187?filter=haskellPackages.cpython) @sheepforce
@@ -37,8 +37,8 @@
   -  [[🐧❗]](https://hydra.nixos.org/build/254027879) [pkgsCross.ghcjs.haskell.packages.ghcHEAD](https://hydra.nixos.org/eval/1805187?filter=pkgsCross.ghcjs.haskell.packages.ghcHEAD.ghc)
   -  [[🐧❗]](https://hydra.nixos.org/build/253702468) [pkgsCross.ghcjs.haskellPackages](https://hydra.nixos.org/eval/1805187?filter=pkgsCross.ghcjs.haskellPackages.ghc)
 - [ ] [ghcHEAD](https://hydra.nixos.org/eval/1805187?filter=ghcHEAD) @cdepillabout @expipiplus1 @guibou @maralorn @ncfavier @sternenseemann
-  - [[📱❗]](https://hydra.nixos.org/build/254027870) [[🐧⏳]](https://hydra.nixos.org/build/254027883) [haskell.compiler](https://hydra.nixos.org/eval/1805187?filter=haskell.compiler.ghcHEAD)
-  - [[📱❗]](https://hydra.nixos.org/build/254027876) [[🐧⏳]](https://hydra.nixos.org/build/254027884) [haskell.compiler.native-bignum](https://hydra.nixos.org/eval/1805187?filter=haskell.compiler.native-bignum.ghcHEAD)
+  - [[📱❗]](https://hydra.nixos.org/build/254027870) [[🐧✅]](https://hydra.nixos.org/build/254027883) [haskell.compiler](https://hydra.nixos.org/eval/1805187?filter=haskell.compiler.ghcHEAD)
+  - [[📱❗]](https://hydra.nixos.org/build/254027876) [[🐧✅]](https://hydra.nixos.org/build/254027884) [haskell.compiler.native-bignum](https://hydra.nixos.org/eval/1805187?filter=haskell.compiler.native-bignum.ghcHEAD)
   -  [[🐧❗]](https://hydra.nixos.org/build/254027882) [pkgsMusl.haskell.compiler](https://hydra.nixos.org/eval/1805187?filter=pkgsMusl.haskell.compiler.ghcHEAD)
   -  [[🐧❗]](https://hydra.nixos.org/build/254027880) [pkgsMusl.haskell.compiler.native-bignum](https://hydra.nixos.org/eval/1805187?filter=pkgsMusl.haskell.compiler.native-bignum.ghcHEAD)
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/254024774) [maintained](https://hydra.nixos.org/eval/1805187?filter=maintained) @cdepillabout @expipiplus1 @maralorn @ncfavier @sternenseemann
