@@ -1,17 +1,17 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1805193](https://hydra.nixos.org/eval/1805193) of nixpkgs commit [31a14cb](https://github.com/NixOS/nixpkgs/commits/31a14cb69ecad9f7e98605f349368314f90abc18) as of 2024-03-24 12:11 UTC*
+*evaluation [1805193](https://hydra.nixos.org/eval/1805193) of nixpkgs commit [31a14cb](https://github.com/NixOS/nixpkgs/commits/31a14cb69ecad9f7e98605f349368314f90abc18) as of 2024-03-24 18:10 UTC*
 
 🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Success ✅ | 
- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1805193?filter=.aarch64-darwin) | 117 | 55 | 2 | 6175 | 
- | [aarch64-linux 📱](https://hydra.nixos.org/eval/1805193?filter=.aarch64-linux) | 59 | 23 | 2 | 6336 | 
- | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1805193?filter=.x86_64-darwin) | 110 | 62 | 3 | 6190 | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1805193?filter=.x86_64-linux) | 52 | 27 | 2 | 6380 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
+ | --- | --- | --- | --- | --- | --- | 
+ | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1805193?filter=.aarch64-darwin) | 117 | 55 | 2 |  | 6175 | 
+ | [aarch64-linux 📱](https://hydra.nixos.org/eval/1805193?filter=.aarch64-linux) | 59 | 22 | 2 | 1 | 6336 | 
+ | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1805193?filter=.x86_64-darwin) | 110 | 62 | 3 |  | 6190 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1805193?filter=.x86_64-linux) | 52 | 26 | 2 |  | 6380 | 
 #### Maintained Linux packages with build failure
 - [ ] [[📱❌]](https://hydra.nixos.org/build/253693935) [[🐧❌]](https://hydra.nixos.org/build/253683201) [carp](https://hydra.nixos.org/eval/1805193?filter=carp) @jluttine
 - [ ] [[📱❌]](https://hydra.nixos.org/build/253695083) [[🐧✅]](https://hydra.nixos.org/build/253703937) [haskellPackages.cpython](https://hydra.nixos.org/eval/1805193?filter=haskellPackages.cpython) @sheepforce
@@ -40,11 +40,6 @@
   - [[📱✅]](https://hydra.nixos.org/build/253704472) [[🐧✅]](https://hydra.nixos.org/build/253693415) [haskellPackages](https://hydra.nixos.org/eval/1805193?filter=haskellPackages.ghc)
   -  [[🐧❗]](https://hydra.nixos.org/build/254027879) [pkgsCross.ghcjs.haskell.packages.ghcHEAD](https://hydra.nixos.org/eval/1805193?filter=pkgsCross.ghcjs.haskell.packages.ghcHEAD.ghc)
   -  [[🐧❗]](https://hydra.nixos.org/build/253702468) [pkgsCross.ghcjs.haskellPackages](https://hydra.nixos.org/eval/1805193?filter=pkgsCross.ghcjs.haskellPackages.ghc)
-- [ ] [ghcHEAD](https://hydra.nixos.org/eval/1805193?filter=ghcHEAD) @cdepillabout @expipiplus1 @guibou @maralorn @ncfavier @sternenseemann
-  - [[📱❗]](https://hydra.nixos.org/build/254027870) [[🐧✅]](https://hydra.nixos.org/build/254027883) [haskell.compiler](https://hydra.nixos.org/eval/1805193?filter=haskell.compiler.ghcHEAD)
-  - [[📱❗]](https://hydra.nixos.org/build/254027876) [[🐧✅]](https://hydra.nixos.org/build/254027884) [haskell.compiler.native-bignum](https://hydra.nixos.org/eval/1805193?filter=haskell.compiler.native-bignum.ghcHEAD)
-  -  [[🐧❗]](https://hydra.nixos.org/build/254027882) [pkgsMusl.haskell.compiler](https://hydra.nixos.org/eval/1805193?filter=pkgsMusl.haskell.compiler.ghcHEAD)
-  -  [[🐧❗]](https://hydra.nixos.org/build/254027880) [pkgsMusl.haskell.compiler.native-bignum](https://hydra.nixos.org/eval/1805193?filter=pkgsMusl.haskell.compiler.native-bignum.ghcHEAD)
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/254029251) [maintained](https://hydra.nixos.org/eval/1805193?filter=maintained) @cdepillabout @expipiplus1 @maralorn @ncfavier @sternenseemann
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/254027871) [muslGHCs](https://hydra.nixos.org/eval/1805193?filter=muslGHCs) @nh2
 - [ ] [xmonad](https://hydra.nixos.org/eval/1805193?filter=xmonad) @NeQuissimus @dschrempf @ivanbrennan @peti @slotThe
@@ -440,7 +435,6 @@
 
 [gogol-core](https://packdeps.haskellers.com/reverse/gogol-core) ⤴️ 184  
 [haskell98](https://packdeps.haskellers.com/reverse/haskell98) ⤴️ 152  
-[type-errors](https://packdeps.haskellers.com/reverse/type-errors) ⤴️ 105  
 [polysemy](https://packdeps.haskellers.com/reverse/polysemy) ⤴️ 78  
 [failure](https://packdeps.haskellers.com/reverse/failure) ⤴️ 72  
 [connection](https://packdeps.haskellers.com/reverse/connection) ⤴️ 58  
@@ -488,6 +482,7 @@
 [reform](https://packdeps.haskellers.com/reverse/reform) ⤴️ 20  
 [wxcore](https://packdeps.haskellers.com/reverse/wxcore) ⤴️ 20  
 [attoparsec-enumerator](https://packdeps.haskellers.com/reverse/attoparsec-enumerator) ⤴️ 19  
+[bytestring-show](https://packdeps.haskellers.com/reverse/bytestring-show) ⤴️ 19  
 </details>
 
 
