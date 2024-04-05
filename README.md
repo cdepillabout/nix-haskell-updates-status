@@ -1,17 +1,17 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1805441](https://hydra.nixos.org/eval/1805441) of nixpkgs commit [c58b0d2](https://github.com/NixOS/nixpkgs/commits/c58b0d26b7b5bfa8a696e303448ae500930dd2ee) as of 2024-04-04 18:16 UTC*
+*evaluation [1805441](https://hydra.nixos.org/eval/1805441) of nixpkgs commit [c58b0d2](https://github.com/NixOS/nixpkgs/commits/c58b0d26b7b5bfa8a696e303448ae500930dd2ee) as of 2024-04-05 00:23 UTC*
 
 🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Canceled 🚫 | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1805441?filter=.aarch64-darwin) | 86 | 44 | 3 |  |  | 6213 | 
- | [aarch64-linux 📱](https://hydra.nixos.org/eval/1805441?filter=.aarch64-linux) | 26 | 21 | 2 |  |  | 6372 | 
- | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1805441?filter=.x86_64-darwin) | 80 | 46 | 1 |  |  | 6229 | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1805441?filter=.x86_64-linux) | 21 | 15 | 4 | 1 | 1 | 6412 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Canceled 🚫 | Success ✅ | 
+ | --- | --- | --- | --- | --- | --- | 
+ | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1805441?filter=.aarch64-darwin) | 86 | 44 | 3 |  | 6213 | 
+ | [aarch64-linux 📱](https://hydra.nixos.org/eval/1805441?filter=.aarch64-linux) | 26 | 21 | 2 |  | 6372 | 
+ | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1805441?filter=.x86_64-darwin) | 80 | 46 | 1 |  | 6229 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1805441?filter=.x86_64-linux) | 21 | 15 | 4 | 1 | 6412 | 
 #### Maintained Linux packages with build failure
 - [ ] [[📱❌]](https://hydra.nixos.org/build/254958066) [[🐧❌]](https://hydra.nixos.org/build/254964054) [carp](https://hydra.nixos.org/eval/1805441?filter=carp) @jluttine
 - [ ] [[📱❌]](https://hydra.nixos.org/build/254945690) [[🐧❌]](https://hydra.nixos.org/build/254969151) [haskellPackages.eventlog2html](https://hydra.nixos.org/eval/1805441?filter=haskellPackages.eventlog2html) @maralorn
