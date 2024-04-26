@@ -1,17 +1,17 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1805927](https://hydra.nixos.org/eval/1805927) of nixpkgs commit [cce32cc](https://github.com/NixOS/nixpkgs/commits/cce32cc804ff793aa153aa3ff3caab9deb1b1d09) as of 2024-04-26 06:11 UTC*
+*evaluation [1805927](https://hydra.nixos.org/eval/1805927) of nixpkgs commit [cce32cc](https://github.com/NixOS/nixpkgs/commits/cce32cc804ff793aa153aa3ff3caab9deb1b1d09) as of 2024-04-26 12:12 UTC*
 
 🔴 **Branch not mergeable**
   * No `maintained` job found.
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | Unknown (Just 9) unknown code Just 9 | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1805927?filter=.aarch64-darwin) | 81 | 47 | 3 | 2 |  | 6211 | 
- | [aarch64-linux 📱](https://hydra.nixos.org/eval/1805927?filter=.aarch64-linux) | 18 | 9 |  | 2 |  | 6376 | 
- | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1805927?filter=.x86_64-darwin) | 69 | 32 | 3 | 4 |  | 6243 | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1805927?filter=.x86_64-linux) | 12 | 8 |  | 2 | 1 | 6422 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | Unknown (Just 9) unknown code Just 9 | TimedOut ⌛🚫 | Success ✅ | 
+ | --- | --- | --- | --- | --- | --- | 
+ | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1805927?filter=.aarch64-darwin) | 81 | 47 | 3 | 2 | 6211 | 
+ | [aarch64-linux 📱](https://hydra.nixos.org/eval/1805927?filter=.aarch64-linux) | 18 | 9 |  | 2 | 6376 | 
+ | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1805927?filter=.x86_64-darwin) | 69 | 32 | 3 | 4 | 6243 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1805927?filter=.x86_64-linux) | 12 | 9 |  | 2 | 6422 | 
 #### Maintained Linux packages with build failure
 - [ ] [xmonad](https://hydra.nixos.org/eval/1805927?filter=xmonad) @NeQuissimus @dschrempf @ivanbrennan @peti @slotThe
   - [[📱✅]](https://hydra.nixos.org/build/257084058) [[🐧✅]](https://hydra.nixos.org/build/257101403) [haskellPackages](https://hydra.nixos.org/eval/1805927?filter=haskellPackages.xmonad)
@@ -337,7 +337,7 @@
   -    [[🐧✅]](https://hydra.nixos.org/build/257097676) [pkgsStatic.haskell.packages.native-bignum.ghc948](https://hydra.nixos.org/eval/1805927?filter=pkgsStatic.haskell.packages.native-bignum.ghc948.hello)
   -    [[🐧✅]](https://hydra.nixos.org/build/257087105) [pkgsStatic.haskell.packages.native-bignum.ghc982](https://hydra.nixos.org/eval/1805927?filter=pkgsStatic.haskell.packages.native-bignum.ghc982.hello)
   -    [[🐧✅]](https://hydra.nixos.org/build/257092821) [pkgsStatic.haskellPackages](https://hydra.nixos.org/eval/1805927?filter=pkgsStatic.haskellPackages.hello)
-- [ ] [[🍏✅]](https://hydra.nixos.org/build/257143012) [[📱✅]](https://hydra.nixos.org/build/257659889) [[🍎❗]](https://hydra.nixos.org/build/257142974) [[🐧⏳]](https://hydra.nixos.org/build/257659902) [haskellPackages.hgdal](https://hydra.nixos.org/eval/1805927?filter=haskellPackages.hgdal) 
+- [ ] [[🍏✅]](https://hydra.nixos.org/build/257143012) [[📱✅]](https://hydra.nixos.org/build/257659889) [[🍎❗]](https://hydra.nixos.org/build/257142974) [[🐧❗]](https://hydra.nixos.org/build/257659902) [haskellPackages.hgdal](https://hydra.nixos.org/eval/1805927?filter=haskellPackages.hgdal) 
 - [ ] [[🍏❗]](https://hydra.nixos.org/build/257100841) [[📱❗]](https://hydra.nixos.org/build/257078084) [[🍎✅]](https://hydra.nixos.org/build/257100634) [[🐧✅]](https://hydra.nixos.org/build/257100287) [haskellPackages.hmatrix-nlopt](https://hydra.nixos.org/eval/1805927?filter=haskellPackages.hmatrix-nlopt) 
 - [ ] [[🍏❗]](https://hydra.nixos.org/build/257100369) [[📱✅]](https://hydra.nixos.org/build/257096944) [[🍎❗]](https://hydra.nixos.org/build/257086303) [[🐧✅]](https://hydra.nixos.org/build/257097310) [haskellPackages.hprox](https://hydra.nixos.org/eval/1805927?filter=haskellPackages.hprox) 
 - [ ] [[🍎❗]](https://hydra.nixos.org/build/257077801) [[🐧✅]](https://hydra.nixos.org/build/257078353) [haskellPackages.hs-swisstable-hashtables-class](https://hydra.nixos.org/eval/1805927?filter=haskellPackages.hs-swisstable-hashtables-class) 
