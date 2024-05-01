@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1806019](https://hydra.nixos.org/eval/1806019) of nixpkgs commit [4b95256](https://github.com/NixOS/nixpkgs/commits/4b95256443d294623e14de34fbdb305cd5f065c7) as of 2024-05-01 12:11 UTC*
+*evaluation [1806019](https://hydra.nixos.org/eval/1806019) of nixpkgs commit [4b95256](https://github.com/NixOS/nixpkgs/commits/4b95256443d294623e14de34fbdb305cd5f065c7) as of 2024-05-01 18:09 UTC*
 
 🔴 **Branch not mergeable**
   * No `maintained` job found.
@@ -12,7 +12,7 @@
  | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1806019?filter=.aarch64-darwin) | 81 | 62 | 4 | 3 | 6205 | 
  | [aarch64-linux 📱](https://hydra.nixos.org/eval/1806019?filter=.aarch64-linux) | 19 | 12 | 2 |  | 6382 | 
  | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1806019?filter=.x86_64-darwin) | 71 | 38 | 4 | 3 | 6242 | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1806019?filter=.x86_64-linux) | 10 | 10 | 1 | 3 | 6430 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1806019?filter=.x86_64-linux) | 10 | 10 | 1 |  | 6431 | 
 #### Maintained Linux packages with build failure
 - [ ] [hledger-ui](https://hydra.nixos.org/eval/1806019?filter=hledger-ui) @maralorn
   - [[📱❌]](https://hydra.nixos.org/build/257708459) [[🐧❌]](https://hydra.nixos.org/build/257713465) [toplevel](https://hydra.nixos.org/eval/1806019?filter=hledger-ui)
