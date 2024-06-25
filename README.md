@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1807226](https://hydra.nixos.org/eval/1807226) of nixpkgs commit [b7a9a1b](https://github.com/NixOS/nixpkgs/commits/b7a9a1b139e8096ac15d07c7bdc944ccae47edce) as of 2024-06-25 06:17 UTC*
+*evaluation [1807226](https://hydra.nixos.org/eval/1807226) of nixpkgs commit [b7a9a1b](https://github.com/NixOS/nixpkgs/commits/b7a9a1b139e8096ac15d07c7bdc944ccae47edce) as of 2024-06-25 12:12 UTC*
 
 🔴 **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -7,12 +7,12 @@
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1807226?filter=.aarch64-darwin) | 89 | 125 | 2 | 4 | 6229 | 
- | [aarch64-linux 📱](https://hydra.nixos.org/eval/1807226?filter=.aarch64-linux) | 35 | 98 | 2 | 3 | 6372 | 
- | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1807226?filter=.x86_64-darwin) | 78 | 102 | 2 | 4 | 6269 | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1807226?filter=.x86_64-linux) | 25 | 101 | 2 | 3 | 6419 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | Unknown (Just 9) unknown code Just 9 | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
+ | --- | --- | --- | --- | --- | --- | --- | 
+ | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1807226?filter=.aarch64-darwin) | 89 | 126 | 1 | 2 | 2 | 6229 | 
+ | [aarch64-linux 📱](https://hydra.nixos.org/eval/1807226?filter=.aarch64-linux) | 35 | 98 |  | 2 | 3 | 6372 | 
+ | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1807226?filter=.x86_64-darwin) | 78 | 102 | 1 | 2 | 3 | 6269 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1807226?filter=.x86_64-linux) | 25 | 101 |  | 2 | 3 | 6419 | 
 #### Maintained Linux packages with build failure
 - [ ] [[📱❌]](https://hydra.nixos.org/build/263899005) [[🐧❌]](https://hydra.nixos.org/build/263884023) [haskellPackages.aeson-gadt-th](https://hydra.nixos.org/eval/1807226?filter=haskellPackages.aeson-gadt-th) @alexfmpe
 - [ ] [[📱❌]](https://hydra.nixos.org/build/263894582) [[🐧❌]](https://hydra.nixos.org/build/263884286) [haskellPackages.cli-git](https://hydra.nixos.org/eval/1807226?filter=haskellPackages.cli-git) @alexfmpe
@@ -267,6 +267,15 @@
   - [[🍏✅]](https://hydra.nixos.org/build/263921096) [[🍎✅]](https://hydra.nixos.org/build/263918402) [haskellPackages](https://hydra.nixos.org/eval/1807226?filter=haskellPackages.weeder)
 </details>
 
+#### Maintained Darwin packages with unknown error
+<details><summary>4 job(s) </summary>
+
+- [ ] [agda](https://hydra.nixos.org/eval/1807226?filter=agda) @abbradar @alexarice @iblech @turion
+  - [[🍏✅]](https://hydra.nixos.org/build/263914645) [[🍎✅]](https://hydra.nixos.org/build/263916993) [toplevel](https://hydra.nixos.org/eval/1807226?filter=agda)
+  - [[🍏✅]](https://hydra.nixos.org/build/263913503) [[🍎✅]](https://hydra.nixos.org/build/263915006) [agdaPackages](https://hydra.nixos.org/eval/1807226?filter=agdaPackages.agda)
+  - [[🍏unknown code Just 9]](https://hydra.nixos.org/build/264229318) [[🍎unknown code Just 9]](https://hydra.nixos.org/build/264229283) [nixosTests](https://hydra.nixos.org/eval/1807226?filter=nixosTests.agda)
+</details>
+
 #### Unmaintained packages with build failure
 <details><summary>107 job(s) </summary>
 
@@ -380,7 +389,7 @@
 </details>
 
 #### Unmaintained packages with failed dependency
-<details><summary>185 job(s) </summary>
+<details><summary>186 job(s) </summary>
 
 - [ ] [[🍏❗]](https://hydra.nixos.org/build/263913042) [[📱❗]](https://hydra.nixos.org/build/263881275) [[🍎❗]](https://hydra.nixos.org/build/263918842) [[🐧❗]](https://hydra.nixos.org/build/263878377) [haskellPackages.gi-glib](https://hydra.nixos.org/eval/1807226?filter=haskellPackages.gi-glib)  ⤴️ 54 | 114
 - [ ] [[🍏❗]](https://hydra.nixos.org/build/263913590) [[📱❗]](https://hydra.nixos.org/build/263891622) [[🍎❗]](https://hydra.nixos.org/build/263917520) [[🐧❗]](https://hydra.nixos.org/build/263879818) [haskellPackages.gi-gobject](https://hydra.nixos.org/eval/1807226?filter=haskellPackages.gi-gobject)  ⤴️ 52 | 110
@@ -526,6 +535,7 @@
 - [ ] [[🍏❗]](https://hydra.nixos.org/build/263920315) [[📱❗]](https://hydra.nixos.org/build/263884592) [[🍎❗]](https://hydra.nixos.org/build/263911511) [[🐧❗]](https://hydra.nixos.org/build/263880793) [haskellPackages.gi-poppler](https://hydra.nixos.org/eval/1807226?filter=haskellPackages.gi-poppler) 
 - [ ] [[🍏❗]](https://hydra.nixos.org/build/263920843) [[📱❗]](https://hydra.nixos.org/build/263900522) [[🍎❗]](https://hydra.nixos.org/build/263910125) [[🐧❗]](https://hydra.nixos.org/build/263881286) [haskellPackages.gi-rsvg](https://hydra.nixos.org/eval/1807226?filter=haskellPackages.gi-rsvg) 
 - [ ] [[🍏❗]](https://hydra.nixos.org/build/263909772) [[📱❗]](https://hydra.nixos.org/build/263879337) [[🍎❗]](https://hydra.nixos.org/build/263918542) [[🐧❗]](https://hydra.nixos.org/build/263879022) [haskellPackages.gi-secret](https://hydra.nixos.org/eval/1807226?filter=haskellPackages.gi-secret) 
+- [ ] [[🍏❗]](https://hydra.nixos.org/build/264479650) [[📱⏳]](https://hydra.nixos.org/build/264479656) [[🍎⏳]](https://hydra.nixos.org/build/264479654) [[🐧⏳]](https://hydra.nixos.org/build/264479649) [haskellPackages.gi-vips](https://hydra.nixos.org/eval/1807226?filter=haskellPackages.gi-vips) 
 - [ ] [[📱❗]](https://hydra.nixos.org/build/263896378) [[🐧❗]](https://hydra.nixos.org/build/263900609) [haskellPackages.gi-wnck](https://hydra.nixos.org/eval/1807226?filter=haskellPackages.gi-wnck) 
 - [ ] [[🍏❗]](https://hydra.nixos.org/build/263917997) [[📱❗]](https://hydra.nixos.org/build/263900699) [[🍎❗]](https://hydra.nixos.org/build/263919883) [[🐧❗]](https://hydra.nixos.org/build/263899972) [haskellPackages.greenclip](https://hydra.nixos.org/eval/1807226?filter=haskellPackages.greenclip) 
 - [ ] [[🍏❗]](https://hydra.nixos.org/build/263984750) [[📱❗]](https://hydra.nixos.org/build/263982610) [[🍎❗]](https://hydra.nixos.org/build/263984177) [[🐧❗]](https://hydra.nixos.org/build/263985076) [haskellPackages.hdmenu](https://hydra.nixos.org/eval/1807226?filter=haskellPackages.hdmenu) 
