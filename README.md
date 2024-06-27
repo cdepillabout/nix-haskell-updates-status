@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1807266](https://hydra.nixos.org/eval/1807266) of nixpkgs commit [c4f87b6](https://github.com/NixOS/nixpkgs/commits/c4f87b60f5b7ef34a5c886b264d59cf74ebbb48c) as of 2024-06-27 12:13 UTC*
+*evaluation [1807266](https://hydra.nixos.org/eval/1807266) of nixpkgs commit [c4f87b6](https://github.com/NixOS/nixpkgs/commits/c4f87b60f5b7ef34a5c886b264d59cf74ebbb48c) as of 2024-06-27 18:11 UTC*
 
 🔴 **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -9,10 +9,10 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1807266?filter=.aarch64-darwin) | 88 | 127 | 2 | 13 | 6220 | 
- | [aarch64-linux 📱](https://hydra.nixos.org/eval/1807266?filter=.aarch64-linux) | 35 | 99 | 2 | 14 | 6362 | 
- | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1807266?filter=.x86_64-darwin) | 77 | 104 | 2 | 15 | 6258 | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1807266?filter=.x86_64-linux) | 25 | 102 | 3 | 24 | 6397 | 
+ | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1807266?filter=.aarch64-darwin) | 88 | 127 | 2 | 12 | 6221 | 
+ | [aarch64-linux 📱](https://hydra.nixos.org/eval/1807266?filter=.aarch64-linux) | 35 | 100 | 2 | 11 | 6363 | 
+ | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1807266?filter=.x86_64-darwin) | 77 | 104 | 2 | 12 | 6261 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1807266?filter=.x86_64-linux) | 25 | 102 | 3 | 13 | 6407 | 
 #### Maintained Linux packages with build failure
 - [ ] [[📱❌]](https://hydra.nixos.org/build/263899005) [[🐧❌]](https://hydra.nixos.org/build/263884023) [haskellPackages.aeson-gadt-th](https://hydra.nixos.org/eval/1807266?filter=haskellPackages.aeson-gadt-th) @alexfmpe
 - [ ] [[📱❌]](https://hydra.nixos.org/build/263894582) [[🐧❌]](https://hydra.nixos.org/build/263884286) [haskellPackages.cli-git](https://hydra.nixos.org/eval/1807266?filter=haskellPackages.cli-git) @alexfmpe
@@ -94,7 +94,7 @@
   - [[📱✅]](https://hydra.nixos.org/build/263902813) [[🐧✅]](https://hydra.nixos.org/build/263897291) [haskellPackages](https://hydra.nixos.org/eval/1807266?filter=haskellPackages.weeder)
 - [ ] [xmonad](https://hydra.nixos.org/eval/1807266?filter=xmonad) @NeQuissimus @dschrempf @ivanbrennan @peti @slotThe
   - [[📱✅]](https://hydra.nixos.org/build/263898565) [[🐧✅]](https://hydra.nixos.org/build/263882308) [haskellPackages](https://hydra.nixos.org/eval/1807266?filter=haskellPackages.xmonad)
-  - [[📱⏳]](https://hydra.nixos.org/build/264504560) [[🐧❗]](https://hydra.nixos.org/build/264504575) [nixosTests](https://hydra.nixos.org/eval/1807266?filter=nixosTests.xmonad)
+  - [[📱❗]](https://hydra.nixos.org/build/264504560) [[🐧❗]](https://hydra.nixos.org/build/264504575) [nixosTests](https://hydra.nixos.org/eval/1807266?filter=nixosTests.xmonad)
 - [ ] [[📱❗]](https://hydra.nixos.org/build/263879802) [[🐧❗]](https://hydra.nixos.org/build/263892527) [haskellPackages.xmonad-extras](https://hydra.nixos.org/eval/1807266?filter=haskellPackages.xmonad-extras) @slotThe
 #### Maintained Darwin packages with build failure
 <details><summary>16 job(s) </summary>
