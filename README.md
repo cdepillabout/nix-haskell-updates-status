@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1807298](https://hydra.nixos.org/eval/1807298) of nixpkgs commit [74028c6](https://github.com/NixOS/nixpkgs/commits/74028c619b9a2509cff099dc55b8836163cc2121) as of 2024-06-30 06:10 UTC*
+*evaluation [1807298](https://hydra.nixos.org/eval/1807298) of nixpkgs commit [74028c6](https://github.com/NixOS/nixpkgs/commits/74028c619b9a2509cff099dc55b8836163cc2121) as of 2024-06-30 12:12 UTC*
 
 🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
@@ -9,8 +9,8 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1807298?filter=.aarch64-darwin) | 89 | 125 | 2 | 18 | 6220 | 
- | [aarch64-linux 📱](https://hydra.nixos.org/eval/1807298?filter=.aarch64-linux) | 35 | 96 | 2 | 23 | 6363 | 
+ | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1807298?filter=.aarch64-darwin) | 89 | 125 | 2 | 17 | 6221 | 
+ | [aarch64-linux 📱](https://hydra.nixos.org/eval/1807298?filter=.aarch64-linux) | 35 | 97 | 2 | 22 | 6364 | 
  | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1807298?filter=.x86_64-darwin) | 78 | 102 | 2 | 20 | 6261 | 
  | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1807298?filter=.x86_64-linux) | 25 | 100 | 3 | 21 | 6408 | 
 #### Maintained Linux packages with build failure
@@ -55,7 +55,7 @@
 - [ ] [[📱❗]](https://hydra.nixos.org/build/264688537) [[🐧⏳]](https://hydra.nixos.org/build/264688425) [hci](https://hydra.nixos.org/eval/1807298?filter=hci) @roberth
 - [ ] [hercules-ci-agent](https://hydra.nixos.org/eval/1807298?filter=hercules-ci-agent) @roberth
   - [[📱⏳]](https://hydra.nixos.org/build/264688499) [[🐧❗]](https://hydra.nixos.org/build/264688457) [toplevel](https://hydra.nixos.org/eval/1807298?filter=hercules-ci-agent)
-  - [[📱⏳]](https://hydra.nixos.org/build/264688455) [[🐧⏳]](https://hydra.nixos.org/build/264688450) [haskellPackages](https://hydra.nixos.org/eval/1807298?filter=haskellPackages.hercules-ci-agent)
+  - [[📱❗]](https://hydra.nixos.org/build/264688455) [[🐧⏳]](https://hydra.nixos.org/build/264688450) [haskellPackages](https://hydra.nixos.org/eval/1807298?filter=haskellPackages.hercules-ci-agent)
 - [ ] [hinit](https://hydra.nixos.org/eval/1807298?filter=hinit) @poscat0x04
   - [[📱❗]](https://hydra.nixos.org/build/263901564) [[🐧❗]](https://hydra.nixos.org/build/263886896) [toplevel](https://hydra.nixos.org/eval/1807298?filter=hinit)
   - [[📱❗]](https://hydra.nixos.org/build/263900729) [[🐧❗]](https://hydra.nixos.org/build/263896460) [haskellPackages](https://hydra.nixos.org/eval/1807298?filter=haskellPackages.hinit)
