@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1807405](https://hydra.nixos.org/eval/1807405) of nixpkgs commit [da36c43](https://github.com/NixOS/nixpkgs/commits/da36c43e86b519ec3ed419eb0e1f68a46cc5efd2) as of 2024-07-03 06:11 UTC*
+*evaluation [1807405](https://hydra.nixos.org/eval/1807405) of nixpkgs commit [da36c43](https://github.com/NixOS/nixpkgs/commits/da36c43e86b519ec3ed419eb0e1f68a46cc5efd2) as of 2024-07-03 12:13 UTC*
 
 🔴 **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -9,9 +9,9 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1807405?filter=.aarch64-darwin) | 89 | 126 | 2 | 32 | 6224 | 
+ | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1807405?filter=.aarch64-darwin) | 89 | 126 | 2 | 30 | 6224 | 
  | [aarch64-linux 📱](https://hydra.nixos.org/eval/1807405?filter=.aarch64-linux) | 35 | 101 | 2 |  | 6373 | 
- | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1807405?filter=.x86_64-darwin) | 78 | 105 | 2 | 8 | 6268 | 
+ | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1807405?filter=.x86_64-darwin) | 78 | 105 | 2 | 7 | 6268 | 
  | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1807405?filter=.x86_64-linux) | 25 | 103 | 3 | 28 | 6400 | 
 #### Maintained Linux packages with build failure
 - [ ] [[📱❌]](https://hydra.nixos.org/build/263899005) [[🐧❌]](https://hydra.nixos.org/build/263884023) [haskellPackages.aeson-gadt-th](https://hydra.nixos.org/eval/1807405?filter=haskellPackages.aeson-gadt-th) @alexfmpe
@@ -416,7 +416,7 @@
   - [[🍏✅]](https://hydra.nixos.org/build/263983570) [[📱✅]](https://hydra.nixos.org/build/263982301) [[🍎✅]](https://hydra.nixos.org/build/263982302) [[🐧✅]](https://hydra.nixos.org/build/263984747) [haskell.packages.ghc927](https://hydra.nixos.org/eval/1807405?filter=haskell.packages.ghc927.hpack)
   - [[🍏✅]](https://hydra.nixos.org/build/263985386) [[📱✅]](https://hydra.nixos.org/build/263983137) [[🍎✅]](https://hydra.nixos.org/build/263982454) [[🐧✅]](https://hydra.nixos.org/build/263983228) [haskell.packages.ghc928](https://hydra.nixos.org/eval/1807405?filter=haskell.packages.ghc928.hpack)
   - [[🍏✅]](https://hydra.nixos.org/build/264858359) [[📱✅]](https://hydra.nixos.org/build/263984384) [[🍎✅]](https://hydra.nixos.org/build/263983441) [[🐧✅]](https://hydra.nixos.org/build/263981973) [haskell.packages.ghc945](https://hydra.nixos.org/eval/1807405?filter=haskell.packages.ghc945.hpack)
-  - [[🍏⏳]](https://hydra.nixos.org/build/264858506) [[📱✅]](https://hydra.nixos.org/build/263983220) [[🍎✅]](https://hydra.nixos.org/build/263982983) [[🐧✅]](https://hydra.nixos.org/build/263981535) [haskell.packages.ghc946](https://hydra.nixos.org/eval/1807405?filter=haskell.packages.ghc946.hpack)
+  - [[🍏✅]](https://hydra.nixos.org/build/264858506) [[📱✅]](https://hydra.nixos.org/build/263983220) [[🍎✅]](https://hydra.nixos.org/build/263982983) [[🐧✅]](https://hydra.nixos.org/build/263981535) [haskell.packages.ghc946](https://hydra.nixos.org/eval/1807405?filter=haskell.packages.ghc946.hpack)
   - [[🍏✅]](https://hydra.nixos.org/build/264858391) [[📱✅]](https://hydra.nixos.org/build/263982084) [[🍎✅]](https://hydra.nixos.org/build/263984619) [[🐧✅]](https://hydra.nixos.org/build/263984285) [haskell.packages.ghc947](https://hydra.nixos.org/eval/1807405?filter=haskell.packages.ghc947.hpack)
   - [[🍏⏳]](https://hydra.nixos.org/build/264858454) [[📱✅]](https://hydra.nixos.org/build/263982304) [[🍎✅]](https://hydra.nixos.org/build/263982266) [[🐧✅]](https://hydra.nixos.org/build/263984547) [haskell.packages.ghc948](https://hydra.nixos.org/eval/1807405?filter=haskell.packages.ghc948.hpack)
   - [[🍏✅]](https://hydra.nixos.org/build/263985403) [[📱✅]](https://hydra.nixos.org/build/263984323) [[🍎✅]](https://hydra.nixos.org/build/263982207) [[🐧✅]](https://hydra.nixos.org/build/263984830) [haskell.packages.ghc963](https://hydra.nixos.org/eval/1807405?filter=haskell.packages.ghc963.hpack)
