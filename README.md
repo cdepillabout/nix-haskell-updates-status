@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1807496](https://hydra.nixos.org/eval/1807496) of nixpkgs commit [4b9a5f3](https://github.com/NixOS/nixpkgs/commits/4b9a5f3248dc9f2c20f58602c1129f85f31c264f) as of 2024-07-06 19:31 UTC*
+*evaluation [1807496](https://hydra.nixos.org/eval/1807496) of nixpkgs commit [4b9a5f3](https://github.com/NixOS/nixpkgs/commits/4b9a5f3248dc9f2c20f58602c1129f85f31c264f) as of 2024-07-07 00:26 UTC*
 
 🔴 **Branch not mergeable**
   * Too many outstanding jobs on x86_64-linux.
@@ -9,12 +9,30 @@
 
 #### Build summary
 
- | Platform | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | 
- | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1807496?filter=.aarch64-darwin) | 6435 |  | 
- | [aarch64-linux 📱](https://hydra.nixos.org/eval/1807496?filter=.aarch64-linux) | 5860 | 665 | 
- | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1807496?filter=.x86_64-darwin) | 6452 | 1 | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1807496?filter=.x86_64-linux) | 6489 | 81 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1807496?filter=.aarch64-darwin) | 4 | 1 | 5643 | 813 | 
+ | [aarch64-linux 📱](https://hydra.nixos.org/eval/1807496?filter=.aarch64-linux) |  |  | 5860 | 665 | 
+ | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1807496?filter=.x86_64-darwin) |  |  | 6315 | 147 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1807496?filter=.x86_64-linux) | 1 |  | 5794 | 792 | 
+#### Unmaintained packages with build failure
+<details><summary>5 job(s) </summary>
+
+- [ ] [[🍏❌]](https://hydra.nixos.org/build/265268277) [[📱⏳]](https://hydra.nixos.org/build/265283580) [[🍎⏳]](https://hydra.nixos.org/build/265280063) [[🐧⏳]](https://hydra.nixos.org/build/265289320) [haskellPackages.openal-ffi](https://hydra.nixos.org/eval/1807496?filter=haskellPackages.openal-ffi)  ⤴️ 1 | 1
+- [ ] [[🍏❌]](https://hydra.nixos.org/build/265284295) [[📱⏳]](https://hydra.nixos.org/build/265274807) [[🍎⏳]](https://hydra.nixos.org/build/265267448) [[🐧⏳]](https://hydra.nixos.org/build/265272416) [haskellPackages.gtk-traymanager](https://hydra.nixos.org/eval/1807496?filter=haskellPackages.gtk-traymanager) 
+- [ ] [[🍏❌]](https://hydra.nixos.org/build/265288604) [[📱⏳]](https://hydra.nixos.org/build/265268841) [[🍎⏳]](https://hydra.nixos.org/build/265290053) [[🐧⏳]](https://hydra.nixos.org/build/265269581) [haskellPackages.hdf5-lite](https://hydra.nixos.org/eval/1807496?filter=haskellPackages.hdf5-lite) 
+- [ ] [[🍏⏳]](https://hydra.nixos.org/build/265289666) [[📱⏳]](https://hydra.nixos.org/build/265272939) [[🍎⏳]](https://hydra.nixos.org/build/265270601) [[🐧❌]](https://hydra.nixos.org/build/265271888) [haskellPackages.matcha](https://hydra.nixos.org/eval/1807496?filter=haskellPackages.matcha) 
+- [ ] [[🍏❌]](https://hydra.nixos.org/build/265281209) [[📱⏳]](https://hydra.nixos.org/build/265272176) [[🍎⏳]](https://hydra.nixos.org/build/265291447) [[🐧⏳]](https://hydra.nixos.org/build/265292991) [haskellPackages.posix-timer](https://hydra.nixos.org/eval/1807496?filter=haskellPackages.posix-timer) 
+</details>
+
+#### Unmaintained packages with failed dependency
+<details><summary>3 job(s) </summary>
+
+- [ ] [bootGhcjs](https://hydra.nixos.org/eval/1807496?filter=bootGhcjs) 
+  - [[🍏❗]](https://hydra.nixos.org/build/265277485) [[📱⏳]](https://hydra.nixos.org/build/265291522) [[🍎⏳]](https://hydra.nixos.org/build/265281561) [[🐧⏳]](https://hydra.nixos.org/build/265269137) [haskell.compiler.ghcjs](https://hydra.nixos.org/eval/1807496?filter=haskell.compiler.ghcjs.bootGhcjs)
+  - [[🍏⏳]](https://hydra.nixos.org/build/265268090) [[📱⏳]](https://hydra.nixos.org/build/265281288) [[🍎⏳]](https://hydra.nixos.org/build/265272671) [[🐧⏳]](https://hydra.nixos.org/build/265272059) [haskell.compiler.ghcjs810](https://hydra.nixos.org/eval/1807496?filter=haskell.compiler.ghcjs810.bootGhcjs)
+</details>
+
 #### Top 50 broken packages, sorted by number of reverse dependencies
 <details><summary>50 job(s) </summary>
 
