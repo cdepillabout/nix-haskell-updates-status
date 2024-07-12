@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1807608](https://hydra.nixos.org/eval/1807608) of nixpkgs commit [4fde987](https://github.com/NixOS/nixpkgs/commits/4fde987c0d5316f0067837b639189299e7dfc35c) as of 2024-07-12 06:12 UTC*
+*evaluation [1807608](https://hydra.nixos.org/eval/1807608) of nixpkgs commit [4fde987](https://github.com/NixOS/nixpkgs/commits/4fde987c0d5316f0067837b639189299e7dfc35c) as of 2024-07-12 12:14 UTC*
 
 🔴 **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -7,12 +7,12 @@
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1807608?filter=.aarch64-darwin) | 96 | 38 | 2 |  | 6334 | 
- | [aarch64-linux 📱](https://hydra.nixos.org/eval/1807608?filter=.aarch64-linux) | 41 | 20 | 2 |  | 6483 | 
- | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1807608?filter=.x86_64-darwin) | 87 | 39 | 2 | 3 | 6358 | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1807608?filter=.x86_64-linux) | 32 | 9 | 2 | 3 | 6542 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Success ✅ | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1807608?filter=.aarch64-darwin) | 96 | 38 | 2 | 6334 | 
+ | [aarch64-linux 📱](https://hydra.nixos.org/eval/1807608?filter=.aarch64-linux) | 41 | 20 | 2 | 6483 | 
+ | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1807608?filter=.x86_64-darwin) | 87 | 39 | 5 | 6358 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1807608?filter=.x86_64-linux) | 32 | 9 | 2 | 6543 | 
 #### Maintained Linux packages with build failure
 - [ ] [[📱❌]](https://hydra.nixos.org/build/265271370) [[🐧❌]](https://hydra.nixos.org/build/265282585) [echidna](https://hydra.nixos.org/eval/1807608?filter=echidna) @arcz @hellwolf
 - [ ] [[📱❌]](https://hydra.nixos.org/build/265539085) [[🐧❌]](https://hydra.nixos.org/build/265539186) [koka](https://hydra.nixos.org/eval/1807608?filter=koka) @siraben @sternenseemann
