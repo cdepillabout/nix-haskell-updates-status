@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1807649](https://hydra.nixos.org/eval/1807649) of nixpkgs commit [beb7a85](https://github.com/NixOS/nixpkgs/commits/beb7a85568491a3cd6527d48f1c2dc3cd063a65c) as of 2024-07-14 12:22 UTC*
+*evaluation [1807649](https://hydra.nixos.org/eval/1807649) of nixpkgs commit [beb7a85](https://github.com/NixOS/nixpkgs/commits/beb7a85568491a3cd6527d48f1c2dc3cd063a65c) as of 2024-07-14 18:16 UTC*
 
 🔴 **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -12,12 +12,9 @@
  | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1807649?filter=.aarch64-darwin) | 97 | 46 | 2 | 6342 | 
  | [aarch64-linux 📱](https://hydra.nixos.org/eval/1807649?filter=.aarch64-linux) | 41 | 20 | 2 | 6489 | 
  | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1807649?filter=.x86_64-darwin) | 87 | 46 | 6 | 6362 | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1807649?filter=.x86_64-linux) | 35 | 10 | 2 | 6548 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1807649?filter=.x86_64-linux) | 34 | 10 | 2 | 6548 | 
 #### Maintained Linux packages with build failure
 - [ ] [[📱❌]](https://hydra.nixos.org/build/265271370) [[🐧❌]](https://hydra.nixos.org/build/265282585) [echidna](https://hydra.nixos.org/eval/1807649?filter=echidna) @arcz @hellwolf
-- [ ] [xmonad](https://hydra.nixos.org/eval/1807649?filter=xmonad) @NeQuissimus @dschrempf @ivanbrennan @peti @slotThe
-  - [[📱✅]](https://hydra.nixos.org/build/265273220) [[🐧✅]](https://hydra.nixos.org/build/265288529) [haskellPackages](https://hydra.nixos.org/eval/1807649?filter=haskellPackages.xmonad)
-  - [[📱✅]](https://hydra.nixos.org/build/266356293) [[🐧❌]](https://hydra.nixos.org/build/266356291) [nixosTests](https://hydra.nixos.org/eval/1807649?filter=nixosTests.xmonad)
 #### Maintained Linux packages with failed dependency
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/266352517) [maintained](https://hydra.nixos.org/eval/1807649?filter=maintained) @cdepillabout @expipiplus1 @maralorn @ncfavier @sternenseemann
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/266138916) [mergeable](https://hydra.nixos.org/eval/1807649?filter=mergeable) @cdepillabout @expipiplus1 @maralorn @ncfavier @sternenseemann
