@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1807840](https://hydra.nixos.org/eval/1807840) of nixpkgs commit [562a527](https://github.com/NixOS/nixpkgs/commits/562a527a9aa11f53c9e8539765e0109376bdc666) as of 2024-07-24 12:13 UTC*
+*evaluation [1807840](https://hydra.nixos.org/eval/1807840) of nixpkgs commit [562a527](https://github.com/NixOS/nixpkgs/commits/562a527a9aa11f53c9e8539765e0109376bdc666) as of 2024-07-24 18:12 UTC*
 
 🔴 **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -9,10 +9,10 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1807840?filter=.aarch64-darwin) | 79 | 58 | 3 | 2 | 6337 | 
+ | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1807840?filter=.aarch64-darwin) | 79 | 58 | 3 |  | 6338 | 
  | [aarch64-linux 📱](https://hydra.nixos.org/eval/1807840?filter=.aarch64-linux) | 11 | 2633 | 1 | 3 | 3904 | 
- | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1807840?filter=.x86_64-darwin) | 69 | 59 | 2 | 3 | 6356 | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1807840?filter=.x86_64-linux) | 16 | 25 | 1 | 8 | 6532 | 
+ | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1807840?filter=.x86_64-darwin) | 69 | 59 | 3 | 2 | 6356 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1807840?filter=.x86_64-linux) | 16 | 25 | 1 | 7 | 6533 | 
 #### Maintained Linux packages with build failure
 - [ ] [cabal-install](https://hydra.nixos.org/eval/1807840?filter=cabal-install) @sternenseemann
   - [[📱❌]](https://hydra.nixos.org/build/266383153) [[🐧❌]](https://hydra.nixos.org/build/266376199) [toplevel](https://hydra.nixos.org/eval/1807840?filter=cabal-install)
