@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1807912](https://hydra.nixos.org/eval/1807912) of nixpkgs commit [6b3e2a4](https://github.com/NixOS/nixpkgs/commits/6b3e2a4fbd6661768441d808287efa2e27088ac1) as of 2024-07-27 06:10 UTC*
+*evaluation [1807912](https://hydra.nixos.org/eval/1807912) of nixpkgs commit [6b3e2a4](https://github.com/NixOS/nixpkgs/commits/6b3e2a4fbd6661768441d808287efa2e27088ac1) as of 2024-07-27 12:13 UTC*
 
 🔴 **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -7,12 +7,12 @@
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1807912?filter=.aarch64-darwin) | 79 | 53 | 3 | 1 | 6353 | 
- | [aarch64-linux 📱](https://hydra.nixos.org/eval/1807912?filter=.aarch64-linux) | 25 | 20 | 2 | 1 | 6507 | 
- | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1807912?filter=.x86_64-darwin) | 69 | 49 | 5 | 1 | 6379 | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1807912?filter=.x86_64-linux) | 16 | 21 | 2 | 1 | 6556 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Success ✅ | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1807912?filter=.aarch64-darwin) | 79 | 53 | 3 | 6354 | 
+ | [aarch64-linux 📱](https://hydra.nixos.org/eval/1807912?filter=.aarch64-linux) | 25 | 20 | 2 | 6508 | 
+ | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1807912?filter=.x86_64-darwin) | 69 | 49 | 5 | 6380 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1807912?filter=.x86_64-linux) | 16 | 21 | 2 | 6557 | 
 #### Maintained Linux packages with build failure
 - [ ] [[📱❌]](https://hydra.nixos.org/build/267371179) [[🐧❌]](https://hydra.nixos.org/build/267371031) [haskellPackages.proto3-suite](https://hydra.nixos.org/eval/1807912?filter=haskellPackages.proto3-suite) @alexfmpe
 #### Maintained Linux packages with failed dependency
