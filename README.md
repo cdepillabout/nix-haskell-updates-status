@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1808449](https://hydra.nixos.org/eval/1808449) of nixpkgs commit [6e4b9cb](https://github.com/NixOS/nixpkgs/commits/6e4b9cb254f00f582fcf67e52e574dfc980d1c20) as of 2024-08-24 06:11 UTC*
+*evaluation [1808449](https://hydra.nixos.org/eval/1808449) of nixpkgs commit [6e4b9cb](https://github.com/NixOS/nixpkgs/commits/6e4b9cb254f00f582fcf67e52e574dfc980d1c20) as of 2024-08-24 12:12 UTC*
 
 🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `mergeable` jobset is not finished.
@@ -9,10 +9,10 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1808449?filter=.aarch64-darwin) | 70 | 135 | 2 | 20 | 6285 | 
- | [aarch64-linux 📱](https://hydra.nixos.org/eval/1808449?filter=.aarch64-linux) | 24 | 116 | 1 | 25 | 6412 | 
- | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1808449?filter=.x86_64-darwin) | 63 | 136 | 4 | 20 | 6301 | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1808449?filter=.x86_64-linux) | 21 | 123 |  | 29 | 6447 | 
+ | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1808449?filter=.aarch64-darwin) | 70 | 135 | 2 | 20 | 6286 | 
+ | [aarch64-linux 📱](https://hydra.nixos.org/eval/1808449?filter=.aarch64-linux) | 24 | 116 | 1 | 25 | 6413 | 
+ | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1808449?filter=.x86_64-darwin) | 63 | 136 | 4 | 18 | 6305 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1808449?filter=.x86_64-linux) | 21 | 123 |  | 29 | 6448 | 
 #### Maintained Linux packages with build failure
 - [ ] [[📱❌]](https://hydra.nixos.org/build/270081169) [[🐧❌]](https://hydra.nixos.org/build/270084123) [haskellPackages.eventlog2html](https://hydra.nixos.org/eval/1808449?filter=haskellPackages.eventlog2html) @maralorn
 - [ ] [[📱❌]](https://hydra.nixos.org/build/270087752) [[🐧❌]](https://hydra.nixos.org/build/270080060) [haskellPackages.shakespeare](https://hydra.nixos.org/eval/1808449?filter=haskellPackages.shakespeare) @psibi
