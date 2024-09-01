@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1808565](https://hydra.nixos.org/eval/1808565) of nixpkgs commit [179b0a9](https://github.com/NixOS/nixpkgs/commits/179b0a961bbf76c374331d5952a7415656639d2f) as of 2024-08-31 18:11 UTC*
+*evaluation [1808565](https://hydra.nixos.org/eval/1808565) of nixpkgs commit [179b0a9](https://github.com/NixOS/nixpkgs/commits/179b0a961bbf76c374331d5952a7415656639d2f) as of 2024-09-01 00:39 UTC*
 
 🟢 **Ready to merge** (if there are no [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
 
@@ -10,7 +10,7 @@
  | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1808565?filter=.aarch64-darwin) | 68 | 26 | 2 |  | 6409 | 
  | [aarch64-linux 📱](https://hydra.nixos.org/eval/1808565?filter=.aarch64-linux) | 20 | 3 | 2 |  | 6545 | 
  | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1808565?filter=.x86_64-darwin) | 61 | 25 | 7 |  | 6427 | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1808565?filter=.x86_64-linux) | 14 | 6 |  | 3 | 6589 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1808565?filter=.x86_64-linux) | 14 | 6 |  | 2 | 6590 | 
 #### Maintained Darwin packages with build failure
 <details><summary>1 job(s) </summary>
 
