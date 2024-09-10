@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1808748](https://hydra.nixos.org/eval/1808748) of nixpkgs commit [fbd40df](https://github.com/NixOS/nixpkgs/commits/fbd40df83b68aa855a8c28c1c597104e4e96b2d0) as of 2024-09-10 12:13 UTC*
+*evaluation [1808748](https://hydra.nixos.org/eval/1808748) of nixpkgs commit [fbd40df](https://github.com/NixOS/nixpkgs/commits/fbd40df83b68aa855a8c28c1c597104e4e96b2d0) as of 2024-09-10 18:11 UTC*
 
 🔴 **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -12,7 +12,7 @@
  | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1808748?filter=.aarch64-darwin) | 2 | 9 | 5770 |  | 780 | 
  | [aarch64-linux 📱](https://hydra.nixos.org/eval/1808748?filter=.aarch64-linux) | 6 | 21 | 4981 |  | 1631 | 
  | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1808748?filter=.x86_64-darwin) | 2 | 40 | 6337 |  | 211 | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1808748?filter=.x86_64-linux) |  | 14 | 6572 | 4 | 82 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1808748?filter=.x86_64-linux) |  | 14 | 6572 | 4 | 83 | 
 #### Maintained Linux packages with build failure
 - [ ] [[📱❌]](https://hydra.nixos.org/build/271727807) [[🐧🚫]](https://hydra.nixos.org/build/271723173) [haskellPackages.xmonad-contrib](https://hydra.nixos.org/eval/1808748?filter=haskellPackages.xmonad-contrib) @dschrempf @ivanbrennan @peti @slotThe
 #### Maintained Linux packages with failed dependency
