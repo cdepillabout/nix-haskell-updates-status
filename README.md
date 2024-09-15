@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1808849](https://hydra.nixos.org/eval/1808849) of nixpkgs commit [7270465](https://github.com/NixOS/nixpkgs/commits/72704655607d36d9c6bbb1ecf12ca9f9baab9733) as of 2024-09-15 12:12 UTC*
+*evaluation [1808849](https://hydra.nixos.org/eval/1808849) of nixpkgs commit [7270465](https://github.com/NixOS/nixpkgs/commits/72704655607d36d9c6bbb1ecf12ca9f9baab9733) as of 2024-09-15 18:12 UTC*
 
 🔴 **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -7,12 +7,12 @@
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1808849?filter=.aarch64-darwin) | 79 | 32 | 2 |  | 6423 | 
- | [aarch64-linux 📱](https://hydra.nixos.org/eval/1808849?filter=.aarch64-linux) | 31 | 41 | 2 |  | 6531 | 
- | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1808849?filter=.x86_64-darwin) | 71 | 34 | 7 |  | 6440 | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1808849?filter=.x86_64-linux) | 21 | 8 | 1 | 1 | 6616 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Success ✅ | 
+ | --- | --- | --- | --- | --- | 
+ | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1808849?filter=.aarch64-darwin) | 79 | 32 | 2 | 6423 | 
+ | [aarch64-linux 📱](https://hydra.nixos.org/eval/1808849?filter=.aarch64-linux) | 31 | 41 | 2 | 6531 | 
+ | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1808849?filter=.x86_64-darwin) | 71 | 34 | 7 | 6440 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1808849?filter=.x86_64-linux) | 21 | 8 | 1 | 6617 | 
 #### Maintained Linux packages with build failure
 - [ ] [dhall-docs](https://hydra.nixos.org/eval/1808849?filter=dhall-docs) @Gabriella439
   - [[📱❌]](https://hydra.nixos.org/build/272375399) [[🐧❌]](https://hydra.nixos.org/build/272386479) [toplevel](https://hydra.nixos.org/eval/1808849?filter=dhall-docs)
