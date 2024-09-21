@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1808959](https://hydra.nixos.org/eval/1808959) of nixpkgs commit [f3f40a1](https://github.com/NixOS/nixpkgs/commits/f3f40a16c748534cead9acea568aac46b4005611) as of 2024-09-20 18:11 UTC*
+*evaluation [1808959](https://hydra.nixos.org/eval/1808959) of nixpkgs commit [f3f40a1](https://github.com/NixOS/nixpkgs/commits/f3f40a16c748534cead9acea568aac46b4005611) as of 2024-09-21 00:26 UTC*
 
 🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
@@ -7,12 +7,12 @@
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | OutputLimitExceeded ⚠️ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1808959?filter=.aarch64-darwin) | 1 |  |  | 13 | 6515 | 17 | 
- | [aarch64-linux 📱](https://hydra.nixos.org/eval/1808959?filter=.aarch64-linux) | 28 | 34 | 1 | 1 |  | 6562 | 
- | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1808959?filter=.x86_64-darwin) | 1 | 6 |  | 25 | 6529 | 20 | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1808959?filter=.x86_64-linux) | 18 | 8 |  | 8 | 14 | 6611 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | OutputLimitExceeded ⚠️ | TimedOut ⌛🚫 | HydraFailure 🚧 | Unfinished ⏳ | Success ✅ | 
+ | --- | --- | --- | --- | --- | --- | --- | --- | 
+ | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1808959?filter=.aarch64-darwin) | 1 |  |  | 13 |  | 6515 | 17 | 
+ | [aarch64-linux 📱](https://hydra.nixos.org/eval/1808959?filter=.aarch64-linux) | 28 | 34 | 1 | 1 |  |  | 6562 | 
+ | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1808959?filter=.x86_64-darwin) | 1 | 6 |  | 27 |  | 6527 | 20 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1808959?filter=.x86_64-linux) | 18 | 8 |  | 8 | 1 | 12 | 6611 | 
 #### Maintained Linux packages with build failure
 - [ ] [[📱❌]](https://hydra.nixos.org/build/273096742) [[🐧❌]](https://hydra.nixos.org/build/273086395) [haskellPackages.dirstream](https://hydra.nixos.org/eval/1808959?filter=haskellPackages.dirstream) @Gabriella439
 - [ ] [ghc810](https://hydra.nixos.org/eval/1808959?filter=ghc810) @cdepillabout @expipiplus1 @guibou @maralorn @ncfavier @sternenseemann
