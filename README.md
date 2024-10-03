@@ -1,17 +1,17 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1809182](https://hydra.nixos.org/eval/1809182) of nixpkgs commit [9d0ab8b](https://github.com/NixOS/nixpkgs/commits/9d0ab8b5db9ba62989e648db86c66c0fb620b6e9) as of 2024-10-03 06:18 UTC*
+*evaluation [1809182](https://hydra.nixos.org/eval/1809182) of nixpkgs commit [9d0ab8b](https://github.com/NixOS/nixpkgs/commits/9d0ab8b5db9ba62989e648db86c66c0fb620b6e9) as of 2024-10-03 12:13 UTC*
 
 🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | OutputLimitExceeded ⚠️ | TimedOut ⌛🚫 | HydraFailure 🚧 | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1809182?filter=.aarch64-darwin) | 58 | 25 |  | 9 | 3 | 6 | 6424 | 
- | [aarch64-linux 📱](https://hydra.nixos.org/eval/1809182?filter=.aarch64-linux) | 9 | 1 | 1 | 2 |  |  | 6570 | 
- | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1809182?filter=.x86_64-darwin) | 55 | 28 |  | 60 | 1 | 4 | 6395 | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1809182?filter=.x86_64-linux) | 1 |  | 1 | 4 |  |  | 6619 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | OutputLimitExceeded ⚠️ | TimedOut ⌛🚫 | HydraFailure 🚧 | Success ✅ | 
+ | --- | --- | --- | --- | --- | --- | --- | 
+ | [aarch64-darwin 🍏](https://hydra.nixos.org/eval/1809182?filter=.aarch64-darwin) | 58 | 25 |  | 9 | 3 | 6425 | 
+ | [aarch64-linux 📱](https://hydra.nixos.org/eval/1809182?filter=.aarch64-linux) | 9 | 1 | 1 | 2 |  | 6570 | 
+ | [x86_64-darwin 🍎](https://hydra.nixos.org/eval/1809182?filter=.x86_64-darwin) | 55 | 28 |  | 63 | 1 | 6395 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1809182?filter=.x86_64-linux) | 1 |  | 1 | 4 |  | 6619 | 
 #### Maintained Linux packages with build failure
 - [ ] [ghc8107](https://hydra.nixos.org/eval/1809182?filter=ghc8107) @cdepillabout @expipiplus1 @guibou @maralorn @ncfavier @sternenseemann
   - [[📱✅]](https://hydra.nixos.org/build/273456917) [[🐧✅]](https://hydra.nixos.org/build/273448830) [haskell.compiler](https://hydra.nixos.org/eval/1809182?filter=haskell.compiler.ghc8107)
@@ -240,7 +240,7 @@
 - [ ] [hello](https://hydra.nixos.org/eval/1809182?filter=hello) 
   - [[🍏✅]](https://hydra.nixos.org/build/273454810) [[📱✅]](https://hydra.nixos.org/build/273447900) [[🍎✅]](https://hydra.nixos.org/build/273461015) [[🐧✅]](https://hydra.nixos.org/build/273460847) [haskellPackages](https://hydra.nixos.org/eval/1809182?filter=haskellPackages.hello)
   - [[🍏🚧]](https://hydra.nixos.org/build/274231668)  [[🍎❗]](https://hydra.nixos.org/build/274231671) [[🐧✅]](https://hydra.nixos.org/build/274231706) [pkgsCross.ghcjs.haskell.packages.ghc98](https://hydra.nixos.org/eval/1809182?filter=pkgsCross.ghcjs.haskell.packages.ghc98.hello)
-  - [[🍏⏳]](https://hydra.nixos.org/build/274231694)  [[🍎❗]](https://hydra.nixos.org/build/274231700) [[🐧✅]](https://hydra.nixos.org/build/274231699) [pkgsCross.ghcjs.haskell.packages.ghcHEAD](https://hydra.nixos.org/eval/1809182?filter=pkgsCross.ghcjs.haskell.packages.ghcHEAD.hello)
+  - [[🍏✅]](https://hydra.nixos.org/build/274231694)  [[🍎❗]](https://hydra.nixos.org/build/274231700) [[🐧✅]](https://hydra.nixos.org/build/274231699) [pkgsCross.ghcjs.haskell.packages.ghcHEAD](https://hydra.nixos.org/eval/1809182?filter=pkgsCross.ghcjs.haskell.packages.ghcHEAD.hello)
   - [[🍏🚧]](https://hydra.nixos.org/build/274231669)  [[🍎❗]](https://hydra.nixos.org/build/274231707) [[🐧✅]](https://hydra.nixos.org/build/274231664) [pkgsCross.ghcjs.haskellPackages](https://hydra.nixos.org/eval/1809182?filter=pkgsCross.ghcjs.haskellPackages.hello)
   -    [[🐧✅]](https://hydra.nixos.org/build/273449439) [pkgsMusl.haskellPackages](https://hydra.nixos.org/eval/1809182?filter=pkgsMusl.haskellPackages.hello)
   -    [[🐧✅]](https://hydra.nixos.org/build/273461505) [pkgsStatic.haskell.packages.native-bignum.ghc948](https://hydra.nixos.org/eval/1809182?filter=pkgsStatic.haskell.packages.native-bignum.ghc948.hello)
