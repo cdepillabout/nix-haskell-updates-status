@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1809515](https://hydra.nixos.org/eval/1809515) of nixpkgs commit [e7735af](https://github.com/NixOS/nixpkgs/commits/e7735afbdce5f32dabb78e9393792625ff6d5eaa) as of 2024-10-21 12:13 UTC*
+*evaluation [1809515](https://hydra.nixos.org/eval/1809515) of nixpkgs commit [e7735af](https://github.com/NixOS/nixpkgs/commits/e7735afbdce5f32dabb78e9393792625ff6d5eaa) as of 2024-10-21 18:10 UTC*
 
 🟢 **Ready to merge** (if there are no [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
 
@@ -7,12 +7,12 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux 📱](https://hydra.nixos.org/eval/1809515?filter=.aarch64-linux) | 23 | 5 | 2 | 26 | 6583 | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1809515?filter=.x86_64-linux) | 16 | 6 | 3 | 6 | 6639 | 
+ | [aarch64-linux 📱](https://hydra.nixos.org/eval/1809515?filter=.aarch64-linux) | 24 | 8 | 2 | 2 | 6589 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1809515?filter=.x86_64-linux) | 16 | 6 | 3 | 4 | 6640 | 
 #### Maintained Linux packages with failed dependency
 - [ ] [haskell-language-server](https://hydra.nixos.org/eval/1809515?filter=haskell-language-server) @maralorn
   - [[📱✅]](https://hydra.nixos.org/build/275143224) [[🐧✅]](https://hydra.nixos.org/build/275145126) [toplevel](https://hydra.nixos.org/eval/1809515?filter=haskell-language-server)
-  - [[📱⏳]](https://hydra.nixos.org/build/275968434) [[🐧✅]](https://hydra.nixos.org/build/275968433) [haskell.packages.ghc9101](https://hydra.nixos.org/eval/1809515?filter=haskell.packages.ghc9101.haskell-language-server)
+  - [[📱✅]](https://hydra.nixos.org/build/275968434) [[🐧✅]](https://hydra.nixos.org/build/275968433) [haskell.packages.ghc9101](https://hydra.nixos.org/eval/1809515?filter=haskell.packages.ghc9101.haskell-language-server)
   - [[📱✅]](https://hydra.nixos.org/build/275134753) [[🐧✅]](https://hydra.nixos.org/build/275135214) [haskell.packages.ghc925](https://hydra.nixos.org/eval/1809515?filter=haskell.packages.ghc925.haskell-language-server)
   - [[📱✅]](https://hydra.nixos.org/build/275142274) [[🐧✅]](https://hydra.nixos.org/build/275135511) [haskell.packages.ghc926](https://hydra.nixos.org/eval/1809515?filter=haskell.packages.ghc926.haskell-language-server)
   - [[📱✅]](https://hydra.nixos.org/build/275133987) [[🐧✅]](https://hydra.nixos.org/build/275140445) [haskell.packages.ghc927](https://hydra.nixos.org/eval/1809515?filter=haskell.packages.ghc927.haskell-language-server)
@@ -27,7 +27,7 @@
   - [[📱✅]](https://hydra.nixos.org/build/275136745) [[🐧✅]](https://hydra.nixos.org/build/275137636) [haskell.packages.ghc966](https://hydra.nixos.org/eval/1809515?filter=haskell.packages.ghc966.haskell-language-server)
   - [[📱✅]](https://hydra.nixos.org/build/275139800) [[🐧✅]](https://hydra.nixos.org/build/275136416) [haskell.packages.ghc981](https://hydra.nixos.org/eval/1809515?filter=haskell.packages.ghc981.haskell-language-server)
   - [[📱✅]](https://hydra.nixos.org/build/275138068) [[🐧✅]](https://hydra.nixos.org/build/275134294) [haskell.packages.ghc982](https://hydra.nixos.org/eval/1809515?filter=haskell.packages.ghc982.haskell-language-server)
-  - [[📱⏳]](https://hydra.nixos.org/build/275973477) [[🐧❗]](https://hydra.nixos.org/build/275973491) [haskell.packages.ghc983](https://hydra.nixos.org/eval/1809515?filter=haskell.packages.ghc983.haskell-language-server)
+  - [[📱❗]](https://hydra.nixos.org/build/275973477) [[🐧❗]](https://hydra.nixos.org/build/275973491) [haskell.packages.ghc983](https://hydra.nixos.org/eval/1809515?filter=haskell.packages.ghc983.haskell-language-server)
   - [[📱✅]](https://hydra.nixos.org/build/275134929) [[🐧✅]](https://hydra.nixos.org/build/275138372) [haskellPackages](https://hydra.nixos.org/eval/1809515?filter=haskellPackages.haskell-language-server)
 #### Unmaintained packages with build failure
 <details><summary>43 job(s) </summary>
@@ -49,7 +49,7 @@
   - [[📱✅]](https://hydra.nixos.org/build/275138734) [[🐧✅]](https://hydra.nixos.org/build/275144210) [haskell.packages.ghc966](https://hydra.nixos.org/eval/1809515?filter=haskell.packages.ghc966.ghc-lib-parser)
   - [[📱✅]](https://hydra.nixos.org/build/275143340) [[🐧✅]](https://hydra.nixos.org/build/275134390) [haskell.packages.ghc981](https://hydra.nixos.org/eval/1809515?filter=haskell.packages.ghc981.ghc-lib-parser)
   - [[📱✅]](https://hydra.nixos.org/build/275146168) [[🐧✅]](https://hydra.nixos.org/build/275144603) [haskell.packages.ghc982](https://hydra.nixos.org/eval/1809515?filter=haskell.packages.ghc982.ghc-lib-parser)
-  - [[📱⏳]](https://hydra.nixos.org/build/275973525) [[🐧❌]](https://hydra.nixos.org/build/275973485) [haskell.packages.ghc983](https://hydra.nixos.org/eval/1809515?filter=haskell.packages.ghc983.ghc-lib-parser)
+  - [[📱❌]](https://hydra.nixos.org/build/275973525) [[🐧❌]](https://hydra.nixos.org/build/275973485) [haskell.packages.ghc983](https://hydra.nixos.org/eval/1809515?filter=haskell.packages.ghc983.ghc-lib-parser)
   - [[📱✅]](https://hydra.nixos.org/build/275146536) [[🐧✅]](https://hydra.nixos.org/build/275143457) [haskellPackages](https://hydra.nixos.org/eval/1809515?filter=haskellPackages.ghc-lib-parser)
 - [ ] [[📱❌]](https://hydra.nixos.org/build/275133735) [[🐧❌]](https://hydra.nixos.org/build/275139962) [haskellPackages.phladiprelio-general-datatype](https://hydra.nixos.org/eval/1809515?filter=haskellPackages.phladiprelio-general-datatype)  ⤴️ 3 | 3
 - [ ] [[📱❌]](https://hydra.nixos.org/build/275138479) [[🐧❌]](https://hydra.nixos.org/build/275136298) [haskellPackages.ukrainian-phonetics-basic-array](https://hydra.nixos.org/eval/1809515?filter=haskellPackages.ukrainian-phonetics-basic-array)  ⤴️ 2 | 13
@@ -78,7 +78,7 @@
 </details>
 
 #### Unmaintained packages with failed dependency
-<details><summary>24 job(s) </summary>
+<details><summary>43 job(s) </summary>
 
 - [ ] [ghc-lib-parser-ex](https://hydra.nixos.org/eval/1809515?filter=ghc-lib-parser-ex)  ⤴️ 13 | 44
   - [[📱✅]](https://hydra.nixos.org/build/275828016) [[🐧✅]](https://hydra.nixos.org/build/275828007) [haskell.packages.ghc8107](https://hydra.nixos.org/eval/1809515?filter=haskell.packages.ghc8107.ghc-lib-parser-ex)
@@ -97,10 +97,29 @@
   - [[📱✅]](https://hydra.nixos.org/build/275141710) [[🐧✅]](https://hydra.nixos.org/build/275142546) [haskell.packages.ghc966](https://hydra.nixos.org/eval/1809515?filter=haskell.packages.ghc966.ghc-lib-parser-ex)
   - [[📱✅]](https://hydra.nixos.org/build/275143851) [[🐧✅]](https://hydra.nixos.org/build/275141074) [haskell.packages.ghc981](https://hydra.nixos.org/eval/1809515?filter=haskell.packages.ghc981.ghc-lib-parser-ex)
   - [[📱✅]](https://hydra.nixos.org/build/275139405) [[🐧✅]](https://hydra.nixos.org/build/275145194) [haskell.packages.ghc982](https://hydra.nixos.org/eval/1809515?filter=haskell.packages.ghc982.ghc-lib-parser-ex)
-  - [[📱⏳]](https://hydra.nixos.org/build/275973512) [[🐧❗]](https://hydra.nixos.org/build/275973519) [haskell.packages.ghc983](https://hydra.nixos.org/eval/1809515?filter=haskell.packages.ghc983.ghc-lib-parser-ex)
+  - [[📱❗]](https://hydra.nixos.org/build/275973512) [[🐧❗]](https://hydra.nixos.org/build/275973519) [haskell.packages.ghc983](https://hydra.nixos.org/eval/1809515?filter=haskell.packages.ghc983.ghc-lib-parser-ex)
   - [[📱✅]](https://hydra.nixos.org/build/275135468) [[🐧✅]](https://hydra.nixos.org/build/275138416) [haskellPackages](https://hydra.nixos.org/eval/1809515?filter=haskellPackages.ghc-lib-parser-ex)
 - [ ] [[📱❗]](https://hydra.nixos.org/build/275136451) [[🐧❗]](https://hydra.nixos.org/build/275141544) [haskellPackages.phladiprelio-general-shared](https://hydra.nixos.org/eval/1809515?filter=haskellPackages.phladiprelio-general-shared)  ⤴️ 1 | 1
 - [ ] [[📱❗]](https://hydra.nixos.org/build/275135260) [[🐧❗]](https://hydra.nixos.org/build/275146103) [haskellPackages.phladiprelio-ukrainian-shared](https://hydra.nixos.org/eval/1809515?filter=haskellPackages.phladiprelio-ukrainian-shared)  ⤴️ 1 | 1
+- [ ] [ghc-lib](https://hydra.nixos.org/eval/1809515?filter=ghc-lib) 
+  - [[📱✅]](https://hydra.nixos.org/build/275827985) [[🐧✅]](https://hydra.nixos.org/build/275827979) [haskell.packages.ghc8107](https://hydra.nixos.org/eval/1809515?filter=haskell.packages.ghc8107.ghc-lib)
+  - [[📱✅]](https://hydra.nixos.org/build/275145486) [[🐧✅]](https://hydra.nixos.org/build/275144427) [haskell.packages.ghc902](https://hydra.nixos.org/eval/1809515?filter=haskell.packages.ghc902.ghc-lib)
+  - [[📱✅]](https://hydra.nixos.org/build/275140700) [[🐧✅]](https://hydra.nixos.org/build/275137458) [haskell.packages.ghc925](https://hydra.nixos.org/eval/1809515?filter=haskell.packages.ghc925.ghc-lib)
+  - [[📱✅]](https://hydra.nixos.org/build/275138427) [[🐧✅]](https://hydra.nixos.org/build/275138750) [haskell.packages.ghc926](https://hydra.nixos.org/eval/1809515?filter=haskell.packages.ghc926.ghc-lib)
+  - [[📱✅]](https://hydra.nixos.org/build/275138968) [[🐧✅]](https://hydra.nixos.org/build/275144718) [haskell.packages.ghc927](https://hydra.nixos.org/eval/1809515?filter=haskell.packages.ghc927.ghc-lib)
+  - [[📱✅]](https://hydra.nixos.org/build/275144942) [[🐧✅]](https://hydra.nixos.org/build/275138588) [haskell.packages.ghc928](https://hydra.nixos.org/eval/1809515?filter=haskell.packages.ghc928.ghc-lib)
+  - [[📱✅]](https://hydra.nixos.org/build/275136776) [[🐧✅]](https://hydra.nixos.org/build/275137378) [haskell.packages.ghc945](https://hydra.nixos.org/eval/1809515?filter=haskell.packages.ghc945.ghc-lib)
+  - [[📱✅]](https://hydra.nixos.org/build/275146788) [[🐧✅]](https://hydra.nixos.org/build/275144426) [haskell.packages.ghc946](https://hydra.nixos.org/eval/1809515?filter=haskell.packages.ghc946.ghc-lib)
+  - [[📱✅]](https://hydra.nixos.org/build/275141776) [[🐧✅]](https://hydra.nixos.org/build/275140232) [haskell.packages.ghc947](https://hydra.nixos.org/eval/1809515?filter=haskell.packages.ghc947.ghc-lib)
+  - [[📱✅]](https://hydra.nixos.org/build/275138350) [[🐧✅]](https://hydra.nixos.org/build/275138900) [haskell.packages.ghc948](https://hydra.nixos.org/eval/1809515?filter=haskell.packages.ghc948.ghc-lib)
+  - [[📱✅]](https://hydra.nixos.org/build/275137996) [[🐧✅]](https://hydra.nixos.org/build/275138729) [haskell.packages.ghc963](https://hydra.nixos.org/eval/1809515?filter=haskell.packages.ghc963.ghc-lib)
+  - [[📱✅]](https://hydra.nixos.org/build/275139146) [[🐧✅]](https://hydra.nixos.org/build/275143800) [haskell.packages.ghc964](https://hydra.nixos.org/eval/1809515?filter=haskell.packages.ghc964.ghc-lib)
+  - [[📱✅]](https://hydra.nixos.org/build/275144320) [[🐧✅]](https://hydra.nixos.org/build/275142108) [haskell.packages.ghc965](https://hydra.nixos.org/eval/1809515?filter=haskell.packages.ghc965.ghc-lib)
+  - [[📱✅]](https://hydra.nixos.org/build/275133597) [[🐧✅]](https://hydra.nixos.org/build/275143122) [haskell.packages.ghc966](https://hydra.nixos.org/eval/1809515?filter=haskell.packages.ghc966.ghc-lib)
+  - [[📱✅]](https://hydra.nixos.org/build/275136549) [[🐧✅]](https://hydra.nixos.org/build/275143531) [haskell.packages.ghc981](https://hydra.nixos.org/eval/1809515?filter=haskell.packages.ghc981.ghc-lib)
+  - [[📱✅]](https://hydra.nixos.org/build/275143416) [[🐧✅]](https://hydra.nixos.org/build/275135235) [haskell.packages.ghc982](https://hydra.nixos.org/eval/1809515?filter=haskell.packages.ghc982.ghc-lib)
+  - [[📱❗]](https://hydra.nixos.org/build/275973490) [[🐧⏳]](https://hydra.nixos.org/build/275973498) [haskell.packages.ghc983](https://hydra.nixos.org/eval/1809515?filter=haskell.packages.ghc983.ghc-lib)
+  - [[📱✅]](https://hydra.nixos.org/build/275141481) [[🐧✅]](https://hydra.nixos.org/build/275142139) [haskellPackages](https://hydra.nixos.org/eval/1809515?filter=haskellPackages.ghc-lib)
 - [ ] [[📱❗]](https://hydra.nixos.org/build/275132822) [[🐧✅]](https://hydra.nixos.org/build/275133736) [haskellPackages.hmatrix-nlopt](https://hydra.nixos.org/eval/1809515?filter=haskellPackages.hmatrix-nlopt) 
 - [ ] [[📱❗]](https://hydra.nixos.org/build/275139154) [[🐧❗]](https://hydra.nixos.org/build/275133109) [haskellPackages.phladiprelio-general-simple](https://hydra.nixos.org/eval/1809515?filter=haskellPackages.phladiprelio-general-simple) 
 - [ ] [[📱❗]](https://hydra.nixos.org/build/275139053) [[🐧❗]](https://hydra.nixos.org/build/275133589) [haskellPackages.phladiprelio-ukrainian-simple](https://hydra.nixos.org/eval/1809515?filter=haskellPackages.phladiprelio-ukrainian-simple) 
