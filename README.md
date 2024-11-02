@@ -1,14 +1,14 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1809730](https://hydra.nixos.org/eval/1809730) of nixpkgs commit [30bae67](https://github.com/NixOS/nixpkgs/commits/30bae674b0e0c56c7bdc65a45a20313ed228d621) as of 2024-11-01 18:11 UTC*
+*evaluation [1809730](https://hydra.nixos.org/eval/1809730) of nixpkgs commit [30bae67](https://github.com/NixOS/nixpkgs/commits/30bae674b0e0c56c7bdc65a45a20313ed228d621) as of 2024-11-02 00:27 UTC*
 
 🟢 **Ready to merge** (if there are no [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | OutputLimitExceeded ⚠️ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux 📱](https://hydra.nixos.org/eval/1809730?filter=.aarch64-linux) | 24 | 8 | 1 | 2 |  | 6611 | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1809730?filter=.x86_64-linux) | 17 | 6 |  | 2 | 4 | 6659 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | OutputLimitExceeded ⚠️ | TimedOut ⌛🚫 | Success ✅ | 
+ | --- | --- | --- | --- | --- | --- | 
+ | [aarch64-linux 📱](https://hydra.nixos.org/eval/1809730?filter=.aarch64-linux) | 24 | 8 | 1 | 2 | 6611 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1809730?filter=.x86_64-linux) | 17 | 6 |  | 2 | 6660 | 
 #### Maintained Linux packages with failed dependency
 - [ ] [haskell-language-server](https://hydra.nixos.org/eval/1809730?filter=haskell-language-server) @maralorn
   - [[📱✅]](https://hydra.nixos.org/build/276371764) [[🐧✅]](https://hydra.nixos.org/build/276376893) [toplevel](https://hydra.nixos.org/eval/1809730?filter=haskell-language-server)
@@ -33,9 +33,9 @@
 #### Maintained Linux packages with unknown error
 - [ ] [ghcHEAD](https://hydra.nixos.org/eval/1809730?filter=ghcHEAD) @cdepillabout @expipiplus1 @guibou @maralorn @ncfavier @sternenseemann
   - [[📱⚠️]](https://hydra.nixos.org/build/276962185) [[🐧✅]](https://hydra.nixos.org/build/276962206) [haskell.compiler](https://hydra.nixos.org/eval/1809730?filter=haskell.compiler.ghcHEAD)
-  - [[📱⚠️]](https://hydra.nixos.org/build/276962163) [[🐧⏳]](https://hydra.nixos.org/build/276962191) [haskell.compiler.native-bignum](https://hydra.nixos.org/eval/1809730?filter=haskell.compiler.native-bignum.ghcHEAD)
-  -  [[🐧⏳]](https://hydra.nixos.org/build/276962215) [pkgsMusl.haskell.compiler](https://hydra.nixos.org/eval/1809730?filter=pkgsMusl.haskell.compiler.ghcHEAD)
-  -  [[🐧⏳]](https://hydra.nixos.org/build/276962202) [pkgsMusl.haskell.compiler.native-bignum](https://hydra.nixos.org/eval/1809730?filter=pkgsMusl.haskell.compiler.native-bignum.ghcHEAD)
+  - [[📱⚠️]](https://hydra.nixos.org/build/276962163) [[🐧✅]](https://hydra.nixos.org/build/276962191) [haskell.compiler.native-bignum](https://hydra.nixos.org/eval/1809730?filter=haskell.compiler.native-bignum.ghcHEAD)
+  -  [[🐧✅]](https://hydra.nixos.org/build/276962215) [pkgsMusl.haskell.compiler](https://hydra.nixos.org/eval/1809730?filter=pkgsMusl.haskell.compiler.ghcHEAD)
+  -  [[🐧✅]](https://hydra.nixos.org/build/276962202) [pkgsMusl.haskell.compiler.native-bignum](https://hydra.nixos.org/eval/1809730?filter=pkgsMusl.haskell.compiler.native-bignum.ghcHEAD)
 #### Unmaintained packages with build failure
 <details><summary>26 job(s) </summary>
 
