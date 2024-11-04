@@ -1,16 +1,15 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1809773](https://hydra.nixos.org/eval/1809773) of nixpkgs commit [57af37a](https://github.com/NixOS/nixpkgs/commits/57af37a3be046a3933e2f2e808ea63b8cd856e8e) as of 2024-11-04 06:11 UTC*
+*evaluation [1809773](https://hydra.nixos.org/eval/1809773) of nixpkgs commit [57af37a](https://github.com/NixOS/nixpkgs/commits/57af37a3be046a3933e2f2e808ea63b8cd856e8e) as of 2024-11-04 12:13 UTC*
 
 🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
-  * `mergeable` jobset is not finished.
   * `maintained` jobset is not finished.
 
 #### Build summary
 
  | Platform | Failed ❌ | DependencyFailed ❗ | OutputLimitExceeded ⚠️ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | --- | --- | 
- | [aarch64-linux 📱](https://hydra.nixos.org/eval/1809773?filter=.aarch64-linux) | 23 | 7 | 1 | 2 | 14 | 6609 | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1809773?filter=.x86_64-linux) | 16 | 5 |  | 2 | 15 | 6656 | 
+ | [aarch64-linux 📱](https://hydra.nixos.org/eval/1809773?filter=.aarch64-linux) | 23 | 7 | 1 | 2 | 7 | 6614 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1809773?filter=.x86_64-linux) | 16 | 5 |  | 2 | 4 | 6660 | 
 #### Maintained Linux packages with failed dependency
 - [ ] [haskell-language-server](https://hydra.nixos.org/eval/1809773?filter=haskell-language-server) @maralorn
   - [[📱✅]](https://hydra.nixos.org/build/276371764) [[🐧✅]](https://hydra.nixos.org/build/276376893) [toplevel](https://hydra.nixos.org/eval/1809773?filter=haskell-language-server)
