@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1812887](https://hydra.nixos.org/eval/1812887) of nixpkgs commit [b089339](https://github.com/NixOS/nixpkgs/commits/b089339c6a11ebbe44a47123675d5ed4148a8820) as of 2025-03-09 00:25 UTC*
+*evaluation [1812887](https://hydra.nixos.org/eval/1812887) of nixpkgs commit [b089339](https://github.com/NixOS/nixpkgs/commits/b089339c6a11ebbe44a47123675d5ed4148a8820) as of 2025-03-09 06:09 UTC*
 
 🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
@@ -9,7 +9,7 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1812887?filter=.x86_64-linux) | 415 | 202 | 15 | 7064 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1812887?filter=.x86_64-linux) | 415 | 203 | 11 | 7067 | 
 #### Maintained Linux packages with build failure
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/291137804) [haskellPackages.binrep](https://hydra.nixos.org/eval/1812887?filter=haskellPackages.binrep) @raehik
 - [ ] [blucontrol](https://hydra.nixos.org/eval/1812887?filter=blucontrol) @jumper149
@@ -531,7 +531,7 @@
 </details>
 
 #### Unmaintained packages with failed dependency
-<details><summary>294 job(s) </summary>
+<details><summary>295 job(s) </summary>
 
 - [ ] [ghc-lib-parser-ex](https://hydra.nixos.org/eval/1812887?filter=ghc-lib-parser-ex)  ⤴️ 16 | 40
   - [[🐧✅]](https://hydra.nixos.org/build/290309407) [haskell.packages.ghc8107](https://hydra.nixos.org/eval/1812887?filter=haskell.packages.ghc8107.ghc-lib-parser-ex)
@@ -649,6 +649,7 @@
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/290316218) [haskellPackages.streamly-process](https://hydra.nixos.org/eval/1812887?filter=haskellPackages.streamly-process)  ⤴️ 0 | 1
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/291139764) [haskellPackages.vertexenum](https://hydra.nixos.org/eval/1812887?filter=haskellPackages.vertexenum)  ⤴️ 0 | 1
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/291139898) [haskellPackages.yesod-fb](https://hydra.nixos.org/eval/1812887?filter=haskellPackages.yesod-fb)  ⤴️ 0 | 1
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/291911615) [haskellPackages.Allure](https://hydra.nixos.org/eval/1812887?filter=haskellPackages.Allure) 
 - [ ] [Cabal_3_10_3_0](https://hydra.nixos.org/eval/1812887?filter=Cabal_3_10_3_0) 
   - [[🐧✅]](https://hydra.nixos.org/build/290309398) [haskell.packages.ghc8107](https://hydra.nixos.org/eval/1812887?filter=haskell.packages.ghc8107.Cabal_3_10_3_0)
   - [[🐧✅]](https://hydra.nixos.org/build/290309422) [haskell.packages.ghc902](https://hydra.nixos.org/eval/1812887?filter=haskell.packages.ghc902.Cabal_3_10_3_0)
@@ -681,7 +682,7 @@
 - [ ] [cabal2nix-unstable](https://hydra.nixos.org/eval/1812887?filter=cabal2nix-unstable) 
   - [[🐧⏳]](https://hydra.nixos.org/build/291911600) [haskell.packages.ghc8107](https://hydra.nixos.org/eval/1812887?filter=haskell.packages.ghc8107.cabal2nix-unstable)
   - [[🐧⏳]](https://hydra.nixos.org/build/291911601) [haskell.packages.ghc902](https://hydra.nixos.org/eval/1812887?filter=haskell.packages.ghc902.cabal2nix-unstable)
-  - [[🐧⏳]](https://hydra.nixos.org/build/291911603) [haskell.packages.ghc9101](https://hydra.nixos.org/eval/1812887?filter=haskell.packages.ghc9101.cabal2nix-unstable)
+  - [[🐧✅]](https://hydra.nixos.org/build/291911603) [haskell.packages.ghc9101](https://hydra.nixos.org/eval/1812887?filter=haskell.packages.ghc9101.cabal2nix-unstable)
   - [[🐧❗]](https://hydra.nixos.org/build/291911602) [haskell.packages.ghc9121](https://hydra.nixos.org/eval/1812887?filter=haskell.packages.ghc9121.cabal2nix-unstable)
   - [[🐧⏳]](https://hydra.nixos.org/build/291911604) [haskell.packages.ghc928](https://hydra.nixos.org/eval/1812887?filter=haskell.packages.ghc928.cabal2nix-unstable)
   - [[🐧⏳]](https://hydra.nixos.org/build/291911605) [haskell.packages.ghc947](https://hydra.nixos.org/eval/1812887?filter=haskell.packages.ghc947.cabal2nix-unstable)
