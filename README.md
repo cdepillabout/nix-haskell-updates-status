@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1812887](https://hydra.nixos.org/eval/1812887) of nixpkgs commit [b089339](https://github.com/NixOS/nixpkgs/commits/b089339c6a11ebbe44a47123675d5ed4148a8820) as of 2025-03-09 12:18 UTC*
+*evaluation [1812887](https://hydra.nixos.org/eval/1812887) of nixpkgs commit [b089339](https://github.com/NixOS/nixpkgs/commits/b089339c6a11ebbe44a47123675d5ed4148a8820) as of 2025-03-09 18:08 UTC*
 
 🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
@@ -839,6 +839,7 @@
 [connection](https://packdeps.haskellers.com/reverse/connection) ⤴️ 51  
 [util](https://packdeps.haskellers.com/reverse/util) ⤴️ 49  
 [derive](https://packdeps.haskellers.com/reverse/derive) ⤴️ 48  
+[fclabels](https://packdeps.haskellers.com/reverse/fclabels) ⤴️ 47  
 [accelerate](https://packdeps.haskellers.com/reverse/accelerate) ⤴️ 42  
 [syb-with-class](https://packdeps.haskellers.com/reverse/syb-with-class) ⤴️ 42  
 [MonadCatchIO-transformers](https://packdeps.haskellers.com/reverse/MonadCatchIO-transformers) ⤴️ 41  
@@ -882,7 +883,6 @@
 [polysemy-process](https://packdeps.haskellers.com/reverse/polysemy-process) ⤴️ 19  
 [wx](https://packdeps.haskellers.com/reverse/wx) ⤴️ 19  
 [BiobaseENA](https://packdeps.haskellers.com/reverse/BiobaseENA) ⤴️ 18  
-[asn1-data](https://packdeps.haskellers.com/reverse/asn1-data) ⤴️ 18  
 </details>
 
 
