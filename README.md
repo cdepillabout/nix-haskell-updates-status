@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1813089](https://hydra.nixos.org/eval/1813089) of nixpkgs commit [ad78816](https://github.com/NixOS/nixpkgs/commits/ad7881670a8d8d079884c9f9e5ca1a4610f79d3d) as of 2025-03-12 06:10 UTC*
+*evaluation [1813089](https://hydra.nixos.org/eval/1813089) of nixpkgs commit [ad78816](https://github.com/NixOS/nixpkgs/commits/ad7881670a8d8d079884c9f9e5ca1a4610f79d3d) as of 2025-03-12 12:12 UTC*
 
 🔴 **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -9,7 +9,7 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1813089?filter=.x86_64-linux) | 409 | 551 | 14 | 6715 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1813089?filter=.x86_64-linux) | 409 | 551 | 11 | 6719 | 
 #### Maintained Linux packages with build failure
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/292011121) [haskellPackages.binrep](https://hydra.nixos.org/eval/1813089?filter=haskellPackages.binrep) @raehik
 - [ ] [blucontrol](https://hydra.nixos.org/eval/1813089?filter=blucontrol) @jumper149
