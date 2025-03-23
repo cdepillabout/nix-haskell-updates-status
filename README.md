@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1813346](https://hydra.nixos.org/eval/1813346) of nixpkgs commit [1f00f46](https://github.com/NixOS/nixpkgs/commits/1f00f46d8b14f6956005ab80f2e0e9c875d0dace) as of 2025-03-23 00:30 UTC*
+*evaluation [1813346](https://hydra.nixos.org/eval/1813346) of nixpkgs commit [1f00f46](https://github.com/NixOS/nixpkgs/commits/1f00f46d8b14f6956005ab80f2e0e9c875d0dace) as of 2025-03-23 06:09 UTC*
 
 🔴 **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -7,9 +7,9 @@
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1813346?filter=.x86_64-linux) | 411 | 203 | 1 | 7073 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | Success ✅ | 
+ | --- | --- | --- | --- | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1813346?filter=.x86_64-linux) | 411 | 203 | 7073 | 
 #### Maintained Linux packages with build failure
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/292815059) [haskellPackages.binrep](https://hydra.nixos.org/eval/1813346?filter=haskellPackages.binrep) @raehik
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/292815194) [haskellPackages.candid](https://hydra.nixos.org/eval/1813346?filter=haskellPackages.candid) @nomeata
@@ -574,7 +574,7 @@
 - [ ] [hoogle](https://hydra.nixos.org/eval/1813346?filter=hoogle)  ⤴️ 1 | 5
   - [[🐧✅]](https://hydra.nixos.org/build/292813530) [haskell.packages.ghc8107](https://hydra.nixos.org/eval/1813346?filter=haskell.packages.ghc8107.hoogle)
   - [[🐧✅]](https://hydra.nixos.org/build/292813570) [haskell.packages.ghc902](https://hydra.nixos.org/eval/1813346?filter=haskell.packages.ghc902.hoogle)
-  - [[🐧⏳]](https://hydra.nixos.org/build/292813564) [haskell.packages.ghc9101](https://hydra.nixos.org/eval/1813346?filter=haskell.packages.ghc9101.hoogle)
+  - [[🐧✅]](https://hydra.nixos.org/build/292813564) [haskell.packages.ghc9101](https://hydra.nixos.org/eval/1813346?filter=haskell.packages.ghc9101.hoogle)
   - [[🐧❗]](https://hydra.nixos.org/build/292813599) [haskell.packages.ghc9121](https://hydra.nixos.org/eval/1813346?filter=haskell.packages.ghc9121.hoogle)
   - [[🐧✅]](https://hydra.nixos.org/build/292813628) [haskell.packages.ghc928](https://hydra.nixos.org/eval/1813346?filter=haskell.packages.ghc928.hoogle)
   - [[🐧✅]](https://hydra.nixos.org/build/292813647) [haskell.packages.ghc947](https://hydra.nixos.org/eval/1813346?filter=haskell.packages.ghc947.hoogle)
