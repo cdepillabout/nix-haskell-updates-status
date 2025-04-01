@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1814028](https://hydra.nixos.org/eval/1814028) of nixpkgs commit [5820e11](https://github.com/NixOS/nixpkgs/commits/5820e1174f34b605546f7902cf7fb28948abe99c) as of 2025-03-31 18:10 UTC*
+*evaluation [1814028](https://hydra.nixos.org/eval/1814028) of nixpkgs commit [5820e11](https://github.com/NixOS/nixpkgs/commits/5820e1174f34b605546f7902cf7fb28948abe99c) as of 2025-04-01 00:32 UTC*
 
 🔴 **Branch not mergeable**
   * No `maintained` job found.
@@ -7,9 +7,9 @@
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Success ✅ | 
- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1814028?filter=.x86_64-linux) | 419 | 199 | 1 | 7071 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
+ | --- | --- | --- | --- | --- | --- | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1814028?filter=.x86_64-linux) | 418 | 199 | 1 | 1 | 7071 | 
 #### Maintained Linux packages with build failure
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/293761527) [haskellPackages.binrep](https://hydra.nixos.org/eval/1814028?filter=haskellPackages.binrep) @raehik
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/293761686) [haskellPackages.candid](https://hydra.nixos.org/eval/1814028?filter=haskellPackages.candid) @nomeata
@@ -22,9 +22,6 @@
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/293765851) [haskellPackages.push-notify-apn](https://hydra.nixos.org/eval/1814028?filter=haskellPackages.push-notify-apn) @mpscholten
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/293766717) [haskellPackages.streamly](https://hydra.nixos.org/eval/1814028?filter=haskellPackages.streamly) @maralorn
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/293766913) [haskellPackages.taskwarrior](https://hydra.nixos.org/eval/1814028?filter=haskellPackages.taskwarrior) @maralorn
-- [ ] [xmonad](https://hydra.nixos.org/eval/1814028?filter=xmonad) @NeQuissimus @dschrempf @ivanbrennan @peti @slotThe
-  - [[🐧✅]](https://hydra.nixos.org/build/293767768) [haskellPackages](https://hydra.nixos.org/eval/1814028?filter=haskellPackages.xmonad)
-  - [[🐧❌]](https://hydra.nixos.org/build/293800094) [nixosTests](https://hydra.nixos.org/eval/1814028?filter=nixosTests.xmonad)
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/293767825) [haskellPackages.yaya-hedgehog](https://hydra.nixos.org/eval/1814028?filter=haskellPackages.yaya-hedgehog) @sellout
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/293767915) [haskellPackages.zre](https://hydra.nixos.org/eval/1814028?filter=haskellPackages.zre) @sorki
 #### Maintained Linux packages with failed dependency
