@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1814299](https://hydra.nixos.org/eval/1814299) of nixpkgs commit [646c26e](https://github.com/NixOS/nixpkgs/commits/646c26ebd028cf8a50d25d7c54f3f548708d4de2) as of 2025-04-05 18:09 UTC*
+*evaluation [1814299](https://hydra.nixos.org/eval/1814299) of nixpkgs commit [646c26e](https://github.com/NixOS/nixpkgs/commits/646c26ebd028cf8a50d25d7c54f3f548708d4de2) as of 2025-04-06 00:30 UTC*
 
 🔴 **Branch not mergeable**
   * Too many outstanding jobs on x86_64-linux.
@@ -10,7 +10,7 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1814299?filter=.x86_64-linux) | 378 | 186 | 771 | 6423 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1814299?filter=.x86_64-linux) | 378 | 186 | 757 | 6439 | 
 #### Maintained Linux packages with build failure
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/293839630) [haskellPackages.coinor-clp](https://hydra.nixos.org/eval/1814299?filter=haskellPackages.coinor-clp) @thielema
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/293840209) [haskellPackages.fft](https://hydra.nixos.org/eval/1814299?filter=haskellPackages.fft) @thielema
