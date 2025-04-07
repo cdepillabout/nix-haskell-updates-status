@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1814299](https://hydra.nixos.org/eval/1814299) of nixpkgs commit [646c26e](https://github.com/NixOS/nixpkgs/commits/646c26ebd028cf8a50d25d7c54f3f548708d4de2) as of 2025-04-07 06:11 UTC*
+*evaluation [1814299](https://hydra.nixos.org/eval/1814299) of nixpkgs commit [646c26e](https://github.com/NixOS/nixpkgs/commits/646c26ebd028cf8a50d25d7c54f3f548708d4de2) as of 2025-04-07 12:12 UTC*
 
 🔴 **Branch not mergeable**
   * Too many outstanding jobs on x86_64-linux.
@@ -10,7 +10,7 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1814299?filter=.x86_64-linux) | 399 | 198 | 511 | 6668 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1814299?filter=.x86_64-linux) | 401 | 198 | 506 | 6671 | 
 #### Maintained Linux packages with build failure
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/293839630) [haskellPackages.coinor-clp](https://hydra.nixos.org/eval/1814299?filter=haskellPackages.coinor-clp) @thielema
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/293840209) [haskellPackages.fft](https://hydra.nixos.org/eval/1814299?filter=haskellPackages.fft) @thielema
@@ -46,7 +46,7 @@
   - [[🐧❗]](https://hydra.nixos.org/build/294449755) [haskellPackages](https://hydra.nixos.org/eval/1814299?filter=haskellPackages.taffybar)
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/293843793) [tests.haskell.upstreamStackHpackVersion](https://hydra.nixos.org/eval/1814299?filter=tests.haskell.upstreamStackHpackVersion) @cdepillabout
 #### Unmaintained packages with build failure
-<details><summary>433 job(s) </summary>
+<details><summary>435 job(s) </summary>
 
 - [ ] [ghc-lib-parser](https://hydra.nixos.org/eval/1814299?filter=ghc-lib-parser)  ⤴️ 22 | 68
   - [[🐧✅]](https://hydra.nixos.org/build/293759988) [haskell.packages.ghc8107](https://hydra.nixos.org/eval/1814299?filter=haskell.packages.ghc8107.ghc-lib-parser)
@@ -140,6 +140,7 @@
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/293842861) [haskellPackages.static-canvas](https://hydra.nixos.org/eval/1814299?filter=haskellPackages.static-canvas)  ⤴️ 1 | 2
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/293843718) [haskellPackages.zxcvbn-hs](https://hydra.nixos.org/eval/1814299?filter=haskellPackages.zxcvbn-hs)  ⤴️ 1 | 2
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/293839297) [haskellPackages.aztecs-hierarchy](https://hydra.nixos.org/eval/1814299?filter=haskellPackages.aztecs-hierarchy)  ⤴️ 1 | 1
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/294449477) [haskellPackages.discord-haskell](https://hydra.nixos.org/eval/1814299?filter=haskellPackages.discord-haskell)  ⤴️ 1 | 1
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/293839991) [haskellPackages.distributed-process-p2p](https://hydra.nixos.org/eval/1814299?filter=haskellPackages.distributed-process-p2p)  ⤴️ 1 | 1
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/293839993) [haskellPackages.distributed-process-task](https://hydra.nixos.org/eval/1814299?filter=haskellPackages.distributed-process-task)  ⤴️ 1 | 1
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/293840151) [haskellPackages.eventloop](https://hydra.nixos.org/eval/1814299?filter=haskellPackages.eventloop)  ⤴️ 1 | 1
@@ -361,6 +362,7 @@
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/293841486) [haskellPackages.lens-indexed-plated](https://hydra.nixos.org/eval/1814299?filter=haskellPackages.lens-indexed-plated) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/293841477) [haskellPackages.lens-witherable](https://hydra.nixos.org/eval/1814299?filter=haskellPackages.lens-witherable) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/293764515) [haskellPackages.libfuse3](https://hydra.nixos.org/eval/1814299?filter=haskellPackages.libfuse3) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/294449632) [haskellPackages.libstackexchange](https://hydra.nixos.org/eval/1814299?filter=haskellPackages.libstackexchange) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/293841532) [haskellPackages.llvm-codegen](https://hydra.nixos.org/eval/1814299?filter=haskellPackages.llvm-codegen) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/293841550) [haskellPackages.logging-effect-colors](https://hydra.nixos.org/eval/1814299?filter=haskellPackages.logging-effect-colors) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/293841553) [haskellPackages.logging-effect-syslog](https://hydra.nixos.org/eval/1814299?filter=haskellPackages.logging-effect-syslog) 
