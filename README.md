@@ -1,24 +1,17 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1814673](https://hydra.nixos.org/eval/1814673) of nixpkgs commit [73a1ced](https://github.com/NixOS/nixpkgs/commits/73a1ced090549534c1c725ced2a1ca19e9a53465) as of 2025-04-19 06:10 UTC*
+*evaluation [1814673](https://hydra.nixos.org/eval/1814673) of nixpkgs commit [73a1ced](https://github.com/NixOS/nixpkgs/commits/73a1ced090549534c1c725ced2a1ca19e9a53465) as of 2025-04-19 12:11 UTC*
 
 🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Success ✅ | 
- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1814673?filter=.x86_64-linux) | 447 | 175 | 1 | 7204 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
+ | --- | --- | --- | --- | --- | --- | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1814673?filter=.x86_64-linux) | 446 | 175 | 1 | 1 | 7204 | 
 #### Maintained Linux packages with build failure
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/295092394) [haskellPackages.coinor-clp](https://hydra.nixos.org/eval/1814673?filter=haskellPackages.coinor-clp) @thielema
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/295093233) [haskellPackages.fft](https://hydra.nixos.org/eval/1814673?filter=haskellPackages.fft) @thielema
-- [ ] [ghc8107](https://hydra.nixos.org/eval/1814673?filter=ghc8107) @cdepillabout @guibou @maralorn @sternenseemann
-  - [[🐧✅]](https://hydra.nixos.org/build/295090391) [haskell.compiler](https://hydra.nixos.org/eval/1814673?filter=haskell.compiler.ghc8107)
-  - [[🐧✅]](https://hydra.nixos.org/build/295090423) [haskell.compiler.integer-simple](https://hydra.nixos.org/eval/1814673?filter=haskell.compiler.integer-simple.ghc8107)
-  - [[🐧❌]](https://hydra.nixos.org/build/295098510) [pkgsCross.aarch64-multiplatform.haskell.compiler](https://hydra.nixos.org/eval/1814673?filter=pkgsCross.aarch64-multiplatform.haskell.compiler.ghc8107)
-  - [[🐧✅]](https://hydra.nixos.org/build/295098538) [pkgsCross.riscv64.haskell.compiler](https://hydra.nixos.org/eval/1814673?filter=pkgsCross.riscv64.haskell.compiler.ghc8107)
-  - [[🐧✅]](https://hydra.nixos.org/build/295098525) [pkgsMusl.haskell.compiler](https://hydra.nixos.org/eval/1814673?filter=pkgsMusl.haskell.compiler.ghc8107)
-  - [[🐧✅]](https://hydra.nixos.org/build/295098551) [pkgsMusl.haskell.compiler.integer-simple](https://hydra.nixos.org/eval/1814673?filter=pkgsMusl.haskell.compiler.integer-simple.ghc8107)
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/295094961) [haskellPackages.large-records](https://hydra.nixos.org/eval/1814673?filter=haskellPackages.large-records) @alexfmpe
 #### Maintained Linux packages with failed dependency
 - [ ] [cabal2nix](https://hydra.nixos.org/eval/1814673?filter=cabal2nix) @sternenseemann
