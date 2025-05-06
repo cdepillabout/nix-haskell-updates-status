@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1815096](https://hydra.nixos.org/eval/1815096) of nixpkgs commit [f760314](https://github.com/NixOS/nixpkgs/commits/f760314aaed70a5d9e55fb0e25ae451ec5688cac) as of 2025-05-06 06:17 UTC*
+*evaluation [1815096](https://hydra.nixos.org/eval/1815096) of nixpkgs commit [f760314](https://github.com/NixOS/nixpkgs/commits/f760314aaed70a5d9e55fb0e25ae451ec5688cac) as of 2025-05-06 12:14 UTC*
 
 🔴 **Branch not mergeable**
   * Too many outstanding jobs on x86_64-linux.
@@ -10,7 +10,7 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1815096?filter=.x86_64-linux) | 2 | 1 | 4696 | 2628 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1815096?filter=.x86_64-linux) | 2 | 1 | 2872 | 4461 | 
 #### Unmaintained packages with build failure
 <details><summary>2 job(s) </summary>
 
@@ -52,7 +52,6 @@
 [crypto-pubkey](https://packdeps.haskellers.com/reverse/crypto-pubkey) ⤴️ 22  
 [haskelldb](https://packdeps.haskellers.com/reverse/haskelldb) ⤴️ 22  
 [wxdirect](https://packdeps.haskellers.com/reverse/wxdirect) ⤴️ 22  
-[BiobaseTypes](https://packdeps.haskellers.com/reverse/BiobaseTypes) ⤴️ 21  
 [alg](https://packdeps.haskellers.com/reverse/alg) ⤴️ 21  
 [hw-rankselect-base](https://packdeps.haskellers.com/reverse/hw-rankselect-base) ⤴️ 21  
 [libxml-sax](https://packdeps.haskellers.com/reverse/libxml-sax) ⤴️ 21  
@@ -70,13 +69,14 @@
 [ixset](https://packdeps.haskellers.com/reverse/ixset) ⤴️ 19  
 [mmsyn2](https://packdeps.haskellers.com/reverse/mmsyn2) ⤴️ 19  
 [wx](https://packdeps.haskellers.com/reverse/wx) ⤴️ 19  
-[BiobaseENA](https://packdeps.haskellers.com/reverse/BiobaseENA) ⤴️ 18  
 [asn1-data](https://packdeps.haskellers.com/reverse/asn1-data) ⤴️ 18  
 [bytestring-show](https://packdeps.haskellers.com/reverse/bytestring-show) ⤴️ 18  
 [dbus-core](https://packdeps.haskellers.com/reverse/dbus-core) ⤴️ 18  
 [digit](https://packdeps.haskellers.com/reverse/digit) ⤴️ 18  
 [gtksourceview2](https://packdeps.haskellers.com/reverse/gtksourceview2) ⤴️ 18  
 [hw-rankselect](https://packdeps.haskellers.com/reverse/hw-rankselect) ⤴️ 18  
+[wrapped](https://packdeps.haskellers.com/reverse/wrapped) ⤴️ 18  
+[HGamer3D-Data](https://packdeps.haskellers.com/reverse/HGamer3D-Data) ⤴️ 17  
 </details>
 
 
