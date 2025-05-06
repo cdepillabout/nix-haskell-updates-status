@@ -1,15 +1,29 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1815084](https://hydra.nixos.org/eval/1815084) of nixpkgs commit [e2a42c1](https://github.com/NixOS/nixpkgs/commits/e2a42c12a331a3072d01a716cbf7e25b512d672b) as of 2025-05-06 00:38 UTC*
+*evaluation [1815096](https://hydra.nixos.org/eval/1815096) of nixpkgs commit [f760314](https://github.com/NixOS/nixpkgs/commits/f760314aaed70a5d9e55fb0e25ae451ec5688cac) as of 2025-05-06 06:17 UTC*
 
 🔴 **Branch not mergeable**
-  * `mergeable` jobset failed.
-  * `maintained` jobset failed.
+  * Too many outstanding jobs on x86_64-linux.
+  * `mergeable` jobset is not finished.
+  * `maintained` jobset is not finished.
 
 #### Build summary
 
- | Platform | Canceled 🚫 | Success ✅ | 
- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1815084?filter=.x86_64-linux) | 6910 | 393 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
+ | --- | --- | --- | --- | --- | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1815096?filter=.x86_64-linux) | 2 | 1 | 4696 | 2628 | 
+#### Unmaintained packages with build failure
+<details><summary>2 job(s) </summary>
+
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/296522870) [haskellPackages.stm-queue](https://hydra.nixos.org/eval/1815096?filter=haskellPackages.stm-queue)  ⤴️ 0 | 1
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/296519026) [haskellPackages.env-extra](https://hydra.nixos.org/eval/1815096?filter=haskellPackages.env-extra) 
+</details>
+
+#### Unmaintained packages with failed dependency
+<details><summary>1 job(s) </summary>
+
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/296523136) [haskellPackages.tasty-papi](https://hydra.nixos.org/eval/1815096?filter=haskellPackages.tasty-papi) 
+</details>
+
 #### Top 50 broken packages, sorted by number of reverse dependencies
 <details><summary>50 job(s) </summary>
 
