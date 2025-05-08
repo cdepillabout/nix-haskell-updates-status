@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1815096](https://hydra.nixos.org/eval/1815096) of nixpkgs commit [f760314](https://github.com/NixOS/nixpkgs/commits/f760314aaed70a5d9e55fb0e25ae451ec5688cac) as of 2025-05-07 18:11 UTC*
+*evaluation [1815096](https://hydra.nixos.org/eval/1815096) of nixpkgs commit [f760314](https://github.com/NixOS/nixpkgs/commits/f760314aaed70a5d9e55fb0e25ae451ec5688cac) as of 2025-05-08 00:30 UTC*
 
 🔴 **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -9,7 +9,7 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1815096?filter=.x86_64-linux) | 14 | 8 | 6 | 3 | 7270 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1815096?filter=.x86_64-linux) | 14 | 8 | 6 | 2 | 7270 | 
 #### Maintained Linux packages with build failure
 - [ ] [cabal-install](https://hydra.nixos.org/eval/1815096?filter=cabal-install) @sternenseemann
   - [[🐧✅]](https://hydra.nixos.org/build/296516368) [toplevel](https://hydra.nixos.org/eval/1815096?filter=cabal-install)
@@ -64,6 +64,7 @@
   - [[🐧❗]](https://hydra.nixos.org/build/296517775) [haskell.packages.ghc983](https://hydra.nixos.org/eval/1815096?filter=haskell.packages.ghc983.haskell-language-server)
   - [[🐧❗]](https://hydra.nixos.org/build/296517076) [haskell.packages.ghc984](https://hydra.nixos.org/eval/1815096?filter=haskell.packages.ghc984.haskell-language-server)
   - [[🐧❗]](https://hydra.nixos.org/build/296519921) [haskellPackages](https://hydra.nixos.org/eval/1815096?filter=haskellPackages.haskell-language-server)
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/296527614) [mergeable](https://hydra.nixos.org/eval/1815096?filter=mergeable) @cdepillabout @maralorn @sternenseemann @wolfgangwalther
 #### Unmaintained packages with build failure
 <details><summary>11 job(s) </summary>
 
@@ -81,14 +82,13 @@
 </details>
 
 #### Unmaintained packages with failed dependency
-<details><summary>7 job(s) </summary>
+<details><summary>6 job(s) </summary>
 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/296520102) [haskellPackages.hls-test-utils](https://hydra.nixos.org/eval/1815096?filter=haskellPackages.hls-test-utils)  ⤴️ 1 | 1
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/296527270) [haskellPackages.ghcjs-dom-hello](https://hydra.nixos.org/eval/1815096?filter=haskellPackages.ghcjs-dom-hello) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/296527359) [haskellPackages.ihaskell-symtegration](https://hydra.nixos.org/eval/1815096?filter=haskellPackages.ihaskell-symtegration) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/296527370) [haskellPackages.jsaddle-hello](https://hydra.nixos.org/eval/1815096?filter=haskellPackages.jsaddle-hello) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/296527628) [maintained](https://hydra.nixos.org/eval/1815096?filter=maintained) 
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/296527614) [mergeable](https://hydra.nixos.org/eval/1815096?filter=mergeable) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/296523136) [haskellPackages.tasty-papi](https://hydra.nixos.org/eval/1815096?filter=haskellPackages.tasty-papi) 
 </details>
 
