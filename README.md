@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1815096](https://hydra.nixos.org/eval/1815096) of nixpkgs commit [f760314](https://github.com/NixOS/nixpkgs/commits/f760314aaed70a5d9e55fb0e25ae451ec5688cac) as of 2025-05-09 06:12 UTC*
+*evaluation [1815096](https://hydra.nixos.org/eval/1815096) of nixpkgs commit [f760314](https://github.com/NixOS/nixpkgs/commits/f760314aaed70a5d9e55fb0e25ae451ec5688cac) as of 2025-05-09 12:12 UTC*
 
 🔴 **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -7,9 +7,9 @@
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1815096?filter=.x86_64-linux) | 14 | 8 | 6 | 2 | 7270 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | HydraFailure 🚧 | Unfinished ⏳ | Success ✅ | 
+ | --- | --- | --- | --- | --- | --- | --- | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1815096?filter=.x86_64-linux) | 12 | 8 | 6 | 1 | 3 | 7270 | 
 #### Maintained Linux packages with build failure
 - [ ] [cabal-install](https://hydra.nixos.org/eval/1815096?filter=cabal-install) @sternenseemann
   - [[🐧✅]](https://hydra.nixos.org/build/296516368) [toplevel](https://hydra.nixos.org/eval/1815096?filter=cabal-install)
@@ -66,7 +66,7 @@
   - [[🐧❗]](https://hydra.nixos.org/build/296519921) [haskellPackages](https://hydra.nixos.org/eval/1815096?filter=haskellPackages.haskell-language-server)
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/296527614) [mergeable](https://hydra.nixos.org/eval/1815096?filter=mergeable) @cdepillabout @maralorn @sternenseemann @wolfgangwalther
 #### Unmaintained packages with build failure
-<details><summary>11 job(s) </summary>
+<details><summary>9 job(s) </summary>
 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/296519451) [haskellPackages.ghcide](https://hydra.nixos.org/eval/1815096?filter=haskellPackages.ghcide)  ⤴️ 2 | 26
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/296523016) [haskellPackages.symtegration](https://hydra.nixos.org/eval/1815096?filter=haskellPackages.symtegration)  ⤴️ 1 | 1
@@ -74,10 +74,8 @@
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/296522870) [haskellPackages.stm-queue](https://hydra.nixos.org/eval/1815096?filter=haskellPackages.stm-queue)  ⤴️ 0 | 1
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/296518003) [haskellPackages.brick-calendar](https://hydra.nixos.org/eval/1815096?filter=haskellPackages.brick-calendar) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/296518686) [haskellPackages.copilot-verifier](https://hydra.nixos.org/eval/1815096?filter=haskellPackages.copilot-verifier) 
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/296519026) [haskellPackages.env-extra](https://hydra.nixos.org/eval/1815096?filter=haskellPackages.env-extra) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/296520872) [haskellPackages.linear-tests](https://hydra.nixos.org/eval/1815096?filter=haskellPackages.linear-tests) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/296522576) [haskellPackages.servant-routes](https://hydra.nixos.org/eval/1815096?filter=haskellPackages.servant-routes) 
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/296523743) [haskellPackages.wai-token-bucket-ratelimiter](https://hydra.nixos.org/eval/1815096?filter=haskellPackages.wai-token-bucket-ratelimiter) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/296523789) [haskellPackages.webdriver-precore](https://hydra.nixos.org/eval/1815096?filter=haskellPackages.webdriver-precore) 
 </details>
 
