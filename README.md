@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1815176](https://hydra.nixos.org/eval/1815176) of nixpkgs commit [f583a19](https://github.com/NixOS/nixpkgs/commits/f583a19d8e9d02ce35b86b7042ec1fa5092d8e37) as of 2025-05-12 06:11 UTC*
+*evaluation [1815176](https://hydra.nixos.org/eval/1815176) of nixpkgs commit [f583a19](https://github.com/NixOS/nixpkgs/commits/f583a19d8e9d02ce35b86b7042ec1fa5092d8e37) as of 2025-05-12 12:13 UTC*
 
 🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset is not finished.
@@ -8,7 +8,7 @@
 
  | Platform | Failed ❌ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1815176?filter=.x86_64-linux) | 6 | 3 | 83 | 7227 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1815176?filter=.x86_64-linux) | 7 | 3 | 76 | 7232 | 
 #### Maintained Linux packages with build failure
 - [ ] [cabal2nix](https://hydra.nixos.org/eval/1815176?filter=cabal2nix) @sternenseemann
   - [[🐧✅]](https://hydra.nixos.org/build/296932958) [toplevel](https://hydra.nixos.org/eval/1815176?filter=cabal2nix)
@@ -33,11 +33,12 @@
   - [[🐧✅]](https://hydra.nixos.org/build/296527623) [pkgsStatic.haskellPackages](https://hydra.nixos.org/eval/1815176?filter=pkgsStatic.haskellPackages.cabal2nix)
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/296940162) [haskellPackages.jsaddle-hello](https://hydra.nixos.org/eval/1815176?filter=haskellPackages.jsaddle-hello) @alexfmpe
 #### Unmaintained packages with build failure
-<details><summary>4 job(s) </summary>
+<details><summary>5 job(s) </summary>
 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/296519228) [haskellPackages.fb-util](https://hydra.nixos.org/eval/1815176?filter=haskellPackages.fb-util)  ⤴️ 0 | 4
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/296518003) [haskellPackages.brick-calendar](https://hydra.nixos.org/eval/1815176?filter=haskellPackages.brick-calendar) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/296518686) [haskellPackages.copilot-verifier](https://hydra.nixos.org/eval/1815176?filter=haskellPackages.copilot-verifier) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/296519026) [haskellPackages.env-extra](https://hydra.nixos.org/eval/1815176?filter=haskellPackages.env-extra) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/296523789) [haskellPackages.webdriver-precore](https://hydra.nixos.org/eval/1815176?filter=haskellPackages.webdriver-precore) 
 </details>
 
