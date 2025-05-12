@@ -1,45 +1,23 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1815176](https://hydra.nixos.org/eval/1815176) of nixpkgs commit [f583a19](https://github.com/NixOS/nixpkgs/commits/f583a19d8e9d02ce35b86b7042ec1fa5092d8e37) as of 2025-05-12 12:13 UTC*
+*evaluation [1815231](https://hydra.nixos.org/eval/1815231) of nixpkgs commit [cf12797](https://github.com/NixOS/nixpkgs/commits/cf127972bbf111593f302e81ef3a9778da162fc4) as of 2025-05-12 18:11 UTC*
 
-🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
+🔴 **Branch not mergeable**
+  * Too many outstanding jobs on x86_64-linux.
+  * `mergeable` jobset is not finished.
   * `maintained` jobset is not finished.
 
 #### Build summary
 
  | Platform | Failed ❌ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1815176?filter=.x86_64-linux) | 7 | 3 | 76 | 7232 | 
-#### Maintained Linux packages with build failure
-- [ ] [cabal2nix](https://hydra.nixos.org/eval/1815176?filter=cabal2nix) @sternenseemann
-  - [[🐧✅]](https://hydra.nixos.org/build/296932958) [toplevel](https://hydra.nixos.org/eval/1815176?filter=cabal2nix)
-  - [[🐧✅]](https://hydra.nixos.org/build/296526736) [haskell.packages.ghc8107](https://hydra.nixos.org/eval/1815176?filter=haskell.packages.ghc8107.cabal2nix)
-  - [[🐧✅]](https://hydra.nixos.org/build/296526742) [haskell.packages.ghc902](https://hydra.nixos.org/eval/1815176?filter=haskell.packages.ghc902.cabal2nix)
-  - [[🐧✅]](https://hydra.nixos.org/build/296526745) [haskell.packages.ghc9101](https://hydra.nixos.org/eval/1815176?filter=haskell.packages.ghc9101.cabal2nix)
-  - [[🐧❌]](https://hydra.nixos.org/build/296526753) [haskell.packages.ghc9122](https://hydra.nixos.org/eval/1815176?filter=haskell.packages.ghc9122.cabal2nix)
-  - [[🐧✅]](https://hydra.nixos.org/build/296526756) [haskell.packages.ghc928](https://hydra.nixos.org/eval/1815176?filter=haskell.packages.ghc928.cabal2nix)
-  - [[🐧✅]](https://hydra.nixos.org/build/296526758) [haskell.packages.ghc947](https://hydra.nixos.org/eval/1815176?filter=haskell.packages.ghc947.cabal2nix)
-  - [[🐧✅]](https://hydra.nixos.org/build/296526761) [haskell.packages.ghc948](https://hydra.nixos.org/eval/1815176?filter=haskell.packages.ghc948.cabal2nix)
-  - [[🐧✅]](https://hydra.nixos.org/build/296526769) [haskell.packages.ghc963](https://hydra.nixos.org/eval/1815176?filter=haskell.packages.ghc963.cabal2nix)
-  - [[🐧✅]](https://hydra.nixos.org/build/296526777) [haskell.packages.ghc964](https://hydra.nixos.org/eval/1815176?filter=haskell.packages.ghc964.cabal2nix)
-  - [[🐧✅]](https://hydra.nixos.org/build/296526784) [haskell.packages.ghc965](https://hydra.nixos.org/eval/1815176?filter=haskell.packages.ghc965.cabal2nix)
-  - [[🐧✅]](https://hydra.nixos.org/build/296526785) [haskell.packages.ghc966](https://hydra.nixos.org/eval/1815176?filter=haskell.packages.ghc966.cabal2nix)
-  - [[🐧✅]](https://hydra.nixos.org/build/296526792) [haskell.packages.ghc967](https://hydra.nixos.org/eval/1815176?filter=haskell.packages.ghc967.cabal2nix)
-  - [[🐧✅]](https://hydra.nixos.org/build/296526797) [haskell.packages.ghc981](https://hydra.nixos.org/eval/1815176?filter=haskell.packages.ghc981.cabal2nix)
-  - [[🐧✅]](https://hydra.nixos.org/build/296526798) [haskell.packages.ghc982](https://hydra.nixos.org/eval/1815176?filter=haskell.packages.ghc982.cabal2nix)
-  - [[🐧✅]](https://hydra.nixos.org/build/296526807) [haskell.packages.ghc983](https://hydra.nixos.org/eval/1815176?filter=haskell.packages.ghc983.cabal2nix)
-  - [[🐧✅]](https://hydra.nixos.org/build/296526802) [haskell.packages.ghc984](https://hydra.nixos.org/eval/1815176?filter=haskell.packages.ghc984.cabal2nix)
-  - [[🐧✅]](https://hydra.nixos.org/build/296527196) [haskellPackages](https://hydra.nixos.org/eval/1815176?filter=haskellPackages.cabal2nix)
-  - [[🐧✅]](https://hydra.nixos.org/build/296527621) [pkgsStatic.haskell.packages.native-bignum.ghc948](https://hydra.nixos.org/eval/1815176?filter=pkgsStatic.haskell.packages.native-bignum.ghc948.cabal2nix)
-  - [[🐧✅]](https://hydra.nixos.org/build/296527623) [pkgsStatic.haskellPackages](https://hydra.nixos.org/eval/1815176?filter=pkgsStatic.haskellPackages.cabal2nix)
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/296940162) [haskellPackages.jsaddle-hello](https://hydra.nixos.org/eval/1815176?filter=haskellPackages.jsaddle-hello) @alexfmpe
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1815231?filter=.x86_64-linux) | 4 | 2 | 140 | 7191 | 
 #### Unmaintained packages with build failure
-<details><summary>5 job(s) </summary>
+<details><summary>4 job(s) </summary>
 
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/296519228) [haskellPackages.fb-util](https://hydra.nixos.org/eval/1815176?filter=haskellPackages.fb-util)  ⤴️ 0 | 4
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/296518003) [haskellPackages.brick-calendar](https://hydra.nixos.org/eval/1815176?filter=haskellPackages.brick-calendar) 
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/296518686) [haskellPackages.copilot-verifier](https://hydra.nixos.org/eval/1815176?filter=haskellPackages.copilot-verifier) 
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/296519026) [haskellPackages.env-extra](https://hydra.nixos.org/eval/1815176?filter=haskellPackages.env-extra) 
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/296523789) [haskellPackages.webdriver-precore](https://hydra.nixos.org/eval/1815176?filter=haskellPackages.webdriver-precore) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/296519228) [haskellPackages.fb-util](https://hydra.nixos.org/eval/1815231?filter=haskellPackages.fb-util)  ⤴️ 0 | 4
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/296518003) [haskellPackages.brick-calendar](https://hydra.nixos.org/eval/1815231?filter=haskellPackages.brick-calendar) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/296519026) [haskellPackages.env-extra](https://hydra.nixos.org/eval/1815231?filter=haskellPackages.env-extra) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/296523789) [haskellPackages.webdriver-precore](https://hydra.nixos.org/eval/1815231?filter=haskellPackages.webdriver-precore) 
 </details>
 
 #### Top 50 broken packages, sorted by number of reverse dependencies
