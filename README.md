@@ -1,19 +1,38 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1815231](https://hydra.nixos.org/eval/1815231) of nixpkgs commit [cf12797](https://github.com/NixOS/nixpkgs/commits/cf127972bbf111593f302e81ef3a9778da162fc4) as of 2025-05-12 18:11 UTC*
+*evaluation [1815231](https://hydra.nixos.org/eval/1815231) of nixpkgs commit [cf12797](https://github.com/NixOS/nixpkgs/commits/cf127972bbf111593f302e81ef3a9778da162fc4) as of 2025-05-13 00:30 UTC*
 
 🔴 **Branch not mergeable**
   * Too many outstanding jobs on x86_64-linux.
   * `mergeable` jobset is not finished.
-  * `maintained` jobset is not finished.
 
 #### Build summary
 
  | Platform | Failed ❌ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1815231?filter=.x86_64-linux) | 4 | 2 | 140 | 7191 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1815231?filter=.x86_64-linux) | 6 | 2 | 102 | 7222 | 
 #### Unmaintained packages with build failure
-<details><summary>4 job(s) </summary>
+<details><summary>24 job(s) </summary>
 
+- [ ] [ghc-lib-parser](https://hydra.nixos.org/eval/1815231?filter=ghc-lib-parser)  ⤴️ 22 | 73
+  - [[🐧✅]](https://hydra.nixos.org/build/296516471) [haskell.packages.ghc8107](https://hydra.nixos.org/eval/1815231?filter=haskell.packages.ghc8107.ghc-lib-parser)
+  - [[🐧✅]](https://hydra.nixos.org/build/296516489) [haskell.packages.ghc902](https://hydra.nixos.org/eval/1815231?filter=haskell.packages.ghc902.ghc-lib-parser)
+  - [[🐧✅]](https://hydra.nixos.org/build/296526740) [haskell.packages.ghc9101](https://hydra.nixos.org/eval/1815231?filter=haskell.packages.ghc9101.ghc-lib-parser)
+  - [[🐧❌]](https://hydra.nixos.org/build/297024699) [haskell.packages.ghc9102](https://hydra.nixos.org/eval/1815231?filter=haskell.packages.ghc9102.ghc-lib-parser)
+  - [[🐧✅]](https://hydra.nixos.org/build/297024712) [haskell.packages.ghc9122](https://hydra.nixos.org/eval/1815231?filter=haskell.packages.ghc9122.ghc-lib-parser)
+  - [[🐧✅]](https://hydra.nixos.org/build/296516542) [haskell.packages.ghc928](https://hydra.nixos.org/eval/1815231?filter=haskell.packages.ghc928.ghc-lib-parser)
+  - [[🐧✅]](https://hydra.nixos.org/build/296516563) [haskell.packages.ghc947](https://hydra.nixos.org/eval/1815231?filter=haskell.packages.ghc947.ghc-lib-parser)
+  - [[🐧✅]](https://hydra.nixos.org/build/296516585) [haskell.packages.ghc948](https://hydra.nixos.org/eval/1815231?filter=haskell.packages.ghc948.ghc-lib-parser)
+  - [[🐧✅]](https://hydra.nixos.org/build/296516612) [haskell.packages.ghc963](https://hydra.nixos.org/eval/1815231?filter=haskell.packages.ghc963.ghc-lib-parser)
+  - [[🐧✅]](https://hydra.nixos.org/build/296516633) [haskell.packages.ghc964](https://hydra.nixos.org/eval/1815231?filter=haskell.packages.ghc964.ghc-lib-parser)
+  - [[🐧✅]](https://hydra.nixos.org/build/296516658) [haskell.packages.ghc965](https://hydra.nixos.org/eval/1815231?filter=haskell.packages.ghc965.ghc-lib-parser)
+  - [[🐧✅]](https://hydra.nixos.org/build/296516681) [haskell.packages.ghc966](https://hydra.nixos.org/eval/1815231?filter=haskell.packages.ghc966.ghc-lib-parser)
+  - [[🐧✅]](https://hydra.nixos.org/build/296516706) [haskell.packages.ghc967](https://hydra.nixos.org/eval/1815231?filter=haskell.packages.ghc967.ghc-lib-parser)
+  - [[🐧✅]](https://hydra.nixos.org/build/296516732) [haskell.packages.ghc981](https://hydra.nixos.org/eval/1815231?filter=haskell.packages.ghc981.ghc-lib-parser)
+  - [[🐧✅]](https://hydra.nixos.org/build/296516754) [haskell.packages.ghc982](https://hydra.nixos.org/eval/1815231?filter=haskell.packages.ghc982.ghc-lib-parser)
+  - [[🐧✅]](https://hydra.nixos.org/build/296516776) [haskell.packages.ghc983](https://hydra.nixos.org/eval/1815231?filter=haskell.packages.ghc983.ghc-lib-parser)
+  - [[🐧✅]](https://hydra.nixos.org/build/296516799) [haskell.packages.ghc984](https://hydra.nixos.org/eval/1815231?filter=haskell.packages.ghc984.ghc-lib-parser)
+  - [[🐧✅]](https://hydra.nixos.org/build/296519415) [haskellPackages](https://hydra.nixos.org/eval/1815231?filter=haskellPackages.ghc-lib-parser)
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/296523016) [haskellPackages.symtegration](https://hydra.nixos.org/eval/1815231?filter=haskellPackages.symtegration)  ⤴️ 1 | 1
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/296519228) [haskellPackages.fb-util](https://hydra.nixos.org/eval/1815231?filter=haskellPackages.fb-util)  ⤴️ 0 | 4
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/296518003) [haskellPackages.brick-calendar](https://hydra.nixos.org/eval/1815231?filter=haskellPackages.brick-calendar) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/296519026) [haskellPackages.env-extra](https://hydra.nixos.org/eval/1815231?filter=haskellPackages.env-extra) 
