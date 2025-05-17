@@ -1,13 +1,13 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1815276](https://hydra.nixos.org/eval/1815276) of nixpkgs commit [09317d9](https://github.com/NixOS/nixpkgs/commits/09317d97fd052c431027a009d4b425a69c0434b2) as of 2025-05-16 06:11 UTC*
+*evaluation [1815276](https://hydra.nixos.org/eval/1815276) of nixpkgs commit [09317d9](https://github.com/NixOS/nixpkgs/commits/09317d97fd052c431027a009d4b425a69c0434b2) as of 2025-05-17 04:27 UTC*
 
 🟢 **Ready to merge** (if there are no [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
 
 #### Build summary
 
- | Platform | Failed ❌ | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1815276?filter=.x86_64-linux) | 1 | 2 | 7295 | 
+ | Platform | Failed ❌ | Success ✅ | 
+ | --- | --- | --- | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1815276?filter=.x86_64-linux) | 1 | 7296 | 
 #### Maintained Linux packages with build failure
 - [ ] [cabal2nix](https://hydra.nixos.org/eval/1815276?filter=cabal2nix) @sternenseemann
   - [[🐧✅]](https://hydra.nixos.org/build/297103818) [toplevel](https://hydra.nixos.org/eval/1815276?filter=cabal2nix)
