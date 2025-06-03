@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1815785](https://hydra.nixos.org/eval/1815785) of nixpkgs commit [2c526a5](https://github.com/NixOS/nixpkgs/commits/2c526a5d52a941722c59465a07befddbb3b300a3) as of 2025-06-03 00:32 UTC*
+*evaluation [1815785](https://hydra.nixos.org/eval/1815785) of nixpkgs commit [2c526a5](https://github.com/NixOS/nixpkgs/commits/2c526a5d52a941722c59465a07befddbb3b300a3) as of 2025-06-03 06:11 UTC*
 
 🔴 **Branch not mergeable**
   * Too many outstanding jobs on x86_64-linux.
@@ -8,13 +8,30 @@
 
 #### Build summary
 
- | Platform | Failed ❌ | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1815785?filter=.x86_64-linux) | 1 | 7105 | 217 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
+ | --- | --- | --- | --- | --- | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1815785?filter=.x86_64-linux) | 4 | 8 | 6282 | 1075 | 
+#### Maintained Linux packages with build failure
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/299140180) [haskellPackages.persistent-sqlite](https://hydra.nixos.org/eval/1815785?filter=haskellPackages.persistent-sqlite) @psibi
 #### Unmaintained packages with build failure
-<details><summary>1 job(s) </summary>
+<details><summary>3 job(s) </summary>
 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/299137822) [haskellPackages.genvalidity-network-uri](https://hydra.nixos.org/eval/1815785?filter=haskellPackages.genvalidity-network-uri) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/299139659) [haskellPackages.more-extensible-effects](https://hydra.nixos.org/eval/1815785?filter=haskellPackages.more-extensible-effects) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/299140266) [haskellPackages.phino](https://hydra.nixos.org/eval/1815785?filter=haskellPackages.phino) 
+</details>
+
+#### Unmaintained packages with failed dependency
+<details><summary>8 job(s) </summary>
+
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/299142387) [haskellPackages.yesod-persistent](https://hydra.nixos.org/eval/1815785?filter=haskellPackages.yesod-persistent)  ⤴️ 17 | 89
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/299142379) [haskellPackages.yesod-form](https://hydra.nixos.org/eval/1815785?filter=haskellPackages.yesod-form)  ⤴️ 16 | 86
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/299142377) [haskellPackages.yesod](https://hydra.nixos.org/eval/1815785?filter=haskellPackages.yesod)  ⤴️ 7 | 51
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/299142393) [haskellPackages.yesod-test](https://hydra.nixos.org/eval/1815785?filter=haskellPackages.yesod-test)  ⤴️ 3 | 9
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/299137785) [haskellPackages.fs-sim](https://hydra.nixos.org/eval/1815785?filter=haskellPackages.fs-sim) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/299138923) [haskellPackages.inspection-proxy](https://hydra.nixos.org/eval/1815785?filter=haskellPackages.inspection-proxy) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/299142396) [haskellPackages.yesod-session-persist](https://hydra.nixos.org/eval/1815785?filter=haskellPackages.yesod-session-persist) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/299142403) [haskellPackages.yesod-tableview](https://hydra.nixos.org/eval/1815785?filter=haskellPackages.yesod-tableview) 
 </details>
 
 #### Top 50 broken packages, sorted by number of reverse dependencies
