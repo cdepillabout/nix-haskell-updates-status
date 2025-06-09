@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1815934](https://hydra.nixos.org/eval/1815934) of nixpkgs commit [0e05101](https://github.com/NixOS/nixpkgs/commits/0e051017d42a2880b38a3c1324a7c82aa3f30dfc) as of 2025-06-09 06:12 UTC*
+*evaluation [1815934](https://hydra.nixos.org/eval/1815934) of nixpkgs commit [0e05101](https://github.com/NixOS/nixpkgs/commits/0e051017d42a2880b38a3c1324a7c82aa3f30dfc) as of 2025-06-09 12:13 UTC*
 
 🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
@@ -8,13 +8,11 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1815934?filter=.x86_64-linux) | 26 | 21 | 1 | 52 | 7285 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1815934?filter=.x86_64-linux) | 27 | 21 | 1 | 48 | 7289 | 
 #### Maintained Linux packages with build failure
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/299140064) [haskellPackages.pandoc-crossref](https://hydra.nixos.org/eval/1815934?filter=haskellPackages.pandoc-crossref) @maralorn
-#### Maintained Linux packages with failed dependency
 - [ ] [haskell-language-server](https://hydra.nixos.org/eval/1815934?filter=haskell-language-server) @maralorn
   - [[🐧✅]](https://hydra.nixos.org/build/299350482) [toplevel](https://hydra.nixos.org/eval/1815934?filter=haskell-language-server)
-  - [[🐧⏳]](https://hydra.nixos.org/build/299350464) [haskell.packages.ghc9101](https://hydra.nixos.org/eval/1815934?filter=haskell.packages.ghc9101.haskell-language-server)
+  - [[🐧❌]](https://hydra.nixos.org/build/299350464) [haskell.packages.ghc9101](https://hydra.nixos.org/eval/1815934?filter=haskell.packages.ghc9101.haskell-language-server)
   - [[🐧⏳]](https://hydra.nixos.org/build/299350467) [haskell.packages.ghc9102](https://hydra.nixos.org/eval/1815934?filter=haskell.packages.ghc9102.haskell-language-server)
   - [[🐧✅]](https://hydra.nixos.org/build/299350473) [haskell.packages.ghc9122](https://hydra.nixos.org/eval/1815934?filter=haskell.packages.ghc9122.haskell-language-server)
   - [[🐧❗]](https://hydra.nixos.org/build/299350476) [haskell.packages.ghc947](https://hydra.nixos.org/eval/1815934?filter=haskell.packages.ghc947.haskell-language-server)
@@ -29,6 +27,8 @@
   - [[🐧⏳]](https://hydra.nixos.org/build/299350498) [haskell.packages.ghc983](https://hydra.nixos.org/eval/1815934?filter=haskell.packages.ghc983.haskell-language-server)
   - [[🐧✅]](https://hydra.nixos.org/build/299350481) [haskell.packages.ghc984](https://hydra.nixos.org/eval/1815934?filter=haskell.packages.ghc984.haskell-language-server)
   - [[🐧✅]](https://hydra.nixos.org/build/299350520) [haskellPackages](https://hydra.nixos.org/eval/1815934?filter=haskellPackages.haskell-language-server)
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/299140064) [haskellPackages.pandoc-crossref](https://hydra.nixos.org/eval/1815934?filter=haskellPackages.pandoc-crossref) @maralorn
+#### Maintained Linux packages with failed dependency
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/299139076) [haskellPackages.jsaddle-webkit2gtk](https://hydra.nixos.org/eval/1815934?filter=haskellPackages.jsaddle-webkit2gtk) @alexfmpe
 - [ ] [reflex-dom](https://hydra.nixos.org/eval/1815934?filter=reflex-dom) @alexfmpe @maralorn
   - [[🐧❗]](https://hydra.nixos.org/build/299140685) [haskellPackages](https://hydra.nixos.org/eval/1815934?filter=haskellPackages.reflex-dom)
