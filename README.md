@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1815934](https://hydra.nixos.org/eval/1815934) of nixpkgs commit [0e05101](https://github.com/NixOS/nixpkgs/commits/0e051017d42a2880b38a3c1324a7c82aa3f30dfc) as of 2025-06-10 18:11 UTC*
+*evaluation [1815934](https://hydra.nixos.org/eval/1815934) of nixpkgs commit [0e05101](https://github.com/NixOS/nixpkgs/commits/0e051017d42a2880b38a3c1324a7c82aa3f30dfc) as of 2025-06-11 00:30 UTC*
 
 🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
@@ -8,7 +8,7 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1815934?filter=.x86_64-linux) | 27 | 21 | 1 | 42 | 7294 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1815934?filter=.x86_64-linux) | 28 | 22 | 1 | 40 | 7294 | 
 #### Maintained Linux packages with build failure
 - [ ] [haskell-language-server](https://hydra.nixos.org/eval/1815934?filter=haskell-language-server) @maralorn
   - [[🐧✅]](https://hydra.nixos.org/build/299350482) [toplevel](https://hydra.nixos.org/eval/1815934?filter=haskell-language-server)
@@ -29,18 +29,20 @@
   - [[🐧✅]](https://hydra.nixos.org/build/299350520) [haskellPackages](https://hydra.nixos.org/eval/1815934?filter=haskellPackages.haskell-language-server)
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/299140064) [haskellPackages.pandoc-crossref](https://hydra.nixos.org/eval/1815934?filter=haskellPackages.pandoc-crossref) @maralorn
 #### Maintained Linux packages with failed dependency
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/299350515) [haskellPackages.ghcjs-dom-hello](https://hydra.nixos.org/eval/1815934?filter=haskellPackages.ghcjs-dom-hello) @alexfmpe
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/299139076) [haskellPackages.jsaddle-webkit2gtk](https://hydra.nixos.org/eval/1815934?filter=haskellPackages.jsaddle-webkit2gtk) @alexfmpe
 - [ ] [reflex-dom](https://hydra.nixos.org/eval/1815934?filter=reflex-dom) @alexfmpe @maralorn
   - [[🐧❗]](https://hydra.nixos.org/build/299140685) [haskellPackages](https://hydra.nixos.org/eval/1815934?filter=haskellPackages.reflex-dom)
   - [[🐧✅]](https://hydra.nixos.org/build/299350565) [pkgsCross.ghcjs.haskell.packages.ghc912](https://hydra.nixos.org/eval/1815934?filter=pkgsCross.ghcjs.haskell.packages.ghc912.reflex-dom)
 #### Unmaintained packages with build failure
-<details><summary>25 job(s) </summary>
+<details><summary>26 job(s) </summary>
 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/299137964) [haskellPackages.gi-soup2](https://hydra.nixos.org/eval/1815934?filter=haskellPackages.gi-soup2)  ⤴️ 6 | 17
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/299138284) [haskellPackages.gpu-vulkan-middle](https://hydra.nixos.org/eval/1815934?filter=haskellPackages.gpu-vulkan-middle)  ⤴️ 3 | 7
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/299142323) [haskellPackages.xml-picklers](https://hydra.nixos.org/eval/1815934?filter=haskellPackages.xml-picklers)  ⤴️ 2 | 9
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/299137683) [haskellPackages.fs-api](https://hydra.nixos.org/eval/1815934?filter=haskellPackages.fs-api)  ⤴️ 1 | 1
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/299139026) [haskellPackages.jpeg-turbo](https://hydra.nixos.org/eval/1815934?filter=haskellPackages.jpeg-turbo)  ⤴️ 1 | 1
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/299350512) [haskellPackages.geomancy-layout](https://hydra.nixos.org/eval/1815934?filter=haskellPackages.geomancy-layout)  ⤴️ 0 | 7
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/299140892) [haskellPackages.selda-json](https://hydra.nixos.org/eval/1815934?filter=haskellPackages.selda-json)  ⤴️ 0 | 2
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/299138327) [haskellPackages.hash-store](https://hydra.nixos.org/eval/1815934?filter=haskellPackages.hash-store)  ⤴️ 0 | 1
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/299139104) [haskellPackages.kmeans](https://hydra.nixos.org/eval/1815934?filter=haskellPackages.kmeans)  ⤴️ 0 | 1
