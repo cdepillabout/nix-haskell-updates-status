@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1816012](https://hydra.nixos.org/eval/1816012) of nixpkgs commit [4df6d52](https://github.com/NixOS/nixpkgs/commits/4df6d52d963430a6a33d545bc82553c57fec3f69) as of 2025-06-12 12:13 UTC*
+*evaluation [1816012](https://hydra.nixos.org/eval/1816012) of nixpkgs commit [4df6d52](https://github.com/NixOS/nixpkgs/commits/4df6d52d963430a6a33d545bc82553c57fec3f69) as of 2025-06-12 18:11 UTC*
 
 🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
@@ -8,7 +8,7 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1816012?filter=.x86_64-linux) | 27 | 18 | 1 | 66 | 7276 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1816012?filter=.x86_64-linux) | 29 | 18 | 1 | 43 | 7289 | 
 #### Maintained Linux packages with failed dependency
 - [ ] [haskell-language-server](https://hydra.nixos.org/eval/1816012?filter=haskell-language-server) @maralorn
   - [[🐧✅]](https://hydra.nixos.org/build/299350482) [toplevel](https://hydra.nixos.org/eval/1816012?filter=haskell-language-server)
@@ -28,11 +28,12 @@
   - [[🐧✅]](https://hydra.nixos.org/build/299350481) [haskell.packages.ghc984](https://hydra.nixos.org/eval/1816012?filter=haskell.packages.ghc984.haskell-language-server)
   - [[🐧✅]](https://hydra.nixos.org/build/299350520) [haskellPackages](https://hydra.nixos.org/eval/1816012?filter=haskellPackages.haskell-language-server)
 #### Unmaintained packages with build failure
-<details><summary>27 job(s) </summary>
+<details><summary>29 job(s) </summary>
 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/299137964) [haskellPackages.gi-soup2](https://hydra.nixos.org/eval/1816012?filter=haskellPackages.gi-soup2)  ⤴️ 6 | 17
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/299138284) [haskellPackages.gpu-vulkan-middle](https://hydra.nixos.org/eval/1816012?filter=haskellPackages.gpu-vulkan-middle)  ⤴️ 3 | 7
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/299142323) [haskellPackages.xml-picklers](https://hydra.nixos.org/eval/1816012?filter=haskellPackages.xml-picklers)  ⤴️ 2 | 9
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/299137660) [haskellPackages.free-vector-spaces](https://hydra.nixos.org/eval/1816012?filter=haskellPackages.free-vector-spaces)  ⤴️ 1 | 7
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/299137683) [haskellPackages.fs-api](https://hydra.nixos.org/eval/1816012?filter=haskellPackages.fs-api)  ⤴️ 1 | 1
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/299139026) [haskellPackages.jpeg-turbo](https://hydra.nixos.org/eval/1816012?filter=haskellPackages.jpeg-turbo)  ⤴️ 1 | 1
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/299350512) [haskellPackages.geomancy-layout](https://hydra.nixos.org/eval/1816012?filter=haskellPackages.geomancy-layout)  ⤴️ 0 | 7
@@ -53,6 +54,7 @@
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/299140266) [haskellPackages.phino](https://hydra.nixos.org/eval/1816012?filter=haskellPackages.phino) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/299186718) [haskellPackages.rawlock](https://hydra.nixos.org/eval/1816012?filter=haskellPackages.rawlock) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/299186719) [haskellPackages.rds-data](https://hydra.nixos.org/eval/1816012?filter=haskellPackages.rds-data) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/299350536) [haskellPackages.resource-registry](https://hydra.nixos.org/eval/1816012?filter=haskellPackages.resource-registry) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/299141710) [haskellPackages.text-builder-lawful-conversions](https://hydra.nixos.org/eval/1816012?filter=haskellPackages.text-builder-lawful-conversions) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/299141969) [haskellPackages.unimap](https://hydra.nixos.org/eval/1816012?filter=haskellPackages.unimap) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/299186734) [haskellPackages.verismith](https://hydra.nixos.org/eval/1816012?filter=haskellPackages.verismith) 
