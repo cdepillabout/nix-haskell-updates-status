@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1816288](https://hydra.nixos.org/eval/1816288) of nixpkgs commit [21a6a7f](https://github.com/NixOS/nixpkgs/commits/21a6a7fc56d95fa78af3a60e93fb2b882eda5fec) as of 2025-06-24 18:11 UTC*
+*evaluation [1816288](https://hydra.nixos.org/eval/1816288) of nixpkgs commit [21a6a7f](https://github.com/NixOS/nixpkgs/commits/21a6a7fc56d95fa78af3a60e93fb2b882eda5fec) as of 2025-06-25 00:31 UTC*
 
 🔴 **Branch not mergeable**
   * Too many outstanding jobs on x86_64-linux.
@@ -10,7 +10,7 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1816288?filter=.x86_64-linux) | 10 | 7 | 5380 | 2052 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1816288?filter=.x86_64-linux) | 10 | 7 | 5283 | 2153 | 
 #### Maintained Linux packages with failed dependency
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/301058637) [haskellPackages.jsaddle-webkit2gtk](https://hydra.nixos.org/eval/1816288?filter=haskellPackages.jsaddle-webkit2gtk) @alexfmpe
 - [ ] [reflex-dom](https://hydra.nixos.org/eval/1816288?filter=reflex-dom) @alexfmpe @maralorn
