@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1816456](https://hydra.nixos.org/eval/1816456) of nixpkgs commit [2787819](https://github.com/NixOS/nixpkgs/commits/278781962d141eadfdfc4b44c1e0a95ab3779219) as of 2025-06-28 06:10 UTC*
+*evaluation [1816456](https://hydra.nixos.org/eval/1816456) of nixpkgs commit [2787819](https://github.com/NixOS/nixpkgs/commits/278781962d141eadfdfc4b44c1e0a95ab3779219) as of 2025-06-28 12:12 UTC*
 
 🔴 **Branch not mergeable**
   * Too many outstanding jobs on x86_64-linux.
@@ -10,7 +10,7 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1816456?filter=.x86_64-linux) | 19 | 13 | 2827 | 4603 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1816456?filter=.x86_64-linux) | 19 | 13 | 2579 | 4849 | 
 #### Maintained Linux packages with failed dependency
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/301058703) [haskellPackages.jsaddle-hello](https://hydra.nixos.org/eval/1816456?filter=haskellPackages.jsaddle-hello) @alexfmpe
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/301058637) [haskellPackages.jsaddle-webkit2gtk](https://hydra.nixos.org/eval/1816456?filter=haskellPackages.jsaddle-webkit2gtk) @alexfmpe
@@ -26,6 +26,7 @@
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/301061060) [haskellPackages.symtegration](https://hydra.nixos.org/eval/1816456?filter=haskellPackages.symtegration)  ⤴️ 1 | 1
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/301060500) [haskellPackages.selda-json](https://hydra.nixos.org/eval/1816456?filter=haskellPackages.selda-json)  ⤴️ 0 | 2
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/301060494) [haskellPackages.scotty-tls](https://hydra.nixos.org/eval/1816456?filter=haskellPackages.scotty-tls)  ⤴️ 0 | 1
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/301061941) [haskellPackages.wire-streams](https://hydra.nixos.org/eval/1816456?filter=haskellPackages.wire-streams)  ⤴️ 0 | 1
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/301056721) [haskellPackages.delta-store](https://hydra.nixos.org/eval/1816456?filter=haskellPackages.delta-store) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/301057042) [haskellPackages.env-extra](https://hydra.nixos.org/eval/1816456?filter=haskellPackages.env-extra) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/301057491) [haskellPackages.gi-clutter](https://hydra.nixos.org/eval/1816456?filter=haskellPackages.gi-clutter) 
@@ -38,7 +39,6 @@
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/301060374) [haskellPackages.resource-registry](https://hydra.nixos.org/eval/1816456?filter=haskellPackages.resource-registry) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/301061269) [haskellPackages.text-builder-lawful-conversions](https://hydra.nixos.org/eval/1816456?filter=haskellPackages.text-builder-lawful-conversions) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/301061732) [haskellPackages.verismith](https://hydra.nixos.org/eval/1816456?filter=haskellPackages.verismith) 
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/301061750) [haskellPackages.version-natural-dhall-instance](https://hydra.nixos.org/eval/1816456?filter=haskellPackages.version-natural-dhall-instance) 
 </details>
 
 #### Unmaintained packages with failed dependency
