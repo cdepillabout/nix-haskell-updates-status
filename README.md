@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1816456](https://hydra.nixos.org/eval/1816456) of nixpkgs commit [2787819](https://github.com/NixOS/nixpkgs/commits/278781962d141eadfdfc4b44c1e0a95ab3779219) as of 2025-06-28 12:12 UTC*
+*evaluation [1816456](https://hydra.nixos.org/eval/1816456) of nixpkgs commit [2787819](https://github.com/NixOS/nixpkgs/commits/278781962d141eadfdfc4b44c1e0a95ab3779219) as of 2025-06-28 18:10 UTC*
 
 🔴 **Branch not mergeable**
   * Too many outstanding jobs on x86_64-linux.
@@ -10,18 +10,24 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1816456?filter=.x86_64-linux) | 19 | 13 | 2579 | 4849 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1816456?filter=.x86_64-linux) | 20 | 15 | 2438 | 4983 | 
 #### Maintained Linux packages with failed dependency
+- [ ] [git-annex](https://hydra.nixos.org/eval/1816456?filter=git-annex) @peti @roosemberth
+  - [[🐧⏳]](https://hydra.nixos.org/build/301267757) [toplevel](https://hydra.nixos.org/eval/1816456?filter=git-annex)
+  - [[🐧❗]](https://hydra.nixos.org/build/301267758) [haskell.packages.ghc9101](https://hydra.nixos.org/eval/1816456?filter=haskell.packages.ghc9101.git-annex)
+  - [[🐧✅]](https://hydra.nixos.org/build/301267762) [haskell.packages.ghc9102](https://hydra.nixos.org/eval/1816456?filter=haskell.packages.ghc9102.git-annex)
+  - [[🐧✅]](https://hydra.nixos.org/build/301267780) [haskellPackages](https://hydra.nixos.org/eval/1816456?filter=haskellPackages.git-annex)
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/301058703) [haskellPackages.jsaddle-hello](https://hydra.nixos.org/eval/1816456?filter=haskellPackages.jsaddle-hello) @alexfmpe
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/301058637) [haskellPackages.jsaddle-webkit2gtk](https://hydra.nixos.org/eval/1816456?filter=haskellPackages.jsaddle-webkit2gtk) @alexfmpe
 - [ ] [reflex-dom](https://hydra.nixos.org/eval/1816456?filter=reflex-dom) @alexfmpe @maralorn
   - [[🐧❗]](https://hydra.nixos.org/build/301060357) [haskellPackages](https://hydra.nixos.org/eval/1816456?filter=haskellPackages.reflex-dom)
   - [[🐧❗]](https://hydra.nixos.org/build/301062199) [pkgsCross.ghcjs.haskell.packages.ghc912](https://hydra.nixos.org/eval/1816456?filter=pkgsCross.ghcjs.haskell.packages.ghc912.reflex-dom)
 #### Unmaintained packages with build failure
-<details><summary>19 job(s) </summary>
+<details><summary>20 job(s) </summary>
 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/301057519) [haskellPackages.gi-soup2](https://hydra.nixos.org/eval/1816456?filter=haskellPackages.gi-soup2)  ⤴️ 6 | 17
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/301057853) [haskellPackages.gpu-vulkan-middle](https://hydra.nixos.org/eval/1816456?filter=haskellPackages.gpu-vulkan-middle)  ⤴️ 3 | 7
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/301057253) [haskellPackages.free-vector-spaces](https://hydra.nixos.org/eval/1816456?filter=haskellPackages.free-vector-spaces)  ⤴️ 1 | 7
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/301057272) [haskellPackages.fs-api](https://hydra.nixos.org/eval/1816456?filter=haskellPackages.fs-api)  ⤴️ 1 | 1
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/301061060) [haskellPackages.symtegration](https://hydra.nixos.org/eval/1816456?filter=haskellPackages.symtegration)  ⤴️ 1 | 1
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/301060500) [haskellPackages.selda-json](https://hydra.nixos.org/eval/1816456?filter=haskellPackages.selda-json)  ⤴️ 0 | 2
@@ -42,7 +48,7 @@
 </details>
 
 #### Unmaintained packages with failed dependency
-<details><summary>14 job(s) </summary>
+<details><summary>15 job(s) </summary>
 
 - [ ] [ihaskell](https://hydra.nixos.org/eval/1816456?filter=ihaskell)  ⤴️ 10 | 18
   - [[🐧❗]](https://hydra.nixos.org/build/301062117) [toplevel](https://hydra.nixos.org/eval/1816456?filter=ihaskell)
@@ -53,6 +59,7 @@
   - [[🐧⏳]](https://hydra.nixos.org/build/301059166) [haskellPackages](https://hydra.nixos.org/eval/1816456?filter=haskellPackages.miso)
   - [[🐧❗]](https://hydra.nixos.org/build/301062179) [pkgsCross.ghcjs.haskell.packages.ghc912](https://hydra.nixos.org/eval/1816456?filter=pkgsCross.ghcjs.haskell.packages.ghc912.miso)
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/301057423) [haskellPackages.geomancy-layout](https://hydra.nixos.org/eval/1816456?filter=haskellPackages.geomancy-layout)  ⤴️ 0 | 7
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/301056675) [haskellPackages.dde](https://hydra.nixos.org/eval/1816456?filter=haskellPackages.dde)  ⤴️ 0 | 1
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/301057860) [haskellPackages.gpu-vulkan-middle-khr-surface-glfw](https://hydra.nixos.org/eval/1816456?filter=haskellPackages.gpu-vulkan-middle-khr-surface-glfw)  ⤴️ 0 | 1
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/301057856) [haskellPackages.gpu-vulkan-middle-khr-swapchain](https://hydra.nixos.org/eval/1816456?filter=haskellPackages.gpu-vulkan-middle-khr-swapchain)  ⤴️ 0 | 1
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/301057532) [haskellPackages.gi-soup](https://hydra.nixos.org/eval/1816456?filter=haskellPackages.gi-soup) 
