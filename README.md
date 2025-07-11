@@ -1,56 +1,23 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1816563](https://hydra.nixos.org/eval/1816563) of nixpkgs commit [bbb13da](https://github.com/NixOS/nixpkgs/commits/bbb13daacc156a67eb57d26fa2a78ef94fbac7f2) as of 2025-07-10 12:13 UTC*
+*evaluation [1816780](https://hydra.nixos.org/eval/1816780) of nixpkgs commit [543e922](https://github.com/NixOS/nixpkgs/commits/543e922b41da1cdf471d74ebd3a703db2405fff4) as of 2025-07-11 01:57 UTC*
 
-🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
-  * `maintained` jobset failed.
+🔴 **Branch not mergeable**
+  * No `maintained` job found.
+  * Too many outstanding jobs on x86_64-linux.
+  * `mergeable` jobset is not finished.
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | Success ✅ | 
- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1816563?filter=.x86_64-linux) | 6 | 14 | 7332 | 
-#### Maintained Linux packages with failed dependency
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/301057531) [haskellPackages.ghcjs-dom-hello](https://hydra.nixos.org/eval/1816563?filter=haskellPackages.ghcjs-dom-hello) @alexfmpe
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/301058703) [haskellPackages.jsaddle-hello](https://hydra.nixos.org/eval/1816563?filter=haskellPackages.jsaddle-hello) @alexfmpe
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/301058637) [haskellPackages.jsaddle-webkit2gtk](https://hydra.nixos.org/eval/1816563?filter=haskellPackages.jsaddle-webkit2gtk) @alexfmpe
-- [ ] [reflex-dom](https://hydra.nixos.org/eval/1816563?filter=reflex-dom) @alexfmpe @maralorn
-  - [[🐧❗]](https://hydra.nixos.org/build/301060357) [haskellPackages](https://hydra.nixos.org/eval/1816563?filter=haskellPackages.reflex-dom)
-  - [[🐧✅]](https://hydra.nixos.org/build/301391198) [pkgsCross.ghcjs.haskell.packages.ghc912](https://hydra.nixos.org/eval/1816563?filter=pkgsCross.ghcjs.haskell.packages.ghc912.reflex-dom)
-#### Unmaintained packages with build failure
-<details><summary>6 job(s) </summary>
-
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/301057519) [haskellPackages.gi-soup2](https://hydra.nixos.org/eval/1816563?filter=haskellPackages.gi-soup2)  ⤴️ 6 | 17
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/301057853) [haskellPackages.gpu-vulkan-middle](https://hydra.nixos.org/eval/1816563?filter=haskellPackages.gpu-vulkan-middle)  ⤴️ 3 | 7
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/301391170) [haskellPackages.haskore-realtime](https://hydra.nixos.org/eval/1816563?filter=haskellPackages.haskore-realtime)  ⤴️ 0 | 1
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/301391178) [haskellPackages.signature](https://hydra.nixos.org/eval/1816563?filter=haskellPackages.signature)  ⤴️ 0 | 1
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/301391167) [haskellPackages.gi-clutter](https://hydra.nixos.org/eval/1816563?filter=haskellPackages.gi-clutter) 
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/301059892) [haskellPackages.pontarius-xmpp-extras](https://hydra.nixos.org/eval/1816563?filter=haskellPackages.pontarius-xmpp-extras) 
-</details>
-
-#### Unmaintained packages with failed dependency
-<details><summary>12 job(s) </summary>
-
-- [ ] [ihaskell](https://hydra.nixos.org/eval/1816563?filter=ihaskell)  ⤴️ 10 | 18
-  - [[🐧❗]](https://hydra.nixos.org/build/301062117) [toplevel](https://hydra.nixos.org/eval/1816563?filter=ihaskell)
-  - [[🐧✅]](https://hydra.nixos.org/build/301058449) [haskellPackages](https://hydra.nixos.org/eval/1816563?filter=haskellPackages.ihaskell)
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/301057523) [haskellPackages.gi-webkit2](https://hydra.nixos.org/eval/1816563?filter=haskellPackages.gi-webkit2)  ⤴️ 4 | 14
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/301057854) [haskellPackages.gpu-vulkan-middle-khr-surface](https://hydra.nixos.org/eval/1816563?filter=haskellPackages.gpu-vulkan-middle-khr-surface)  ⤴️ 2 | 5
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/301057860) [haskellPackages.gpu-vulkan-middle-khr-surface-glfw](https://hydra.nixos.org/eval/1816563?filter=haskellPackages.gpu-vulkan-middle-khr-surface-glfw)  ⤴️ 0 | 1
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/301057856) [haskellPackages.gpu-vulkan-middle-khr-swapchain](https://hydra.nixos.org/eval/1816563?filter=haskellPackages.gpu-vulkan-middle-khr-swapchain)  ⤴️ 0 | 1
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/301057532) [haskellPackages.gi-soup](https://hydra.nixos.org/eval/1816563?filter=haskellPackages.gi-soup) 
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/301058313) [haskellPackages.hsendxmpp](https://hydra.nixos.org/eval/1816563?filter=haskellPackages.hsendxmpp) 
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/301058522) [haskellPackages.ihaskell-symtegration](https://hydra.nixos.org/eval/1816563?filter=haskellPackages.ihaskell-symtegration) 
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/301391199) [maintained](https://hydra.nixos.org/eval/1816563?filter=maintained) 
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/301391173) [haskellPackages.micro-gateway](https://hydra.nixos.org/eval/1816563?filter=haskellPackages.micro-gateway) 
-</details>
-
+ | Platform | Unfinished ⏳ | Success ✅ | 
+ | --- | --- | --- | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1816780?filter=.x86_64-linux) | 7380 | 19 | 
 #### Top 50 broken packages, sorted by number of reverse dependencies
 <details><summary>50 job(s) </summary>
 
 [haskell98](https://packdeps.haskellers.com/reverse/haskell98) ⤴️ 152  
 [failure](https://packdeps.haskellers.com/reverse/failure) ⤴️ 72  
 [enumerator](https://packdeps.haskellers.com/reverse/enumerator) ⤴️ 56  
-[connection](https://packdeps.haskellers.com/reverse/connection) ⤴️ 50  
+[connection](https://packdeps.haskellers.com/reverse/connection) ⤴️ 49  
 [util](https://packdeps.haskellers.com/reverse/util) ⤴️ 49  
 [derive](https://packdeps.haskellers.com/reverse/derive) ⤴️ 48  
 [fclabels](https://packdeps.haskellers.com/reverse/fclabels) ⤴️ 47  
