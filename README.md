@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1816831](https://hydra.nixos.org/eval/1816831) of nixpkgs commit [e84623d](https://github.com/NixOS/nixpkgs/commits/e84623d33450a46eebc2b0ccdafef9d1e7f443cf) as of 2025-07-13 00:34 UTC*
+*evaluation [1816831](https://hydra.nixos.org/eval/1816831) of nixpkgs commit [e84623d](https://github.com/NixOS/nixpkgs/commits/e84623d33450a46eebc2b0ccdafef9d1e7f443cf) as of 2025-07-13 06:10 UTC*
 
 🔴 **Branch not mergeable**
   * Too many outstanding jobs on x86_64-linux.
@@ -10,7 +10,7 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1816831?filter=.x86_64-linux) | 14 | 5 | 4408 | 3059 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1816831?filter=.x86_64-linux) | 14 | 10 | 4153 | 3312 | 
 #### Maintained Linux packages with failed dependency
 - [ ] [haskell-language-server](https://hydra.nixos.org/eval/1816831?filter=haskell-language-server) @maralorn
   - [[🐧⏳]](https://hydra.nixos.org/build/302292933) [toplevel](https://hydra.nixos.org/eval/1816831?filter=haskell-language-server)
@@ -21,14 +21,14 @@
   - [[🐧❗]](https://hydra.nixos.org/build/302292696) [haskell.packages.ghc948](https://hydra.nixos.org/eval/1816831?filter=haskell.packages.ghc948.haskell-language-server)
   - [[🐧⏳]](https://hydra.nixos.org/build/302292703) [haskell.packages.ghc963](https://hydra.nixos.org/eval/1816831?filter=haskell.packages.ghc963.haskell-language-server)
   - [[🐧⏳]](https://hydra.nixos.org/build/302292738) [haskell.packages.ghc964](https://hydra.nixos.org/eval/1816831?filter=haskell.packages.ghc964.haskell-language-server)
-  - [[🐧⏳]](https://hydra.nixos.org/build/302292776) [haskell.packages.ghc965](https://hydra.nixos.org/eval/1816831?filter=haskell.packages.ghc965.haskell-language-server)
+  - [[🐧❗]](https://hydra.nixos.org/build/302292776) [haskell.packages.ghc965](https://hydra.nixos.org/eval/1816831?filter=haskell.packages.ghc965.haskell-language-server)
   - [[🐧⏳]](https://hydra.nixos.org/build/302292782) [haskell.packages.ghc966](https://hydra.nixos.org/eval/1816831?filter=haskell.packages.ghc966.haskell-language-server)
   - [[🐧⏳]](https://hydra.nixos.org/build/302292811) [haskell.packages.ghc967](https://hydra.nixos.org/eval/1816831?filter=haskell.packages.ghc967.haskell-language-server)
   - [[🐧⏳]](https://hydra.nixos.org/build/302293024) [haskell.packages.ghc981](https://hydra.nixos.org/eval/1816831?filter=haskell.packages.ghc981.haskell-language-server)
   - [[🐧⏳]](https://hydra.nixos.org/build/302292897) [haskell.packages.ghc982](https://hydra.nixos.org/eval/1816831?filter=haskell.packages.ghc982.haskell-language-server)
   - [[🐧❗]](https://hydra.nixos.org/build/302293753) [haskell.packages.ghc983](https://hydra.nixos.org/eval/1816831?filter=haskell.packages.ghc983.haskell-language-server)
   - [[🐧❗]](https://hydra.nixos.org/build/302292938) [haskell.packages.ghc984](https://hydra.nixos.org/eval/1816831?filter=haskell.packages.ghc984.haskell-language-server)
-  - [[🐧⏳]](https://hydra.nixos.org/build/302296037) [haskellPackages](https://hydra.nixos.org/eval/1816831?filter=haskellPackages.haskell-language-server)
+  - [[🐧❗]](https://hydra.nixos.org/build/302296037) [haskellPackages](https://hydra.nixos.org/eval/1816831?filter=haskellPackages.haskell-language-server)
 #### Unmaintained packages with build failure
 <details><summary>14 job(s) </summary>
 
@@ -49,7 +49,7 @@
 </details>
 
 #### Unmaintained packages with failed dependency
-<details><summary>22 job(s) </summary>
+<details><summary>27 job(s) </summary>
 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/302296165) [haskellPackages.hls-test-utils](https://hydra.nixos.org/eval/1816831?filter=haskellPackages.hls-test-utils)  ⤴️ 1 | 1
 - [ ] [cabal2nix-unstable](https://hydra.nixos.org/eval/1816831?filter=cabal2nix-unstable) 
@@ -71,8 +71,13 @@
   - [[🐧⏳]](https://hydra.nixos.org/build/302292983) [haskell.packages.ghc983](https://hydra.nixos.org/eval/1816831?filter=haskell.packages.ghc983.cabal2nix-unstable)
   - [[🐧⏳]](https://hydra.nixos.org/build/302292861) [haskell.packages.ghc984](https://hydra.nixos.org/eval/1816831?filter=haskell.packages.ghc984.cabal2nix-unstable)
   - [[🐧⏳]](https://hydra.nixos.org/build/302294194) [haskellPackages](https://hydra.nixos.org/eval/1816831?filter=haskellPackages.cabal2nix-unstable)
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/302297932) [haskellPackages.pms-domain-service](https://hydra.nixos.org/eval/1816831?filter=haskellPackages.pms-domain-service) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/302297986) [haskellPackages.pms-infra-procspawn](https://hydra.nixos.org/eval/1816831?filter=haskellPackages.pms-infra-procspawn) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/302297959) [haskellPackages.pms-infra-socket](https://hydra.nixos.org/eval/1816831?filter=haskellPackages.pms-infra-socket) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/302297941) [haskellPackages.pms-infra-watch](https://hydra.nixos.org/eval/1816831?filter=haskellPackages.pms-infra-watch) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/302297937) [haskellPackages.pms-ui-notification](https://hydra.nixos.org/eval/1816831?filter=haskellPackages.pms-ui-notification) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/302297957) [haskellPackages.pms-ui-request](https://hydra.nixos.org/eval/1816831?filter=haskellPackages.pms-ui-request) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/302298163) [haskellPackages.pty-mcp-server](https://hydra.nixos.org/eval/1816831?filter=haskellPackages.pty-mcp-server) 
 </details>
 
 #### Top 50 broken packages, sorted by number of reverse dependencies
