@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1816888](https://hydra.nixos.org/eval/1816888) of nixpkgs commit [5cfa2b2](https://github.com/NixOS/nixpkgs/commits/5cfa2b2b277135a8abc6745b8d6abadf8481ba6b) as of 2025-07-16 06:11 UTC*
+*evaluation [1816888](https://hydra.nixos.org/eval/1816888) of nixpkgs commit [5cfa2b2](https://github.com/NixOS/nixpkgs/commits/5cfa2b2b277135a8abc6745b8d6abadf8481ba6b) as of 2025-07-16 12:13 UTC*
 
 🔴 **Branch not mergeable**
   * Too many outstanding jobs on x86_64-linux.
@@ -10,7 +10,7 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1816888?filter=.x86_64-linux) | 11 | 16 | 5127 | 2334 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1816888?filter=.x86_64-linux) | 12 | 16 | 5029 | 2430 | 
 #### Maintained Linux packages with build failure
 - [ ] [git-annex](https://hydra.nixos.org/eval/1816888?filter=git-annex) @peti @roosemberth
   - [[🐧⏳]](https://hydra.nixos.org/build/302799944) [toplevel](https://hydra.nixos.org/eval/1816888?filter=git-annex)
@@ -83,7 +83,7 @@
   - [[🐧⏳]](https://hydra.nixos.org/build/302800228) [haskell.packages.ghc964](https://hydra.nixos.org/eval/1816888?filter=haskell.packages.ghc964.haskell-language-server)
   - [[🐧❗]](https://hydra.nixos.org/build/302800257) [haskell.packages.ghc965](https://hydra.nixos.org/eval/1816888?filter=haskell.packages.ghc965.haskell-language-server)
   - [[🐧❗]](https://hydra.nixos.org/build/302800279) [haskell.packages.ghc966](https://hydra.nixos.org/eval/1816888?filter=haskell.packages.ghc966.haskell-language-server)
-  - [[🐧⏳]](https://hydra.nixos.org/build/302800288) [haskell.packages.ghc967](https://hydra.nixos.org/eval/1816888?filter=haskell.packages.ghc967.haskell-language-server)
+  - [[🐧❗]](https://hydra.nixos.org/build/302800288) [haskell.packages.ghc967](https://hydra.nixos.org/eval/1816888?filter=haskell.packages.ghc967.haskell-language-server)
   - [[🐧❗]](https://hydra.nixos.org/build/302800343) [haskell.packages.ghc981](https://hydra.nixos.org/eval/1816888?filter=haskell.packages.ghc981.haskell-language-server)
   - [[🐧⏳]](https://hydra.nixos.org/build/302800591) [haskell.packages.ghc982](https://hydra.nixos.org/eval/1816888?filter=haskell.packages.ghc982.haskell-language-server)
   - [[🐧⏳]](https://hydra.nixos.org/build/302801053) [haskell.packages.ghc983](https://hydra.nixos.org/eval/1816888?filter=haskell.packages.ghc983.haskell-language-server)
@@ -96,11 +96,12 @@
   - [[🐧❗]](https://hydra.nixos.org/build/302807830) [pkgsStatic.haskellPackages](https://hydra.nixos.org/eval/1816888?filter=pkgsStatic.haskellPackages.postgrest)
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/302807832) [staticHaskellPackages](https://hydra.nixos.org/eval/1816888?filter=staticHaskellPackages) @rnhmjoj @sternenseemann
 #### Unmaintained packages with build failure
-<details><summary>10 job(s) </summary>
+<details><summary>11 job(s) </summary>
 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/302806850) [haskellPackages.threads](https://hydra.nixos.org/eval/1816888?filter=haskellPackages.threads)  ⤴️ 11 | 70
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/302805399) [haskellPackages.pms-domain-model](https://hydra.nixos.org/eval/1816888?filter=haskellPackages.pms-domain-model)  ⤴️ 10 | 10
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/302804449) [haskellPackages.llvm-extra](https://hydra.nixos.org/eval/1816888?filter=haskellPackages.llvm-extra)  ⤴️ 2 | 5
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/302807622) [haskellPackages.zippers](https://hydra.nixos.org/eval/1816888?filter=haskellPackages.zippers)  ⤴️ 0 | 5
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/302801682) [haskellPackages.cauldron](https://hydra.nixos.org/eval/1816888?filter=haskellPackages.cauldron) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/302803553) [haskellPackages.hedgehog-extras](https://hydra.nixos.org/eval/1816888?filter=haskellPackages.hedgehog-extras) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/302803982) [haskellPackages.if-instance](https://hydra.nixos.org/eval/1816888?filter=haskellPackages.if-instance) 
