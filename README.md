@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1816888](https://hydra.nixos.org/eval/1816888) of nixpkgs commit [5cfa2b2](https://github.com/NixOS/nixpkgs/commits/5cfa2b2b277135a8abc6745b8d6abadf8481ba6b) as of 2025-07-15 18:11 UTC*
+*evaluation [1816888](https://hydra.nixos.org/eval/1816888) of nixpkgs commit [5cfa2b2](https://github.com/NixOS/nixpkgs/commits/5cfa2b2b277135a8abc6745b8d6abadf8481ba6b) as of 2025-07-16 00:31 UTC*
 
 🔴 **Branch not mergeable**
   * Too many outstanding jobs on x86_64-linux.
@@ -10,8 +10,25 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1816888?filter=.x86_64-linux) | 7 | 14 | 5389 | 2074 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1816888?filter=.x86_64-linux) | 9 | 14 | 5264 | 2200 | 
 #### Maintained Linux packages with build failure
+- [ ] [git-annex](https://hydra.nixos.org/eval/1816888?filter=git-annex) @peti @roosemberth
+  - [[🐧⏳]](https://hydra.nixos.org/build/302799944) [toplevel](https://hydra.nixos.org/eval/1816888?filter=git-annex)
+  - [[🐧⏳]](https://hydra.nixos.org/build/302800052) [haskell.packages.ghc9101](https://hydra.nixos.org/eval/1816888?filter=haskell.packages.ghc9101.git-annex)
+  - [[🐧❌]](https://hydra.nixos.org/build/302800059) [haskell.packages.ghc9102](https://hydra.nixos.org/eval/1816888?filter=haskell.packages.ghc9102.git-annex)
+  - [[🐧⏳]](https://hydra.nixos.org/build/302803065) [haskellPackages](https://hydra.nixos.org/eval/1816888?filter=haskellPackages.git-annex)
+- [ ] [hello](https://hydra.nixos.org/eval/1816888?filter=hello) @cdepillabout @guibou @maralorn @sternenseemann @wolfgangwalther
+  - [[🐧⏳]](https://hydra.nixos.org/build/302803556) [haskellPackages](https://hydra.nixos.org/eval/1816888?filter=haskellPackages.hello)
+  - [[🐧⏳]](https://hydra.nixos.org/build/302807683) [pkgsCross.aarch64-android-prebuilt.pkgsStatic.haskell.packages.ghc912](https://hydra.nixos.org/eval/1816888?filter=pkgsCross.aarch64-android-prebuilt.pkgsStatic.haskell.packages.ghc912.hello)
+  - [[🐧⏳]](https://hydra.nixos.org/build/302807692) [pkgsCross.ghcjs.haskell.packages.ghc912](https://hydra.nixos.org/eval/1816888?filter=pkgsCross.ghcjs.haskell.packages.ghc912.hello)
+  - [[🐧⏳]](https://hydra.nixos.org/build/302807696) [pkgsCross.ghcjs.haskell.packages.ghc98](https://hydra.nixos.org/eval/1816888?filter=pkgsCross.ghcjs.haskell.packages.ghc98.hello)
+  - [[🐧⏳]](https://hydra.nixos.org/build/302807708) [pkgsCross.ghcjs.haskell.packages.ghcHEAD](https://hydra.nixos.org/eval/1816888?filter=pkgsCross.ghcjs.haskell.packages.ghcHEAD.hello)
+  - [[🐧⏳]](https://hydra.nixos.org/build/302807691) [pkgsCross.ghcjs.haskellPackages](https://hydra.nixos.org/eval/1816888?filter=pkgsCross.ghcjs.haskellPackages.hello)
+  - [[🐧⏳]](https://hydra.nixos.org/build/302807764) [pkgsMusl.haskellPackages](https://hydra.nixos.org/eval/1816888?filter=pkgsMusl.haskellPackages.hello)
+  - [[🐧⏳]](https://hydra.nixos.org/build/302807767) [pkgsStatic.haskell.packages.native-bignum.ghc948](https://hydra.nixos.org/eval/1816888?filter=pkgsStatic.haskell.packages.native-bignum.ghc948.hello)
+  - [[🐧✅]](https://hydra.nixos.org/build/302807775) [pkgsStatic.haskell.packages.native-bignum.ghc984](https://hydra.nixos.org/eval/1816888?filter=pkgsStatic.haskell.packages.native-bignum.ghc984.hello)
+  - [[🐧❌]](https://hydra.nixos.org/build/302807776) [pkgsStatic.haskellPackages](https://hydra.nixos.org/eval/1816888?filter=pkgsStatic.haskellPackages.hello)
+  - [[🐧⏳]](https://hydra.nixos.org/build/302807819) [tests.haskell.ghcWithPackages](https://hydra.nixos.org/eval/1816888?filter=tests.haskell.ghcWithPackages.hello)
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/302799851) [agdaPackages.standard-library](https://hydra.nixos.org/eval/1816888?filter=agdaPackages.standard-library) @alexarice @jwiegley @laMudri @turion
 #### Maintained Linux packages with failed dependency
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/302799850) [agdaPackages.agda-categories](https://hydra.nixos.org/eval/1816888?filter=agdaPackages.agda-categories) @alexarice @turion
