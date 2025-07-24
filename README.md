@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1817070](https://hydra.nixos.org/eval/1817070) of nixpkgs commit [4657535](https://github.com/NixOS/nixpkgs/commits/4657535e2ed314d82202b3a7def8b2d51af8e807) as of 2025-07-24 06:12 UTC*
+*evaluation [1817070](https://hydra.nixos.org/eval/1817070) of nixpkgs commit [4657535](https://github.com/NixOS/nixpkgs/commits/4657535e2ed314d82202b3a7def8b2d51af8e807) as of 2025-07-24 12:13 UTC*
 
 🔴 **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -7,9 +7,9 @@
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Success ✅ | 
  | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1817070?filter=.x86_64-linux) | 42 | 27 | 13 | 7378 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1817070?filter=.x86_64-linux) | 42 | 27 | 1 | 7380 | 
 #### Maintained Linux packages with failed dependency
 - [ ] [cabal-install](https://hydra.nixos.org/eval/1817070?filter=cabal-install) @sternenseemann
   - [[🐧✅]](https://hydra.nixos.org/build/302799841) [toplevel](https://hydra.nixos.org/eval/1817070?filter=cabal-install)
