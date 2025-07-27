@@ -1,15 +1,14 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1817170](https://hydra.nixos.org/eval/1817170) of nixpkgs commit [8076d01](https://github.com/NixOS/nixpkgs/commits/8076d015a85606deafaa1b93c2f4cfa3d306d1f7) as of 2025-07-27 07:34 UTC*
+*evaluation [1817170](https://hydra.nixos.org/eval/1817170) of nixpkgs commit [8076d01](https://github.com/NixOS/nixpkgs/commits/8076d015a85606deafaa1b93c2f4cfa3d306d1f7) as of 2025-07-27 13:37 UTC*
 
 🔴 **Branch not mergeable**
   * No `maintained` job found.
-  * `mergeable` jobset is not finished.
 
 #### Build summary
 
  | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | HydraFailure 🚧 | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1817170?filter=.x86_64-linux) | 38 | 15 | 1 | 2 | 34 | 7359 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1817170?filter=.x86_64-linux) | 38 | 15 | 1 | 1 | 23 | 7368 | 
 #### Unmaintained packages with build failure
 <details><summary>38 job(s) </summary>
 
