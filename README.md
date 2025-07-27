@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1817170](https://hydra.nixos.org/eval/1817170) of nixpkgs commit [8076d01](https://github.com/NixOS/nixpkgs/commits/8076d015a85606deafaa1b93c2f4cfa3d306d1f7) as of 2025-07-27 01:58 UTC*
+*evaluation [1817170](https://hydra.nixos.org/eval/1817170) of nixpkgs commit [8076d01](https://github.com/NixOS/nixpkgs/commits/8076d015a85606deafaa1b93c2f4cfa3d306d1f7) as of 2025-07-27 07:34 UTC*
 
 🔴 **Branch not mergeable**
   * No `maintained` job found.
@@ -9,11 +9,12 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | HydraFailure 🚧 | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1817170?filter=.x86_64-linux) | 37 | 13 | 1 | 1 | 39 | 7356 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1817170?filter=.x86_64-linux) | 38 | 15 | 1 | 2 | 34 | 7359 | 
 #### Unmaintained packages with build failure
-<details><summary>37 job(s) </summary>
+<details><summary>38 job(s) </summary>
 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/302805399) [haskellPackages.pms-domain-model](https://hydra.nixos.org/eval/1817170?filter=haskellPackages.pms-domain-model)  ⤴️ 10 | 10
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/303481607) [haskellPackages.llvm-extra](https://hydra.nixos.org/eval/1817170?filter=haskellPackages.llvm-extra)  ⤴️ 2 | 5
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/302803520) [haskellPackages.haskell-pgmq](https://hydra.nixos.org/eval/1817170?filter=haskellPackages.haskell-pgmq)  ⤴️ 1 | 1
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/303231350) [haskellPackages.mptcp-pm](https://hydra.nixos.org/eval/1817170?filter=haskellPackages.mptcp-pm)  ⤴️ 1 | 1
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/303231342) [haskellPackages.json-schema](https://hydra.nixos.org/eval/1817170?filter=haskellPackages.json-schema)  ⤴️ 0 | 9
@@ -53,8 +54,10 @@
 </details>
 
 #### Unmaintained packages with failed dependency
-<details><summary>13 job(s) </summary>
+<details><summary>15 job(s) </summary>
 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/303481609) [haskellPackages.llvm-dsl](https://hydra.nixos.org/eval/1817170?filter=haskellPackages.llvm-dsl)  ⤴️ 1 | 3
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/303481606) [haskellPackages.knead](https://hydra.nixos.org/eval/1817170?filter=haskellPackages.knead)  ⤴️ 0 | 1
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/302803566) [haskellPackages.haskell-bee-pgmq](https://hydra.nixos.org/eval/1817170?filter=haskellPackages.haskell-bee-pgmq) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/303231351) [haskellPackages.mptcpanalyzer](https://hydra.nixos.org/eval/1817170?filter=haskellPackages.mptcpanalyzer) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/302805430) [haskellPackages.pms-application-service](https://hydra.nixos.org/eval/1817170?filter=haskellPackages.pms-application-service) 
