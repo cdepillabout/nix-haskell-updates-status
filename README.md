@@ -1,14 +1,14 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1817170](https://hydra.nixos.org/eval/1817170) of nixpkgs commit [8076d01](https://github.com/NixOS/nixpkgs/commits/8076d015a85606deafaa1b93c2f4cfa3d306d1f7) as of 2025-07-28 19:35 UTC*
+*evaluation [1817170](https://hydra.nixos.org/eval/1817170) of nixpkgs commit [8076d01](https://github.com/NixOS/nixpkgs/commits/8076d015a85606deafaa1b93c2f4cfa3d306d1f7) as of 2025-07-29 01:59 UTC*
 
 🔴 **Branch not mergeable**
   * No `maintained` job found.
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | HydraFailure 🚧 | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1817170?filter=.x86_64-linux) | 39 | 15 | 1 | 3 | 1 | 7378 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | HydraFailure 🚧 | Success ✅ | 
+ | --- | --- | --- | --- | --- | --- | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1817170?filter=.x86_64-linux) | 39 | 15 | 1 | 3 | 7378 | 
 #### Maintained Linux packages with build failure
 - [ ] [xmonad](https://hydra.nixos.org/eval/1817170?filter=xmonad) @NeQuissimus @dschrempf @ivanbrennan @peti @slotThe
   - [[🐧✅]](https://hydra.nixos.org/build/302807498) [haskellPackages](https://hydra.nixos.org/eval/1817170?filter=haskellPackages.xmonad)
