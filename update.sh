@@ -1,8 +1,4 @@
-#! /usr/bin/env nix-shell
-#! nix-shell -i bash
-#! nix-shell -p nix
-#! nix-shell -I nixpkgs=https://github.com/NixOS/nixpkgs/archive/haskell-updates.tar.gz
-#! nix-shell -p "writers.writeBashBin \"get-nixpkgs-path\" \"echo \${path}\""
+#! /bin/sh
 
 # This script updates the README.md with the latest build report from Hydra for
 # the `haskell-updates` branch in Nixpkgs.
@@ -10,14 +6,11 @@
 # See https://github.com/NixOS/nixpkgs/blob/haskell-updates/pkgs/development/haskell-modules/HACKING.md
 # for more information about this process.
 #
-# TODO: The `get-nixpkgs-path` is used to get the path to the nixpkgs repo that
-# has been downloaded for the nix-shell -I argument.  This is somewhat of a hack.
-# I wouldn't be surprised if there wasn't an easier way to get the path to the
-# nixpkgs repo from within nix-shell.
+# For this to work NIX_PATH must be set to point <nixpkgs> to the haskell-updates branch.
 
 set -u -e
 
-nixpkgs="$(get-nixpkgs-path)"
+nixpkgs="$(nix-instantiate --find-file nixpkgs)"
 echo "Resolved <nixpkgs> to $nixpkgs"
 
 hydra_report="$nixpkgs/maintainers/scripts/haskell/hydra-report.hs"
