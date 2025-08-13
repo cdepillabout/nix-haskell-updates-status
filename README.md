@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1817614](https://hydra.nixos.org/eval/1817614) of nixpkgs commit [baa0521](https://github.com/NixOS/nixpkgs/commits/baa0521980c423be7a8de06d18757ef4af4d22f0) as of 2025-08-13 12:12 UTC*
+*evaluation [1817614](https://hydra.nixos.org/eval/1817614) of nixpkgs commit [baa0521](https://github.com/NixOS/nixpkgs/commits/baa0521980c423be7a8de06d18757ef4af4d22f0) as of 2025-08-13 18:10 UTC*
 
 🔴 **Branch not mergeable**
   * No `maintained` job found.
@@ -10,7 +10,7 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1817614?filter=.x86_64-linux) | 326 | 257 | 259 | 6627 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1817614?filter=.x86_64-linux) | 327 | 260 | 230 | 6653 | 
 #### Maintained Linux packages with build failure
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/304234608) [haskellPackages.arbtt](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.arbtt) @rvl
 - [ ] [aws-spend-summary](https://hydra.nixos.org/eval/1817614?filter=aws-spend-summary) @danielrolls
@@ -180,7 +180,7 @@
   - [[🐧⏳]](https://hydra.nixos.org/build/305031876) [haskellPackages](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.update-nix-fetchgit)
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/304240910) [haskellPackages.wuerfelschlange](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.wuerfelschlange) @thielema
 #### Unmaintained packages with build failure
-<details><summary>329 job(s) </summary>
+<details><summary>330 job(s) </summary>
 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/304236422) [haskellPackages.ghc-typelits-natnormalise](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.ghc-typelits-natnormalise)  ⤴️ 22 | 66
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/304544130) [haskellPackages.hs-opentelemetry-api](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.hs-opentelemetry-api)  ⤴️ 21 | 31
@@ -259,6 +259,7 @@
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/304236888) [haskellPackages.happy-dot](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.happy-dot)  ⤴️ 1 | 1
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/304237940) [haskellPackages.long-double](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.long-double)  ⤴️ 1 | 1
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/304544172) [haskellPackages.morpheus-graphql-code-gen](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.morpheus-graphql-code-gen)  ⤴️ 1 | 1
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/305031861) [haskellPackages.regression-simple](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.regression-simple)  ⤴️ 1 | 1
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/304239581) [haskellPackages.servant-routes](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.servant-routes)  ⤴️ 1 | 1
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/304239927) [haskellPackages.stm-tlist](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.stm-tlist)  ⤴️ 1 | 1
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/304240068) [haskellPackages.symtegration](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.symtegration)  ⤴️ 1 | 1
@@ -514,7 +515,7 @@
 </details>
 
 #### Unmaintained packages with failed dependency
-<details><summary>305 job(s) </summary>
+<details><summary>308 job(s) </summary>
 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/304236419) [haskellPackages.ghc-typelits-knownnat](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.ghc-typelits-knownnat)  ⤴️ 20 | 60
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/304234945) [haskellPackages.brick](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.brick)  ⤴️ 13 | 43
@@ -603,6 +604,7 @@
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/304240828) [haskellPackages.web-routes-boomerang](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.web-routes-boomerang)  ⤴️ 0 | 16
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/304234666) [haskellPackages.ascii](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.ascii)  ⤴️ 0 | 8
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/304237426) [haskellPackages.hw-ip](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.hw-ip)  ⤴️ 0 | 7
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/305031848) [haskellPackages.language-avro](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.language-avro)  ⤴️ 0 | 5
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/304238002) [haskellPackages.mangle](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.mangle)  ⤴️ 0 | 5
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/304235205) [haskellPackages.classy-prelude-yesod](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.classy-prelude-yesod)  ⤴️ 0 | 4
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/304544102) [haskellPackages.hasql-streams-core](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.hasql-streams-core)  ⤴️ 0 | 4
@@ -699,7 +701,7 @@
   - [[🐧⏳]](https://hydra.nixos.org/build/304843953) [haskell.packages.ghc967](https://hydra.nixos.org/eval/1817614?filter=haskell.packages.ghc967.cabal2nix-unstable)
   - [[🐧⏳]](https://hydra.nixos.org/build/304843955) [haskell.packages.ghc981](https://hydra.nixos.org/eval/1817614?filter=haskell.packages.ghc981.cabal2nix-unstable)
   - [[🐧✅]](https://hydra.nixos.org/build/304843957) [haskell.packages.ghc982](https://hydra.nixos.org/eval/1817614?filter=haskell.packages.ghc982.cabal2nix-unstable)
-  - [[🐧⏳]](https://hydra.nixos.org/build/304843959) [haskell.packages.ghc983](https://hydra.nixos.org/eval/1817614?filter=haskell.packages.ghc983.cabal2nix-unstable)
+  - [[🐧✅]](https://hydra.nixos.org/build/304843959) [haskell.packages.ghc983](https://hydra.nixos.org/eval/1817614?filter=haskell.packages.ghc983.cabal2nix-unstable)
   - [[🐧✅]](https://hydra.nixos.org/build/304843960) [haskell.packages.ghc984](https://hydra.nixos.org/eval/1817614?filter=haskell.packages.ghc984.cabal2nix-unstable)
   - [[🐧✅]](https://hydra.nixos.org/build/304844301) [haskellPackages](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.cabal2nix-unstable)
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/304235156) [haskellPackages.chessIO](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.chessIO) 
@@ -769,6 +771,7 @@
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/304544144) [haskellPackages.hs-opentelemetry-instrumentation-yesod](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.hs-opentelemetry-instrumentation-yesod) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/304237403) [haskellPackages.hw-vector](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.hw-vector) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/304237431) [haskellPackages.hyper-extra](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.hyper-extra) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/304844331) [haskellPackages.ihaskell-display](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.ihaskell-display) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/304844328) [haskellPackages.ihaskell-symtegration](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.ihaskell-symtegration) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/304237644) [haskellPackages.jsonpatch](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.jsonpatch) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/304237655) [haskellPackages.katip-effectful](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.katip-effectful) 
@@ -813,6 +816,7 @@
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/304239993) [haskellPackages.strict-containers-lens](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.strict-containers-lens) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/304239979) [haskellPackages.strict-containers-serialise](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.strict-containers-serialise) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/304240020) [haskellPackages.sum-pyramid](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.sum-pyramid) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/305031873) [haskellPackages.tasty-bench-fit](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.tasty-bench-fit) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/304240162) [haskellPackages.tasty-sugar](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.tasty-sugar) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/304240424) [haskellPackages.topaz](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.topaz) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/304240519) [haskellPackages.turncoat](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.turncoat) 
