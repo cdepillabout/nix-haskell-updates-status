@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1817614](https://hydra.nixos.org/eval/1817614) of nixpkgs commit [baa0521](https://github.com/NixOS/nixpkgs/commits/baa0521980c423be7a8de06d18757ef4af4d22f0) as of 2025-08-15 00:31 UTC*
+*evaluation [1817614](https://hydra.nixos.org/eval/1817614) of nixpkgs commit [baa0521](https://github.com/NixOS/nixpkgs/commits/baa0521980c423be7a8de06d18757ef4af4d22f0) as of 2025-08-15 06:11 UTC*
 
 🔴 **Branch not mergeable**
   * No `maintained` job found.
@@ -9,7 +9,7 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1817614?filter=.x86_64-linux) | 332 | 267 | 44 | 6809 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1817614?filter=.x86_64-linux) | 332 | 267 | 36 | 6816 | 
 #### Maintained Linux packages with build failure
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/304234608) [haskellPackages.arbtt](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.arbtt) @rvl
 - [ ] [aws-spend-summary](https://hydra.nixos.org/eval/1817614?filter=aws-spend-summary) @danielrolls
@@ -179,7 +179,7 @@
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/304240523) [haskellPackages.typerep-map](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.typerep-map) @mpscholten
 - [ ] [update-nix-fetchgit](https://hydra.nixos.org/eval/1817614?filter=update-nix-fetchgit) @sorki
   - [[🐧❗]](https://hydra.nixos.org/build/305031898) [toplevel](https://hydra.nixos.org/eval/1817614?filter=update-nix-fetchgit)
-  - [[🐧⏳]](https://hydra.nixos.org/build/305031876) [haskellPackages](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.update-nix-fetchgit)
+  - [[🐧❗]](https://hydra.nixos.org/build/305031876) [haskellPackages](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.update-nix-fetchgit)
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/304240910) [haskellPackages.wuerfelschlange](https://hydra.nixos.org/eval/1817614?filter=haskellPackages.wuerfelschlange) @thielema
 #### Unmaintained packages with build failure
 <details><summary>336 job(s) </summary>
