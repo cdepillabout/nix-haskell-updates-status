@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1817898](https://hydra.nixos.org/eval/1817898) of nixpkgs commit [2d98f4f](https://github.com/NixOS/nixpkgs/commits/2d98f4f2e826f899efe10da329d4399380b1449b) as of 2025-08-23 06:09 UTC*
+*evaluation [1817909](https://hydra.nixos.org/eval/1817909) of nixpkgs commit [699736e](https://github.com/NixOS/nixpkgs/commits/699736ec2896277f6532e1e3e961adb968f613a0) as of 2025-08-23 13:40 UTC*
 
 🔴 **Branch not mergeable**
   * No `maintained` job found.
@@ -8,54 +8,9 @@
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1817898?filter=.x86_64-linux) | 19 | 7 | 6354 | 1115 | 
-#### Maintained Linux packages with build failure
-- [ ] [lhs2tex](https://hydra.nixos.org/eval/1817898?filter=lhs2tex) @nomeata
-  - [[🐧⏳]](https://hydra.nixos.org/build/305544999) [toplevel](https://hydra.nixos.org/eval/1817898?filter=lhs2tex)
-  - [[🐧❌]](https://hydra.nixos.org/build/305541758) [haskellPackages](https://hydra.nixos.org/eval/1817898?filter=haskellPackages.lhs2tex)
-- [ ] [nvfetcher](https://hydra.nixos.org/eval/1817898?filter=nvfetcher) @berberman
-  - [[🐧⏳]](https://hydra.nixos.org/build/305545023) [toplevel](https://hydra.nixos.org/eval/1817898?filter=nvfetcher)
-  - [[🐧❌]](https://hydra.nixos.org/build/305542439) [haskellPackages](https://hydra.nixos.org/eval/1817898?filter=haskellPackages.nvfetcher)
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/305542478) [haskellPackages.optics](https://hydra.nixos.org/eval/1817898?filter=haskellPackages.optics) @maralorn
-#### Unmaintained packages with build failure
-<details><summary>16 job(s) </summary>
-
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/305541053) [haskellPackages.hs-opentelemetry-api](https://hydra.nixos.org/eval/1817898?filter=haskellPackages.hs-opentelemetry-api)  ⤴️ 21 | 31
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/305541265) [haskellPackages.hw-prim](https://hydra.nixos.org/eval/1817898?filter=haskellPackages.hw-prim)  ⤴️ 9 | 61
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/305541322) [haskellPackages.ilist](https://hydra.nixos.org/eval/1817898?filter=haskellPackages.ilist)  ⤴️ 6 | 18
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/305538039) [haskellPackages.aeson-optics](https://hydra.nixos.org/eval/1817898?filter=haskellPackages.aeson-optics)  ⤴️ 5 | 8
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/305539203) [haskellPackages.conferer](https://hydra.nixos.org/eval/1817898?filter=haskellPackages.conferer)  ⤴️ 4 | 13
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/305541198) [haskellPackages.hspray](https://hydra.nixos.org/eval/1817898?filter=haskellPackages.hspray)  ⤴️ 1 | 3
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/305540698) [haskellPackages.grid](https://hydra.nixos.org/eval/1817898?filter=haskellPackages.grid)  ⤴️ 0 | 3
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/305540838) [haskellPackages.hasql-cursor-transaction](https://hydra.nixos.org/eval/1817898?filter=haskellPackages.hasql-cursor-transaction)  ⤴️ 0 | 1
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/305544860) [haskellPackages.xz](https://hydra.nixos.org/eval/1817898?filter=haskellPackages.xz)  ⤴️ 0 | 1
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/305538827) [haskellPackages.boardgame](https://hydra.nixos.org/eval/1817898?filter=haskellPackages.boardgame) 
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/305539093) [haskellPackages.co-log-json](https://hydra.nixos.org/eval/1817898?filter=haskellPackages.co-log-json) 
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/305539130) [haskellPackages.coerce-with-substitution](https://hydra.nixos.org/eval/1817898?filter=haskellPackages.coerce-with-substitution) 
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/305540930) [haskellPackages.hiedb-plugin](https://hydra.nixos.org/eval/1817898?filter=haskellPackages.hiedb-plugin) 
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/305541940) [haskellPackages.maquinitas-tidal](https://hydra.nixos.org/eval/1817898?filter=haskellPackages.maquinitas-tidal) 
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/305543466) [haskellPackages.servant-quickcheck](https://hydra.nixos.org/eval/1817898?filter=haskellPackages.servant-quickcheck) 
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/305544436) [haskellPackages.typist](https://hydra.nixos.org/eval/1817898?filter=haskellPackages.typist) 
-</details>
-
-#### Unmaintained packages with failed dependency
-<details><summary>11 job(s) </summary>
-
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/305541259) [haskellPackages.hw-fingertree](https://hydra.nixos.org/eval/1817898?filter=haskellPackages.hw-fingertree)  ⤴️ 4 | 47
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/305540974) [haskellPackages.hls-plugin-api](https://hydra.nixos.org/eval/1817898?filter=haskellPackages.hls-plugin-api)  ⤴️ 3 | 26
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/305538976) [haskellPackages.calamity-commands](https://hydra.nixos.org/eval/1817898?filter=haskellPackages.calamity-commands)  ⤴️ 1 | 3
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/305541060) [haskellPackages.hs-opentelemetry-instrumentation-conduit](https://hydra.nixos.org/eval/1817898?filter=haskellPackages.hs-opentelemetry-instrumentation-conduit)  ⤴️ 1 | 1
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/305539156) [haskellPackages.calamity](https://hydra.nixos.org/eval/1817898?filter=haskellPackages.calamity)  ⤴️ 0 | 2
-- [ ] [emanote](https://hydra.nixos.org/eval/1817898?filter=emanote) 
-  - [[🐧❗]](https://hydra.nixos.org/build/305537225) [toplevel](https://hydra.nixos.org/eval/1817898?filter=emanote)
-  - [[🐧⏳]](https://hydra.nixos.org/build/305539829) [haskellPackages](https://hydra.nixos.org/eval/1817898?filter=haskellPackages.emanote)
-- [ ] [hadolint](https://hydra.nixos.org/eval/1817898?filter=hadolint) 
-  - [[🐧❗]](https://hydra.nixos.org/build/305537153) [toplevel](https://hydra.nixos.org/eval/1817898?filter=hadolint)
-  - [[🐧⏳]](https://hydra.nixos.org/build/305540729) [haskellPackages](https://hydra.nixos.org/eval/1817898?filter=haskellPackages.hadolint)
-</details>
-
+ | Platform | Unfinished ⏳ | Success ✅ | 
+ | --- | --- | --- | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1817909?filter=.x86_64-linux) | 7451 | 1 | 
 #### Top 50 broken packages, sorted by number of reverse dependencies
 <details><summary>50 job(s) </summary>
 
