@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1817909](https://hydra.nixos.org/eval/1817909) of nixpkgs commit [699736e](https://github.com/NixOS/nixpkgs/commits/699736ec2896277f6532e1e3e961adb968f613a0) as of 2025-08-24 06:10 UTC*
+*evaluation [1817909](https://hydra.nixos.org/eval/1817909) of nixpkgs commit [699736e](https://github.com/NixOS/nixpkgs/commits/699736ec2896277f6532e1e3e961adb968f613a0) as of 2025-08-24 12:11 UTC*
 
 🔴 **Branch not mergeable**
   * No `maintained` job found.
@@ -10,7 +10,7 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1817909?filter=.x86_64-linux) | 166 | 133 | 3228 | 4031 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1817909?filter=.x86_64-linux) | 167 | 133 | 3220 | 4037 | 
 #### Maintained Linux packages with build failure
 - [ ] [changelog-d](https://hydra.nixos.org/eval/1817909?filter=changelog-d) @roberth
   - [[🐧⏳]](https://hydra.nixos.org/build/305715817) [toplevel](https://hydra.nixos.org/eval/1817909?filter=changelog-d)
@@ -141,7 +141,7 @@
   - [[🐧❗]](https://hydra.nixos.org/build/305716363) [haskell.packages.ghc984](https://hydra.nixos.org/eval/1817909?filter=haskell.packages.ghc984.weeder)
   - [[🐧✅]](https://hydra.nixos.org/build/305723455) [haskellPackages](https://hydra.nixos.org/eval/1817909?filter=haskellPackages.weeder)
 #### Unmaintained packages with build failure
-<details><summary>183 job(s) </summary>
+<details><summary>184 job(s) </summary>
 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/305719025) [haskellPackages.gi-gdk4](https://hydra.nixos.org/eval/1817909?filter=haskellPackages.gi-gdk4)  ⤴️ 22 | 36
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/305719750) [haskellPackages.hs-opentelemetry-api](https://hydra.nixos.org/eval/1817909?filter=haskellPackages.hs-opentelemetry-api)  ⤴️ 21 | 31
@@ -316,6 +316,7 @@
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/305722201) [haskellPackages.sgf](https://hydra.nixos.org/eval/1817909?filter=haskellPackages.sgf) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/305722347) [haskellPackages.sizes](https://hydra.nixos.org/eval/1817909?filter=haskellPackages.sizes) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/305722362) [haskellPackages.snack](https://hydra.nixos.org/eval/1817909?filter=haskellPackages.snack) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/305722367) [haskellPackages.snaplet-customauth](https://hydra.nixos.org/eval/1817909?filter=haskellPackages.snaplet-customauth) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/305722405) [haskellPackages.spaceprobe](https://hydra.nixos.org/eval/1817909?filter=haskellPackages.spaceprobe) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/305722417) [haskellPackages.species](https://hydra.nixos.org/eval/1817909?filter=haskellPackages.species) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/305722465) [haskellPackages.stagen](https://hydra.nixos.org/eval/1817909?filter=haskellPackages.stagen) 
