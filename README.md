@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1818002](https://hydra.nixos.org/eval/1818002) of nixpkgs commit [c6f1e97](https://github.com/NixOS/nixpkgs/commits/c6f1e97131968c5b2b127420df130c1d038e6ed9) as of 2025-08-27 00:28 UTC*
+*evaluation [1818002](https://hydra.nixos.org/eval/1818002) of nixpkgs commit [c6f1e97](https://github.com/NixOS/nixpkgs/commits/c6f1e97131968c5b2b127420df130c1d038e6ed9) as of 2025-08-27 06:11 UTC*
 
 🔴 **Branch not mergeable**
   * No `maintained` job found.
@@ -9,7 +9,7 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1818002?filter=.x86_64-linux) | 313 | 250 | 21 | 6881 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1818002?filter=.x86_64-linux) | 314 | 250 | 17 | 6885 | 
 #### Maintained Linux packages with build failure
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/305717219) [haskellPackages.arbtt](https://hydra.nixos.org/eval/1818002?filter=haskellPackages.arbtt) @rvl
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/305717501) [haskellPackages.binrep](https://hydra.nixos.org/eval/1818002?filter=haskellPackages.binrep) @raehik
@@ -19,6 +19,11 @@
 - [ ] [dhall-lsp-server](https://hydra.nixos.org/eval/1818002?filter=dhall-lsp-server) @Gabriella439 @dalpd
   - [[🐧❌]](https://hydra.nixos.org/build/305715843) [toplevel](https://hydra.nixos.org/eval/1818002?filter=dhall-lsp-server)
   - [[🐧❌]](https://hydra.nixos.org/build/305718252) [haskellPackages](https://hydra.nixos.org/eval/1818002?filter=haskellPackages.dhall-lsp-server)
+- [ ] [git-annex](https://hydra.nixos.org/eval/1818002?filter=git-annex) @peti @roosemberth
+  - [[🐧❌]](https://hydra.nixos.org/build/305715934) [toplevel](https://hydra.nixos.org/eval/1818002?filter=git-annex)
+  - [[🐧⏳]](https://hydra.nixos.org/build/305716047) [haskell.packages.ghc9101](https://hydra.nixos.org/eval/1818002?filter=haskell.packages.ghc9101.git-annex)
+  - [[🐧⏳]](https://hydra.nixos.org/build/305716006) [haskell.packages.ghc9102](https://hydra.nixos.org/eval/1818002?filter=haskell.packages.ghc9102.git-annex)
+  - [[🐧⏳]](https://hydra.nixos.org/build/305719081) [haskellPackages](https://hydra.nixos.org/eval/1818002?filter=haskellPackages.git-annex)
 - [ ] [hlint](https://hydra.nixos.org/eval/1818002?filter=hlint) @maralorn
   - [[🐧✅]](https://hydra.nixos.org/build/305723702) [toplevel](https://hydra.nixos.org/eval/1818002?filter=hlint)
   - [[🐧✅]](https://hydra.nixos.org/build/305716057) [haskell.packages.ghc928](https://hydra.nixos.org/eval/1818002?filter=haskell.packages.ghc928.hlint)
