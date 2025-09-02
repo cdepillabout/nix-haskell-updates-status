@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1818162](https://hydra.nixos.org/eval/1818162) of nixpkgs commit [e67ff20](https://github.com/NixOS/nixpkgs/commits/e67ff207052e859b592d1ea12e0f6428fa4cb388) as of 2025-09-02 12:12 UTC*
+*evaluation [1818162](https://hydra.nixos.org/eval/1818162) of nixpkgs commit [e67ff20](https://github.com/NixOS/nixpkgs/commits/e67ff207052e859b592d1ea12e0f6428fa4cb388) as of 2025-09-02 18:08 UTC*
 
 🔴 **Branch not mergeable**
   * No `maintained` job found.
@@ -9,7 +9,7 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1818162?filter=.x86_64-linux) | 317 | 222 | 18 | 6936 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1818162?filter=.x86_64-linux) | 317 | 223 | 16 | 6937 | 
 #### Maintained Linux packages with build failure
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/306253717) [haskellPackages.arbtt](https://hydra.nixos.org/eval/1818162?filter=haskellPackages.arbtt) @rvl
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/306253833) [haskellPackages.binrep](https://hydra.nixos.org/eval/1818162?filter=haskellPackages.binrep) @raehik
@@ -475,7 +475,7 @@
 </details>
 
 #### Unmaintained packages with failed dependency
-<details><summary>267 job(s) </summary>
+<details><summary>268 job(s) </summary>
 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/306254573) [haskellPackages.gi-gsk](https://hydra.nixos.org/eval/1818162?filter=haskellPackages.gi-gsk)  ⤴️ 20 | 32
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/306254577) [haskellPackages.gi-gtk4](https://hydra.nixos.org/eval/1818162?filter=haskellPackages.gi-gtk4)  ⤴️ 19 | 31
@@ -567,6 +567,7 @@
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/306253318) [haskellPackages.accelerate-io](https://hydra.nixos.org/eval/1818162?filter=haskellPackages.accelerate-io)  ⤴️ 0 | 3
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/306254445) [haskellPackages.freckle-prelude](https://hydra.nixos.org/eval/1818162?filter=haskellPackages.freckle-prelude)  ⤴️ 0 | 3
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/306253929) [haskellPackages.bv-little](https://hydra.nixos.org/eval/1818162?filter=haskellPackages.bv-little)  ⤴️ 0 | 2
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/306588846) [haskellPackages.calamity](https://hydra.nixos.org/eval/1818162?filter=haskellPackages.calamity)  ⤴️ 0 | 2
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/306254008) [haskellPackages.colour-accelerate](https://hydra.nixos.org/eval/1818162?filter=haskellPackages.colour-accelerate)  ⤴️ 0 | 2
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/306254481) [haskellPackages.fs-sim](https://hydra.nixos.org/eval/1818162?filter=haskellPackages.fs-sim)  ⤴️ 0 | 2
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/306254633) [haskellPackages.gitlib-libgit2](https://hydra.nixos.org/eval/1818162?filter=haskellPackages.gitlib-libgit2)  ⤴️ 0 | 2
