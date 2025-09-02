@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1818162](https://hydra.nixos.org/eval/1818162) of nixpkgs commit [e67ff20](https://github.com/NixOS/nixpkgs/commits/e67ff207052e859b592d1ea12e0f6428fa4cb388) as of 2025-09-02 00:28 UTC*
+*evaluation [1818162](https://hydra.nixos.org/eval/1818162) of nixpkgs commit [e67ff20](https://github.com/NixOS/nixpkgs/commits/e67ff207052e859b592d1ea12e0f6428fa4cb388) as of 2025-09-02 06:11 UTC*
 
 🔴 **Branch not mergeable**
   * No `maintained` job found.
@@ -9,7 +9,7 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1818162?filter=.x86_64-linux) | 317 | 222 | 20 | 6933 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1818162?filter=.x86_64-linux) | 317 | 222 | 19 | 6935 | 
 #### Maintained Linux packages with build failure
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/306253717) [haskellPackages.arbtt](https://hydra.nixos.org/eval/1818162?filter=haskellPackages.arbtt) @rvl
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/306253833) [haskellPackages.binrep](https://hydra.nixos.org/eval/1818162?filter=haskellPackages.binrep) @raehik
