@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1818162](https://hydra.nixos.org/eval/1818162) of nixpkgs commit [e67ff20](https://github.com/NixOS/nixpkgs/commits/e67ff207052e859b592d1ea12e0f6428fa4cb388) as of 2025-09-01 18:09 UTC*
+*evaluation [1818162](https://hydra.nixos.org/eval/1818162) of nixpkgs commit [e67ff20](https://github.com/NixOS/nixpkgs/commits/e67ff207052e859b592d1ea12e0f6428fa4cb388) as of 2025-09-02 00:28 UTC*
 
 🔴 **Branch not mergeable**
   * No `maintained` job found.
@@ -9,7 +9,7 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1818162?filter=.x86_64-linux) | 315 | 222 | 23 | 6931 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1818162?filter=.x86_64-linux) | 317 | 222 | 20 | 6933 | 
 #### Maintained Linux packages with build failure
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/306253717) [haskellPackages.arbtt](https://hydra.nixos.org/eval/1818162?filter=haskellPackages.arbtt) @rvl
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/306253833) [haskellPackages.binrep](https://hydra.nixos.org/eval/1818162?filter=haskellPackages.binrep) @raehik
@@ -38,6 +38,9 @@
 - [ ] [nix-diff](https://hydra.nixos.org/eval/1818162?filter=nix-diff) @Gabriella439 @sorki @terlar
   - [[🐧❌]](https://hydra.nixos.org/build/306257031) [toplevel](https://hydra.nixos.org/eval/1818162?filter=nix-diff)
   - [[🐧❌]](https://hydra.nixos.org/build/306255696) [haskellPackages](https://hydra.nixos.org/eval/1818162?filter=haskellPackages.nix-diff)
+- [ ] [nvfetcher](https://hydra.nixos.org/eval/1818162?filter=nvfetcher) @berberman
+  - [[🐧⏳]](https://hydra.nixos.org/build/306588864) [toplevel](https://hydra.nixos.org/eval/1818162?filter=nvfetcher)
+  - [[🐧❌]](https://hydra.nixos.org/build/306588858) [haskellPackages](https://hydra.nixos.org/eval/1818162?filter=haskellPackages.nvfetcher)
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/306255836) [haskellPackages.patat](https://hydra.nixos.org/eval/1818162?filter=haskellPackages.patat) @dalpd
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/306255952) [haskellPackages.postgres-websockets](https://hydra.nixos.org/eval/1818162?filter=haskellPackages.postgres-websockets) @wolfgangwalther
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/305722040) [haskellPackages.say](https://hydra.nixos.org/eval/1818162?filter=haskellPackages.say) @maralorn
@@ -134,7 +137,7 @@
   - [[🐧❗]](https://hydra.nixos.org/build/306253150) [haskell.packages.ghc984](https://hydra.nixos.org/eval/1818162?filter=haskell.packages.ghc984.weeder)
   - [[🐧✅]](https://hydra.nixos.org/build/306256862) [haskellPackages](https://hydra.nixos.org/eval/1818162?filter=haskellPackages.weeder)
 #### Unmaintained packages with build failure
-<details><summary>332 job(s) </summary>
+<details><summary>333 job(s) </summary>
 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/306254569) [haskellPackages.gi-gdk4](https://hydra.nixos.org/eval/1818162?filter=haskellPackages.gi-gdk4)  ⤴️ 24 | 36
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/306255062) [haskellPackages.hs-opentelemetry-api](https://hydra.nixos.org/eval/1818162?filter=haskellPackages.hs-opentelemetry-api)  ⤴️ 21 | 31
@@ -240,6 +243,7 @@
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/305717633) [haskellPackages.cabal-macosx](https://hydra.nixos.org/eval/1818162?filter=haskellPackages.cabal-macosx)  ⤴️ 0 | 2
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/306254027) [haskellPackages.concurrent-machines](https://hydra.nixos.org/eval/1818162?filter=haskellPackages.concurrent-machines)  ⤴️ 0 | 2
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/305717894) [haskellPackages.concurrent-utilities](https://hydra.nixos.org/eval/1818162?filter=haskellPackages.concurrent-utilities)  ⤴️ 0 | 2
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/306588848) [haskellPackages.ebird-api](https://hydra.nixos.org/eval/1818162?filter=haskellPackages.ebird-api)  ⤴️ 0 | 2
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/305718918) [haskellPackages.geniplate-mirror](https://hydra.nixos.org/eval/1818162?filter=haskellPackages.geniplate-mirror)  ⤴️ 0 | 2
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/305719393) [haskellPackages.hBDD](https://hydra.nixos.org/eval/1818162?filter=haskellPackages.hBDD)  ⤴️ 0 | 2
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/305719598) [haskellPackages.heroku](https://hydra.nixos.org/eval/1818162?filter=haskellPackages.heroku)  ⤴️ 0 | 2
