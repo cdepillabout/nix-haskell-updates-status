@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1818233](https://hydra.nixos.org/eval/1818233) of nixpkgs commit [62423a6](https://github.com/NixOS/nixpkgs/commits/62423a67f9546e35e06c47210908bad24194bac6) as of 2025-09-05 18:10 UTC*
+*evaluation [1818233](https://hydra.nixos.org/eval/1818233) of nixpkgs commit [62423a6](https://github.com/NixOS/nixpkgs/commits/62423a67f9546e35e06c47210908bad24194bac6) as of 2025-09-06 00:26 UTC*
 
 🔴 **Branch not mergeable**
   * No `maintained` job found.
@@ -7,9 +7,9 @@
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | Success ✅ | 
- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1818233?filter=.x86_64-linux) | 333 | 154 | 7006 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
+ | --- | --- | --- | --- | --- | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1818233?filter=.x86_64-linux) | 333 | 152 | 2 | 7006 | 
 #### Maintained Linux packages with build failure
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/306253717) [haskellPackages.arbtt](https://hydra.nixos.org/eval/1818233?filter=haskellPackages.arbtt) @rvl
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/306253833) [haskellPackages.binrep](https://hydra.nixos.org/eval/1818233?filter=haskellPackages.binrep) @raehik
@@ -116,7 +116,6 @@
   - [[🐧✅]](https://hydra.nixos.org/build/306636676) [haskellPackages](https://hydra.nixos.org/eval/1818233?filter=haskellPackages.postgrest)
   - [[🐧❗]](https://hydra.nixos.org/build/306636686) [pkgsStatic.haskell.packages.native-bignum.ghc948](https://hydra.nixos.org/eval/1818233?filter=pkgsStatic.haskell.packages.native-bignum.ghc948.postgrest)
   - [[🐧❗]](https://hydra.nixos.org/build/306636687) [pkgsStatic.haskellPackages](https://hydra.nixos.org/eval/1818233?filter=pkgsStatic.haskellPackages.postgrest)
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/306667688) [pkgsCross.ghcjs.haskell.packages.ghc912.reflex-dom](https://hydra.nixos.org/eval/1818233?filter=pkgsCross.ghcjs.haskell.packages.ghc912.reflex-dom) @alexfmpe @maralorn
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/306636688) [staticHaskellPackages](https://hydra.nixos.org/eval/1818233?filter=staticHaskellPackages) @rnhmjoj @sternenseemann
 - [ ] [taffybar](https://hydra.nixos.org/eval/1818233?filter=taffybar) @rvl
   - [[🐧❗]](https://hydra.nixos.org/build/306667691) [toplevel](https://hydra.nixos.org/eval/1818233?filter=taffybar)
@@ -495,7 +494,7 @@
 </details>
 
 #### Unmaintained packages with failed dependency
-<details><summary>212 job(s) </summary>
+<details><summary>209 job(s) </summary>
 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/306254007) [haskellPackages.classy-prelude](https://hydra.nixos.org/eval/1818233?filter=haskellPackages.classy-prelude)  ⤴️ 8 | 48
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/306255534) [haskellPackages.metro](https://hydra.nixos.org/eval/1818233?filter=haskellPackages.metro)  ⤴️ 4 | 8
@@ -535,9 +534,6 @@
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/306667567) [haskellPackages.clash-ghc](https://hydra.nixos.org/eval/1818233?filter=haskellPackages.clash-ghc)  ⤴️ 1 | 4
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/306254447) [haskellPackages.freckle-exception](https://hydra.nixos.org/eval/1818233?filter=haskellPackages.freckle-exception)  ⤴️ 1 | 4
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/306255271) [haskellPackages.ipprint](https://hydra.nixos.org/eval/1818233?filter=haskellPackages.ipprint)  ⤴️ 1 | 3
-- [ ] [miso](https://hydra.nixos.org/eval/1818233?filter=miso)  ⤴️ 1 | 3
-  - [[🐧✅]](https://hydra.nixos.org/build/306255555) [haskellPackages](https://hydra.nixos.org/eval/1818233?filter=haskellPackages.miso)
-  - [[🐧❗]](https://hydra.nixos.org/build/306667687) [pkgsCross.ghcjs.haskell.packages.ghc912](https://hydra.nixos.org/eval/1818233?filter=pkgsCross.ghcjs.haskell.packages.ghc912.miso)
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/306254171) [haskellPackages.crucible-llvm](https://hydra.nixos.org/eval/1818233?filter=haskellPackages.crucible-llvm)  ⤴️ 1 | 2
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/306254109) [haskellPackages.crux](https://hydra.nixos.org/eval/1818233?filter=haskellPackages.crux)  ⤴️ 1 | 2
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/305719712) [haskellPackages.homotuple](https://hydra.nixos.org/eval/1818233?filter=haskellPackages.homotuple)  ⤴️ 1 | 2
