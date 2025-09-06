@@ -22,14 +22,7 @@ else
 fi
 
 # Get the updated report from Hydra.
-if ! "$hydra_report" get-report; then
-    echo
-    echo "Failure when running \`hydra-report get-report\`."
-    echo "This may have been a timeout, since Hydra is terrible."
-    echo "Trying again with \`--slow\` flag..."
-    echo
-    "$hydra_report" get-report --slow
-fi
+"$hydra_report" get-report
 
 # Create the markdown output from the report.  Save it to the README.md file.
 #
