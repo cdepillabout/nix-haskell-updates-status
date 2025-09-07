@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1818290](https://hydra.nixos.org/eval/1818290) of nixpkgs commit [800393c](https://github.com/NixOS/nixpkgs/commits/800393c9059977f92aa04e10224d835c243274b3) as of 2025-09-07 06:09 UTC*
+*evaluation [1818290](https://hydra.nixos.org/eval/1818290) of nixpkgs commit [800393c](https://github.com/NixOS/nixpkgs/commits/800393c9059977f92aa04e10224d835c243274b3) as of 2025-09-07 12:11 UTC*
 
 🔴 **Branch not mergeable**
   * No `maintained` job found.
@@ -9,7 +9,7 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1818290?filter=.x86_64-linux) | 332 | 149 | 45 | 6987 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1818290?filter=.x86_64-linux) | 332 | 149 | 38 | 6994 | 
 #### Maintained Linux packages with build failure
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/306253717) [haskellPackages.arbtt](https://hydra.nixos.org/eval/1818290?filter=haskellPackages.arbtt) @rvl
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/306253833) [haskellPackages.binrep](https://hydra.nixos.org/eval/1818290?filter=haskellPackages.binrep) @raehik
@@ -49,7 +49,7 @@
   - [[🐧❌]](https://hydra.nixos.org/build/305723266) [haskellPackages](https://hydra.nixos.org/eval/1818290?filter=haskellPackages.uusi)
 #### Maintained Linux packages with failed dependency
 - [ ] [cabal2nix](https://hydra.nixos.org/eval/1818290?filter=cabal2nix) @sternenseemann
-  - [[🐧⏳]](https://hydra.nixos.org/build/306810618) [toplevel](https://hydra.nixos.org/eval/1818290?filter=cabal2nix)
+  - [[🐧✅]](https://hydra.nixos.org/build/306810618) [toplevel](https://hydra.nixos.org/eval/1818290?filter=cabal2nix)
   - [[🐧⏳]](https://hydra.nixos.org/build/306810617) [haskell.packages.ghc8107](https://hydra.nixos.org/eval/1818290?filter=haskell.packages.ghc8107.cabal2nix)
   - [[🐧✅]](https://hydra.nixos.org/build/306252989) [haskell.packages.ghc902](https://hydra.nixos.org/eval/1818290?filter=haskell.packages.ghc902.cabal2nix)
   - [[🐧✅]](https://hydra.nixos.org/build/306253014) [haskell.packages.ghc9101](https://hydra.nixos.org/eval/1818290?filter=haskell.packages.ghc9101.cabal2nix)
