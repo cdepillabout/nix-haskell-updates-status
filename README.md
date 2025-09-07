@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1818290](https://hydra.nixos.org/eval/1818290) of nixpkgs commit [800393c](https://github.com/NixOS/nixpkgs/commits/800393c9059977f92aa04e10224d835c243274b3) as of 2025-09-07 00:30 UTC*
+*evaluation [1818290](https://hydra.nixos.org/eval/1818290) of nixpkgs commit [800393c](https://github.com/NixOS/nixpkgs/commits/800393c9059977f92aa04e10224d835c243274b3) as of 2025-09-07 06:09 UTC*
 
 🔴 **Branch not mergeable**
   * No `maintained` job found.
@@ -9,7 +9,7 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1818290?filter=.x86_64-linux) | 331 | 149 | 51 | 6980 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1818290?filter=.x86_64-linux) | 332 | 149 | 45 | 6987 | 
 #### Maintained Linux packages with build failure
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/306253717) [haskellPackages.arbtt](https://hydra.nixos.org/eval/1818290?filter=haskellPackages.arbtt) @rvl
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/306253833) [haskellPackages.binrep](https://hydra.nixos.org/eval/1818290?filter=haskellPackages.binrep) @raehik
@@ -105,7 +105,7 @@
   - [[🐧❗]](https://hydra.nixos.org/build/306253150) [haskell.packages.ghc984](https://hydra.nixos.org/eval/1818290?filter=haskell.packages.ghc984.weeder)
   - [[🐧✅]](https://hydra.nixos.org/build/306256862) [haskellPackages](https://hydra.nixos.org/eval/1818290?filter=haskellPackages.weeder)
 #### Unmaintained packages with build failure
-<details><summary>341 job(s) </summary>
+<details><summary>342 job(s) </summary>
 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/306255579) [haskellPackages.monad-logger-aeson](https://hydra.nixos.org/eval/1818290?filter=haskellPackages.monad-logger-aeson)  ⤴️ 5 | 15
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/306254901) [haskellPackages.hashmap-io](https://hydra.nixos.org/eval/1818290?filter=haskellPackages.hashmap-io)  ⤴️ 5 | 9
@@ -260,6 +260,7 @@
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/306253710) [haskellPackages.aoc](https://hydra.nixos.org/eval/1818290?filter=haskellPackages.aoc) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/306253736) [haskellPackages.atomic-css](https://hydra.nixos.org/eval/1818290?filter=haskellPackages.atomic-css) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/306253763) [haskellPackages.aws-secrets](https://hydra.nixos.org/eval/1818290?filter=haskellPackages.aws-secrets) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/306810632) [haskellPackages.bamse](https://hydra.nixos.org/eval/1818290?filter=haskellPackages.bamse) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/306253797) [haskellPackages.betacode](https://hydra.nixos.org/eval/1818290?filter=haskellPackages.betacode) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/305717493) [haskellPackages.bluefin-algae](https://hydra.nixos.org/eval/1818290?filter=haskellPackages.bluefin-algae) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/305717496) [haskellPackages.bluefin-random](https://hydra.nixos.org/eval/1818290?filter=haskellPackages.bluefin-random) 
