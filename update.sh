@@ -22,7 +22,7 @@ else
 fi
 
 # Get the updated report from Hydra.
-"$hydra_report" get-report
+(cd "$nixpkgs" && "$hydra_report" get-report)
 
 # Create the markdown output from the report.  Save it to the README.md file.
 #
