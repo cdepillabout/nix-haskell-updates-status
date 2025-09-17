@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1818580](https://hydra.nixos.org/eval/1818580) of nixpkgs commit [9379fa4](https://github.com/NixOS/nixpkgs/commits/9379fa4d21bd07663e0d0863056a255b83eb386d) as of 2025-09-17 00:27 UTC*
+*evaluation [1818580](https://hydra.nixos.org/eval/1818580) of nixpkgs commit [9379fa4](https://github.com/NixOS/nixpkgs/commits/9379fa4d21bd07663e0d0863056a255b83eb386d) as of 2025-09-17 06:10 UTC*
 
 🔴 **Branch not mergeable**
   * No `mergeable` job found.
@@ -9,7 +9,7 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | HydraFailure 🚧 | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1818580?filter=.x86_64-linux) | 327 | 147 | 1 | 38 | 7002 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1818580?filter=.x86_64-linux) | 327 | 148 | 1 | 33 | 7005 | 
 #### Maintained Linux packages with build failure
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/307516851) [haskellPackages.arbtt](https://hydra.nixos.org/eval/1818580?filter=haskellPackages.arbtt) @rvl
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/307517077) [haskellPackages.binrep](https://hydra.nixos.org/eval/1818580?filter=haskellPackages.binrep) @raehik
@@ -406,7 +406,7 @@
 </details>
 
 #### Unmaintained packages with failed dependency
-<details><summary>151 job(s) </summary>
+<details><summary>152 job(s) </summary>
 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/307518581) [haskellPackages.ghc-typelits-extra](https://hydra.nixos.org/eval/1818580?filter=haskellPackages.ghc-typelits-extra)  ⤴️ 9 | 24
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/307517338) [haskellPackages.clash-prelude](https://hydra.nixos.org/eval/1818580?filter=haskellPackages.clash-prelude)  ⤴️ 7 | 19
@@ -523,6 +523,7 @@
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/307610983) [haskellPackages.ihaskell-symtegration](https://hydra.nixos.org/eval/1818580?filter=haskellPackages.ihaskell-symtegration) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/307611007) [haskellPackages.ihp-ide](https://hydra.nixos.org/eval/1818580?filter=haskellPackages.ihp-ide) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/307611001) [haskellPackages.ihp-migrate](https://hydra.nixos.org/eval/1818580?filter=haskellPackages.ihp-migrate) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/307656662) [haskellPackages.jsaddle-webkitgtk](https://hydra.nixos.org/eval/1818580?filter=haskellPackages.jsaddle-webkitgtk) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/307520063) [haskellPackages.lion](https://hydra.nixos.org/eval/1818580?filter=haskellPackages.lion) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/307520101) [haskellPackages.liquid-bytestring](https://hydra.nixos.org/eval/1818580?filter=haskellPackages.liquid-bytestring) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/307520095) [haskellPackages.liquid-platform](https://hydra.nixos.org/eval/1818580?filter=haskellPackages.liquid-platform) 
