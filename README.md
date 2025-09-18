@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1818580](https://hydra.nixos.org/eval/1818580) of nixpkgs commit [9379fa4](https://github.com/NixOS/nixpkgs/commits/9379fa4d21bd07663e0d0863056a255b83eb386d) as of 2025-09-18 06:11 UTC*
+*evaluation [1818580](https://hydra.nixos.org/eval/1818580) of nixpkgs commit [9379fa4](https://github.com/NixOS/nixpkgs/commits/9379fa4d21bd07663e0d0863056a255b83eb386d) as of 2025-09-18 12:12 UTC*
 
 🔴 **Branch not mergeable**
   * No `mergeable` job found.
@@ -9,7 +9,7 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | HydraFailure 🚧 | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1818580?filter=.x86_64-linux) | 327 | 148 | 1 | 21 | 7019 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1818580?filter=.x86_64-linux) | 328 | 149 | 1 | 2 | 7029 | 
 #### Maintained Linux packages with build failure
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/307516851) [haskellPackages.arbtt](https://hydra.nixos.org/eval/1818580?filter=haskellPackages.arbtt) @rvl
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/307517077) [haskellPackages.binrep](https://hydra.nixos.org/eval/1818580?filter=haskellPackages.binrep) @raehik
@@ -50,6 +50,9 @@
   - [[🐧❌]](https://hydra.nixos.org/build/307520007) [haskellPackages](https://hydra.nixos.org/eval/1818580?filter=haskellPackages.lhs2tex)
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/307611067) [haskellPackages.matrix-client](https://hydra.nixos.org/eval/1818580?filter=haskellPackages.matrix-client) @maralorn
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/307520391) [haskellPackages.monad-bayes](https://hydra.nixos.org/eval/1818580?filter=haskellPackages.monad-bayes) @turion
+- [ ] [nvfetcher](https://hydra.nixos.org/eval/1818580?filter=nvfetcher) @berberman
+  - [[🐧❌]](https://hydra.nixos.org/build/307656681) [toplevel](https://hydra.nixos.org/eval/1818580?filter=nvfetcher)
+  - [[🐧❌]](https://hydra.nixos.org/build/307656670) [haskellPackages](https://hydra.nixos.org/eval/1818580?filter=haskellPackages.nvfetcher)
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/307611198) [haskellPackages.patat](https://hydra.nixos.org/eval/1818580?filter=haskellPackages.patat) @dalpd
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/307611693) [tamarin-prover](https://hydra.nixos.org/eval/1818580?filter=tamarin-prover) @thoughtpolice
 - [ ] [termonad](https://hydra.nixos.org/eval/1818580?filter=termonad) @cdepillabout
@@ -61,6 +64,7 @@
 #### Maintained Linux packages with failed dependency
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/307518551) [haskellPackages.ghc-debug-brick](https://hydra.nixos.org/eval/1818580?filter=haskellPackages.ghc-debug-brick) @maralorn
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/307518607) [haskellPackages.ghc-vis](https://hydra.nixos.org/eval/1818580?filter=haskellPackages.ghc-vis) @dalpd
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/307656693) [staticHaskellPackages](https://hydra.nixos.org/eval/1818580?filter=staticHaskellPackages) @rnhmjoj @sternenseemann
 - [ ] [taffybar](https://hydra.nixos.org/eval/1818580?filter=taffybar) @rvl
   - [[🐧❗]](https://hydra.nixos.org/build/307611684) [toplevel](https://hydra.nixos.org/eval/1818580?filter=taffybar)
   - [[🐧❗]](https://hydra.nixos.org/build/307611431) [haskellPackages](https://hydra.nixos.org/eval/1818580?filter=haskellPackages.taffybar)
