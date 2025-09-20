@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1818633](https://hydra.nixos.org/eval/1818633) of nixpkgs commit [c32d3a4](https://github.com/NixOS/nixpkgs/commits/c32d3a431fad6121031ef5a634d76590ac48102c) as of 2025-09-19 18:10 UTC*
+*evaluation [1818633](https://hydra.nixos.org/eval/1818633) of nixpkgs commit [c32d3a4](https://github.com/NixOS/nixpkgs/commits/c32d3a431fad6121031ef5a634d76590ac48102c) as of 2025-09-20 00:26 UTC*
 
 🔴 **Branch not mergeable**
   * No `mergeable` job found.
@@ -81,6 +81,7 @@
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/307522842) [haskellPackages.universum](https://hydra.nixos.org/eval/1818633?filter=haskellPackages.universum)  ⤴️ 2 | 25
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/307610307) [haskellPackages.avro](https://hydra.nixos.org/eval/1818633?filter=haskellPackages.avro)  ⤴️ 2 | 10
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/307521331) [haskellPackages.quantification](https://hydra.nixos.org/eval/1818633?filter=haskellPackages.quantification)  ⤴️ 2 | 10
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/307611574) [haskellPackages.xml-conduit-writer](https://hydra.nixos.org/eval/1818633?filter=haskellPackages.xml-conduit-writer)  ⤴️ 2 | 7
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/307610574) [haskellPackages.gi-gtk-hs](https://hydra.nixos.org/eval/1818633?filter=haskellPackages.gi-gtk-hs)  ⤴️ 2 | 6
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/307519217) [haskellPackages.hgmp](https://hydra.nixos.org/eval/1818633?filter=haskellPackages.hgmp)  ⤴️ 2 | 6
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/307611393) [haskellPackages.sr-extra](https://hydra.nixos.org/eval/1818633?filter=haskellPackages.sr-extra)  ⤴️ 2 | 5
@@ -96,7 +97,6 @@
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/307516787) [haskellPackages.ascii-group](https://hydra.nixos.org/eval/1818633?filter=haskellPackages.ascii-group)  ⤴️ 1 | 9
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/307517167) [haskellPackages.bytestring-nums](https://hydra.nixos.org/eval/1818633?filter=haskellPackages.bytestring-nums)  ⤴️ 1 | 9
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/307609920) [haskellPackages.Frames](https://hydra.nixos.org/eval/1818633?filter=haskellPackages.Frames)  ⤴️ 1 | 7
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/307611574) [haskellPackages.xml-conduit-writer](https://hydra.nixos.org/eval/1818633?filter=haskellPackages.xml-conduit-writer)  ⤴️ 1 | 7
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/307519243) [haskellPackages.hjson](https://hydra.nixos.org/eval/1818633?filter=haskellPackages.hjson)  ⤴️ 1 | 6
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/307610877) [haskellPackages.hasql-transaction-io](https://hydra.nixos.org/eval/1818633?filter=haskellPackages.hasql-transaction-io)  ⤴️ 1 | 5
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/307522924) [haskellPackages.uuagc-cabal](https://hydra.nixos.org/eval/1818633?filter=haskellPackages.uuagc-cabal)  ⤴️ 1 | 5
@@ -130,6 +130,7 @@
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/307521826) [haskellPackages.servant-routes](https://hydra.nixos.org/eval/1818633?filter=haskellPackages.servant-routes)  ⤴️ 1 | 1
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/307522184) [haskellPackages.stm-tlist](https://hydra.nixos.org/eval/1818633?filter=haskellPackages.stm-tlist)  ⤴️ 1 | 1
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/307522286) [haskellPackages.symtegration](https://hydra.nixos.org/eval/1818633?filter=haskellPackages.symtegration)  ⤴️ 1 | 1
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/307522744) [haskellPackages.typed-protocols](https://hydra.nixos.org/eval/1818633?filter=haskellPackages.typed-protocols)  ⤴️ 1 | 1
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/307522857) [haskellPackages.unleash-client-haskell-core](https://hydra.nixos.org/eval/1818633?filter=haskellPackages.unleash-client-haskell-core)  ⤴️ 1 | 1
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/307611565) [haskellPackages.wild-bind-indicator](https://hydra.nixos.org/eval/1818633?filter=haskellPackages.wild-bind-indicator)  ⤴️ 1 | 1
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/307518230) [haskellPackages.extensible](https://hydra.nixos.org/eval/1818633?filter=haskellPackages.extensible)  ⤴️ 0 | 13
@@ -189,7 +190,6 @@
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/307521878) [haskellPackages.set-monad](https://hydra.nixos.org/eval/1818633?filter=haskellPackages.set-monad)  ⤴️ 0 | 1
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/307522028) [haskellPackages.snappy-hs](https://hydra.nixos.org/eval/1818633?filter=haskellPackages.snappy-hs)  ⤴️ 0 | 1
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/307522202) [haskellPackages.streamly-process](https://hydra.nixos.org/eval/1818633?filter=haskellPackages.streamly-process)  ⤴️ 0 | 1
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/307522744) [haskellPackages.typed-protocols](https://hydra.nixos.org/eval/1818633?filter=haskellPackages.typed-protocols)  ⤴️ 0 | 1
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/307523211) [haskellPackages.xz](https://hydra.nixos.org/eval/1818633?filter=haskellPackages.xz)  ⤴️ 0 | 1
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/307515919) [haskellPackages.AsyncRattus](https://hydra.nixos.org/eval/1818633?filter=haskellPackages.AsyncRattus) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/307515968) [haskellPackages.ConClusion](https://hydra.nixos.org/eval/1818633?filter=haskellPackages.ConClusion) 
@@ -590,7 +590,6 @@
 [wxc](https://packdeps.haskellers.com/reverse/wxc) ⤴️ 21  
 [biocore](https://packdeps.haskellers.com/reverse/biocore) ⤴️ 20  
 [hw-excess](https://packdeps.haskellers.com/reverse/hw-excess) ⤴️ 20  
-[reform](https://packdeps.haskellers.com/reverse/reform) ⤴️ 20  
 [wxcore](https://packdeps.haskellers.com/reverse/wxcore) ⤴️ 20  
 [attoparsec-enumerator](https://packdeps.haskellers.com/reverse/attoparsec-enumerator) ⤴️ 19  
 [cprng-aes](https://packdeps.haskellers.com/reverse/cprng-aes) ⤴️ 19  
@@ -608,6 +607,7 @@
 [gtksourceview2](https://packdeps.haskellers.com/reverse/gtksourceview2) ⤴️ 18  
 [hw-rankselect](https://packdeps.haskellers.com/reverse/hw-rankselect) ⤴️ 18  
 [wrapped](https://packdeps.haskellers.com/reverse/wrapped) ⤴️ 18  
+[BiobaseXNA](https://packdeps.haskellers.com/reverse/BiobaseXNA) ⤴️ 17  
 </details>
 
 
