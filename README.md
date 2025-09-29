@@ -1,52 +1,16 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1818841](https://hydra.nixos.org/eval/1818841) of nixpkgs commit [1deb923](https://github.com/NixOS/nixpkgs/commits/1deb92346fcabee253bca127c316d2dabd1f8df1) as of 2025-09-28 18:10 UTC*
+*evaluation [1818900](https://hydra.nixos.org/eval/1818900) of nixpkgs commit [bcab0af](https://github.com/NixOS/nixpkgs/commits/bcab0af638f6ae0b726eeab1f7d501d7594950d9) as of 2025-09-29 01:54 UTC*
 
 🔴 **Branch not mergeable**
   * No `mergeable` job found.
   * No `maintained` job found.
+  * Too many outstanding jobs on x86_64-linux.
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | Canceled 🚫 | HydraFailure 🚧 | Success ✅ | 
- | --- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1818841?filter=.x86_64-linux) | 4 | 11 | 6354 | 1 | 852 | 
-#### Maintained Linux packages with build failure
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/308383396) [naproche](https://hydra.nixos.org/eval/1818841?filter=naproche) @jvanbruegge
-#### Maintained Linux packages with failed dependency
-- [ ] [haskell-language-server](https://hydra.nixos.org/eval/1818841?filter=haskell-language-server) @maralorn
-  - [[🐧🚫]](https://hydra.nixos.org/build/308376293) [toplevel](https://hydra.nixos.org/eval/1818841?filter=haskell-language-server)
-  - [[🐧🚫]](https://hydra.nixos.org/build/308376163) [haskell.packages.ghc9101](https://hydra.nixos.org/eval/1818841?filter=haskell.packages.ghc9101.haskell-language-server)
-  - [[🐧🚫]](https://hydra.nixos.org/build/308376192) [haskell.packages.ghc9102](https://hydra.nixos.org/eval/1818841?filter=haskell.packages.ghc9102.haskell-language-server)
-  - [[🐧🚫]](https://hydra.nixos.org/build/308376166) [haskell.packages.ghc9103](https://hydra.nixos.org/eval/1818841?filter=haskell.packages.ghc9103.haskell-language-server)
-  - [[🐧🚫]](https://hydra.nixos.org/build/308376240) [haskell.packages.ghc9122](https://hydra.nixos.org/eval/1818841?filter=haskell.packages.ghc9122.haskell-language-server)
-  - [[🐧🚫]](https://hydra.nixos.org/build/308376230) [haskell.packages.ghc948](https://hydra.nixos.org/eval/1818841?filter=haskell.packages.ghc948.haskell-language-server)
-  - [[🐧❗]](https://hydra.nixos.org/build/308376948) [haskell.packages.ghc963](https://hydra.nixos.org/eval/1818841?filter=haskell.packages.ghc963.haskell-language-server)
-  - [[🐧🚫]](https://hydra.nixos.org/build/308376763) [haskell.packages.ghc967](https://hydra.nixos.org/eval/1818841?filter=haskell.packages.ghc967.haskell-language-server)
-  - [[🐧🚫]](https://hydra.nixos.org/build/308377189) [haskell.packages.ghc984](https://hydra.nixos.org/eval/1818841?filter=haskell.packages.ghc984.haskell-language-server)
-  - [[🐧🚫]](https://hydra.nixos.org/build/308379376) [haskellPackages](https://hydra.nixos.org/eval/1818841?filter=haskellPackages.haskell-language-server)
-#### Unmaintained packages with build failure
-<details><summary>3 job(s) </summary>
-
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/308380461) [haskellPackages.microlens-pro](https://hydra.nixos.org/eval/1818841?filter=haskellPackages.microlens-pro)  ⤴️ 340 | 396
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/308383265) [haskellPackages.xml-html-qq](https://hydra.nixos.org/eval/1818841?filter=haskellPackages.xml-html-qq)  ⤴️ 0 | 1
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/308382849) [haskellPackages.typed-gui](https://hydra.nixos.org/eval/1818841?filter=haskellPackages.typed-gui) 
-</details>
-
-#### Unmaintained packages with failed dependency
-<details><summary>10 job(s) </summary>
-
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/308376804) [haskellPackages.amazonka-core](https://hydra.nixos.org/eval/1818841?filter=haskellPackages.amazonka-core)  ⤴️ 338 | 394
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/308376743) [haskellPackages.amazonka-applicationcostprofiler](https://hydra.nixos.org/eval/1818841?filter=haskellPackages.amazonka-applicationcostprofiler) 
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/308376757) [haskellPackages.amazonka-batch](https://hydra.nixos.org/eval/1818841?filter=haskellPackages.amazonka-batch) 
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/308376771) [haskellPackages.amazonka-clouddirectory](https://hydra.nixos.org/eval/1818841?filter=haskellPackages.amazonka-clouddirectory) 
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/308376787) [haskellPackages.amazonka-codepipeline](https://hydra.nixos.org/eval/1818841?filter=haskellPackages.amazonka-codepipeline) 
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/308376890) [haskellPackages.amazonka-gamelift](https://hydra.nixos.org/eval/1818841?filter=haskellPackages.amazonka-gamelift) 
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/308376894) [haskellPackages.amazonka-ivschat](https://hydra.nixos.org/eval/1818841?filter=haskellPackages.amazonka-ivschat) 
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/308376952) [haskellPackages.amazonka-opensearchserverless](https://hydra.nixos.org/eval/1818841?filter=haskellPackages.amazonka-opensearchserverless) 
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/308377030) [haskellPackages.amazonka-ssm-incidents](https://hydra.nixos.org/eval/1818841?filter=haskellPackages.amazonka-ssm-incidents) 
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/308377042) [haskellPackages.amazonka-test](https://hydra.nixos.org/eval/1818841?filter=haskellPackages.amazonka-test) 
-</details>
-
+ | Platform | HydraFailure 🚧 | Unfinished ⏳ | Success ✅ | 
+ | --- | --- | --- | --- | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1818900?filter=.x86_64-linux) | 1 | 7185 | 5 | 
 #### Top 50 broken packages, sorted by number of reverse dependencies
 <details><summary>50 job(s) </summary>
 
