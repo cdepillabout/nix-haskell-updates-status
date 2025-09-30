@@ -1,22 +1,21 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1818900](https://hydra.nixos.org/eval/1818900) of nixpkgs commit [bcab0af](https://github.com/NixOS/nixpkgs/commits/bcab0af638f6ae0b726eeab1f7d501d7594950d9) as of 2025-09-30 06:10 UTC*
+*evaluation [1818900](https://hydra.nixos.org/eval/1818900) of nixpkgs commit [bcab0af](https://github.com/NixOS/nixpkgs/commits/bcab0af638f6ae0b726eeab1f7d501d7594950d9) as of 2025-09-30 12:12 UTC*
 
 🔴 **Branch not mergeable**
   * No `mergeable` job found.
   * No `maintained` job found.
-  * Too many outstanding jobs on x86_64-linux.
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | HydraFailure 🚧 | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1818900?filter=.x86_64-linux) | 43 | 327 | 1 | 725 | 6136 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | HydraFailure 🚧 | Success ✅ | 
+ | --- | --- | --- | --- | --- | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1818900?filter=.x86_64-linux) | 49 | 359 | 1 | 6787 | 
 #### Maintained Linux packages with build failure
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/308450635) [haskellPackages.botan-bindings](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.botan-bindings) @mikatammi
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/308449302) [echidna](https://hydra.nixos.org/eval/1818900?filter=echidna) @arcz @hellwolf
 - [ ] [hlint](https://hydra.nixos.org/eval/1818900?filter=hlint) @maralorn
   - [[🐧✅]](https://hydra.nixos.org/build/308456606) [toplevel](https://hydra.nixos.org/eval/1818900?filter=hlint)
-  - [[🐧⏳]](https://hydra.nixos.org/build/308449405) [haskell.packages.ghc948](https://hydra.nixos.org/eval/1818900?filter=haskell.packages.ghc948.hlint)
+  - [[🐧✅]](https://hydra.nixos.org/build/308449405) [haskell.packages.ghc948](https://hydra.nixos.org/eval/1818900?filter=haskell.packages.ghc948.hlint)
   - [[🐧❌]](https://hydra.nixos.org/build/308449438) [haskell.packages.ghc963](https://hydra.nixos.org/eval/1818900?filter=haskell.packages.ghc963.hlint)
   - [[🐧❌]](https://hydra.nixos.org/build/308449451) [haskell.packages.ghc967](https://hydra.nixos.org/eval/1818900?filter=haskell.packages.ghc967.hlint)
   - [[🐧❌]](https://hydra.nixos.org/build/308449500) [haskell.packages.ghc984](https://hydra.nixos.org/eval/1818900?filter=haskell.packages.ghc984.hlint)
@@ -33,13 +32,13 @@
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450642) [haskellPackages.botan-low](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.botan-low) @mikatammi
 - [ ] [cachix](https://hydra.nixos.org/eval/1818900?filter=cachix) @domenkozar
   - [[🐧❗]](https://hydra.nixos.org/build/308449305) [toplevel](https://hydra.nixos.org/eval/1818900?filter=cachix)
-  - [[🐧⏳]](https://hydra.nixos.org/build/308450799) [haskellPackages](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.cachix)
+  - [[🐧❗]](https://hydra.nixos.org/build/308450799) [haskellPackages](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.cachix)
 - [ ] [haskell-language-server](https://hydra.nixos.org/eval/1818900?filter=haskell-language-server) @maralorn
   - [[🐧✅]](https://hydra.nixos.org/build/308449493) [toplevel](https://hydra.nixos.org/eval/1818900?filter=haskell-language-server)
   - [[🐧✅]](https://hydra.nixos.org/build/308449389) [haskell.packages.ghc9101](https://hydra.nixos.org/eval/1818900?filter=haskell.packages.ghc9101.haskell-language-server)
   - [[🐧✅]](https://hydra.nixos.org/build/308449406) [haskell.packages.ghc9102](https://hydra.nixos.org/eval/1818900?filter=haskell.packages.ghc9102.haskell-language-server)
   - [[🐧✅]](https://hydra.nixos.org/build/308449392) [haskell.packages.ghc9103](https://hydra.nixos.org/eval/1818900?filter=haskell.packages.ghc9103.haskell-language-server)
-  - [[🐧⏳]](https://hydra.nixos.org/build/308449468) [haskell.packages.ghc9122](https://hydra.nixos.org/eval/1818900?filter=haskell.packages.ghc9122.haskell-language-server)
+  - [[🐧❗]](https://hydra.nixos.org/build/308449468) [haskell.packages.ghc9122](https://hydra.nixos.org/eval/1818900?filter=haskell.packages.ghc9122.haskell-language-server)
   - [[🐧❗]](https://hydra.nixos.org/build/308449471) [haskell.packages.ghc948](https://hydra.nixos.org/eval/1818900?filter=haskell.packages.ghc948.haskell-language-server)
   - [[🐧❗]](https://hydra.nixos.org/build/308449662) [haskell.packages.ghc963](https://hydra.nixos.org/eval/1818900?filter=haskell.packages.ghc963.haskell-language-server)
   - [[🐧❗]](https://hydra.nixos.org/build/308449877) [haskell.packages.ghc967](https://hydra.nixos.org/eval/1818900?filter=haskell.packages.ghc967.haskell-language-server)
@@ -47,7 +46,7 @@
   - [[🐧✅]](https://hydra.nixos.org/build/308452515) [haskellPackages](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.haskell-language-server)
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308449497) [hci](https://hydra.nixos.org/eval/1818900?filter=hci) @roberth
 - [ ] [hercules-ci-agent](https://hydra.nixos.org/eval/1818900?filter=hercules-ci-agent) @roberth
-  - [[🐧⏳]](https://hydra.nixos.org/build/308456604) [toplevel](https://hydra.nixos.org/eval/1818900?filter=hercules-ci-agent)
+  - [[🐧❗]](https://hydra.nixos.org/build/308456604) [toplevel](https://hydra.nixos.org/eval/1818900?filter=hercules-ci-agent)
   - [[🐧❗]](https://hydra.nixos.org/build/308452637) [haskellPackages](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.hercules-ci-agent)
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308452668) [haskellPackages.hercules-ci-cli](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.hercules-ci-cli) @roberth
 - [ ] [weeder](https://hydra.nixos.org/eval/1818900?filter=weeder) @maralorn
@@ -57,7 +56,7 @@
   - [[🐧✅]](https://hydra.nixos.org/build/308449488) [haskell.packages.ghc984](https://hydra.nixos.org/eval/1818900?filter=haskell.packages.ghc984.weeder)
   - [[🐧✅]](https://hydra.nixos.org/build/308456383) [haskellPackages](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.weeder)
 #### Unmaintained packages with build failure
-<details><summary>47 job(s) </summary>
+<details><summary>53 job(s) </summary>
 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/308453681) [haskellPackages.microlens-pro](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.microlens-pro)  ⤴️ 340 | 396
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/308450651) [haskellPackages.box-socket](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.box-socket)  ⤴️ 4 | 7
@@ -72,6 +71,8 @@
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/308450916) [haskellPackages.calamity](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.calamity)  ⤴️ 0 | 2
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/308449650) [haskellPackages.H](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.H) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/308449830) [haskellPackages.SyntaxMacros](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.SyntaxMacros) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/308449880) [haskellPackages.aes-gcm](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.aes-gcm) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/308449942) [haskellPackages.alpha](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.alpha) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/308450885) [haskellPackages.circuit-notation](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.circuit-notation) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/308450908) [haskellPackages.clod](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.clod) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/308451134) [haskellPackages.convert-annotation](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.convert-annotation) 
@@ -79,6 +80,7 @@
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/308451258) [haskellPackages.data-list-zigzag](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.data-list-zigzag) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/308451334) [haskellPackages.derive-topdown](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.derive-topdown) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/308451745) [haskellPackages.fastparser](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.fastparser) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/308449243) [fffuu](https://hydra.nixos.org/eval/1818900?filter=fffuu) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/308451906) [haskellPackages.fxpak](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.fxpak) 
 - [ ] [ghc-lib](https://hydra.nixos.org/eval/1818900?filter=ghc-lib) 
   - [[🐧✅]](https://hydra.nixos.org/build/308449294) [haskell.packages.ghc9101](https://hydra.nixos.org/eval/1818900?filter=haskell.packages.ghc9101.ghc-lib)
@@ -91,16 +93,19 @@
   - [[🐧❌]](https://hydra.nixos.org/build/308449456) [haskell.packages.ghc984](https://hydra.nixos.org/eval/1818900?filter=haskell.packages.ghc984.ghc-lib)
   - [[🐧✅]](https://hydra.nixos.org/build/308452024) [haskellPackages](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.ghc-lib)
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/308452169) [haskellPackages.gmap](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.gmap) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/308452672) [haskellPackages.hint-nix](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.hint-nix) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/308452784) [haskellPackages.hora](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.hora) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/308452750) [haskellPackages.hp2pretty](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.hp2pretty) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/308453460) [haskellPackages.langchain-hs](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.langchain-hs) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/308453545) [haskellPackages.ltext](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.ltext) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/308453954) [haskellPackages.nbparts](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.nbparts) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/308454112) [haskellPackages.ollama-holes-plugin](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.ollama-holes-plugin) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/308454836) [haskellPackages.reflex-dom-ionic](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.reflex-dom-ionic) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/308454932) [haskellPackages.robin-hood-profit](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.robin-hood-profit) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/308454960) [haskellPackages.roboservant](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.roboservant) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/308455044) [haskellPackages.sasha](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.sasha) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/308455363) [haskellPackages.skews](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.skews) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/308455389) [haskellPackages.sqlite-easy](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.sqlite-easy) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/308455497) [haskellPackages.streamly-filepath](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.streamly-filepath) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/308456006) [haskellPackages.turni](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.turni) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/308456055) [haskellPackages.typed-gui](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.typed-gui) 
@@ -109,9 +114,10 @@
 </details>
 
 #### Unmaintained packages with failed dependency
-<details><summary>327 job(s) </summary>
+<details><summary>359 job(s) </summary>
 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450026) [haskellPackages.amazonka-core](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-core)  ⤴️ 338 | 394
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/308450258) [haskellPackages.amazonka-sso](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-sso)  ⤴️ 6 | 55
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450262) [haskellPackages.amazonka-sts](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-sts)  ⤴️ 6 | 55
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450219) [haskellPackages.amazonka-s3](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-s3)  ⤴️ 5 | 27
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308456340) [haskellPackages.web-rep](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.web-rep)  ⤴️ 3 | 6
@@ -123,22 +129,28 @@
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450572) [haskellPackages.bitcoin-types](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.bitcoin-types)  ⤴️ 0 | 4
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308449993) [haskellPackages.amazonka-cloudformation](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-cloudformation)  ⤴️ 0 | 3
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450049) [haskellPackages.amazonka-ec2](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-ec2)  ⤴️ 0 | 3
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/308450276) [haskellPackages.amazonka-swf](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-swf)  ⤴️ 0 | 3
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/308449976) [haskellPackages.amazonka-autoscaling](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-autoscaling)  ⤴️ 0 | 2
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450001) [haskellPackages.amazonka-cloudwatch](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-cloudwatch)  ⤴️ 0 | 2
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450067) [haskellPackages.amazonka-elasticsearch](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-elasticsearch)  ⤴️ 0 | 2
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450128) [haskellPackages.amazonka-lambda](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-lambda)  ⤴️ 0 | 2
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450201) [haskellPackages.amazonka-rds](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-rds)  ⤴️ 0 | 2
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450205) [haskellPackages.amazonka-rds-data](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-rds-data)  ⤴️ 0 | 2
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/308450256) [haskellPackages.amazonka-ses](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-ses)  ⤴️ 0 | 2
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450257) [haskellPackages.amazonka-sns](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-sns)  ⤴️ 0 | 2
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308453688) [haskellPackages.mealy](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.mealy)  ⤴️ 0 | 2
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308449975) [haskellPackages.amazonka-athena](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-athena)  ⤴️ 0 | 1
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450054) [haskellPackages.amazonka-ecs](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-ecs)  ⤴️ 0 | 1
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450206) [haskellPackages.amazonka-kinesis](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-kinesis)  ⤴️ 0 | 1
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450243) [haskellPackages.amazonka-secretsmanager](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-secretsmanager)  ⤴️ 0 | 1
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/308449953) [haskellPackages.amazonka-accessanalyzer](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-accessanalyzer) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308449984) [haskellPackages.amazonka-account](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-account) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308449959) [haskellPackages.amazonka-alexa-business](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-alexa-business) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308449956) [haskellPackages.amazonka-amp](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-amp) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308449962) [haskellPackages.amazonka-amplify](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-amplify) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308449963) [haskellPackages.amazonka-amplifybackend](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-amplifybackend) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/308449957) [haskellPackages.amazonka-amplifyuibuilder](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-amplifyuibuilder) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/308449961) [haskellPackages.amazonka-apigateway](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-apigateway) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308449960) [haskellPackages.amazonka-apigatewaymanagementapi](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-apigatewaymanagementapi) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308449970) [haskellPackages.amazonka-apigatewayv2](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-apigatewayv2) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308449965) [haskellPackages.amazonka-appconfig](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-appconfig) 
@@ -165,31 +177,38 @@
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450007) [haskellPackages.amazonka-certificatemanager](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-certificatemanager) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308449983) [haskellPackages.amazonka-certificatemanager-pca](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-certificatemanager-pca) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308449998) [haskellPackages.amazonka-chime](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-chime) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/308449986) [haskellPackages.amazonka-chime-sdk-identity](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-chime-sdk-identity) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308449987) [haskellPackages.amazonka-chime-sdk-media-pipelines](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-chime-sdk-media-pipelines) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308449989) [haskellPackages.amazonka-chime-sdk-meetings](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-chime-sdk-meetings) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308449990) [haskellPackages.amazonka-chime-sdk-messaging](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-chime-sdk-messaging) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308449992) [haskellPackages.amazonka-chime-sdk-voice](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-chime-sdk-voice) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/308449997) [haskellPackages.amazonka-cloud9](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-cloud9) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308449994) [haskellPackages.amazonka-cloudcontrol](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-cloudcontrol) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308449995) [haskellPackages.amazonka-clouddirectory](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-clouddirectory) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450002) [haskellPackages.amazonka-cloudfront](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-cloudfront) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450029) [haskellPackages.amazonka-cloudhsm](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-cloudhsm) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/308450004) [haskellPackages.amazonka-cloudhsmv2](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-cloudhsmv2) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450011) [haskellPackages.amazonka-cloudsearch](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-cloudsearch) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450003) [haskellPackages.amazonka-cloudsearch-domains](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-cloudsearch-domains) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450010) [haskellPackages.amazonka-cloudtrail](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-cloudtrail) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450012) [haskellPackages.amazonka-cloudwatch-events](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-cloudwatch-events) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450005) [haskellPackages.amazonka-cloudwatch-logs](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-cloudwatch-logs) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450018) [haskellPackages.amazonka-codeartifact](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-codeartifact) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/308450089) [haskellPackages.amazonka-codebuild](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-codebuild) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450016) [haskellPackages.amazonka-codecommit](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-codecommit) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450009) [haskellPackages.amazonka-codedeploy](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-codedeploy) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/308450019) [haskellPackages.amazonka-codeguru-reviewer](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-codeguru-reviewer) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450103) [haskellPackages.amazonka-codeguruprofiler](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-codeguruprofiler) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450031) [haskellPackages.amazonka-codepipeline](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-codepipeline) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450013) [haskellPackages.amazonka-codestar](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-codestar) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450014) [haskellPackages.amazonka-codestar-connections](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-codestar-connections) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450015) [haskellPackages.amazonka-codestar-notifications](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-codestar-notifications) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450024) [haskellPackages.amazonka-cognito-identity](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-cognito-identity) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/308450043) [haskellPackages.amazonka-cognito-idp](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-cognito-idp) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450017) [haskellPackages.amazonka-cognito-sync](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-cognito-sync) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450030) [haskellPackages.amazonka-comprehend](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-comprehend) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450020) [haskellPackages.amazonka-comprehendmedical](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-comprehendmedical) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/308450032) [haskellPackages.amazonka-compute-optimizer](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-compute-optimizer) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450045) [haskellPackages.amazonka-config](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-config) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450022) [haskellPackages.amazonka-connect](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-connect) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450028) [haskellPackages.amazonka-connect-contact-lens](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-connect-contact-lens) 
@@ -227,9 +246,11 @@
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450063) [haskellPackages.amazonka-elasticbeanstalk](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-elasticbeanstalk) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450061) [haskellPackages.amazonka-elastictranscoder](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-elastictranscoder) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450062) [haskellPackages.amazonka-elb](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-elb) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/308450094) [haskellPackages.amazonka-elbv2](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-elbv2) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450064) [haskellPackages.amazonka-emr](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-emr) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450082) [haskellPackages.amazonka-emr-containers](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-emr-containers) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450080) [haskellPackages.amazonka-emr-serverless](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-emr-serverless) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/308450069) [haskellPackages.amazonka-evidently](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-evidently) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450077) [haskellPackages.amazonka-finspace](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-finspace) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450085) [haskellPackages.amazonka-finspace-data](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-finspace-data) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450090) [haskellPackages.amazonka-fis](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-fis) 
@@ -238,6 +259,7 @@
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450071) [haskellPackages.amazonka-forecastquery](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-forecastquery) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450074) [haskellPackages.amazonka-frauddetector](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-frauddetector) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450073) [haskellPackages.amazonka-fsx](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-fsx) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/308450076) [haskellPackages.amazonka-gamelift](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-gamelift) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450078) [haskellPackages.amazonka-gamesparks](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-gamesparks) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450081) [haskellPackages.amazonka-glacier](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-glacier) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450092) [haskellPackages.amazonka-globalaccelerator](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-globalaccelerator) 
@@ -253,15 +275,18 @@
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450091) [haskellPackages.amazonka-iam](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-iam) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450115) [haskellPackages.amazonka-identitystore](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-identitystore) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450099) [haskellPackages.amazonka-imagebuilder](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-imagebuilder) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/308450101) [haskellPackages.amazonka-importexport](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-importexport) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450093) [haskellPackages.amazonka-inspector](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-inspector) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450107) [haskellPackages.amazonka-inspector2](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-inspector2) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450095) [haskellPackages.amazonka-iot](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-iot) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450118) [haskellPackages.amazonka-iot-analytics](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-iot-analytics) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450097) [haskellPackages.amazonka-iot-dataplane](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-iot-dataplane) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450113) [haskellPackages.amazonka-iot-jobs-dataplane](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-iot-jobs-dataplane) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/308450098) [haskellPackages.amazonka-iot-roborunner](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-iot-roborunner) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450109) [haskellPackages.amazonka-iot1click-devices](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-iot1click-devices) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450102) [haskellPackages.amazonka-iot1click-projects](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-iot1click-projects) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450125) [haskellPackages.amazonka-iotdeviceadvisor](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-iotdeviceadvisor) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/308450116) [haskellPackages.amazonka-iotevents](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-iotevents) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450104) [haskellPackages.amazonka-iotevents-data](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-iotevents-data) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450106) [haskellPackages.amazonka-iotfleethub](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-iotfleethub) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450112) [haskellPackages.amazonka-iotfleetwise](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-iotfleetwise) 
@@ -308,6 +333,7 @@
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450150) [haskellPackages.amazonka-mediaconnect](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-mediaconnect) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450152) [haskellPackages.amazonka-mediaconvert](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-mediaconvert) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450172) [haskellPackages.amazonka-medialive](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-medialive) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/308450153) [haskellPackages.amazonka-mediapackage](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-mediapackage) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450162) [haskellPackages.amazonka-mediapackage-vod](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-mediapackage-vod) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450166) [haskellPackages.amazonka-mediastore](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-mediastore) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450157) [haskellPackages.amazonka-mediastore-dataplane](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-mediastore-dataplane) 
@@ -319,6 +345,8 @@
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450163) [haskellPackages.amazonka-migrationhub-config](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-migrationhub-config) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450179) [haskellPackages.amazonka-migrationhuborchestrator](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-migrationhuborchestrator) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450164) [haskellPackages.amazonka-migrationhubstrategy](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-migrationhubstrategy) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/308450165) [haskellPackages.amazonka-ml](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-ml) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/308450176) [haskellPackages.amazonka-mobile](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-mobile) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450169) [haskellPackages.amazonka-mq](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-mq) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450223) [haskellPackages.amazonka-mwaa](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-mwaa) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450168) [haskellPackages.amazonka-neptune](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-neptune) 
@@ -329,7 +357,9 @@
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450175) [haskellPackages.amazonka-omics](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-omics) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450181) [haskellPackages.amazonka-opensearch](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-opensearch) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450185) [haskellPackages.amazonka-opensearchserverless](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-opensearchserverless) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/308450177) [haskellPackages.amazonka-opsworks](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-opsworks) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450183) [haskellPackages.amazonka-opsworks-cm](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-opsworks-cm) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/308450178) [haskellPackages.amazonka-organizations](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-organizations) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450180) [haskellPackages.amazonka-outposts](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-outposts) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450195) [haskellPackages.amazonka-panorama](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-panorama) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450184) [haskellPackages.amazonka-personalize](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-personalize) 
@@ -352,6 +382,7 @@
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450218) [haskellPackages.amazonka-rbin](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-rbin) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450203) [haskellPackages.amazonka-redshift](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-redshift) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450220) [haskellPackages.amazonka-redshift-data](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-redshift-data) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/308450215) [haskellPackages.amazonka-redshift-serverless](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-redshift-serverless) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450249) [haskellPackages.amazonka-rekognition](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-rekognition) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450209) [haskellPackages.amazonka-resiliencehub](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-resiliencehub) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450207) [haskellPackages.amazonka-resource-explorer-v2](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-resource-explorer-v2) 
@@ -373,7 +404,9 @@
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450224) [haskellPackages.amazonka-sagemaker-a2i-runtime](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-sagemaker-a2i-runtime) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450241) [haskellPackages.amazonka-sagemaker-edge](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-sagemaker-edge) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450232) [haskellPackages.amazonka-sagemaker-featurestore-runtime](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-sagemaker-featurestore-runtime) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/308450226) [haskellPackages.amazonka-sagemaker-geospatial](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-sagemaker-geospatial) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450234) [haskellPackages.amazonka-sagemaker-metrics](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-sagemaker-metrics) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/308450235) [haskellPackages.amazonka-sagemaker-runtime](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-sagemaker-runtime) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450261) [haskellPackages.amazonka-savingsplans](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-savingsplans) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450231) [haskellPackages.amazonka-scheduler](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-scheduler) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450242) [haskellPackages.amazonka-schemas](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-schemas) 
@@ -388,10 +421,12 @@
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450271) [haskellPackages.amazonka-shield](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-shield) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450253) [haskellPackages.amazonka-signer](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-signer) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450245) [haskellPackages.amazonka-simspaceweaver](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-simspaceweaver) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/308450255) [haskellPackages.amazonka-sms](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-sms) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450250) [haskellPackages.amazonka-sms-voice](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-sms-voice) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450248) [haskellPackages.amazonka-snow-device-management](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-snow-device-management) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450259) [haskellPackages.amazonka-snowball](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-snowball) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450252) [haskellPackages.amazonka-ssm](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-ssm) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/308450254) [haskellPackages.amazonka-ssm-contacts](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-ssm-contacts) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450281) [haskellPackages.amazonka-ssm-incidents](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-ssm-incidents) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450278) [haskellPackages.amazonka-ssm-sap](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-ssm-sap) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450260) [haskellPackages.amazonka-sso-admin](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-sso-admin) 
@@ -415,6 +450,7 @@
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450289) [haskellPackages.amazonka-wellarchitected](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-wellarchitected) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450279) [haskellPackages.amazonka-wisdom](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-wisdom) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450282) [haskellPackages.amazonka-workdocs](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-workdocs) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/308450283) [haskellPackages.amazonka-worklink](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-worklink) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450280) [haskellPackages.amazonka-workmail](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-workmail) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450285) [haskellPackages.amazonka-workmailmessageflow](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-workmailmessageflow) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308450284) [haskellPackages.amazonka-workspaces](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.amazonka-workspaces) 
@@ -435,8 +471,9 @@
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308453269) [haskellPackages.keera-hails-i18n](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.keera-hails-i18n) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308453471) [haskellPackages.lion](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.lion) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/308454089) [haskellPackages.oberon0](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.oberon0) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/308454205) [haskellPackages.orbits](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.orbits) 
 - [ ] [spago](https://hydra.nixos.org/eval/1818900?filter=spago) 
-  - [[🐧⏳]](https://hydra.nixos.org/build/308456713) [toplevel](https://hydra.nixos.org/eval/1818900?filter=spago)
+  - [[🐧❗]](https://hydra.nixos.org/build/308456713) [toplevel](https://hydra.nixos.org/eval/1818900?filter=spago)
   - [[🐧❗]](https://hydra.nixos.org/build/308455399) [haskellPackages](https://hydra.nixos.org/eval/1818900?filter=haskellPackages.spago)
 </details>
 
