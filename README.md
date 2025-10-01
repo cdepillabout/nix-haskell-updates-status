@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1818954](https://hydra.nixos.org/eval/1818954) of nixpkgs commit [efcc559](https://github.com/NixOS/nixpkgs/commits/efcc55998fb90b43e20a5411f17d27342f6941db) as of 2025-10-01 06:10 UTC*
+*evaluation [1818954](https://hydra.nixos.org/eval/1818954) of nixpkgs commit [efcc559](https://github.com/NixOS/nixpkgs/commits/efcc55998fb90b43e20a5411f17d27342f6941db) as of 2025-10-01 12:12 UTC*
 
 🔴 **Branch not mergeable**
   * No `mergeable` job found.
@@ -10,7 +10,7 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | HydraFailure 🚧 | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1818954?filter=.x86_64-linux) | 40 | 15 | 1 | 1 | 236 | 6905 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1818954?filter=.x86_64-linux) | 40 | 15 | 1 | 1 | 198 | 6943 | 
 #### Maintained Linux packages with build failure
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/308449302) [echidna](https://hydra.nixos.org/eval/1818954?filter=echidna) @arcz @hellwolf
 - [ ] [hlint](https://hydra.nixos.org/eval/1818954?filter=hlint) @maralorn
