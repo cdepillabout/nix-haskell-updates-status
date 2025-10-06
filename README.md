@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1819094](https://hydra.nixos.org/eval/1819094) of nixpkgs commit [d744820](https://github.com/NixOS/nixpkgs/commits/d7448200ec534e5f4566d25aa57cb19a24b2dffa) as of 2025-10-05 18:08 UTC*
+*evaluation [1819094](https://hydra.nixos.org/eval/1819094) of nixpkgs commit [d744820](https://github.com/NixOS/nixpkgs/commits/d7448200ec534e5f4566d25aa57cb19a24b2dffa) as of 2025-10-06 00:28 UTC*
 
 🔴 **Branch not mergeable**
   * No `mergeable` job found.
@@ -9,11 +9,22 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1819094?filter=.x86_64-linux) | 36 | 12 | 1 | 30 | 7136 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1819094?filter=.x86_64-linux) | 36 | 13 | 1 | 25 | 7141 | 
 #### Maintained Linux packages with build failure
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/308788495) [agdaPackages.agda2hs-base](https://hydra.nixos.org/eval/1819094?filter=agdaPackages.agda2hs-base) @wrvsrx
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/308456748) [tamarin-prover](https://hydra.nixos.org/eval/1819094?filter=tamarin-prover) @thoughtpolice
 #### Maintained Linux packages with failed dependency
+- [ ] [haskell-language-server](https://hydra.nixos.org/eval/1819094?filter=haskell-language-server) @maralorn
+  - [[🐧✅]](https://hydra.nixos.org/build/308449493) [toplevel](https://hydra.nixos.org/eval/1819094?filter=haskell-language-server)
+  - [[🐧✅]](https://hydra.nixos.org/build/308449389) [haskell.packages.ghc9101](https://hydra.nixos.org/eval/1819094?filter=haskell.packages.ghc9101.haskell-language-server)
+  - [[🐧✅]](https://hydra.nixos.org/build/308449406) [haskell.packages.ghc9102](https://hydra.nixos.org/eval/1819094?filter=haskell.packages.ghc9102.haskell-language-server)
+  - [[🐧✅]](https://hydra.nixos.org/build/308449392) [haskell.packages.ghc9103](https://hydra.nixos.org/eval/1819094?filter=haskell.packages.ghc9103.haskell-language-server)
+  - [[🐧⏳]](https://hydra.nixos.org/build/308951774) [haskell.packages.ghc9122](https://hydra.nixos.org/eval/1819094?filter=haskell.packages.ghc9122.haskell-language-server)
+  - [[🐧❗]](https://hydra.nixos.org/build/308951779) [haskell.packages.ghc948](https://hydra.nixos.org/eval/1819094?filter=haskell.packages.ghc948.haskell-language-server)
+  - [[🐧⏳]](https://hydra.nixos.org/build/308951780) [haskell.packages.ghc963](https://hydra.nixos.org/eval/1819094?filter=haskell.packages.ghc963.haskell-language-server)
+  - [[🐧⏳]](https://hydra.nixos.org/build/308951783) [haskell.packages.ghc967](https://hydra.nixos.org/eval/1819094?filter=haskell.packages.ghc967.haskell-language-server)
+  - [[🐧⏳]](https://hydra.nixos.org/build/308951781) [haskell.packages.ghc984](https://hydra.nixos.org/eval/1819094?filter=haskell.packages.ghc984.haskell-language-server)
+  - [[🐧✅]](https://hydra.nixos.org/build/308452515) [haskellPackages](https://hydra.nixos.org/eval/1819094?filter=haskellPackages.haskell-language-server)
 - [ ] [weeder](https://hydra.nixos.org/eval/1819094?filter=weeder) @maralorn
   - [[🐧⏳]](https://hydra.nixos.org/build/308951766) [haskell.packages.ghc948](https://hydra.nixos.org/eval/1819094?filter=haskell.packages.ghc948.weeder)
   - [[🐧❗]](https://hydra.nixos.org/build/308449443) [haskell.packages.ghc963](https://hydra.nixos.org/eval/1819094?filter=haskell.packages.ghc963.weeder)
