@@ -1,14 +1,14 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1819146](https://hydra.nixos.org/eval/1819146) of nixpkgs commit [3570093](https://github.com/NixOS/nixpkgs/commits/3570093d39a8a4cbb81394daab3416a07809cbc0) as of 2025-10-07 12:12 UTC*
+*evaluation [1819146](https://hydra.nixos.org/eval/1819146) of nixpkgs commit [3570093](https://github.com/NixOS/nixpkgs/commits/3570093d39a8a4cbb81394daab3416a07809cbc0) as of 2025-10-07 18:10 UTC*
 
 🔴 **Branch not mergeable**
   * No `mergeable` job found.
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1819146?filter=.x86_64-linux) | 38 | 12 | 1 | 1 | 7157 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Success ✅ | 
+ | --- | --- | --- | --- | --- | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1819146?filter=.x86_64-linux) | 38 | 12 | 1 | 7157 | 
 #### Maintained Linux packages with build failure
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/308788495) [agdaPackages.agda2hs-base](https://hydra.nixos.org/eval/1819146?filter=agdaPackages.agda2hs-base) @wrvsrx
 - [ ] [haskell-language-server](https://hydra.nixos.org/eval/1819146?filter=haskell-language-server) @maralorn
