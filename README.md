@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1819185](https://hydra.nixos.org/eval/1819185) of nixpkgs commit [054e2d2](https://github.com/NixOS/nixpkgs/commits/054e2d254162b5ee0f82299ff7557cb46a0aedcc) as of 2025-10-08 18:30 UTC*
+*evaluation [1819185](https://hydra.nixos.org/eval/1819185) of nixpkgs commit [054e2d2](https://github.com/NixOS/nixpkgs/commits/054e2d254162b5ee0f82299ff7557cb46a0aedcc) as of 2025-10-09 00:29 UTC*
 
 🔴 **Branch not mergeable**
   * No `mergeable` job found.
@@ -8,9 +8,16 @@
 
 #### Build summary
 
- | Platform | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1819185?filter=.x86_64-linux) | 6919 | 293 | 
+ | Platform | Failed ❌ | Unfinished ⏳ | Success ✅ | 
+ | --- | --- | --- | --- | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1819185?filter=.x86_64-linux) | 2 | 6394 | 830 | 
+#### Unmaintained packages with build failure
+<details><summary>2 job(s) </summary>
+
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/309816655) [haskellPackages.reform-blaze](https://hydra.nixos.org/eval/1819185?filter=haskellPackages.reform-blaze)  ⤴️ 0 | 3
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/309818237) [haskellPackages.winio](https://hydra.nixos.org/eval/1819185?filter=haskellPackages.winio) 
+</details>
+
 #### Top 50 broken packages, sorted by number of reverse dependencies
 <details><summary>50 job(s) </summary>
 
