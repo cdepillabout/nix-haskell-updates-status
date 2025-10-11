@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1819185](https://hydra.nixos.org/eval/1819185) of nixpkgs commit [054e2d2](https://github.com/NixOS/nixpkgs/commits/054e2d254162b5ee0f82299ff7557cb46a0aedcc) as of 2025-10-11 06:09 UTC*
+*evaluation [1819185](https://hydra.nixos.org/eval/1819185) of nixpkgs commit [054e2d2](https://github.com/NixOS/nixpkgs/commits/054e2d254162b5ee0f82299ff7557cb46a0aedcc) as of 2025-10-11 12:10 UTC*
 
 🔴 **Branch not mergeable**
   * No `mergeable` job found.
@@ -10,16 +10,19 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1819185?filter=.x86_64-linux) | 7 | 5 | 2 | 4982 | 2283 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1819185?filter=.x86_64-linux) | 10 | 5 | 2 | 4541 | 2724 | 
 #### Maintained Linux packages with build failure
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/309817291) [haskellPackages.streamly](https://hydra.nixos.org/eval/1819185?filter=haskellPackages.streamly) @maralorn
 #### Maintained Linux packages with failed dependency
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/309818551) [maintained](https://hydra.nixos.org/eval/1819185?filter=maintained) @cdepillabout @maralorn @sternenseemann @wolfgangwalther
 #### Unmaintained packages with build failure
-<details><summary>14 job(s) </summary>
+<details><summary>17 job(s) </summary>
 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/309815678) [haskellPackages.murder](https://hydra.nixos.org/eval/1819185?filter=haskellPackages.murder)  ⤴️ 2 | 2
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/309813014) [haskellPackages.dahdit](https://hydra.nixos.org/eval/1819185?filter=haskellPackages.dahdit)  ⤴️ 1 | 4
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/309816655) [haskellPackages.reform-blaze](https://hydra.nixos.org/eval/1819185?filter=haskellPackages.reform-blaze)  ⤴️ 0 | 3
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/309811610) [haskellPackages.SyntaxMacros](https://hydra.nixos.org/eval/1819185?filter=haskellPackages.SyntaxMacros) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/309812935) [haskellPackages.convert-annotation](https://hydra.nixos.org/eval/1819185?filter=haskellPackages.convert-annotation) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/309813043) [haskellPackages.data-list-zigzag](https://hydra.nixos.org/eval/1819185?filter=haskellPackages.data-list-zigzag) 
 - [ ] [ghc-lib](https://hydra.nixos.org/eval/1819185?filter=ghc-lib) 
   - [[🐧⏳]](https://hydra.nixos.org/build/309811103) [haskell.packages.ghc9101](https://hydra.nixos.org/eval/1819185?filter=haskell.packages.ghc9101.ghc-lib)
@@ -41,7 +44,7 @@
 - [ ] [ghc-tags](https://hydra.nixos.org/eval/1819185?filter=ghc-tags) 
   - [[🐧⏳]](https://hydra.nixos.org/build/309811130) [haskell.packages.ghc9101](https://hydra.nixos.org/eval/1819185?filter=haskell.packages.ghc9101.ghc-tags)
   - [[🐧⏳]](https://hydra.nixos.org/build/309811163) [haskell.packages.ghc9102](https://hydra.nixos.org/eval/1819185?filter=haskell.packages.ghc9102.ghc-tags)
-  - [[🐧⏳]](https://hydra.nixos.org/build/309811154) [haskell.packages.ghc9103](https://hydra.nixos.org/eval/1819185?filter=haskell.packages.ghc9103.ghc-tags)
+  - [[🐧✅]](https://hydra.nixos.org/build/309811154) [haskell.packages.ghc9103](https://hydra.nixos.org/eval/1819185?filter=haskell.packages.ghc9103.ghc-tags)
   - [[🐧⏳]](https://hydra.nixos.org/build/309811222) [haskell.packages.ghc948](https://hydra.nixos.org/eval/1819185?filter=haskell.packages.ghc948.ghc-tags)
   - [[🐧❗]](https://hydra.nixos.org/build/309811245) [haskell.packages.ghc967](https://hydra.nixos.org/eval/1819185?filter=haskell.packages.ghc967.ghc-tags)
   - [[🐧⏳]](https://hydra.nixos.org/build/309813828) [haskellPackages](https://hydra.nixos.org/eval/1819185?filter=haskellPackages.ghc-tags)
