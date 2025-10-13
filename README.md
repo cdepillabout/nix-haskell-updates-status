@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1819185](https://hydra.nixos.org/eval/1819185) of nixpkgs commit [054e2d2](https://github.com/NixOS/nixpkgs/commits/054e2d254162b5ee0f82299ff7557cb46a0aedcc) as of 2025-10-13 00:29 UTC*
+*evaluation [1819185](https://hydra.nixos.org/eval/1819185) of nixpkgs commit [054e2d2](https://github.com/NixOS/nixpkgs/commits/054e2d254162b5ee0f82299ff7557cb46a0aedcc) as of 2025-10-13 06:11 UTC*
 
 🔴 **Branch not mergeable**
   * No `mergeable` job found.
@@ -10,7 +10,7 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1819185?filter=.x86_64-linux) | 26 | 14 | 3 | 3156 | 4090 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1819185?filter=.x86_64-linux) | 27 | 14 | 3 | 3005 | 4240 | 
 #### Maintained Linux packages with failed dependency
 - [ ] [haskell-language-server](https://hydra.nixos.org/eval/1819185?filter=haskell-language-server) @maralorn
   - [[🐧✅]](https://hydra.nixos.org/build/309811320) [toplevel](https://hydra.nixos.org/eval/1819185?filter=haskell-language-server)
@@ -20,12 +20,12 @@
   - [[🐧⏳]](https://hydra.nixos.org/build/309811504) [haskell.packages.ghc9122](https://hydra.nixos.org/eval/1819185?filter=haskell.packages.ghc9122.haskell-language-server)
   - [[🐧⏳]](https://hydra.nixos.org/build/309811716) [haskell.packages.ghc948](https://hydra.nixos.org/eval/1819185?filter=haskell.packages.ghc948.haskell-language-server)
   - [[🐧❗]](https://hydra.nixos.org/build/309812262) [haskell.packages.ghc967](https://hydra.nixos.org/eval/1819185?filter=haskell.packages.ghc967.haskell-language-server)
-  - [[🐧⏳]](https://hydra.nixos.org/build/309812564) [haskell.packages.ghc984](https://hydra.nixos.org/eval/1819185?filter=haskell.packages.ghc984.haskell-language-server)
+  - [[🐧❗]](https://hydra.nixos.org/build/309812564) [haskell.packages.ghc984](https://hydra.nixos.org/eval/1819185?filter=haskell.packages.ghc984.haskell-language-server)
   - [[🐧✅]](https://hydra.nixos.org/build/309814464) [haskellPackages](https://hydra.nixos.org/eval/1819185?filter=haskellPackages.haskell-language-server)
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/309818551) [maintained](https://hydra.nixos.org/eval/1819185?filter=maintained) @cdepillabout @maralorn @sternenseemann @wolfgangwalther
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/309818547) [tamarin-prover](https://hydra.nixos.org/eval/1819185?filter=tamarin-prover) @thoughtpolice
 #### Unmaintained packages with build failure
-<details><summary>34 job(s) </summary>
+<details><summary>35 job(s) </summary>
 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/309817105) [haskellPackages.snappy](https://hydra.nixos.org/eval/1819185?filter=haskellPackages.snappy)  ⤴️ 4 | 9
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/309812683) [haskellPackages.clash-lib](https://hydra.nixos.org/eval/1819185?filter=haskellPackages.clash-lib)  ⤴️ 2 | 9
@@ -44,6 +44,7 @@
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/309812935) [haskellPackages.convert-annotation](https://hydra.nixos.org/eval/1819185?filter=haskellPackages.convert-annotation) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/309813043) [haskellPackages.data-list-zigzag](https://hydra.nixos.org/eval/1819185?filter=haskellPackages.data-list-zigzag) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/309813391) [haskellPackages.engineering-units](https://hydra.nixos.org/eval/1819185?filter=haskellPackages.engineering-units) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/309813706) [haskellPackages.fxpak](https://hydra.nixos.org/eval/1819185?filter=haskellPackages.fxpak) 
 - [ ] [ghc-lib](https://hydra.nixos.org/eval/1819185?filter=ghc-lib) 
   - [[🐧✅]](https://hydra.nixos.org/build/309811103) [haskell.packages.ghc9101](https://hydra.nixos.org/eval/1819185?filter=haskell.packages.ghc9101.ghc-lib)
   - [[🐧⏳]](https://hydra.nixos.org/build/309811123) [haskell.packages.ghc9102](https://hydra.nixos.org/eval/1819185?filter=haskell.packages.ghc9102.ghc-lib)
