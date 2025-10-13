@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1819185](https://hydra.nixos.org/eval/1819185) of nixpkgs commit [054e2d2](https://github.com/NixOS/nixpkgs/commits/054e2d254162b5ee0f82299ff7557cb46a0aedcc) as of 2025-10-13 12:12 UTC*
+*evaluation [1819185](https://hydra.nixos.org/eval/1819185) of nixpkgs commit [054e2d2](https://github.com/NixOS/nixpkgs/commits/054e2d254162b5ee0f82299ff7557cb46a0aedcc) as of 2025-10-13 18:09 UTC*
 
 🔴 **Branch not mergeable**
   * No `mergeable` job found.
@@ -10,7 +10,7 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1819185?filter=.x86_64-linux) | 29 | 13 | 3 | 2954 | 4288 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1819185?filter=.x86_64-linux) | 29 | 14 | 3 | 2749 | 4494 | 
 #### Maintained Linux packages with failed dependency
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/309818551) [maintained](https://hydra.nixos.org/eval/1819185?filter=maintained) @cdepillabout @maralorn @sternenseemann @wolfgangwalther
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/309818547) [tamarin-prover](https://hydra.nixos.org/eval/1819185?filter=tamarin-prover) @thoughtpolice
@@ -57,7 +57,7 @@
 </details>
 
 #### Unmaintained packages with failed dependency
-<details><summary>17 job(s) </summary>
+<details><summary>18 job(s) </summary>
 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/309817108) [haskellPackages.snappy-framing](https://hydra.nixos.org/eval/1819185?filter=haskellPackages.snappy-framing)  ⤴️ 3 | 4
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/309812682) [haskellPackages.clash-ghc](https://hydra.nixos.org/eval/1819185?filter=haskellPackages.clash-ghc)  ⤴️ 1 | 4
@@ -65,6 +65,7 @@
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/309815560) [haskellPackages.monad-finally](https://hydra.nixos.org/eval/1819185?filter=haskellPackages.monad-finally)  ⤴️ 1 | 1
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/309817559) [haskellPackages.tensorflow-records-conduit](https://hydra.nixos.org/eval/1819185?filter=haskellPackages.tensorflow-records-conduit)  ⤴️ 0 | 1
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/309812372) [haskellPackages.blacktip](https://hydra.nixos.org/eval/1819185?filter=haskellPackages.blacktip) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/309813022) [haskellPackages.dahdit-network](https://hydra.nixos.org/eval/1819185?filter=haskellPackages.dahdit-network) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/309813492) [haskellPackages.expand](https://hydra.nixos.org/eval/1819185?filter=haskellPackages.expand) 
 - [ ] [ghc-tags](https://hydra.nixos.org/eval/1819185?filter=ghc-tags) 
   - [[🐧⏳]](https://hydra.nixos.org/build/309811130) [haskell.packages.ghc9101](https://hydra.nixos.org/eval/1819185?filter=haskell.packages.ghc9101.ghc-tags)
