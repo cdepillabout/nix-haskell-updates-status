@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1819449](https://hydra.nixos.org/eval/1819449) of nixpkgs commit [5040aa4](https://github.com/NixOS/nixpkgs/commits/5040aa4e74a3354582c5efada012245b57407101) as of 2025-10-20 00:30 UTC*
+*evaluation [1819449](https://hydra.nixos.org/eval/1819449) of nixpkgs commit [5040aa4](https://github.com/NixOS/nixpkgs/commits/5040aa4e74a3354582c5efada012245b57407101) as of 2025-10-20 06:11 UTC*
 
 🔴 **Branch not mergeable**
   * No `mergeable` job found.
@@ -7,9 +7,9 @@
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1819449?filter=.x86_64-linux) | 29 | 12 | 78 | 7089 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | Success ✅ | 
+ | --- | --- | --- | --- | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1819449?filter=.x86_64-linux) | 29 | 13 | 7160 | 
 #### Maintained Linux packages with build failure
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/310154526) [echidna](https://hydra.nixos.org/eval/1819449?filter=echidna) @arcz @hellwolf
 - [ ] [haskell-language-server](https://hydra.nixos.org/eval/1819449?filter=haskell-language-server) @maralorn
@@ -25,7 +25,7 @@
 #### Maintained Linux packages with failed dependency
 - [ ] [git-annex](https://hydra.nixos.org/eval/1819449?filter=git-annex) @peti
   - [[🐧❗]](https://hydra.nixos.org/build/310235616) [toplevel](https://hydra.nixos.org/eval/1819449?filter=git-annex)
-  - [[🐧⏳]](https://hydra.nixos.org/build/310235618) [haskell.packages.ghc9102](https://hydra.nixos.org/eval/1819449?filter=haskell.packages.ghc9102.git-annex)
+  - [[🐧❗]](https://hydra.nixos.org/build/310235618) [haskell.packages.ghc9102](https://hydra.nixos.org/eval/1819449?filter=haskell.packages.ghc9102.git-annex)
   - [[🐧❗]](https://hydra.nixos.org/build/310235617) [haskell.packages.ghc9103](https://hydra.nixos.org/eval/1819449?filter=haskell.packages.ghc9103.git-annex)
   - [[🐧❗]](https://hydra.nixos.org/build/310235625) [haskellPackages](https://hydra.nixos.org/eval/1819449?filter=haskellPackages.git-annex)
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/310235719) [maintained](https://hydra.nixos.org/eval/1819449?filter=maintained) @cdepillabout @maralorn @sternenseemann @wolfgangwalther
@@ -53,7 +53,7 @@
   - [[🐧✅]](https://hydra.nixos.org/build/310154571) [haskell.packages.ghc9122](https://hydra.nixos.org/eval/1819449?filter=haskell.packages.ghc9122.ghc-lib)
   - [[🐧✅]](https://hydra.nixos.org/build/310154586) [haskell.packages.ghc948](https://hydra.nixos.org/eval/1819449?filter=haskell.packages.ghc948.ghc-lib)
   - [[🐧❌]](https://hydra.nixos.org/build/310154614) [haskell.packages.ghc967](https://hydra.nixos.org/eval/1819449?filter=haskell.packages.ghc967.ghc-lib)
-  - [[🐧⏳]](https://hydra.nixos.org/build/310154640) [haskell.packages.ghc984](https://hydra.nixos.org/eval/1819449?filter=haskell.packages.ghc984.ghc-lib)
+  - [[🐧❌]](https://hydra.nixos.org/build/310154640) [haskell.packages.ghc984](https://hydra.nixos.org/eval/1819449?filter=haskell.packages.ghc984.ghc-lib)
   - [[🐧✅]](https://hydra.nixos.org/build/310157209) [haskellPackages](https://hydra.nixos.org/eval/1819449?filter=haskellPackages.ghc-lib)
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/310157661) [haskellPackages.hackage-publish](https://hydra.nixos.org/eval/1819449?filter=haskellPackages.hackage-publish) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/310235641) [haskellPackages.hs-opentelemetry-exporter-handle](https://hydra.nixos.org/eval/1819449?filter=haskellPackages.hs-opentelemetry-exporter-handle) 
@@ -69,8 +69,9 @@
 </details>
 
 #### Unmaintained packages with failed dependency
-<details><summary>13 job(s) </summary>
+<details><summary>14 job(s) </summary>
 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/310156709) [haskellPackages.duckdb-simple](https://hydra.nixos.org/eval/1819449?filter=haskellPackages.duckdb-simple) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/310157053) [haskellPackages.foma](https://hydra.nixos.org/eval/1819449?filter=haskellPackages.foma) 
 - [ ] [ghc-tags](https://hydra.nixos.org/eval/1819449?filter=ghc-tags) 
   - [[🐧✅]](https://hydra.nixos.org/build/310154565) [haskell.packages.ghc9102](https://hydra.nixos.org/eval/1819449?filter=haskell.packages.ghc9102.ghc-tags)
