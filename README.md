@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1819449](https://hydra.nixos.org/eval/1819449) of nixpkgs commit [5040aa4](https://github.com/NixOS/nixpkgs/commits/5040aa4e74a3354582c5efada012245b57407101) as of 2025-10-19 18:09 UTC*
+*evaluation [1819449](https://hydra.nixos.org/eval/1819449) of nixpkgs commit [5040aa4](https://github.com/NixOS/nixpkgs/commits/5040aa4e74a3354582c5efada012245b57407101) as of 2025-10-20 00:30 UTC*
 
 🔴 **Branch not mergeable**
   * No `mergeable` job found.
@@ -9,7 +9,7 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1819449?filter=.x86_64-linux) | 28 | 12 | 85 | 7083 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1819449?filter=.x86_64-linux) | 29 | 12 | 78 | 7089 | 
 #### Maintained Linux packages with build failure
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/310154526) [echidna](https://hydra.nixos.org/eval/1819449?filter=echidna) @arcz @hellwolf
 - [ ] [haskell-language-server](https://hydra.nixos.org/eval/1819449?filter=haskell-language-server) @maralorn
@@ -31,7 +31,7 @@
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/310235719) [maintained](https://hydra.nixos.org/eval/1819449?filter=maintained) @cdepillabout @maralorn @sternenseemann @wolfgangwalther
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/310161933) [tamarin-prover](https://hydra.nixos.org/eval/1819449?filter=tamarin-prover) @thoughtpolice
 #### Unmaintained packages with build failure
-<details><summary>32 job(s) </summary>
+<details><summary>33 job(s) </summary>
 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/310235656) [haskellPackages.hs-opentelemetry-instrumentation-wai](https://hydra.nixos.org/eval/1819449?filter=haskellPackages.hs-opentelemetry-instrumentation-wai)  ⤴️ 2 | 3
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/310156701) [haskellPackages.duckdb-ffi](https://hydra.nixos.org/eval/1819449?filter=haskellPackages.duckdb-ffi)  ⤴️ 1 | 1
@@ -59,6 +59,7 @@
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/310235641) [haskellPackages.hs-opentelemetry-exporter-handle](https://hydra.nixos.org/eval/1819449?filter=haskellPackages.hs-opentelemetry-exporter-handle) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/310235650) [haskellPackages.hs-opentelemetry-exporter-in-memory](https://hydra.nixos.org/eval/1819449?filter=haskellPackages.hs-opentelemetry-exporter-in-memory) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/310235653) [haskellPackages.hs-opentelemetry-instrumentation-hspec](https://hydra.nixos.org/eval/1819449?filter=haskellPackages.hs-opentelemetry-instrumentation-hspec) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/310235654) [haskellPackages.hs-opentelemetry-instrumentation-postgresql-simple](https://hydra.nixos.org/eval/1819449?filter=haskellPackages.hs-opentelemetry-instrumentation-postgresql-simple) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/310235649) [haskellPackages.hs-opentelemetry-instrumentation-tasty](https://hydra.nixos.org/eval/1819449?filter=haskellPackages.hs-opentelemetry-instrumentation-tasty) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/310158641) [haskellPackages.linear-core-prototype](https://hydra.nixos.org/eval/1819449?filter=haskellPackages.linear-core-prototype) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/310158731) [haskellPackages.log](https://hydra.nixos.org/eval/1819449?filter=haskellPackages.log) 
