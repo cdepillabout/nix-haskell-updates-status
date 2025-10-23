@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1819597](https://hydra.nixos.org/eval/1819597) of nixpkgs commit [d066109](https://github.com/NixOS/nixpkgs/commits/d06610952048150adfc1fa43e222c36825d0ca4e) as of 2025-10-23 12:14 UTC*
+*evaluation [1819597](https://hydra.nixos.org/eval/1819597) of nixpkgs commit [d066109](https://github.com/NixOS/nixpkgs/commits/d06610952048150adfc1fa43e222c36825d0ca4e) as of 2025-10-23 18:10 UTC*
 
 🔴 **Branch not mergeable**
   * Too many outstanding jobs on x86_64-linux.
@@ -10,11 +10,32 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1819597?filter=.x86_64-linux) | 1 | 1 | 6290 | 946 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1819597?filter=.x86_64-linux) | 6 | 7 | 5202 | 2047 | 
 #### Maintained Linux packages with build failure
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/311055001) [haskellPackages.proto3-wire](https://hydra.nixos.org/eval/1819597?filter=haskellPackages.proto3-wire) @alexfmpe
 #### Maintained Linux packages with failed dependency
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/311055025) [haskellPackages.proto3-suite](https://hydra.nixos.org/eval/1819597?filter=haskellPackages.proto3-suite) @alexfmpe
+#### Unmaintained packages with build failure
+<details><summary>5 job(s) </summary>
+
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/311052746) [haskellPackages.graphviz](https://hydra.nixos.org/eval/1819597?filter=haskellPackages.graphviz)  ⤴️ 11 | 59
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/311052831) [haskellPackages.gpu-vulkan-middle](https://hydra.nixos.org/eval/1819597?filter=haskellPackages.gpu-vulkan-middle)  ⤴️ 7 | 7
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/311053157) [haskellPackages.hs-opentelemetry-instrumentation-wai](https://hydra.nixos.org/eval/1819597?filter=haskellPackages.hs-opentelemetry-instrumentation-wai)  ⤴️ 2 | 3
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/311051388) [haskellPackages.clickhouse-haskell](https://hydra.nixos.org/eval/1819597?filter=haskellPackages.clickhouse-haskell) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/311052040) [haskellPackages.eventlog-live-influxdb](https://hydra.nixos.org/eval/1819597?filter=haskellPackages.eventlog-live-influxdb) 
+</details>
+
+#### Unmaintained packages with failed dependency
+<details><summary>6 job(s) </summary>
+
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/311052745) [haskellPackages.graphite](https://hydra.nixos.org/eval/1819597?filter=haskellPackages.graphite)  ⤴️ 2 | 2
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/311052846) [haskellPackages.gpu-vulkan-middle-khr-swapchain](https://hydra.nixos.org/eval/1819597?filter=haskellPackages.gpu-vulkan-middle-khr-swapchain)  ⤴️ 1 | 1
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/311056810) [haskellPackages.xdot](https://hydra.nixos.org/eval/1819597?filter=haskellPackages.xdot)  ⤴️ 1 | 1
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/311053120) [haskellPackages.hopenpgp-tools](https://hydra.nixos.org/eval/1819597?filter=haskellPackages.hopenpgp-tools) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/311053194) [haskellPackages.hs-opentelemetry-instrumentation-cloudflare](https://hydra.nixos.org/eval/1819597?filter=haskellPackages.hs-opentelemetry-instrumentation-cloudflare) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/311053476) [haskellPackages.inf-backprop](https://hydra.nixos.org/eval/1819597?filter=haskellPackages.inf-backprop) 
+</details>
+
 #### Top 50 broken packages, sorted by number of reverse dependencies
 <details><summary>50 job(s) </summary>
 
