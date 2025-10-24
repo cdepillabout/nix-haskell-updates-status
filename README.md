@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1819597](https://hydra.nixos.org/eval/1819597) of nixpkgs commit [d066109](https://github.com/NixOS/nixpkgs/commits/d06610952048150adfc1fa43e222c36825d0ca4e) as of 2025-10-24 12:12 UTC*
+*evaluation [1819597](https://hydra.nixos.org/eval/1819597) of nixpkgs commit [d066109](https://github.com/NixOS/nixpkgs/commits/d06610952048150adfc1fa43e222c36825d0ca4e) as of 2025-10-24 18:10 UTC*
 
 🔴 **Branch not mergeable**
   * Too many outstanding jobs on x86_64-linux.
@@ -10,7 +10,7 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1819597?filter=.x86_64-linux) | 22 | 18 | 3029 | 4212 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1819597?filter=.x86_64-linux) | 22 | 18 | 2968 | 4273 | 
 #### Maintained Linux packages with build failure
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/311049700) [echidna](https://hydra.nixos.org/eval/1819597?filter=echidna) @arcz @hellwolf
 - [ ] [haskell-language-server](https://hydra.nixos.org/eval/1819597?filter=haskell-language-server) @maralorn
