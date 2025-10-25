@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1819597](https://hydra.nixos.org/eval/1819597) of nixpkgs commit [d066109](https://github.com/NixOS/nixpkgs/commits/d06610952048150adfc1fa43e222c36825d0ca4e) as of 2025-10-25 06:09 UTC*
+*evaluation [1819597](https://hydra.nixos.org/eval/1819597) of nixpkgs commit [d066109](https://github.com/NixOS/nixpkgs/commits/d06610952048150adfc1fa43e222c36825d0ca4e) as of 2025-10-25 18:09 UTC*
 
 🔴 **Branch not mergeable**
   * Too many outstanding jobs on x86_64-linux.
@@ -10,7 +10,7 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1819597?filter=.x86_64-linux) | 23 | 18 | 2677 | 4564 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1819597?filter=.x86_64-linux) | 24 | 18 | 2630 | 4611 | 
 #### Maintained Linux packages with build failure
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/311049700) [echidna](https://hydra.nixos.org/eval/1819597?filter=echidna) @arcz @hellwolf
 - [ ] [haskell-language-server](https://hydra.nixos.org/eval/1819597?filter=haskell-language-server) @maralorn
@@ -35,7 +35,7 @@
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/311052456) [haskellPackages.ghc-vis](https://hydra.nixos.org/eval/1819597?filter=haskellPackages.ghc-vis) @dalpd
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/311055025) [haskellPackages.proto3-suite](https://hydra.nixos.org/eval/1819597?filter=haskellPackages.proto3-suite) @alexfmpe
 #### Unmaintained packages with build failure
-<details><summary>26 job(s) </summary>
+<details><summary>27 job(s) </summary>
 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/311052746) [haskellPackages.graphviz](https://hydra.nixos.org/eval/1819597?filter=haskellPackages.graphviz)  ⤴️ 11 | 59
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/311052831) [haskellPackages.gpu-vulkan-middle](https://hydra.nixos.org/eval/1819597?filter=haskellPackages.gpu-vulkan-middle)  ⤴️ 7 | 7
@@ -60,6 +60,7 @@
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/311053154) [haskellPackages.hs-opentelemetry-instrumentation-hspec](https://hydra.nixos.org/eval/1819597?filter=haskellPackages.hs-opentelemetry-instrumentation-hspec) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/311053883) [haskellPackages.log](https://hydra.nixos.org/eval/1819597?filter=haskellPackages.log) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/311054602) [haskellPackages.pandoc-crossref](https://hydra.nixos.org/eval/1819597?filter=haskellPackages.pandoc-crossref) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/311054772) [haskellPackages.pipes-postgresql-simple](https://hydra.nixos.org/eval/1819597?filter=haskellPackages.pipes-postgresql-simple) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/311055152) [haskellPackages.rebound](https://hydra.nixos.org/eval/1819597?filter=haskellPackages.rebound) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/311055399) [haskellPackages.scotty-haxl](https://hydra.nixos.org/eval/1819597?filter=haskellPackages.scotty-haxl) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/311055508) [haskellPackages.servant-haxl-client](https://hydra.nixos.org/eval/1819597?filter=haskellPackages.servant-haxl-client) 
