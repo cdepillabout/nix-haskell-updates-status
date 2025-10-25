@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1819597](https://hydra.nixos.org/eval/1819597) of nixpkgs commit [d066109](https://github.com/NixOS/nixpkgs/commits/d06610952048150adfc1fa43e222c36825d0ca4e) as of 2025-10-24 18:10 UTC*
+*evaluation [1819597](https://hydra.nixos.org/eval/1819597) of nixpkgs commit [d066109](https://github.com/NixOS/nixpkgs/commits/d06610952048150adfc1fa43e222c36825d0ca4e) as of 2025-10-25 00:28 UTC*
 
 🔴 **Branch not mergeable**
   * Too many outstanding jobs on x86_64-linux.
@@ -10,14 +10,14 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1819597?filter=.x86_64-linux) | 22 | 18 | 2968 | 4273 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1819597?filter=.x86_64-linux) | 22 | 18 | 2827 | 4414 | 
 #### Maintained Linux packages with build failure
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/311049700) [echidna](https://hydra.nixos.org/eval/1819597?filter=echidna) @arcz @hellwolf
 - [ ] [haskell-language-server](https://hydra.nixos.org/eval/1819597?filter=haskell-language-server) @maralorn
   - [[🐧⏳]](https://hydra.nixos.org/build/311049828) [toplevel](https://hydra.nixos.org/eval/1819597?filter=haskell-language-server)
   - [[🐧⏳]](https://hydra.nixos.org/build/311049857) [haskell.packages.ghc9102](https://hydra.nixos.org/eval/1819597?filter=haskell.packages.ghc9102.haskell-language-server)
   - [[🐧❌]](https://hydra.nixos.org/build/311049790) [haskell.packages.ghc9103](https://hydra.nixos.org/eval/1819597?filter=haskell.packages.ghc9103.haskell-language-server)
-  - [[🐧⏳]](https://hydra.nixos.org/build/311050347) [haskell.packages.ghc9122](https://hydra.nixos.org/eval/1819597?filter=haskell.packages.ghc9122.haskell-language-server)
+  - [[🐧❌]](https://hydra.nixos.org/build/311050347) [haskell.packages.ghc9122](https://hydra.nixos.org/eval/1819597?filter=haskell.packages.ghc9122.haskell-language-server)
   - [[🐧⏳]](https://hydra.nixos.org/build/311050666) [haskell.packages.ghc948](https://hydra.nixos.org/eval/1819597?filter=haskell.packages.ghc948.haskell-language-server)
   - [[🐧❌]](https://hydra.nixos.org/build/311051122) [haskell.packages.ghc967](https://hydra.nixos.org/eval/1819597?filter=haskell.packages.ghc967.haskell-language-server)
   - [[🐧⏳]](https://hydra.nixos.org/build/311051259) [haskell.packages.ghc984](https://hydra.nixos.org/eval/1819597?filter=haskell.packages.ghc984.haskell-language-server)
