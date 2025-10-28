@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1819670](https://hydra.nixos.org/eval/1819670) of nixpkgs commit [f73993b](https://github.com/NixOS/nixpkgs/commits/f73993b07e2e2c207a154c4fc836c86213f616da) as of 2025-10-27 18:11 UTC*
+*evaluation [1819670](https://hydra.nixos.org/eval/1819670) of nixpkgs commit [f73993b](https://github.com/NixOS/nixpkgs/commits/f73993b07e2e2c207a154c4fc836c86213f616da) as of 2025-10-28 00:27 UTC*
 
 🔴 **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -9,7 +9,7 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1819670?filter=.x86_64-linux) | 36 | 16 | 14 | 7151 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1819670?filter=.x86_64-linux) | 36 | 18 | 12 | 7151 | 
 #### Maintained Linux packages with build failure
 - [ ] [haskell-language-server](https://hydra.nixos.org/eval/1819670?filter=haskell-language-server) @maralorn
   - [[🐧❗]](https://hydra.nixos.org/build/311049828) [toplevel](https://hydra.nixos.org/eval/1819670?filter=haskell-language-server)
@@ -33,6 +33,7 @@
 #### Maintained Linux packages with failed dependency
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/311300735) [maintained](https://hydra.nixos.org/eval/1819670?filter=maintained) @cdepillabout @maralorn @sternenseemann @wolfgangwalther
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/311057087) [mergeable](https://hydra.nixos.org/eval/1819670?filter=mergeable) @cdepillabout @maralorn @sternenseemann @wolfgangwalther
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/311300734) [pkgsCross.ghcjs.haskell.packages.ghc912.reflex-dom](https://hydra.nixos.org/eval/1819670?filter=pkgsCross.ghcjs.haskell.packages.ghc912.reflex-dom) @alexfmpe @maralorn
 #### Unmaintained packages with build failure
 <details><summary>39 job(s) </summary>
 
@@ -78,11 +79,14 @@
 </details>
 
 #### Unmaintained packages with failed dependency
-<details><summary>18 job(s) </summary>
+<details><summary>21 job(s) </summary>
 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/311052841) [haskellPackages.gpu-vulkan-middle-khr-surface](https://hydra.nixos.org/eval/1819670?filter=haskellPackages.gpu-vulkan-middle-khr-surface)  ⤴️ 5 | 5
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/311052838) [haskellPackages.gpu-vulkan](https://hydra.nixos.org/eval/1819670?filter=haskellPackages.gpu-vulkan)  ⤴️ 3 | 3
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/311052857) [haskellPackages.gpu-vulkan-khr-surface](https://hydra.nixos.org/eval/1819670?filter=haskellPackages.gpu-vulkan-khr-surface)  ⤴️ 2 | 2
+- [ ] [miso](https://hydra.nixos.org/eval/1819670?filter=miso)  ⤴️ 1 | 3
+  - [[🐧✅]](https://hydra.nixos.org/build/311054137) [haskellPackages](https://hydra.nixos.org/eval/1819670?filter=haskellPackages.miso)
+  - [[🐧❗]](https://hydra.nixos.org/build/311300733) [pkgsCross.ghcjs.haskell.packages.ghc912](https://hydra.nixos.org/eval/1819670?filter=pkgsCross.ghcjs.haskell.packages.ghc912.miso)
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/311052852) [haskellPackages.gpu-vulkan-middle-khr-surface-glfw](https://hydra.nixos.org/eval/1819670?filter=haskellPackages.gpu-vulkan-middle-khr-surface-glfw)  ⤴️ 1 | 1
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/311052846) [haskellPackages.gpu-vulkan-middle-khr-swapchain](https://hydra.nixos.org/eval/1819670?filter=haskellPackages.gpu-vulkan-middle-khr-swapchain)  ⤴️ 1 | 1
 - [ ] [ghc-tags](https://hydra.nixos.org/eval/1819670?filter=ghc-tags) 
@@ -128,7 +132,6 @@
 [text-format](https://packdeps.haskellers.com/reverse/text-format) ⤴️ 27  
 [crypto-numbers](https://packdeps.haskellers.com/reverse/crypto-numbers) ⤴️ 25  
 [either-unwrap](https://packdeps.haskellers.com/reverse/either-unwrap) ⤴️ 25  
-[universum](https://packdeps.haskellers.com/reverse/universum) ⤴️ 25  
 [bits-extra](https://packdeps.haskellers.com/reverse/bits-extra) ⤴️ 23  
 [Crypto](https://packdeps.haskellers.com/reverse/Crypto) ⤴️ 22  
 [crypto-pubkey](https://packdeps.haskellers.com/reverse/crypto-pubkey) ⤴️ 22  
@@ -153,6 +156,7 @@
 [BiobaseENA](https://packdeps.haskellers.com/reverse/BiobaseENA) ⤴️ 18  
 [asn1-data](https://packdeps.haskellers.com/reverse/asn1-data) ⤴️ 18  
 [bytestring-show](https://packdeps.haskellers.com/reverse/bytestring-show) ⤴️ 18  
+[dbus-core](https://packdeps.haskellers.com/reverse/dbus-core) ⤴️ 18  
 </details>
 
 
