@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1819872](https://hydra.nixos.org/eval/1819872) of nixpkgs commit [8a78846](https://github.com/NixOS/nixpkgs/commits/8a78846761883e12044efbada6702efdecfa263d) as of 2025-11-05 12:13 UTC*
+*evaluation [1819872](https://hydra.nixos.org/eval/1819872) of nixpkgs commit [8a78846](https://github.com/NixOS/nixpkgs/commits/8a78846761883e12044efbada6702efdecfa263d) as of 2025-11-05 18:11 UTC*
 
 🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
@@ -36,7 +36,7 @@
 #### Unmaintained packages with build failure
 <details><summary>9 job(s) </summary>
 
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/311300709) [haskellPackages.duckdb-ffi](https://hydra.nixos.org/eval/1819872?filter=haskellPackages.duckdb-ffi)  ⤴️ 1 | 1
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/311300709) [haskellPackages.duckdb-ffi](https://hydra.nixos.org/eval/1819872?filter=haskellPackages.duckdb-ffi)  ⤴️ 0 | 1
 - [ ] [ghc-lib](https://hydra.nixos.org/eval/1819872?filter=ghc-lib) 
   - [[🐧✅]](https://hydra.nixos.org/build/311049695) [haskell.packages.ghc9102](https://hydra.nixos.org/eval/1819872?filter=haskell.packages.ghc9102.ghc-lib)
   - [[🐧✅]](https://hydra.nixos.org/build/311049718) [haskell.packages.ghc9103](https://hydra.nixos.org/eval/1819872?filter=haskell.packages.ghc9103.ghc-lib)
