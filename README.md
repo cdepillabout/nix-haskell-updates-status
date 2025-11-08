@@ -1,15 +1,16 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1819979](https://hydra.nixos.org/eval/1819979) of nixpkgs commit [89b60df](https://github.com/NixOS/nixpkgs/commits/89b60dff6b1ea8a2d9301280248dac79de340082) as of 2025-11-08 00:27 UTC*
+*evaluation [1819979](https://hydra.nixos.org/eval/1819979) of nixpkgs commit [89b60df](https://github.com/NixOS/nixpkgs/commits/89b60dff6b1ea8a2d9301280248dac79de340082) as of 2025-11-08 12:11 UTC*
 
 🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
-  * `maintained` jobset is not finished.
+  * `maintained` jobset failed.
 
 #### Build summary
 
  | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1819979?filter=.x86_64-linux) | 5 | 2 | 1 | 20 | 7198 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1819979?filter=.x86_64-linux) | 6 | 3 | 1 | 13 | 7203 | 
 #### Maintained Linux packages with build failure
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/312719560) [nixosTests.agda.base](https://hydra.nixos.org/eval/1819979?filter=nixosTests.agda.base) @alexarice @turion
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/311459939) [echidna](https://hydra.nixos.org/eval/1819979?filter=echidna) @arcz @hellwolf
 - [ ] [hlint](https://hydra.nixos.org/eval/1819979?filter=hlint) @maralorn
   - [[🐧✅]](https://hydra.nixos.org/build/311056982) [toplevel](https://hydra.nixos.org/eval/1819979?filter=hlint)
@@ -21,6 +22,8 @@
 - [ ] [taffybar](https://hydra.nixos.org/eval/1819979?filter=taffybar) @rvl
   - [[🐧❗]](https://hydra.nixos.org/build/311460036) [toplevel](https://hydra.nixos.org/eval/1819979?filter=taffybar)
   - [[🐧❌]](https://hydra.nixos.org/build/311460018) [haskellPackages](https://hydra.nixos.org/eval/1819979?filter=haskellPackages.taffybar)
+#### Maintained Linux packages with failed dependency
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/312719568) [maintained](https://hydra.nixos.org/eval/1819979?filter=maintained) @cdepillabout @maralorn @sternenseemann @wolfgangwalther
 #### Unmaintained packages with build failure
 <details><summary>8 job(s) </summary>
 
