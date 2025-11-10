@@ -1,14 +1,14 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1819979](https://hydra.nixos.org/eval/1819979) of nixpkgs commit [89b60df](https://github.com/NixOS/nixpkgs/commits/89b60dff6b1ea8a2d9301280248dac79de340082) as of 2025-11-10 12:12 UTC*
+*evaluation [1819979](https://hydra.nixos.org/eval/1819979) of nixpkgs commit [89b60df](https://github.com/NixOS/nixpkgs/commits/89b60dff6b1ea8a2d9301280248dac79de340082) as of 2025-11-10 18:10 UTC*
 
 🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1819979?filter=.x86_64-linux) | 7 | 3 | 1 | 4 | 7207 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Success ✅ | 
+ | --- | --- | --- | --- | --- | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1819979?filter=.x86_64-linux) | 7 | 3 | 1 | 7209 | 
 #### Maintained Linux packages with build failure
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/312719560) [nixosTests.agda.base](https://hydra.nixos.org/eval/1819979?filter=nixosTests.agda.base) @alexarice @turion
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/311459939) [echidna](https://hydra.nixos.org/eval/1819979?filter=echidna) @arcz @hellwolf
