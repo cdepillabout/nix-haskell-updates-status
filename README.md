@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1820195](https://hydra.nixos.org/eval/1820195) of nixpkgs commit [41d975f](https://github.com/NixOS/nixpkgs/commits/41d975f14f0aaeb0e591efb1c817272c20ac4d40) as of 2025-11-15 12:11 UTC*
+*evaluation [1820195](https://hydra.nixos.org/eval/1820195) of nixpkgs commit [41d975f](https://github.com/NixOS/nixpkgs/commits/41d975f14f0aaeb0e591efb1c817272c20ac4d40) as of 2025-11-15 18:09 UTC*
 
 🔴 **Branch not mergeable**
   * Too many outstanding jobs on x86_64-linux.
@@ -7,13 +7,31 @@
 
 #### Build summary
 
- | Platform | Failed ❌ | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1820195?filter=.x86_64-linux) | 1 | 6765 | 774 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
+ | --- | --- | --- | --- | --- | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1820195?filter=.x86_64-linux) | 13 | 1 | 6507 | 1028 | 
+#### Maintained Linux packages with failed dependency
+- [ ] [git-annex](https://hydra.nixos.org/eval/1820195?filter=git-annex) @peti
+  - [[🐧⏳]](https://hydra.nixos.org/build/313893534) [toplevel](https://hydra.nixos.org/eval/1820195?filter=git-annex)
+  - [[🐧❗]](https://hydra.nixos.org/build/313894330) [haskell.packages.ghc9102](https://hydra.nixos.org/eval/1820195?filter=haskell.packages.ghc9102.git-annex)
+  - [[🐧⏳]](https://hydra.nixos.org/build/313893533) [haskell.packages.ghc9103](https://hydra.nixos.org/eval/1820195?filter=haskell.packages.ghc9103.git-annex)
+  - [[🐧⏳]](https://hydra.nixos.org/build/313896337) [haskellPackages](https://hydra.nixos.org/eval/1820195?filter=haskellPackages.git-annex)
 #### Unmaintained packages with build failure
-<details><summary>1 job(s) </summary>
+<details><summary>13 job(s) </summary>
 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/313895511) [haskellPackages.dataframe-persistent](https://hydra.nixos.org/eval/1820195?filter=haskellPackages.dataframe-persistent) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/313899678) [haskellPackages.stratosphere-apigateway](https://hydra.nixos.org/eval/1820195?filter=haskellPackages.stratosphere-apigateway) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/313899711) [haskellPackages.stratosphere-batch](https://hydra.nixos.org/eval/1820195?filter=haskellPackages.stratosphere-batch) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/313899750) [haskellPackages.stratosphere-databrew](https://hydra.nixos.org/eval/1820195?filter=haskellPackages.stratosphere-databrew) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/313899737) [haskellPackages.stratosphere-dsql](https://hydra.nixos.org/eval/1820195?filter=haskellPackages.stratosphere-dsql) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/313899764) [haskellPackages.stratosphere-globalaccelerator](https://hydra.nixos.org/eval/1820195?filter=haskellPackages.stratosphere-globalaccelerator) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/313899774) [haskellPackages.stratosphere-grafana](https://hydra.nixos.org/eval/1820195?filter=haskellPackages.stratosphere-grafana) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/313899788) [haskellPackages.stratosphere-iotanalytics](https://hydra.nixos.org/eval/1820195?filter=haskellPackages.stratosphere-iotanalytics) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/313899818) [haskellPackages.stratosphere-iotevents](https://hydra.nixos.org/eval/1820195?filter=haskellPackages.stratosphere-iotevents) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/313899828) [haskellPackages.stratosphere-mediaconnect](https://hydra.nixos.org/eval/1820195?filter=haskellPackages.stratosphere-mediaconnect) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/313899836) [haskellPackages.stratosphere-neptunegraph](https://hydra.nixos.org/eval/1820195?filter=haskellPackages.stratosphere-neptunegraph) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/313899886) [haskellPackages.stratosphere-s3](https://hydra.nixos.org/eval/1820195?filter=haskellPackages.stratosphere-s3) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/313899906) [haskellPackages.stratosphere-s3outposts](https://hydra.nixos.org/eval/1820195?filter=haskellPackages.stratosphere-s3outposts) 
 </details>
 
 #### Top 50 broken packages, sorted by number of reverse dependencies
