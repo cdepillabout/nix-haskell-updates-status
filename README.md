@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1820195](https://hydra.nixos.org/eval/1820195) of nixpkgs commit [41d975f](https://github.com/NixOS/nixpkgs/commits/41d975f14f0aaeb0e591efb1c817272c20ac4d40) as of 2025-11-16 06:10 UTC*
+*evaluation [1820195](https://hydra.nixos.org/eval/1820195) of nixpkgs commit [41d975f](https://github.com/NixOS/nixpkgs/commits/41d975f14f0aaeb0e591efb1c817272c20ac4d40) as of 2025-11-16 12:11 UTC*
 
 🔴 **Branch not mergeable**
   * Too many outstanding jobs on x86_64-linux.
@@ -9,7 +9,7 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1820195?filter=.x86_64-linux) | 40 | 6 | 5789 | 1730 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1820195?filter=.x86_64-linux) | 42 | 6 | 5614 | 1906 | 
 #### Maintained Linux packages with build failure
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/313893532) [echidna](https://hydra.nixos.org/eval/1820195?filter=echidna) @arcz @hellwolf
 #### Maintained Linux packages with failed dependency
@@ -32,7 +32,7 @@
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/313901213) [maintained](https://hydra.nixos.org/eval/1820195?filter=maintained) @cdepillabout @maralorn @sternenseemann @wolfgangwalther
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/313901214) [staticHaskellPackages](https://hydra.nixos.org/eval/1820195?filter=staticHaskellPackages) @rnhmjoj @sternenseemann
 #### Unmaintained packages with build failure
-<details><summary>46 job(s) </summary>
+<details><summary>48 job(s) </summary>
 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/313894670) [haskellPackages.auto-export](https://hydra.nixos.org/eval/1820195?filter=haskellPackages.auto-export) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/313895511) [haskellPackages.dataframe-persistent](https://hydra.nixos.org/eval/1820195?filter=haskellPackages.dataframe-persistent) 
@@ -55,10 +55,12 @@
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/313899751) [haskellPackages.stratosphere-connectcampaigns](https://hydra.nixos.org/eval/1820195?filter=haskellPackages.stratosphere-connectcampaigns) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/313899723) [haskellPackages.stratosphere-customerprofiles](https://hydra.nixos.org/eval/1820195?filter=haskellPackages.stratosphere-customerprofiles) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/313899750) [haskellPackages.stratosphere-databrew](https://hydra.nixos.org/eval/1820195?filter=haskellPackages.stratosphere-databrew) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/313899741) [haskellPackages.stratosphere-directoryservice](https://hydra.nixos.org/eval/1820195?filter=haskellPackages.stratosphere-directoryservice) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/313899737) [haskellPackages.stratosphere-dsql](https://hydra.nixos.org/eval/1820195?filter=haskellPackages.stratosphere-dsql) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/313899783) [haskellPackages.stratosphere-emrserverless](https://hydra.nixos.org/eval/1820195?filter=haskellPackages.stratosphere-emrserverless) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/313899760) [haskellPackages.stratosphere-forecast](https://hydra.nixos.org/eval/1820195?filter=haskellPackages.stratosphere-forecast) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/313899764) [haskellPackages.stratosphere-globalaccelerator](https://hydra.nixos.org/eval/1820195?filter=haskellPackages.stratosphere-globalaccelerator) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/313899765) [haskellPackages.stratosphere-glue](https://hydra.nixos.org/eval/1820195?filter=haskellPackages.stratosphere-glue) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/313899774) [haskellPackages.stratosphere-grafana](https://hydra.nixos.org/eval/1820195?filter=haskellPackages.stratosphere-grafana) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/313899796) [haskellPackages.stratosphere-greengrass](https://hydra.nixos.org/eval/1820195?filter=haskellPackages.stratosphere-greengrass) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/313899814) [haskellPackages.stratosphere-internetmonitor](https://hydra.nixos.org/eval/1820195?filter=haskellPackages.stratosphere-internetmonitor) 
