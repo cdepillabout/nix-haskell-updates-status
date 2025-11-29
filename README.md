@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1820566](https://hydra.nixos.org/eval/1820566) of nixpkgs commit [62a3860](https://github.com/NixOS/nixpkgs/commits/62a3860c3400eec2f9d236fbd6590e04102b15b2) as of 2025-11-29 12:11 UTC*
+*evaluation [1820566](https://hydra.nixos.org/eval/1820566) of nixpkgs commit [62a3860](https://github.com/NixOS/nixpkgs/commits/62a3860c3400eec2f9d236fbd6590e04102b15b2) as of 2025-11-29 18:09 UTC*
 
 🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset is not finished.
@@ -21,11 +21,11 @@
 #### Unmaintained packages with build failure
 <details><summary>302 job(s) </summary>
 
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/315095739) [haskellPackages.dataframe](https://hydra.nixos.org/eval/1820566?filter=haskellPackages.dataframe)  ⤴️ 3 | 3
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/315095962) [haskellPackages.duoids](https://hydra.nixos.org/eval/1820566?filter=haskellPackages.duoids)  ⤴️ 3 | 3
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/315096508) [haskellPackages.geomancy](https://hydra.nixos.org/eval/1820566?filter=haskellPackages.geomancy)  ⤴️ 1 | 8
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/315094487) [haskellPackages.airgql](https://hydra.nixos.org/eval/1820566?filter=haskellPackages.airgql)  ⤴️ 1 | 1
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/315096508) [haskellPackages.geomancy](https://hydra.nixos.org/eval/1820566?filter=haskellPackages.geomancy)  ⤴️ 0 | 8
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/315095739) [haskellPackages.dataframe](https://hydra.nixos.org/eval/1820566?filter=haskellPackages.dataframe)  ⤴️ 0 | 3
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/315095962) [haskellPackages.duoids](https://hydra.nixos.org/eval/1820566?filter=haskellPackages.duoids)  ⤴️ 0 | 3
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/315095700) [haskellPackages.crucible-llvm](https://hydra.nixos.org/eval/1820566?filter=haskellPackages.crucible-llvm)  ⤴️ 0 | 2
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/315094487) [haskellPackages.airgql](https://hydra.nixos.org/eval/1820566?filter=haskellPackages.airgql)  ⤴️ 0 | 1
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/315095926) [haskellPackages.dom-parser](https://hydra.nixos.org/eval/1820566?filter=haskellPackages.dom-parser)  ⤴️ 0 | 1
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/315096984) [haskellPackages.haskell-debugger-view](https://hydra.nixos.org/eval/1820566?filter=haskellPackages.haskell-debugger-view)  ⤴️ 0 | 1
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/315191813) [haskellPackages._type](https://hydra.nixos.org/eval/1820566?filter=haskellPackages._type) 
@@ -328,8 +328,8 @@
 #### Unmaintained packages with failed dependency
 <details><summary>16 job(s) </summary>
 
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/315095823) [haskellPackages.dataframe-hasktorch](https://hydra.nixos.org/eval/1820566?filter=haskellPackages.dataframe-hasktorch)  ⤴️ 1 | 1
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/315096519) [haskellPackages.geomancy-layout](https://hydra.nixos.org/eval/1820566?filter=haskellPackages.geomancy-layout)  ⤴️ 0 | 7
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/315095823) [haskellPackages.dataframe-hasktorch](https://hydra.nixos.org/eval/1820566?filter=haskellPackages.dataframe-hasktorch)  ⤴️ 0 | 1
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/315094393) [haskellPackages.algebraic-graph-duoids](https://hydra.nixos.org/eval/1820566?filter=haskellPackages.algebraic-graph-duoids) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/315094791) [haskellPackages.arxiv-client-cli](https://hydra.nixos.org/eval/1820566?filter=haskellPackages.arxiv-client-cli) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/315095744) [haskellPackages.dataframe-persistent](https://hydra.nixos.org/eval/1820566?filter=haskellPackages.dataframe-persistent) 
