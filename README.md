@@ -1,14 +1,14 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1820566](https://hydra.nixos.org/eval/1820566) of nixpkgs commit [62a3860](https://github.com/NixOS/nixpkgs/commits/62a3860c3400eec2f9d236fbd6590e04102b15b2) as of 2025-11-29 00:28 UTC*
+*evaluation [1820566](https://hydra.nixos.org/eval/1820566) of nixpkgs commit [62a3860](https://github.com/NixOS/nixpkgs/commits/62a3860c3400eec2f9d236fbd6590e04102b15b2) as of 2025-11-29 06:10 UTC*
 
 🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1820566?filter=.x86_64-linux) | 302 | 26 | 1 | 28 | 7222 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Success ✅ | 
+ | --- | --- | --- | --- | --- | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1820566?filter=.x86_64-linux) | 303 | 26 | 1 | 7241 | 
 #### Maintained Linux packages with build failure
 - [ ] [haskell-language-server](https://hydra.nixos.org/eval/1820566?filter=haskell-language-server) @maralorn
   - [[🐧✅]](https://hydra.nixos.org/build/315094246) [toplevel](https://hydra.nixos.org/eval/1820566?filter=haskell-language-server)
@@ -18,6 +18,9 @@
   - [[🐧✅]](https://hydra.nixos.org/build/315095327) [haskell.packages.ghc967](https://hydra.nixos.org/eval/1820566?filter=haskell.packages.ghc967.haskell-language-server)
   - [[🐧❌]](https://hydra.nixos.org/build/315095539) [haskell.packages.ghc984](https://hydra.nixos.org/eval/1820566?filter=haskell.packages.ghc984.haskell-language-server)
   - [[🐧✅]](https://hydra.nixos.org/build/315097612) [haskellPackages](https://hydra.nixos.org/eval/1820566?filter=haskellPackages.haskell-language-server)
+- [ ] [xmonad](https://hydra.nixos.org/eval/1820566?filter=xmonad) @NeQuissimus @dschrempf @ivanbrennan @peti @slotThe
+  - [[🐧✅]](https://hydra.nixos.org/build/315101253) [haskellPackages](https://hydra.nixos.org/eval/1820566?filter=haskellPackages.xmonad)
+  - [[🐧❌]](https://hydra.nixos.org/build/315191826) [nixosTests](https://hydra.nixos.org/eval/1820566?filter=nixosTests.xmonad)
 #### Maintained Linux packages with failed dependency
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/315095048) [haskellPackages.binrep](https://hydra.nixos.org/eval/1820566?filter=haskellPackages.binrep) @raehik
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/315191829) [maintained](https://hydra.nixos.org/eval/1820566?filter=maintained) @cdepillabout @maralorn @sternenseemann @wolfgangwalther
