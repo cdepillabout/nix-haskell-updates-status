@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1821020](https://hydra.nixos.org/eval/1821020) of nixpkgs commit [c1c47d4](https://github.com/NixOS/nixpkgs/commits/c1c47d4ab245a83613d4e3b78bb0adb0834448f2) as of 2025-12-13 12:12 UTC*
+*evaluation [1821020](https://hydra.nixos.org/eval/1821020) of nixpkgs commit [c1c47d4](https://github.com/NixOS/nixpkgs/commits/c1c47d4ab245a83613d4e3b78bb0adb0834448f2) as of 2025-12-14 00:34 UTC*
 
 🔴 **Branch not mergeable**
   * Too many outstanding jobs on x86_64-linux.
@@ -10,7 +10,7 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1821020?filter=.x86_64-linux) | 8 | 5 | 1 | 219 | 7092 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1821020?filter=.x86_64-linux) | 8 | 4 | 1 | 215 | 7092 | 
 #### Maintained Linux packages with build failure
 - [ ] [ghc](https://hydra.nixos.org/eval/1821020?filter=ghc) @cdepillabout @guibou @maralorn @sternenseemann @wolfgangwalther
   - [[🐧✅]](https://hydra.nixos.org/build/315096460) [haskellPackages](https://hydra.nixos.org/eval/1821020?filter=haskellPackages.ghc)
@@ -37,7 +37,6 @@
   - [[🐧✅]](https://hydra.nixos.org/build/316128321) [pkgsStatic.haskellPackages](https://hydra.nixos.org/eval/1821020?filter=pkgsStatic.haskellPackages.hello)
   - [[🐧✅]](https://hydra.nixos.org/build/315101521) [tests.haskell.ghcWithPackages](https://hydra.nixos.org/eval/1821020?filter=tests.haskell.ghcWithPackages.hello)
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/316128331) [pkgsCross.ghcjs.haskell.packages.ghc912.reflex-dom](https://hydra.nixos.org/eval/1821020?filter=pkgsCross.ghcjs.haskell.packages.ghc912.reflex-dom) @alexfmpe @maralorn
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/316138632) [tamarin-prover](https://hydra.nixos.org/eval/1821020?filter=tamarin-prover) @thoughtpolice
 #### Unmaintained packages with build failure
 <details><summary>8 job(s) </summary>
 
