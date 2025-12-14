@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1821020](https://hydra.nixos.org/eval/1821020) of nixpkgs commit [c1c47d4](https://github.com/NixOS/nixpkgs/commits/c1c47d4ab245a83613d4e3b78bb0adb0834448f2) as of 2025-12-14 12:12 UTC*
+*evaluation [1821020](https://hydra.nixos.org/eval/1821020) of nixpkgs commit [c1c47d4](https://github.com/NixOS/nixpkgs/commits/c1c47d4ab245a83613d4e3b78bb0adb0834448f2) as of 2025-12-14 18:10 UTC*
 
 🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
@@ -95,10 +95,10 @@
 [iteratee](https://packdeps.haskellers.com/reverse/iteratee) ⤴️ 29  
 [composite-base](https://packdeps.haskellers.com/reverse/composite-base) ⤴️ 28  
 [hw-bits](https://packdeps.haskellers.com/reverse/hw-bits) ⤴️ 28  
-[regexpr](https://packdeps.haskellers.com/reverse/regexpr) ⤴️ 27  
 [text-format](https://packdeps.haskellers.com/reverse/text-format) ⤴️ 27  
 [crypto-numbers](https://packdeps.haskellers.com/reverse/crypto-numbers) ⤴️ 25  
 [either-unwrap](https://packdeps.haskellers.com/reverse/either-unwrap) ⤴️ 25  
+[regexpr](https://packdeps.haskellers.com/reverse/regexpr) ⤴️ 24  
 [bits-extra](https://packdeps.haskellers.com/reverse/bits-extra) ⤴️ 23  
 [Crypto](https://packdeps.haskellers.com/reverse/Crypto) ⤴️ 22  
 [crypto-pubkey](https://packdeps.haskellers.com/reverse/crypto-pubkey) ⤴️ 22  
