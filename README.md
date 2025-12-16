@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1821138](https://hydra.nixos.org/eval/1821138) of nixpkgs commit [0c4b425](https://github.com/NixOS/nixpkgs/commits/0c4b4255fce0ba93c5b673f7e8bd753a02dcf467) as of 2025-12-16 12:13 UTC*
+*evaluation [1821138](https://hydra.nixos.org/eval/1821138) of nixpkgs commit [0c4b425](https://github.com/NixOS/nixpkgs/commits/0c4b4255fce0ba93c5b673f7e8bd753a02dcf467) as of 2025-12-16 18:11 UTC*
 
 🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `mergeable` jobset is not finished.
@@ -9,7 +9,7 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1821138?filter=.x86_64-linux) | 10 | 7 | 1 | 59 | 7244 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1821138?filter=.x86_64-linux) | 12 | 7 | 1 | 43 | 7257 | 
 #### Maintained Linux packages with build failure
 - [ ] [ghc](https://hydra.nixos.org/eval/1821138?filter=ghc) @cdepillabout @guibou @maralorn @sternenseemann @wolfgangwalther
   - [[🐧✅]](https://hydra.nixos.org/build/315096460) [haskellPackages](https://hydra.nixos.org/eval/1821138?filter=haskellPackages.ghc)
@@ -34,7 +34,7 @@
   - [[🐧✅]](https://hydra.nixos.org/build/315101521) [tests.haskell.ghcWithPackages](https://hydra.nixos.org/eval/1821138?filter=tests.haskell.ghcWithPackages.hello)
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/316128331) [pkgsCross.ghcjs.haskell.packages.ghc912.reflex-dom](https://hydra.nixos.org/eval/1821138?filter=pkgsCross.ghcjs.haskell.packages.ghc912.reflex-dom) @alexfmpe @maralorn
 #### Unmaintained packages with build failure
-<details><summary>9 job(s) </summary>
+<details><summary>11 job(s) </summary>
 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/316190912) [haskellPackages.http2-tls](https://hydra.nixos.org/eval/1821138?filter=haskellPackages.http2-tls)  ⤴️ 2 | 3
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/316128181) [haskellPackages.warpZ](https://hydra.nixos.org/eval/1821138?filter=haskellPackages.warpZ)  ⤴️ 1 | 1
@@ -43,8 +43,10 @@
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/316138499) [haskellPackages.ghc-stack-profiler-speedscope](https://hydra.nixos.org/eval/1821138?filter=haskellPackages.ghc-stack-profiler-speedscope) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/316127933) [haskellPackages.haal](https://hydra.nixos.org/eval/1821138?filter=haskellPackages.haal) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/316138526) [haskellPackages.hpqtypes-effectful](https://hydra.nixos.org/eval/1821138?filter=haskellPackages.hpqtypes-effectful) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/316401203) [haskellPackages.librato](https://hydra.nixos.org/eval/1821138?filter=haskellPackages.librato) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/316128126) [haskellPackages.rhine-bayes](https://hydra.nixos.org/eval/1821138?filter=haskellPackages.rhine-bayes) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/316128155) [haskellPackages.strict-checked-vars](https://hydra.nixos.org/eval/1821138?filter=haskellPackages.strict-checked-vars) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/316401220) [haskellPackages.wai-token-bucket-ratelimiter](https://hydra.nixos.org/eval/1821138?filter=haskellPackages.wai-token-bucket-ratelimiter) 
 </details>
 
 #### Unmaintained packages with failed dependency
