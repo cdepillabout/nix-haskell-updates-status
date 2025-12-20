@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1821245](https://hydra.nixos.org/eval/1821245) of nixpkgs commit [f4cd05d](https://github.com/NixOS/nixpkgs/commits/f4cd05d2e7c9f8176501c99516e56e2881325829) as of 2025-12-20 06:10 UTC*
+*evaluation [1821245](https://hydra.nixos.org/eval/1821245) of nixpkgs commit [f4cd05d](https://github.com/NixOS/nixpkgs/commits/f4cd05d2e7c9f8176501c99516e56e2881325829) as of 2025-12-20 12:11 UTC*
 
 🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `mergeable` jobset is not finished.
@@ -9,7 +9,7 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1821245?filter=.x86_64-linux) | 1 | 4 | 1 | 21 | 7277 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1821245?filter=.x86_64-linux) | 1 | 4 | 1 | 19 | 7278 | 
 #### Maintained Linux packages with build failure
 - [ ] [ghc](https://hydra.nixos.org/eval/1821245?filter=ghc) @cdepillabout @guibou @maralorn @sternenseemann @wolfgangwalther
   - [[🐧✅]](https://hydra.nixos.org/build/315096460) [haskellPackages](https://hydra.nixos.org/eval/1821245?filter=haskellPackages.ghc)
