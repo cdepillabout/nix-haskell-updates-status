@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1821245](https://hydra.nixos.org/eval/1821245) of nixpkgs commit [f4cd05d](https://github.com/NixOS/nixpkgs/commits/f4cd05d2e7c9f8176501c99516e56e2881325829) as of 2025-12-23 00:31 UTC*
+*evaluation [1821245](https://hydra.nixos.org/eval/1821245) of nixpkgs commit [f4cd05d](https://github.com/NixOS/nixpkgs/commits/f4cd05d2e7c9f8176501c99516e56e2881325829) as of 2025-12-23 06:12 UTC*
 
 🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `mergeable` jobset is not finished.
@@ -8,7 +8,7 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1821245?filter=.x86_64-linux) | 1 | 4 | 1 | 14 | 7284 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1821245?filter=.x86_64-linux) | 2 | 4 | 1 | 12 | 7285 | 
 #### Maintained Linux packages with build failure
 - [ ] [ghc](https://hydra.nixos.org/eval/1821245?filter=ghc) @cdepillabout @guibou @maralorn @sternenseemann @wolfgangwalther
   - [[🐧✅]](https://hydra.nixos.org/build/315096460) [haskellPackages](https://hydra.nixos.org/eval/1821245?filter=haskellPackages.ghc)
@@ -32,6 +32,12 @@
   - [[🐧✅]](https://hydra.nixos.org/build/316128321) [pkgsStatic.haskellPackages](https://hydra.nixos.org/eval/1821245?filter=pkgsStatic.haskellPackages.hello)
   - [[🐧✅]](https://hydra.nixos.org/build/315101521) [tests.haskell.ghcWithPackages](https://hydra.nixos.org/eval/1821245?filter=tests.haskell.ghcWithPackages.hello)
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/316128331) [pkgsCross.ghcjs.haskell.packages.ghc912.reflex-dom](https://hydra.nixos.org/eval/1821245?filter=pkgsCross.ghcjs.haskell.packages.ghc912.reflex-dom) @alexfmpe @maralorn
+#### Unmaintained packages with build failure
+<details><summary>1 job(s) </summary>
+
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/316401214) [haskellPackages.sqlite-easy](https://hydra.nixos.org/eval/1821245?filter=haskellPackages.sqlite-easy) 
+</details>
+
 #### Unmaintained packages with failed dependency
 <details><summary>10 job(s) </summary>
 
