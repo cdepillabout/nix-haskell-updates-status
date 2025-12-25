@@ -1,15 +1,14 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1821391](https://hydra.nixos.org/eval/1821391) of nixpkgs commit [953bf70](https://github.com/NixOS/nixpkgs/commits/953bf707745e715f4795f0d617a55588a33faf6e) as of 2025-12-24 18:11 UTC*
+*evaluation [1821391](https://hydra.nixos.org/eval/1821391) of nixpkgs commit [953bf70](https://github.com/NixOS/nixpkgs/commits/953bf707745e715f4795f0d617a55588a33faf6e) as of 2025-12-25 06:11 UTC*
 
 🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `mergeable` jobset is not finished.
-  * `maintained` jobset is not finished.
 
 #### Build summary
 
  | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | HydraFailure 🚧 | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1821391?filter=.x86_64-linux) | 2 | 4 | 1 | 1 | 12 | 7284 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1821391?filter=.x86_64-linux) | 2 | 4 | 1 | 1 | 9 | 7289 | 
 #### Maintained Linux packages with build failure
 - [ ] [ghc](https://hydra.nixos.org/eval/1821391?filter=ghc) @cdepillabout @guibou @maralorn @sternenseemann @wolfgangwalther
   - [[🐧✅]](https://hydra.nixos.org/build/315096460) [haskellPackages](https://hydra.nixos.org/eval/1821391?filter=haskellPackages.ghc)
