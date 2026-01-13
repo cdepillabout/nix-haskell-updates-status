@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1821930](https://hydra.nixos.org/eval/1821930) of nixpkgs commit [0cc1b42](https://github.com/NixOS/nixpkgs/commits/0cc1b420d081f838af066b18a57c6b57e7aa1ff5) as of 2026-01-13 06:12 UTC*
+*evaluation [1821930](https://hydra.nixos.org/eval/1821930) of nixpkgs commit [0cc1b42](https://github.com/NixOS/nixpkgs/commits/0cc1b420d081f838af066b18a57c6b57e7aa1ff5) as of 2026-01-13 12:14 UTC*
 
 🔴 **Branch not mergeable**
   * Too many outstanding jobs on x86_64-linux.
@@ -10,7 +10,7 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1821930?filter=.x86_64-linux) | 1 | 23 | 5684 | 1717 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1821930?filter=.x86_64-linux) | 1 | 23 | 5644 | 1757 | 
 #### Maintained Linux packages with build failure
 - [ ] [ghc948](https://hydra.nixos.org/eval/1821930?filter=ghc948) @cdepillabout @guibou @maralorn @sternenseemann @wolfgangwalther
   - [[🐧✅]](https://hydra.nixos.org/build/318370768) [haskell.compiler](https://hydra.nixos.org/eval/1821930?filter=haskell.compiler.ghc948)
