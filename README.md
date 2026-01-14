@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1821930](https://hydra.nixos.org/eval/1821930) of nixpkgs commit [0cc1b42](https://github.com/NixOS/nixpkgs/commits/0cc1b420d081f838af066b18a57c6b57e7aa1ff5) as of 2026-01-14 12:14 UTC*
+*evaluation [1821930](https://hydra.nixos.org/eval/1821930) of nixpkgs commit [0cc1b42](https://github.com/NixOS/nixpkgs/commits/0cc1b420d081f838af066b18a57c6b57e7aa1ff5) as of 2026-01-14 18:11 UTC*
 
 🔴 **Branch not mergeable**
   * Too many outstanding jobs on x86_64-linux.
@@ -10,7 +10,7 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1821930?filter=.x86_64-linux) | 6 | 29 | 1 | 4772 | 2632 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1821930?filter=.x86_64-linux) | 4 | 29 | 1 | 4774 | 2632 | 
 #### Maintained Linux packages with build failure
 - [ ] [ghc948](https://hydra.nixos.org/eval/1821930?filter=ghc948) @cdepillabout @guibou @maralorn @sternenseemann @wolfgangwalther
   - [[🐧✅]](https://hydra.nixos.org/build/318370768) [haskell.compiler](https://hydra.nixos.org/eval/1821930?filter=haskell.compiler.ghc948)
@@ -93,10 +93,8 @@
   - [[🐧⏳]](https://hydra.nixos.org/build/319197737) [haskellPackages](https://hydra.nixos.org/eval/1821930?filter=haskellPackages.language-nix)
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/318783605) [tests.haskell.upstreamStackHpackVersion](https://hydra.nixos.org/eval/1821930?filter=tests.haskell.upstreamStackHpackVersion) @cdepillabout
 #### Unmaintained packages with build failure
-<details><summary>4 job(s) </summary>
+<details><summary>2 job(s) </summary>
 
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/319196461) [haskellPackages.gi-atk](https://hydra.nixos.org/eval/1821930?filter=haskellPackages.gi-atk)  ⤴️ 18 | 41
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/319194841) [haskellPackages.beam-migrate](https://hydra.nixos.org/eval/1821930?filter=haskellPackages.beam-migrate)  ⤴️ 2 | 10
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/319194907) [haskellPackages.bindings-gpgme](https://hydra.nixos.org/eval/1821930?filter=haskellPackages.bindings-gpgme)  ⤴️ 0 | 2
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/319194780) [haskellPackages.avif](https://hydra.nixos.org/eval/1821930?filter=haskellPackages.avif)  ⤴️ 0 | 1
 </details>
