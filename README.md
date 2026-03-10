@@ -1,15 +1,15 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1823417](https://hydra.nixos.org/eval/1823417) of nixpkgs commit [34f316a](https://github.com/NixOS/nixpkgs/commits/34f316a97a3e0e69bea9b44cd1142f7e73557437) as of 2026-03-10 00:35 UTC*
+*evaluation [1823417](https://hydra.nixos.org/eval/1823417) of nixpkgs commit [34f316a](https://github.com/NixOS/nixpkgs/commits/34f316a97a3e0e69bea9b44cd1142f7e73557437) as of 2026-03-10 06:22 UTC*
 
 🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
+  * `maintained` jobset failed.
   * `mergeable` jobset is not finished.
-  * `maintained` jobset is not finished.
 
 #### Build summary
 
  | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1823417?filter=.x86_64-linux) | 31 | 13 | 2 | 49 | 7360 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1823417?filter=.x86_64-linux) | 31 | 14 | 2 | 38 | 7368 | 
 #### Maintained Linux packages with build failure
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/322821337) [haskellPackages.heystone](https://hydra.nixos.org/eval/1823417?filter=haskellPackages.heystone) @raehik
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/322822733) [haskellPackages.nfc](https://hydra.nixos.org/eval/1823417?filter=haskellPackages.nfc) @centromere
@@ -29,6 +29,7 @@
 - [ ] [jacinda](https://hydra.nixos.org/eval/1823417?filter=jacinda) @sternenseemann
   - [[🐧❗]](https://hydra.nixos.org/build/322987656) [toplevel](https://hydra.nixos.org/eval/1823417?filter=jacinda)
   - [[🐧❗]](https://hydra.nixos.org/build/322986128) [haskellPackages](https://hydra.nixos.org/eval/1823417?filter=haskellPackages.jacinda)
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/323790186) [maintained](https://hydra.nixos.org/eval/1823417?filter=maintained) @cdepillabout @maralorn @sternenseemann @wolfgangwalther
 #### Unmaintained packages with build failure
 <details><summary>28 job(s) </summary>
 
