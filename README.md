@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1823507](https://hydra.nixos.org/eval/1823507) of nixpkgs commit [7f6b9a7](https://github.com/NixOS/nixpkgs/commits/7f6b9a7b237b28b687bb99de774ba1d3ab941b0b) as of 2026-03-11 18:24 UTC*
+*evaluation [1823507](https://hydra.nixos.org/eval/1823507) of nixpkgs commit [7f6b9a7](https://github.com/NixOS/nixpkgs/commits/7f6b9a7b237b28b687bb99de774ba1d3ab941b0b) as of 2026-03-12 00:33 UTC*
 
 🔴 **Branch not mergeable**
   * Too many outstanding jobs on x86_64-linux.
@@ -8,9 +8,9 @@
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1823507?filter=.x86_64-linux) | 13 | 2 | 1 | 209 | 7269 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | HydraFailure 🚧 | Unfinished ⏳ | Success ✅ | 
+ | --- | --- | --- | --- | --- | --- | --- | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1823507?filter=.x86_64-linux) | 18 | 3 | 1 | 1 | 129 | 7336 | 
 #### Maintained Linux packages with build failure
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/322821337) [haskellPackages.heystone](https://hydra.nixos.org/eval/1823507?filter=haskellPackages.heystone) @raehik
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/322822733) [haskellPackages.nfc](https://hydra.nixos.org/eval/1823507?filter=haskellPackages.nfc) @centromere
@@ -20,9 +20,12 @@
   - [[🐧❗]](https://hydra.nixos.org/build/322987656) [toplevel](https://hydra.nixos.org/eval/1823507?filter=jacinda)
   - [[🐧❗]](https://hydra.nixos.org/build/322986128) [haskellPackages](https://hydra.nixos.org/eval/1823507?filter=haskellPackages.jacinda)
 #### Unmaintained packages with build failure
-<details><summary>10 job(s) </summary>
+<details><summary>15 job(s) </summary>
 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/323973354) [haskellPackages.basic](https://hydra.nixos.org/eval/1823507?filter=haskellPackages.basic)  ⤴️ 4 | 4
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/322819063) [haskellPackages.avif](https://hydra.nixos.org/eval/1823507?filter=haskellPackages.avif)  ⤴️ 1 | 1
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/323973373) [haskellPackages.copilot-sbv](https://hydra.nixos.org/eval/1823507?filter=haskellPackages.copilot-sbv)  ⤴️ 1 | 1
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/323973462) [haskellPackages.grisette](https://hydra.nixos.org/eval/1823507?filter=haskellPackages.grisette)  ⤴️ 1 | 1
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/323973629) [haskellPackages.verifiable-expressions](https://hydra.nixos.org/eval/1823507?filter=haskellPackages.verifiable-expressions)  ⤴️ 0 | 1
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/323973336) [haskellPackages.ListT](https://hydra.nixos.org/eval/1823507?filter=haskellPackages.ListT) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/323973376) [haskellPackages.diff](https://hydra.nixos.org/eval/1823507?filter=haskellPackages.diff) 
@@ -31,12 +34,15 @@
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/322823315) [haskellPackages.primecount](https://hydra.nixos.org/eval/1823507?filter=haskellPackages.primecount) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/323973576) [haskellPackages.quick-process](https://hydra.nixos.org/eval/1823507?filter=haskellPackages.quick-process) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/323973607) [haskellPackages.sbv-program](https://hydra.nixos.org/eval/1823507?filter=haskellPackages.sbv-program) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/323973618) [haskellPackages.scheduling](https://hydra.nixos.org/eval/1823507?filter=haskellPackages.scheduling) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/323973634) [haskellPackages.valid](https://hydra.nixos.org/eval/1823507?filter=haskellPackages.valid) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/323973628) [haskellPackages.vpq](https://hydra.nixos.org/eval/1823507?filter=haskellPackages.vpq) 
 </details>
 
 #### Unmaintained packages with failed dependency
-<details><summary>1 job(s) </summary>
+<details><summary>2 job(s) </summary>
 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/323973374) [haskellPackages.copilot-cbmc](https://hydra.nixos.org/eval/1823507?filter=haskellPackages.copilot-cbmc) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/322986644) [haskellPackages.perceptual-hash](https://hydra.nixos.org/eval/1823507?filter=haskellPackages.perceptual-hash) 
 </details>
 
