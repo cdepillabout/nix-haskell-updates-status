@@ -1,29 +1,16 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1823621](https://hydra.nixos.org/eval/1823621) of nixpkgs commit [90354e5](https://github.com/NixOS/nixpkgs/commits/90354e5ce0f9788254617eaa621d94b8208bc8d0) as of 2026-03-28 06:53 UTC*
+*evaluation [1823981](https://hydra.nixos.org/eval/1823981) of nixpkgs commit [f18788f](https://github.com/NixOS/nixpkgs/commits/f18788f08dd8177fb8a996d6b2ca96cd372c0335) as of 2026-03-28 12:41 UTC*
 
-🟢 **Ready to merge** (if there are no [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
+🔴 **Branch not mergeable**
+  * No `maintained` job found.
+  * Too many outstanding jobs on x86_64-linux.
+  * `mergeable` jobset is not finished.
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Success ✅ | 
- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1823621?filter=.x86_64-linux) | 1 | 2 | 1 | 7446 | 
-#### Maintained Linux packages with failed dependency
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/324110264) [pkgsCross.ghcjs.haskell.packages.ghc912.reflex-dom](https://hydra.nixos.org/eval/1823621?filter=pkgsCross.ghcjs.haskell.packages.ghc912.reflex-dom) @maralorn
-#### Unmaintained packages with build failure
-<details><summary>1 job(s) </summary>
-
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/322823315) [haskellPackages.primecount](https://hydra.nixos.org/eval/1823621?filter=haskellPackages.primecount) 
-</details>
-
-#### Unmaintained packages with failed dependency
-<details><summary>3 job(s) </summary>
-
-- [ ] [miso](https://hydra.nixos.org/eval/1823621?filter=miso)  ⤴️ 1 | 3
-  - [[🐧✅]](https://hydra.nixos.org/build/324108199) [haskellPackages](https://hydra.nixos.org/eval/1823621?filter=haskellPackages.miso)
-  - [[🐧❗]](https://hydra.nixos.org/build/324110265) [pkgsCross.ghcjs.haskell.packages.ghc912](https://hydra.nixos.org/eval/1823621?filter=pkgsCross.ghcjs.haskell.packages.ghc912.miso)
-</details>
-
+ | Platform | Unfinished ⏳ | Success ✅ | 
+ | --- | --- | --- | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1823981?filter=.x86_64-linux) | 7471 | 1 | 
 #### Top 50 broken packages, sorted by number of reverse dependencies
 <details><summary>50 job(s) </summary>
 
