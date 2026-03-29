@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1823981](https://hydra.nixos.org/eval/1823981) of nixpkgs commit [f18788f](https://github.com/NixOS/nixpkgs/commits/f18788f08dd8177fb8a996d6b2ca96cd372c0335) as of 2026-03-29 12:17 UTC*
+*evaluation [1823981](https://hydra.nixos.org/eval/1823981) of nixpkgs commit [f18788f](https://github.com/NixOS/nixpkgs/commits/f18788f08dd8177fb8a996d6b2ca96cd372c0335) as of 2026-03-29 18:15 UTC*
 
 🔴 **Branch not mergeable**
   * No `maintained` job found.
@@ -10,7 +10,7 @@
 
  | Platform | Failed ❌ | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1823981?filter=.x86_64-linux) | 2 | 6515 | 986 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1823981?filter=.x86_64-linux) | 2 | 6314 | 1197 | 
 #### Maintained Linux packages with build failure
 - [ ] [hledger-interest](https://hydra.nixos.org/eval/1823981?filter=hledger-interest) @peti
   - [[🐧⏳]](https://hydra.nixos.org/build/325233307) [toplevel](https://hydra.nixos.org/eval/1823981?filter=hledger-interest)
