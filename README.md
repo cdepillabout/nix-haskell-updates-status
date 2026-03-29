@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1823981](https://hydra.nixos.org/eval/1823981) of nixpkgs commit [f18788f](https://github.com/NixOS/nixpkgs/commits/f18788f08dd8177fb8a996d6b2ca96cd372c0335) as of 2026-03-28 18:40 UTC*
+*evaluation [1823981](https://hydra.nixos.org/eval/1823981) of nixpkgs commit [f18788f](https://github.com/NixOS/nixpkgs/commits/f18788f08dd8177fb8a996d6b2ca96cd372c0335) as of 2026-03-29 01:10 UTC*
 
 🔴 **Branch not mergeable**
   * No `maintained` job found.
@@ -10,7 +10,7 @@
 
  | Platform | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1823981?filter=.x86_64-linux) | 7471 | 1 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1823981?filter=.x86_64-linux) | 7416 | 59 | 
 #### Top 50 broken packages, sorted by number of reverse dependencies
 <details><summary>50 job(s) </summary>
 
