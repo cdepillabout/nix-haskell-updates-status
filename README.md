@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1823981](https://hydra.nixos.org/eval/1823981) of nixpkgs commit [f18788f](https://github.com/NixOS/nixpkgs/commits/f18788f08dd8177fb8a996d6b2ca96cd372c0335) as of 2026-03-30 06:46 UTC*
+*evaluation [1824027](https://hydra.nixos.org/eval/1824027) of nixpkgs commit [e5b4dff](https://github.com/NixOS/nixpkgs/commits/e5b4dff1264e130c1bdb910a478a6abb22f4b254) as of 2026-03-30 19:55 UTC*
 
 🔴 **Branch not mergeable**
   * No `maintained` job found.
@@ -8,24 +8,9 @@
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1823981?filter=.x86_64-linux) | 3 | 1 | 5511 | 2022 | 
-#### Maintained Linux packages with build failure
-- [ ] [hledger-interest](https://hydra.nixos.org/eval/1823981?filter=hledger-interest) @peti
-  - [[🐧⏳]](https://hydra.nixos.org/build/325233307) [toplevel](https://hydra.nixos.org/eval/1823981?filter=hledger-interest)
-  - [[🐧❌]](https://hydra.nixos.org/build/325229229) [haskellPackages](https://hydra.nixos.org/eval/1823981?filter=haskellPackages.hledger-interest)
-#### Maintained Linux packages with failed dependency
-- [ ] [git-annex](https://hydra.nixos.org/eval/1823981?filter=git-annex) @peti
-  - [[🐧❗]](https://hydra.nixos.org/build/325225850) [toplevel](https://hydra.nixos.org/eval/1823981?filter=git-annex)
-  - [[🐧❗]](https://hydra.nixos.org/build/325228660) [haskellPackages](https://hydra.nixos.org/eval/1823981?filter=haskellPackages.git-annex)
-#### Unmaintained packages with build failure
-<details><summary>2 job(s) </summary>
-
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/325227464) [haskellPackages.clash-lib-hedgehog](https://hydra.nixos.org/eval/1823981?filter=haskellPackages.clash-lib-hedgehog) 
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/325230732) [haskellPackages.odbc](https://hydra.nixos.org/eval/1823981?filter=haskellPackages.odbc) 
-</details>
-
+ | Platform | Canceled 🚫 | Unfinished ⏳ | Success ✅ | 
+ | --- | --- | --- | --- | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1824027?filter=.x86_64-linux) | 2 | 7471 | 3 | 
 #### Top 50 broken packages, sorted by number of reverse dependencies
 <details><summary>50 job(s) </summary>
 
