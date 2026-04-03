@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1824097](https://hydra.nixos.org/eval/1824097) of nixpkgs commit [4dcdbe4](https://github.com/NixOS/nixpkgs/commits/4dcdbe4a6f3b94d9b98651d28e7451f5eb81b93b) as of 2026-04-02 12:28 UTC*
+*evaluation [1824097](https://hydra.nixos.org/eval/1824097) of nixpkgs commit [4dcdbe4](https://github.com/NixOS/nixpkgs/commits/4dcdbe4a6f3b94d9b98651d28e7451f5eb81b93b) as of 2026-04-03 00:43 UTC*
 
 🔴 **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -7,9 +7,9 @@
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Canceled 🚫 | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1824097?filter=.x86_64-linux) | 26 | 80 | 2 | 3 | 1 | 7371 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Canceled 🚫 | Success ✅ | 
+ | --- | --- | --- | --- | --- | --- | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1824097?filter=.x86_64-linux) | 26 | 81 | 2 | 3 | 7371 | 
 #### Maintained Linux packages with build failure
 - [ ] [hledger-interest](https://hydra.nixos.org/eval/1824097?filter=hledger-interest) @peti
   - [[🐧❌]](https://hydra.nixos.org/build/325271578) [toplevel](https://hydra.nixos.org/eval/1824097?filter=hledger-interest)
@@ -19,7 +19,7 @@
   - [[🐧❌]](https://hydra.nixos.org/build/325267525) [haskellPackages](https://hydra.nixos.org/eval/1824097?filter=haskellPackages.hledger-web)
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/325268560) [haskellPackages.mighttpd2](https://hydra.nixos.org/eval/1824097?filter=haskellPackages.mighttpd2) @sternenseemann
 - [ ] [pandoc](https://hydra.nixos.org/eval/1824097?filter=pandoc) @maralorn @sternenseemann
-  - [[🐧⏳]](https://hydra.nixos.org/build/325271607) [toplevel](https://hydra.nixos.org/eval/1824097?filter=pandoc)
+  - [[🐧❗]](https://hydra.nixos.org/build/325271607) [toplevel](https://hydra.nixos.org/eval/1824097?filter=pandoc)
   - [[🐧❌]](https://hydra.nixos.org/build/325269089) [haskellPackages](https://hydra.nixos.org/eval/1824097?filter=haskellPackages.pandoc)
 #### Maintained Linux packages with failed dependency
 - [ ] [bench](https://hydra.nixos.org/eval/1824097?filter=bench) @Gabriella439
