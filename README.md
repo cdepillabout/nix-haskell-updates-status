@@ -1,19 +1,22 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1824237](https://hydra.nixos.org/eval/1824237) of nixpkgs commit [3481640](https://github.com/NixOS/nixpkgs/commits/3481640d1832b3494512e62cb872be53bc388dfe) as of 2026-04-06 18:26 UTC*
+*evaluation [1824237](https://hydra.nixos.org/eval/1824237) of nixpkgs commit [3481640](https://github.com/NixOS/nixpkgs/commits/3481640d1832b3494512e62cb872be53bc388dfe) as of 2026-04-07 06:39 UTC*
 
 🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
-  * `mergeable` jobset is not finished.
-  * `maintained` jobset is not finished.
+  * `maintained` jobset failed.
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | Canceled 🚫 | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1824237?filter=.x86_64-linux) | 22 | 7 | 3 | 45 | 7407 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | Canceled 🚫 | Success ✅ | 
+ | --- | --- | --- | --- | --- | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1824237?filter=.x86_64-linux) | 24 | 9 | 3 | 7447 | 
 #### Maintained Linux packages with failed dependency
+- [ ] [git-annex](https://hydra.nixos.org/eval/1824237?filter=git-annex) @peti
+  - [[🐧❗]](https://hydra.nixos.org/build/325817817) [toplevel](https://hydra.nixos.org/eval/1824237?filter=git-annex)
+  - [[🐧❗]](https://hydra.nixos.org/build/325817829) [haskellPackages](https://hydra.nixos.org/eval/1824237?filter=haskellPackages.git-annex)
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/325271575) [hledger-check-fancyassertions](https://hydra.nixos.org/eval/1824237?filter=hledger-check-fancyassertions) @DamienCassou
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/325817888) [maintained](https://hydra.nixos.org/eval/1824237?filter=maintained) @cdepillabout @maralorn @sternenseemann @wolfgangwalther
 #### Unmaintained packages with build failure
-<details><summary>22 job(s) </summary>
+<details><summary>24 job(s) </summary>
 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/325270234) [haskellPackages.snappy-hs](https://hydra.nixos.org/eval/1824237?filter=haskellPackages.snappy-hs)  ⤴️ 4 | 6
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/325304052) [haskellPackages.inline-r](https://hydra.nixos.org/eval/1824237?filter=haskellPackages.inline-r)  ⤴️ 1 | 4
@@ -26,6 +29,8 @@
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/325265929) [haskellPackages.css-class-bindings](https://hydra.nixos.org/eval/1824237?filter=haskellPackages.css-class-bindings) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/325266754) [haskellPackages.genvalidity-hspec-hashable](https://hydra.nixos.org/eval/1824237?filter=haskellPackages.genvalidity-hspec-hashable) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/325817842) [haskellPackages.hakyll-dhall](https://hydra.nixos.org/eval/1824237?filter=haskellPackages.hakyll-dhall) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/325817834) [haskellPackages.hakyll-diagrams](https://hydra.nixos.org/eval/1824237?filter=haskellPackages.hakyll-diagrams) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/325817835) [haskellPackages.hakyll-images](https://hydra.nixos.org/eval/1824237?filter=haskellPackages.hakyll-images) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/325267326) [haskellPackages.haskell-igraph](https://hydra.nixos.org/eval/1824237?filter=haskellPackages.haskell-igraph) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/325267580) [haskellPackages.hpc-codecov](https://hydra.nixos.org/eval/1824237?filter=haskellPackages.hpc-codecov) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/325267665) [haskellPackages.hsmin](https://hydra.nixos.org/eval/1824237?filter=haskellPackages.hsmin) 
