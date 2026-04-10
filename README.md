@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1824305](https://hydra.nixos.org/eval/1824305) of nixpkgs commit [c11132a](https://github.com/NixOS/nixpkgs/commits/c11132a13656a251f3b921f97c1e79a7f3773cd0) as of 2026-04-09 12:31 UTC*
+*evaluation [1824305](https://hydra.nixos.org/eval/1824305) of nixpkgs commit [c11132a](https://github.com/NixOS/nixpkgs/commits/c11132a13656a251f3b921f97c1e79a7f3773cd0) as of 2026-04-10 00:44 UTC*
 
 🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `mergeable` jobset is not finished.
@@ -60,7 +60,6 @@
 [iteratee](https://packdeps.haskellers.com/reverse/iteratee) ⤴️ 29  
 [composite-base](https://packdeps.haskellers.com/reverse/composite-base) ⤴️ 28  
 [hw-bits](https://packdeps.haskellers.com/reverse/hw-bits) ⤴️ 28  
-[secp256k1-haskell](https://packdeps.haskellers.com/reverse/secp256k1-haskell) ⤴️ 27  
 [text-format](https://packdeps.haskellers.com/reverse/text-format) ⤴️ 27  
 [either-unwrap](https://packdeps.haskellers.com/reverse/either-unwrap) ⤴️ 26  
 [crypto-numbers](https://packdeps.haskellers.com/reverse/crypto-numbers) ⤴️ 25  
@@ -92,6 +91,7 @@
 [dbus-core](https://packdeps.haskellers.com/reverse/dbus-core) ⤴️ 18  
 [digit](https://packdeps.haskellers.com/reverse/digit) ⤴️ 18  
 [gtksourceview2](https://packdeps.haskellers.com/reverse/gtksourceview2) ⤴️ 18  
+[hw-rankselect](https://packdeps.haskellers.com/reverse/hw-rankselect) ⤴️ 18  
 </details>
 
 
