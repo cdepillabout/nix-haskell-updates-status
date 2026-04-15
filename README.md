@@ -1,14 +1,14 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1824411](https://hydra.nixos.org/eval/1824411) of nixpkgs commit [c7e1be8](https://github.com/NixOS/nixpkgs/commits/c7e1be87d27d8095b1b7c9fe6ab8e842fd358ca7) as of 2026-04-14 12:30 UTC*
+*evaluation [1824411](https://hydra.nixos.org/eval/1824411) of nixpkgs commit [c7e1be8](https://github.com/NixOS/nixpkgs/commits/c7e1be87d27d8095b1b7c9fe6ab8e842fd358ca7) as of 2026-04-15 12:31 UTC*
 
 🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | Canceled 🚫 | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1824411?filter=.x86_64-linux) | 39 | 12 | 41 | 19 | 7478 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | Canceled 🚫 | Success ✅ | 
+ | --- | --- | --- | --- | --- | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1824411?filter=.x86_64-linux) | 40 | 12 | 41 | 7493 | 
 #### Maintained Linux packages with build failure
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/326413294) [haskellPackages.ihp-migrate](https://hydra.nixos.org/eval/1824411?filter=haskellPackages.ihp-migrate) @mpscholten
 #### Maintained Linux packages with failed dependency
@@ -26,11 +26,12 @@
   - [[🐧✅]](https://hydra.nixos.org/build/326308095) [haskell.compiler](https://hydra.nixos.org/eval/1824411?filter=haskell.compiler.microhs_0_15_4_0)
   - [[🐧❗]](https://hydra.nixos.org/build/326308432) [pkgsMusl.haskell.compiler](https://hydra.nixos.org/eval/1824411?filter=pkgsMusl.haskell.compiler.microhs_0_15_4_0)
 #### Unmaintained packages with build failure
-<details><summary>38 job(s) </summary>
+<details><summary>39 job(s) </summary>
 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/326308328) [haskellPackages.postgresql-types](https://hydra.nixos.org/eval/1824411?filter=haskellPackages.postgresql-types)  ⤴️ 0 | 16
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/325267877) [haskellPackages.ihp-pglistener](https://hydra.nixos.org/eval/1824411?filter=haskellPackages.ihp-pglistener)  ⤴️ 0 | 14
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/325267680) [haskellPackages.hsblst](https://hydra.nixos.org/eval/1824411?filter=haskellPackages.hsblst)  ⤴️ 0 | 6
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/326413281) [haskellPackages.accelerate-llvm-native](https://hydra.nixos.org/eval/1824411?filter=haskellPackages.accelerate-llvm-native)  ⤴️ 0 | 5
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/325304052) [haskellPackages.inline-r](https://hydra.nixos.org/eval/1824411?filter=haskellPackages.inline-r)  ⤴️ 0 | 4
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/326308263) [haskellPackages.imperative-edsl](https://hydra.nixos.org/eval/1824411?filter=haskellPackages.imperative-edsl)  ⤴️ 0 | 3
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/326308211) [haskellPackages.feldspar-language](https://hydra.nixos.org/eval/1824411?filter=haskellPackages.feldspar-language)  ⤴️ 0 | 2
