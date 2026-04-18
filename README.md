@@ -1,15 +1,14 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1824548](https://hydra.nixos.org/eval/1824548) of nixpkgs commit [b0771a5](https://github.com/NixOS/nixpkgs/commits/b0771a5099a35ef9530038262513be2bac98e58e) as of 2026-04-18 06:34 UTC*
+*evaluation [1824548](https://hydra.nixos.org/eval/1824548) of nixpkgs commit [b0771a5](https://github.com/NixOS/nixpkgs/commits/b0771a5099a35ef9530038262513be2bac98e58e) as of 2026-04-18 12:20 UTC*
 
-🔴 **Branch not mergeable**
-  * Too many outstanding jobs on x86_64-linux.
+🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | Canceled 🚫 | Unfinished ⏳ | Success ✅ | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Canceled 🚫 | Success ✅ | 
  | --- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1824548?filter=.x86_64-linux) | 12 | 12 | 6 | 911 | 6656 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1824548?filter=.x86_64-linux) | 16 | 16 | 2 | 6 | 7508 | 
 #### Maintained Linux packages with build failure
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/326601848) [haskellPackages.ihp-migrate](https://hydra.nixos.org/eval/1824548?filter=haskellPackages.ihp-migrate) @mpscholten
 #### Maintained Linux packages with failed dependency
@@ -27,31 +26,39 @@
   - [[🐧✅]](https://hydra.nixos.org/build/326308095) [haskell.compiler](https://hydra.nixos.org/eval/1824548?filter=haskell.compiler.microhs_0_15_4_0)
   - [[🐧❗]](https://hydra.nixos.org/build/326308432) [pkgsMusl.haskell.compiler](https://hydra.nixos.org/eval/1824548?filter=pkgsMusl.haskell.compiler.microhs_0_15_4_0)
 #### Unmaintained packages with build failure
-<details><summary>11 job(s) </summary>
+<details><summary>15 job(s) </summary>
 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/326601732) [haskellPackages.hs-opentelemetry-api](https://hydra.nixos.org/eval/1824548?filter=haskellPackages.hs-opentelemetry-api)  ⤴️ 11 | 44
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/326413281) [haskellPackages.accelerate-llvm-native](https://hydra.nixos.org/eval/1824548?filter=haskellPackages.accelerate-llvm-native)  ⤴️ 0 | 5
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/326601062) [haskellPackages.duckdb-simple](https://hydra.nixos.org/eval/1824548?filter=haskellPackages.duckdb-simple)  ⤴️ 0 | 1
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/326601210) [haskellPackages.fuzzySets](https://hydra.nixos.org/eval/1824548?filter=haskellPackages.fuzzySets) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/326601233) [haskellPackages.ghc-bench](https://hydra.nixos.org/eval/1824548?filter=haskellPackages.ghc-bench) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/326601282) [haskellPackages.ghc-stack-profiler](https://hydra.nixos.org/eval/1824548?filter=haskellPackages.ghc-stack-profiler) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/326601587) [haskellPackages.hakyll-dhall](https://hydra.nixos.org/eval/1824548?filter=haskellPackages.hakyll-dhall) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/326601573) [haskellPackages.hakyll-images](https://hydra.nixos.org/eval/1824548?filter=haskellPackages.hakyll-images) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/326601663) [haskellPackages.hegel](https://hydra.nixos.org/eval/1824548?filter=haskellPackages.hegel) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/326601764) [haskellPackages.hspec-quickcheck-classes](https://hydra.nixos.org/eval/1824548?filter=haskellPackages.hspec-quickcheck-classes) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/326601951) [haskellPackages.kafka-effectful](https://hydra.nixos.org/eval/1824548?filter=haskellPackages.kafka-effectful) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/326602079) [haskellPackages.ltext](https://hydra.nixos.org/eval/1824548?filter=haskellPackages.ltext) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/326602562) [haskellPackages.purescheme-wai-routing-core](https://hydra.nixos.org/eval/1824548?filter=haskellPackages.purescheme-wai-routing-core) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/326602675) [haskellPackages.riichi-scoring](https://hydra.nixos.org/eval/1824548?filter=haskellPackages.riichi-scoring) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/326603392) [haskellPackages.yiyd](https://hydra.nixos.org/eval/1824548?filter=haskellPackages.yiyd) 
 </details>
 
 #### Unmaintained packages with failed dependency
-<details><summary>7 job(s) </summary>
+<details><summary>11 job(s) </summary>
 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/326601741) [haskellPackages.hs-opentelemetry-propagator-w3c](https://hydra.nixos.org/eval/1824548?filter=haskellPackages.hs-opentelemetry-propagator-w3c)  ⤴️ 3 | 19
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/326601746) [haskellPackages.hs-opentelemetry-exporter-otlp](https://hydra.nixos.org/eval/1824548?filter=haskellPackages.hs-opentelemetry-exporter-otlp)  ⤴️ 2 | 12
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/326601775) [haskellPackages.hs-opentelemetry-propagator-b3](https://hydra.nixos.org/eval/1824548?filter=haskellPackages.hs-opentelemetry-propagator-b3)  ⤴️ 2 | 12
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/326601733) [haskellPackages.hs-opentelemetry-propagator-datadog](https://hydra.nixos.org/eval/1824548?filter=haskellPackages.hs-opentelemetry-propagator-datadog)  ⤴️ 2 | 12
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/326601777) [haskellPackages.hs-opentelemetry-sdk](https://hydra.nixos.org/eval/1824548?filter=haskellPackages.hs-opentelemetry-sdk)  ⤴️ 1 | 11
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/326601763) [haskellPackages.hs-opentelemetry-semantic-conventions](https://hydra.nixos.org/eval/1824548?filter=haskellPackages.hs-opentelemetry-semantic-conventions)  ⤴️ 1 | 1
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/326601735) [haskellPackages.hs-opentelemetry-vendor-honeycomb](https://hydra.nixos.org/eval/1824548?filter=haskellPackages.hs-opentelemetry-vendor-honeycomb)  ⤴️ 0 | 1
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/326601810) [haskellPackages.hs-opentelemetry-instrumentation-hw-kafka-client](https://hydra.nixos.org/eval/1824548?filter=haskellPackages.hs-opentelemetry-instrumentation-hw-kafka-client) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/326601774) [haskellPackages.hs-opentelemetry-instrumentation-postgresql-simple](https://hydra.nixos.org/eval/1824548?filter=haskellPackages.hs-opentelemetry-instrumentation-postgresql-simple) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/326602369) [haskellPackages.opentelemetry-plugin](https://hydra.nixos.org/eval/1824548?filter=haskellPackages.opentelemetry-plugin) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/326602904) [haskellPackages.sofetch-otel](https://hydra.nixos.org/eval/1824548?filter=haskellPackages.sofetch-otel) 
 </details>
 
 #### Top 50 broken packages, sorted by number of reverse dependencies
