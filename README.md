@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1824606](https://hydra.nixos.org/eval/1824606) of nixpkgs commit [4fee1a3](https://github.com/NixOS/nixpkgs/commits/4fee1a3b230a0664c165b7407afd9408f9724362) as of 2026-04-20 00:49 UTC*
+*evaluation [1824606](https://hydra.nixos.org/eval/1824606) of nixpkgs commit [4fee1a3](https://github.com/NixOS/nixpkgs/commits/4fee1a3b230a0664c165b7407afd9408f9724362) as of 2026-04-21 00:49 UTC*
 
 🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
@@ -7,10 +7,11 @@
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1824606?filter=.x86_64-linux) | 14 | 16 | 40 | 7490 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | Canceled 🚫 | Unfinished ⏳ | Success ✅ | 
+ | --- | --- | --- | --- | --- | --- | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1824606?filter=.x86_64-linux) | 14 | 16 | 1 | 31 | 7500 | 
 #### Maintained Linux packages with build failure
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/326601062) [haskellPackages.duckdb-simple](https://hydra.nixos.org/eval/1824606?filter=haskellPackages.duckdb-simple) @Ai-Ya-Ya
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/326601848) [haskellPackages.ihp-migrate](https://hydra.nixos.org/eval/1824606?filter=haskellPackages.ihp-migrate) @mpscholten
 #### Maintained Linux packages with failed dependency
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/326700651) [maintained](https://hydra.nixos.org/eval/1824606?filter=maintained) @cdepillabout @maralorn @sternenseemann @wolfgangwalther
@@ -27,11 +28,10 @@
   - [[🐧✅]](https://hydra.nixos.org/build/326308095) [haskell.compiler](https://hydra.nixos.org/eval/1824606?filter=haskell.compiler.microhs_0_15_4_0)
   - [[🐧❗]](https://hydra.nixos.org/build/326308432) [pkgsMusl.haskell.compiler](https://hydra.nixos.org/eval/1824606?filter=pkgsMusl.haskell.compiler.microhs_0_15_4_0)
 #### Unmaintained packages with build failure
-<details><summary>13 job(s) </summary>
+<details><summary>12 job(s) </summary>
 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/326601732) [haskellPackages.hs-opentelemetry-api](https://hydra.nixos.org/eval/1824606?filter=haskellPackages.hs-opentelemetry-api)  ⤴️ 11 | 44
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/326413281) [haskellPackages.accelerate-llvm-native](https://hydra.nixos.org/eval/1824606?filter=haskellPackages.accelerate-llvm-native)  ⤴️ 0 | 5
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/326601062) [haskellPackages.duckdb-simple](https://hydra.nixos.org/eval/1824606?filter=haskellPackages.duckdb-simple)  ⤴️ 0 | 1
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/326601210) [haskellPackages.fuzzySets](https://hydra.nixos.org/eval/1824606?filter=haskellPackages.fuzzySets) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/326601233) [haskellPackages.ghc-bench](https://hydra.nixos.org/eval/1824606?filter=haskellPackages.ghc-bench) 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/326601282) [haskellPackages.ghc-stack-profiler](https://hydra.nixos.org/eval/1824606?filter=haskellPackages.ghc-stack-profiler) 
