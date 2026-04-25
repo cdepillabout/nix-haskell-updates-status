@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1824742](https://hydra.nixos.org/eval/1824742) of nixpkgs commit [69c7004](https://github.com/NixOS/nixpkgs/commits/69c7004f2875b3e21191213d67674486501ac11e) as of 2026-04-25 02:15 UTC*
+*evaluation [1824742](https://hydra.nixos.org/eval/1824742) of nixpkgs commit [69c7004](https://github.com/NixOS/nixpkgs/commits/69c7004f2875b3e21191213d67674486501ac11e) as of 2026-04-25 06:40 UTC*
 
 🔴 **Branch not mergeable**
   * Too many outstanding jobs on x86_64-linux.
@@ -8,9 +8,15 @@
 
 #### Build summary
 
- | Platform | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1824742?filter=.x86_64-linux) | 7274 | 298 | 
+ | Platform | Failed ❌ | Unfinished ⏳ | Success ✅ | 
+ | --- | --- | --- | --- | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1824742?filter=.x86_64-linux) | 1 | 7078 | 497 | 
+#### Unmaintained packages with build failure
+<details><summary>1 job(s) </summary>
+
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/327518669) [haskellPackages.dataframe-fastcsv](https://hydra.nixos.org/eval/1824742?filter=haskellPackages.dataframe-fastcsv) 
+</details>
+
 #### Top 50 broken packages, sorted by number of reverse dependencies
 <details><summary>50 job(s) </summary>
 
