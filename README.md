@@ -1,74 +1,49 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1824742](https://hydra.nixos.org/eval/1824742) of nixpkgs commit [69c7004](https://github.com/NixOS/nixpkgs/commits/69c7004f2875b3e21191213d67674486501ac11e) as of 2026-04-27 12:43 UTC*
+*evaluation [1824812](https://hydra.nixos.org/eval/1824812) of nixpkgs commit [eca7764](https://github.com/NixOS/nixpkgs/commits/eca7764bd42578071e03c8e5b13382d8dc4cf207) as of 2026-04-27 18:36 UTC*
 
 🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
-  * `maintained` jobset failed.
+  * `mergeable` jobset is not finished.
+  * `maintained` jobset is not finished.
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | Canceled 🚫 | Success ✅ | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1824742?filter=.x86_64-linux) | 21 | 17 | 1 | 7526 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1824812?filter=.x86_64-linux) | 17 | 4 | 55 | 7506 | 
 #### Maintained Linux packages with build failure
-- [ ] [hledger-web](https://hydra.nixos.org/eval/1824742?filter=hledger-web) @maralorn
-  - [[🐧❌]](https://hydra.nixos.org/build/327524213) [toplevel](https://hydra.nixos.org/eval/1824742?filter=hledger-web)
-  - [[🐧❌]](https://hydra.nixos.org/build/327520110) [haskellPackages](https://hydra.nixos.org/eval/1824742?filter=haskellPackages.hledger-web)
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/327520453) [haskellPackages.ihp-migrate](https://hydra.nixos.org/eval/1824742?filter=haskellPackages.ihp-migrate) @mpscholten
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/327520453) [haskellPackages.ihp-migrate](https://hydra.nixos.org/eval/1824812?filter=haskellPackages.ihp-migrate) @mpscholten
 #### Maintained Linux packages with failed dependency
-- [ ] [git-annex](https://hydra.nixos.org/eval/1824742?filter=git-annex) @peti
-  - [[🐧❗]](https://hydra.nixos.org/build/327516644) [toplevel](https://hydra.nixos.org/eval/1824742?filter=git-annex)
-  - [[🐧❗]](https://hydra.nixos.org/build/327519508) [haskellPackages](https://hydra.nixos.org/eval/1824742?filter=haskellPackages.git-annex)
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/327524366) [maintained](https://hydra.nixos.org/eval/1824742?filter=maintained) @cdepillabout @maralorn @sternenseemann @wolfgangwalther
-- [ ] [microhs](https://hydra.nixos.org/eval/1824742?filter=microhs) @AlexandreTunstall @steeleduncan
-  - [[🐧✅]](https://hydra.nixos.org/build/327516578) [haskell.compiler](https://hydra.nixos.org/eval/1824742?filter=haskell.compiler.microhs)
-  - [[🐧❗]](https://hydra.nixos.org/build/327524282) [pkgsMusl.haskell.compiler](https://hydra.nixos.org/eval/1824742?filter=pkgsMusl.haskell.compiler.microhs)
-- [ ] [microhs-boot](https://hydra.nixos.org/eval/1824742?filter=microhs-boot) @AlexandreTunstall @steeleduncan
-  - [[🐧✅]](https://hydra.nixos.org/build/327516579) [haskell.compiler](https://hydra.nixos.org/eval/1824742?filter=haskell.compiler.microhs-boot)
-  - [[🐧❗]](https://hydra.nixos.org/build/327524283) [pkgsMusl.haskell.compiler](https://hydra.nixos.org/eval/1824742?filter=pkgsMusl.haskell.compiler.microhs-boot)
-- [ ] [microhs_0_15](https://hydra.nixos.org/eval/1824742?filter=microhs_0_15) @AlexandreTunstall @steeleduncan
-  - [[🐧✅]](https://hydra.nixos.org/build/327516580) [haskell.compiler](https://hydra.nixos.org/eval/1824742?filter=haskell.compiler.microhs_0_15)
-  - [[🐧❗]](https://hydra.nixos.org/build/327524284) [pkgsMusl.haskell.compiler](https://hydra.nixos.org/eval/1824742?filter=pkgsMusl.haskell.compiler.microhs_0_15)
-- [ ] [microhs_0_15_4_0](https://hydra.nixos.org/eval/1824742?filter=microhs_0_15_4_0) @AlexandreTunstall @steeleduncan
-  - [[🐧✅]](https://hydra.nixos.org/build/327516581) [haskell.compiler](https://hydra.nixos.org/eval/1824742?filter=haskell.compiler.microhs_0_15_4_0)
-  - [[🐧❗]](https://hydra.nixos.org/build/327524285) [pkgsMusl.haskell.compiler](https://hydra.nixos.org/eval/1824742?filter=pkgsMusl.haskell.compiler.microhs_0_15_4_0)
+- [ ] [microhs](https://hydra.nixos.org/eval/1824812?filter=microhs) @AlexandreTunstall @steeleduncan
+  - [[🐧✅]](https://hydra.nixos.org/build/327516578) [haskell.compiler](https://hydra.nixos.org/eval/1824812?filter=haskell.compiler.microhs)
+  - [[🐧❗]](https://hydra.nixos.org/build/327524282) [pkgsMusl.haskell.compiler](https://hydra.nixos.org/eval/1824812?filter=pkgsMusl.haskell.compiler.microhs)
+- [ ] [microhs-boot](https://hydra.nixos.org/eval/1824812?filter=microhs-boot) @AlexandreTunstall @steeleduncan
+  - [[🐧✅]](https://hydra.nixos.org/build/327516579) [haskell.compiler](https://hydra.nixos.org/eval/1824812?filter=haskell.compiler.microhs-boot)
+  - [[🐧❗]](https://hydra.nixos.org/build/327524283) [pkgsMusl.haskell.compiler](https://hydra.nixos.org/eval/1824812?filter=pkgsMusl.haskell.compiler.microhs-boot)
+- [ ] [microhs_0_15](https://hydra.nixos.org/eval/1824812?filter=microhs_0_15) @AlexandreTunstall @steeleduncan
+  - [[🐧✅]](https://hydra.nixos.org/build/327516580) [haskell.compiler](https://hydra.nixos.org/eval/1824812?filter=haskell.compiler.microhs_0_15)
+  - [[🐧❗]](https://hydra.nixos.org/build/327524284) [pkgsMusl.haskell.compiler](https://hydra.nixos.org/eval/1824812?filter=pkgsMusl.haskell.compiler.microhs_0_15)
+- [ ] [microhs_0_15_4_0](https://hydra.nixos.org/eval/1824812?filter=microhs_0_15_4_0) @AlexandreTunstall @steeleduncan
+  - [[🐧✅]](https://hydra.nixos.org/build/327516581) [haskell.compiler](https://hydra.nixos.org/eval/1824812?filter=haskell.compiler.microhs_0_15_4_0)
+  - [[🐧❗]](https://hydra.nixos.org/build/327524285) [pkgsMusl.haskell.compiler](https://hydra.nixos.org/eval/1824812?filter=pkgsMusl.haskell.compiler.microhs_0_15_4_0)
 #### Unmaintained packages with build failure
-<details><summary>19 job(s) </summary>
+<details><summary>16 job(s) </summary>
 
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/327520186) [haskellPackages.hs-opentelemetry-api](https://hydra.nixos.org/eval/1824742?filter=haskellPackages.hs-opentelemetry-api)  ⤴️ 25 | 45
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/327520402) [haskellPackages.hw-kafka-streamly](https://hydra.nixos.org/eval/1824742?filter=haskellPackages.hw-kafka-streamly)  ⤴️ 1 | 1
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/327520661) [haskellPackages.kafka-effectful](https://hydra.nixos.org/eval/1824742?filter=haskellPackages.kafka-effectful)  ⤴️ 1 | 1
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/327522032) [haskellPackages.postgresql-simple-postgresql-types](https://hydra.nixos.org/eval/1824742?filter=haskellPackages.postgresql-simple-postgresql-types)  ⤴️ 0 | 14
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/327517151) [haskellPackages.accelerate-llvm-native](https://hydra.nixos.org/eval/1824742?filter=haskellPackages.accelerate-llvm-native)  ⤴️ 0 | 5
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/327518328) [haskellPackages.clash-lib-hedgehog](https://hydra.nixos.org/eval/1824742?filter=haskellPackages.clash-lib-hedgehog) 
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/327518298) [haskellPackages.comonad-coactions](https://hydra.nixos.org/eval/1824742?filter=haskellPackages.comonad-coactions) 
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/327518669) [haskellPackages.dataframe-fastcsv](https://hydra.nixos.org/eval/1824742?filter=haskellPackages.dataframe-fastcsv) 
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/327519257) [haskellPackages.fuzzySets](https://hydra.nixos.org/eval/1824742?filter=haskellPackages.fuzzySets) 
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/327519425) [haskellPackages.ghc-bench](https://hydra.nixos.org/eval/1824742?filter=haskellPackages.ghc-bench) 
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/327519432) [haskellPackages.ghc-stack-profiler](https://hydra.nixos.org/eval/1824742?filter=haskellPackages.ghc-stack-profiler) 
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/327519844) [haskellPackages.hakyll-dhall](https://hydra.nixos.org/eval/1824742?filter=haskellPackages.hakyll-dhall) 
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/327519860) [haskellPackages.hakyll-images](https://hydra.nixos.org/eval/1824742?filter=haskellPackages.hakyll-images) 
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/327519993) [haskellPackages.hegel](https://hydra.nixos.org/eval/1824742?filter=haskellPackages.hegel) 
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/327520065) [haskellPackages.hhlo](https://hydra.nixos.org/eval/1824742?filter=haskellPackages.hhlo) 
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/327520327) [haskellPackages.hspec-quickcheck-classes](https://hydra.nixos.org/eval/1824742?filter=haskellPackages.hspec-quickcheck-classes) 
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/327520325) [haskellPackages.hssh](https://hydra.nixos.org/eval/1824742?filter=haskellPackages.hssh) 
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/327520688) [haskellPackages.kdl-hs](https://hydra.nixos.org/eval/1824742?filter=haskellPackages.kdl-hs) 
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/327523052) [haskellPackages.stm-ringbuffer](https://hydra.nixos.org/eval/1824742?filter=haskellPackages.stm-ringbuffer) 
-</details>
-
-#### Unmaintained packages with failed dependency
-<details><summary>11 job(s) </summary>
-
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/327520192) [haskellPackages.hs-opentelemetry-propagator-w3c](https://hydra.nixos.org/eval/1824742?filter=haskellPackages.hs-opentelemetry-propagator-w3c)  ⤴️ 5 | 18
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/327520207) [haskellPackages.hs-opentelemetry-exporter-otlp](https://hydra.nixos.org/eval/1824742?filter=haskellPackages.hs-opentelemetry-exporter-otlp)  ⤴️ 4 | 12
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/327520222) [haskellPackages.hs-opentelemetry-propagator-b3](https://hydra.nixos.org/eval/1824742?filter=haskellPackages.hs-opentelemetry-propagator-b3)  ⤴️ 4 | 12
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/327520205) [haskellPackages.hs-opentelemetry-propagator-datadog](https://hydra.nixos.org/eval/1824742?filter=haskellPackages.hs-opentelemetry-propagator-datadog)  ⤴️ 4 | 12
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/327520224) [haskellPackages.hs-opentelemetry-sdk](https://hydra.nixos.org/eval/1824742?filter=haskellPackages.hs-opentelemetry-sdk)  ⤴️ 3 | 11
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/327520193) [haskellPackages.hs-opentelemetry-semantic-conventions](https://hydra.nixos.org/eval/1824742?filter=haskellPackages.hs-opentelemetry-semantic-conventions)  ⤴️ 1 | 7
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/327520203) [haskellPackages.hs-opentelemetry-vendor-honeycomb](https://hydra.nixos.org/eval/1824742?filter=haskellPackages.hs-opentelemetry-vendor-honeycomb)  ⤴️ 1 | 1
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/327520197) [haskellPackages.hs-opentelemetry-instrumentation-hw-kafka-client](https://hydra.nixos.org/eval/1824742?filter=haskellPackages.hs-opentelemetry-instrumentation-hw-kafka-client) 
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/327520220) [haskellPackages.hs-opentelemetry-instrumentation-postgresql-simple](https://hydra.nixos.org/eval/1824742?filter=haskellPackages.hs-opentelemetry-instrumentation-postgresql-simple) 
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/327521666) [haskellPackages.opentelemetry-plugin](https://hydra.nixos.org/eval/1824742?filter=haskellPackages.opentelemetry-plugin) 
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/327522891) [haskellPackages.sofetch-otel](https://hydra.nixos.org/eval/1824742?filter=haskellPackages.sofetch-otel) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/327520402) [haskellPackages.hw-kafka-streamly](https://hydra.nixos.org/eval/1824812?filter=haskellPackages.hw-kafka-streamly)  ⤴️ 1 | 1
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/327520661) [haskellPackages.kafka-effectful](https://hydra.nixos.org/eval/1824812?filter=haskellPackages.kafka-effectful)  ⤴️ 1 | 1
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/327522032) [haskellPackages.postgresql-simple-postgresql-types](https://hydra.nixos.org/eval/1824812?filter=haskellPackages.postgresql-simple-postgresql-types)  ⤴️ 0 | 14
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/327517151) [haskellPackages.accelerate-llvm-native](https://hydra.nixos.org/eval/1824812?filter=haskellPackages.accelerate-llvm-native)  ⤴️ 0 | 5
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/327518328) [haskellPackages.clash-lib-hedgehog](https://hydra.nixos.org/eval/1824812?filter=haskellPackages.clash-lib-hedgehog) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/327518298) [haskellPackages.comonad-coactions](https://hydra.nixos.org/eval/1824812?filter=haskellPackages.comonad-coactions) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/327518669) [haskellPackages.dataframe-fastcsv](https://hydra.nixos.org/eval/1824812?filter=haskellPackages.dataframe-fastcsv) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/327519257) [haskellPackages.fuzzySets](https://hydra.nixos.org/eval/1824812?filter=haskellPackages.fuzzySets) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/327519425) [haskellPackages.ghc-bench](https://hydra.nixos.org/eval/1824812?filter=haskellPackages.ghc-bench) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/327519432) [haskellPackages.ghc-stack-profiler](https://hydra.nixos.org/eval/1824812?filter=haskellPackages.ghc-stack-profiler) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/327519844) [haskellPackages.hakyll-dhall](https://hydra.nixos.org/eval/1824812?filter=haskellPackages.hakyll-dhall) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/327519860) [haskellPackages.hakyll-images](https://hydra.nixos.org/eval/1824812?filter=haskellPackages.hakyll-images) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/327519993) [haskellPackages.hegel](https://hydra.nixos.org/eval/1824812?filter=haskellPackages.hegel) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/327520065) [haskellPackages.hhlo](https://hydra.nixos.org/eval/1824812?filter=haskellPackages.hhlo) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/327520327) [haskellPackages.hspec-quickcheck-classes](https://hydra.nixos.org/eval/1824812?filter=haskellPackages.hspec-quickcheck-classes) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/327523052) [haskellPackages.stm-ringbuffer](https://hydra.nixos.org/eval/1824812?filter=haskellPackages.stm-ringbuffer) 
 </details>
 
 #### Top 50 broken packages, sorted by number of reverse dependencies
