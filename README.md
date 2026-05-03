@@ -1,15 +1,14 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1824914](https://hydra.nixos.org/eval/1824914) of nixpkgs commit [e9138ee](https://github.com/NixOS/nixpkgs/commits/e9138ee161ef6bc344d9b27f298d3b54501041d8) as of 2026-05-02 18:25 UTC*
+*evaluation [1824914](https://hydra.nixos.org/eval/1824914) of nixpkgs commit [e9138ee](https://github.com/NixOS/nixpkgs/commits/e9138ee161ef6bc344d9b27f298d3b54501041d8) as of 2026-05-03 00:57 UTC*
 
 🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
-  * `mergeable` jobset is not finished.
   * `maintained` jobset is not finished.
 
 #### Build summary
 
  | Platform | Failed ❌ | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1824914?filter=.x86_64-linux) | 2 | 23 | 7549 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1824914?filter=.x86_64-linux) | 2 | 20 | 7551 | 
 #### Maintained Linux packages with build failure
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/327520453) [haskellPackages.ihp-migrate](https://hydra.nixos.org/eval/1824914?filter=haskellPackages.ihp-migrate) @mpscholten
 #### Unmaintained packages with build failure
