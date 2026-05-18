@@ -1,22 +1,41 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1824914](https://hydra.nixos.org/eval/1824914) of nixpkgs commit [e9138ee](https://github.com/NixOS/nixpkgs/commits/e9138ee161ef6bc344d9b27f298d3b54501041d8) as of 2026-05-17 12:29 UTC*
+*evaluation [1825473](https://hydra.nixos.org/eval/1825473) of nixpkgs commit [31b3654](https://github.com/NixOS/nixpkgs/commits/31b3654bd02c7d442785ccb0282e78b4b9fff76c) as of 2026-05-18 16:57 UTC*
 
-🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
-  * `maintained` jobset failed.
+🔴 **Branch not mergeable**
+  * Too many outstanding jobs on x86_64-linux.
+  * `mergeable` jobset is not finished.
+  * `maintained` jobset is not finished.
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | Success ✅ | 
- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1824914?filter=.x86_64-linux) | 2 | 1 | 7568 | 
-#### Maintained Linux packages with build failure
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/327520453) [haskellPackages.ihp-migrate](https://hydra.nixos.org/eval/1824914?filter=haskellPackages.ihp-migrate) @mpscholten
+ | Platform | Failed ❌ | DependencyFailed ❗ | Canceled 🚫 | Unfinished ⏳ | Success ✅ | 
+ | --- | --- | --- | --- | --- | --- | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1825473?filter=.x86_64-linux) | 1 | 9 | 9 | 7598 | 35 | 
 #### Maintained Linux packages with failed dependency
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/327791899) [maintained](https://hydra.nixos.org/eval/1824914?filter=maintained) @cdepillabout @maralorn @sternenseemann @wolfgangwalther
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/329126914) [tests.haskell.upstreamStackHpackVersion](https://hydra.nixos.org/eval/1825473?filter=tests.haskell.upstreamStackHpackVersion) @cdepillabout
 #### Unmaintained packages with build failure
 <details><summary>1 job(s) </summary>
 
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/327796009) [haskellPackages.eventlog-live-otelcol](https://hydra.nixos.org/eval/1824914?filter=haskellPackages.eventlog-live-otelcol) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/329119234) [haskell.packages.microhs.ghc-compat](https://hydra.nixos.org/eval/1825473?filter=haskell.packages.microhs.ghc-compat) 
+</details>
+
+#### Unmaintained packages with failed dependency
+<details><summary>14 job(s) </summary>
+
+- [ ] [hscolour](https://hydra.nixos.org/eval/1825473?filter=hscolour)  ⤴️ 19 | 79
+  - [[🐧⏳]](https://hydra.nixos.org/build/329194951) [toplevel](https://hydra.nixos.org/eval/1825473?filter=hscolour)
+  - [[🐧❗]](https://hydra.nixos.org/build/329119239) [haskell.packages.microhs](https://hydra.nixos.org/eval/1825473?filter=haskell.packages.microhs.hscolour)
+  - [[🐧⏳]](https://hydra.nixos.org/build/329190911) [haskellPackages](https://hydra.nixos.org/eval/1825473?filter=haskellPackages.hscolour)
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/329119235) [haskell.packages.microhs.array](https://hydra.nixos.org/eval/1825473?filter=haskell.packages.microhs.array) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/329119238) [haskell.packages.microhs.containers](https://hydra.nixos.org/eval/1825473?filter=haskell.packages.microhs.containers) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/329119249) [haskell.packages.microhs.exceptions](https://hydra.nixos.org/eval/1825473?filter=haskell.packages.microhs.exceptions) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/329119236) [haskell.packages.microhs.mtl](https://hydra.nixos.org/eval/1825473?filter=haskell.packages.microhs.mtl) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/329119241) [haskell.packages.microhs.parsec](https://hydra.nixos.org/eval/1825473?filter=haskell.packages.microhs.parsec) 
+- [ ] [terminfo](https://hydra.nixos.org/eval/1825473?filter=terminfo) 
+  - [[🐧❗]](https://hydra.nixos.org/build/329119242) [haskell.packages.microhs](https://hydra.nixos.org/eval/1825473?filter=haskell.packages.microhs.terminfo)
+  - [[🐧✅]](https://hydra.nixos.org/build/329126885) [pkgsStatic.haskell.packages.native-bignum.ghc948](https://hydra.nixos.org/eval/1825473?filter=pkgsStatic.haskell.packages.native-bignum.ghc948.terminfo)
+  - [[🐧⏳]](https://hydra.nixos.org/build/329195075) [pkgsStatic.haskellPackages](https://hydra.nixos.org/eval/1825473?filter=pkgsStatic.haskellPackages.terminfo)
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/329119240) [haskell.packages.microhs.transformers](https://hydra.nixos.org/eval/1825473?filter=haskell.packages.microhs.transformers) 
 </details>
 
 #### Top 50 broken packages, sorted by number of reverse dependencies
@@ -24,6 +43,7 @@
 
 [haskell98](https://packdeps.haskellers.com/reverse/haskell98) ⤴️ 152  
 [enumerator](https://packdeps.haskellers.com/reverse/enumerator) ⤴️ 56  
+[singletons-base](https://packdeps.haskellers.com/reverse/singletons-base) ⤴️ 49  
 [derive](https://packdeps.haskellers.com/reverse/derive) ⤴️ 48  
 [fclabels](https://packdeps.haskellers.com/reverse/fclabels) ⤴️ 47  
 [connection](https://packdeps.haskellers.com/reverse/connection) ⤴️ 45  
@@ -35,15 +55,15 @@
 [dual](https://packdeps.haskellers.com/reverse/dual) ⤴️ 32  
 [hsp](https://packdeps.haskellers.com/reverse/hsp) ⤴️ 32  
 [language-ecmascript](https://packdeps.haskellers.com/reverse/language-ecmascript) ⤴️ 31  
-[hw-int](https://packdeps.haskellers.com/reverse/hw-int) ⤴️ 29  
+[esqueleto](https://packdeps.haskellers.com/reverse/esqueleto) ⤴️ 30  
 [iteratee](https://packdeps.haskellers.com/reverse/iteratee) ⤴️ 29  
 [composite-base](https://packdeps.haskellers.com/reverse/composite-base) ⤴️ 28  
-[hw-bits](https://packdeps.haskellers.com/reverse/hw-bits) ⤴️ 28  
 [text-format](https://packdeps.haskellers.com/reverse/text-format) ⤴️ 27  
 [either-unwrap](https://packdeps.haskellers.com/reverse/either-unwrap) ⤴️ 26  
+[postgresql-simple-interval](https://packdeps.haskellers.com/reverse/postgresql-simple-interval) ⤴️ 26  
 [crypto-numbers](https://packdeps.haskellers.com/reverse/crypto-numbers) ⤴️ 25  
+[persistent-postgresql](https://packdeps.haskellers.com/reverse/persistent-postgresql) ⤴️ 25  
 [regexpr](https://packdeps.haskellers.com/reverse/regexpr) ⤴️ 24  
-[bits-extra](https://packdeps.haskellers.com/reverse/bits-extra) ⤴️ 23  
 [Crypto](https://packdeps.haskellers.com/reverse/Crypto) ⤴️ 22  
 [crypto-pubkey](https://packdeps.haskellers.com/reverse/crypto-pubkey) ⤴️ 22  
 [haskelldb](https://packdeps.haskellers.com/reverse/haskelldb) ⤴️ 22  
@@ -71,7 +91,6 @@
 [digit](https://packdeps.haskellers.com/reverse/digit) ⤴️ 18  
 [gtksourceview2](https://packdeps.haskellers.com/reverse/gtksourceview2) ⤴️ 18  
 [hw-rankselect](https://packdeps.haskellers.com/reverse/hw-rankselect) ⤴️ 18  
-[wrapped](https://packdeps.haskellers.com/reverse/wrapped) ⤴️ 18  
 </details>
 
 
