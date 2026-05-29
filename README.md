@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1825756](https://hydra.nixos.org/eval/1825756) of nixpkgs commit [b8880df](https://github.com/NixOS/nixpkgs/commits/b8880df8ac8f6a4fb1132d88e277ac96469a4bd2) as of 2026-05-28 16:53 UTC*
+*evaluation [1825756](https://hydra.nixos.org/eval/1825756) of nixpkgs commit [b8880df](https://github.com/NixOS/nixpkgs/commits/b8880df8ac8f6a4fb1132d88e277ac96469a4bd2) as of 2026-05-29 03:19 UTC*
 
 🔴 **Branch not mergeable**
   * Too many outstanding jobs on x86_64-linux.
@@ -10,13 +10,19 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1825756?filter=.x86_64-linux) | 1 | 9 | 7618 | 30 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1825756?filter=.x86_64-linux) | 3 | 10 | 7237 | 418 | 
+#### Maintained Linux packages with build failure
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/330638278) [haskellPackages.bytezap](https://hydra.nixos.org/eval/1825756?filter=haskellPackages.bytezap) @raehik
 #### Maintained Linux packages with failed dependency
+- [ ] [haskell-ci](https://hydra.nixos.org/eval/1825756?filter=haskell-ci) @sternenseemann
+  - [[🐧⏳]](https://hydra.nixos.org/build/330637003) [toplevel](https://hydra.nixos.org/eval/1825756?filter=haskell-ci)
+  - [[🐧❗]](https://hydra.nixos.org/build/330640197) [haskellPackages](https://hydra.nixos.org/eval/1825756?filter=haskellPackages.haskell-ci)
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/329126914) [tests.haskell.upstreamStackHpackVersion](https://hydra.nixos.org/eval/1825756?filter=tests.haskell.upstreamStackHpackVersion) @cdepillabout
 #### Unmaintained packages with build failure
-<details><summary>1 job(s) </summary>
+<details><summary>2 job(s) </summary>
 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/329119234) [haskell.packages.microhs.ghc-compat](https://hydra.nixos.org/eval/1825756?filter=haskell.packages.microhs.ghc-compat) 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/330643629) [haskellPackages.tensort](https://hydra.nixos.org/eval/1825756?filter=haskellPackages.tensort) 
 </details>
 
 #### Unmaintained packages with failed dependency
