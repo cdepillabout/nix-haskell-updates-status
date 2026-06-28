@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1826643](https://hydra.nixos.org/eval/1826643) of nixpkgs commit [480f072](https://github.com/NixOS/nixpkgs/commits/480f0726e79aa95d45da9769cebe41e6b2537ff4) as of 2026-06-28 01:06 UTC*
+*evaluation [1826643](https://hydra.nixos.org/eval/1826643) of nixpkgs commit [480f072](https://github.com/NixOS/nixpkgs/commits/480f0726e79aa95d45da9769cebe41e6b2537ff4) as of 2026-06-28 07:30 UTC*
 
 🔴 **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -7,9 +7,9 @@
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1826643?filter=.x86_64-linux) | 335 | 1359 | 1 | 2 | 6039 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Success ✅ | 
+ | --- | --- | --- | --- | --- | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1826643?filter=.x86_64-linux) | 335 | 1359 | 1 | 6041 | 
 #### Maintained Linux packages with build failure
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/333452734) [haskellPackages.arbtt](https://hydra.nixos.org/eval/1826643?filter=haskellPackages.arbtt) @rvl
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/333452770) [haskellPackages.blockfrost-client](https://hydra.nixos.org/eval/1826643?filter=haskellPackages.blockfrost-client) @sorki
