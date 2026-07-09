@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1826786](https://hydra.nixos.org/eval/1826786) of nixpkgs commit [afda14f](https://github.com/NixOS/nixpkgs/commits/afda14f1d4c2f618bae1260eb821950bcb2fb0d5) as of 2026-07-08 19:39 UTC*
+*evaluation [1826786](https://hydra.nixos.org/eval/1826786) of nixpkgs commit [afda14f](https://github.com/NixOS/nixpkgs/commits/afda14f1d4c2f618bae1260eb821950bcb2fb0d5) as of 2026-07-09 07:09 UTC*
 
 🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
@@ -45,7 +45,6 @@
 - [ ] [dhall-nixpkgs](https://hydra.nixos.org/eval/1826786?filter=dhall-nixpkgs) @Gabriella439
   - [[🐧❗]](https://hydra.nixos.org/build/333645889) [toplevel](https://hydra.nixos.org/eval/1826786?filter=dhall-nixpkgs)
   - [[🐧❗]](https://hydra.nixos.org/build/333645899) [haskellPackages](https://hydra.nixos.org/eval/1826786?filter=haskellPackages.dhall-nixpkgs)
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/334124637) [echidna](https://hydra.nixos.org/eval/1826786?filter=echidna) @arcz @hellwolf
 - [ ] [haskell-language-server](https://hydra.nixos.org/eval/1826786?filter=haskell-language-server) @maralorn
   - [[🐧✅]](https://hydra.nixos.org/build/333452745) [toplevel](https://hydra.nixos.org/eval/1826786?filter=haskell-language-server)
   - [[🐧✅]](https://hydra.nixos.org/build/333452694) [haskell.packages.ghc9125](https://hydra.nixos.org/eval/1826786?filter=haskell.packages.ghc9125.haskell-language-server)
@@ -393,7 +392,7 @@
 </details>
 
 #### Unmaintained packages with failed dependency
-<details><summary>294 job(s) </summary>
+<details><summary>295 job(s) </summary>
 
 - [ ] [random](https://hydra.nixos.org/eval/1826786?filter=random)  ⤴️ 3562 | 9924
   - [[🐧❗]](https://hydra.nixos.org/build/333204811) [haskell.packages.microhs](https://hydra.nixos.org/eval/1826786?filter=haskell.packages.microhs.random)
@@ -553,6 +552,7 @@
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/333206737) [haskellPackages.debruijn-safe](https://hydra.nixos.org/eval/1826786?filter=haskellPackages.debruijn-safe) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/333206905) [haskellPackages.distribution-opensuse](https://hydra.nixos.org/eval/1826786?filter=haskellPackages.distribution-opensuse) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/333452842) [haskellPackages.dprox](https://hydra.nixos.org/eval/1826786?filter=haskellPackages.dprox) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/334124637) [echidna](https://hydra.nixos.org/eval/1826786?filter=echidna) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/333206985) [haskellPackages.ehlo](https://hydra.nixos.org/eval/1826786?filter=haskellPackages.ehlo) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/333207013) [haskellPackages.ekg-influxdb](https://hydra.nixos.org/eval/1826786?filter=haskellPackages.ekg-influxdb) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/333452854) [haskellPackages.eventlog-live-influxdb](https://hydra.nixos.org/eval/1826786?filter=haskellPackages.eventlog-live-influxdb) 
