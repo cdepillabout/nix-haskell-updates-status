@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1827263](https://hydra.nixos.org/eval/1827263) of nixpkgs commit [920b509](https://github.com/NixOS/nixpkgs/commits/920b50911db03baf73eefd7cf456413d804bbbb6) as of 2026-07-18 13:23 UTC*
+*evaluation [1827263](https://hydra.nixos.org/eval/1827263) of nixpkgs commit [920b509](https://github.com/NixOS/nixpkgs/commits/920b50911db03baf73eefd7cf456413d804bbbb6) as of 2026-07-18 19:11 UTC*
 
 🔴 **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -7,9 +7,9 @@
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1827263?filter=.x86_64-linux) | 382 | 702 | 2 | 6689 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | Success ✅ | 
+ | --- | --- | --- | --- | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1827263?filter=.x86_64-linux) | 382 | 702 | 6689 | 
 #### Maintained Linux packages with build failure
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/338405594) [haskellPackages.arch-web](https://hydra.nixos.org/eval/1827263?filter=haskellPackages.arch-web) @berberman
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/338406006) [haskellPackages.bytezap](https://hydra.nixos.org/eval/1827263?filter=haskellPackages.bytezap) @raehik
