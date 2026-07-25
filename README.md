@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1827470](https://hydra.nixos.org/eval/1827470) of nixpkgs commit [5a5cd26](https://github.com/NixOS/nixpkgs/commits/5a5cd264327cb721ea888d47a47e49f0daa04b5a) as of 2026-07-25 13:42 UTC*
+*evaluation [1827470](https://hydra.nixos.org/eval/1827470) of nixpkgs commit [5a5cd26](https://github.com/NixOS/nixpkgs/commits/5a5cd264327cb721ea888d47a47e49f0daa04b5a) as of 2026-07-25 19:13 UTC*
 
 🔴 **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -10,7 +10,7 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1827470?filter=.x86_64-linux) | 99 | 720 | 4385 | 2633 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1827470?filter=.x86_64-linux) | 99 | 720 | 4383 | 2634 | 
 #### Maintained Linux packages with build failure
 - [ ] [dhall](https://hydra.nixos.org/eval/1827470?filter=dhall) @Gabriella439
   - [[🐧⏳]](https://hydra.nixos.org/build/339282412) [toplevel](https://hydra.nixos.org/eval/1827470?filter=dhall)
