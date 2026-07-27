@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1827500](https://hydra.nixos.org/eval/1827500) of nixpkgs commit [3c1773c](https://github.com/NixOS/nixpkgs/commits/3c1773c843904e4de6cd2490bd1e65e0c692190c) as of 2026-07-26 19:16 UTC*
+*evaluation [1827500](https://hydra.nixos.org/eval/1827500) of nixpkgs commit [3c1773c](https://github.com/NixOS/nixpkgs/commits/3c1773c843904e4de6cd2490bd1e65e0c692190c) as of 2026-07-27 03:30 UTC*
 
 🔴 **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -7,9 +7,9 @@
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1827500?filter=.x86_64-linux) | 380 | 395 | 8 | 7027 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | Success ✅ | 
+ | --- | --- | --- | --- | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1827500?filter=.x86_64-linux) | 380 | 395 | 7027 | 
 #### Maintained Linux packages with build failure
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/339306962) [haskellPackages.bytezap](https://hydra.nixos.org/eval/1827500?filter=haskellPackages.bytezap) @raehik
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/339307002) [haskellPackages.cabal-plan-bounds](https://hydra.nixos.org/eval/1827500?filter=haskellPackages.cabal-plan-bounds) @nomeata
