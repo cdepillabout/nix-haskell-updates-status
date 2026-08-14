@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1828081](https://hydra.nixos.org/eval/1828081) of nixpkgs commit [3aa4d2d](https://github.com/NixOS/nixpkgs/commits/3aa4d2d68f553acd31ad86dd4637b63083deb74e) as of 2026-08-14 02:23 UTC*
+*evaluation [1828081](https://hydra.nixos.org/eval/1828081) of nixpkgs commit [3aa4d2d](https://github.com/NixOS/nixpkgs/commits/3aa4d2d68f553acd31ad86dd4637b63083deb74e) as of 2026-08-14 07:37 UTC*
 
 🔴 **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -10,7 +10,7 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1828081?filter=.x86_64-linux) | 100 | 353 | 4713 | 2702 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1828081?filter=.x86_64-linux) | 100 | 353 | 4712 | 2702 | 
 #### Maintained Linux packages with build failure
 - [ ] [futhark](https://hydra.nixos.org/eval/1828081?filter=futhark) @athas
   - [[🐧⏳]](https://hydra.nixos.org/build/342196990) [toplevel](https://hydra.nixos.org/eval/1828081?filter=futhark)
