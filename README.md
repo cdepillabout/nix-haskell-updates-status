@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1828137](https://hydra.nixos.org/eval/1828137) of nixpkgs commit [841b8f5](https://github.com/NixOS/nixpkgs/commits/841b8f5979e2ade226614dadf9b7995d49497236) as of 2026-08-25 18:43 UTC*
+*evaluation [1828137](https://hydra.nixos.org/eval/1828137) of nixpkgs commit [841b8f5](https://github.com/NixOS/nixpkgs/commits/841b8f5979e2ade226614dadf9b7995d49497236) as of 2026-08-26 04:48 UTC*
 
 🔴 **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -97,7 +97,6 @@
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/342201449) [haskellPackages.liquid-fixpoint](https://hydra.nixos.org/eval/1828137?filter=haskellPackages.liquid-fixpoint) @ulysses4ever
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/342201471) [haskellPackages.liquidhaskell](https://hydra.nixos.org/eval/1828137?filter=haskellPackages.liquidhaskell) @ulysses4ever
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/342201468) [haskellPackages.liquidhaskell-boot](https://hydra.nixos.org/eval/1828137?filter=haskellPackages.liquidhaskell-boot) @ulysses4ever
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/342319288) [maintained](https://hydra.nixos.org/eval/1828137?filter=maintained) @cdepillabout @maralorn @sternenseemann @wolfgangwalther
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/342319287) [mergeable](https://hydra.nixos.org/eval/1828137?filter=mergeable) @cdepillabout @maralorn @sternenseemann @wolfgangwalther
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/342201917) [haskellPackages.mpi-hs-store](https://hydra.nixos.org/eval/1828137?filter=haskellPackages.mpi-hs-store) @sheepforce
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/342202669) [haskellPackages.proto3-suite](https://hydra.nixos.org/eval/1828137?filter=haskellPackages.proto3-suite) @alexfmpe
@@ -506,7 +505,7 @@
 </details>
 
 #### Unmaintained packages with failed dependency
-<details><summary>361 job(s) </summary>
+<details><summary>362 job(s) </summary>
 
 - [ ] [random](https://hydra.nixos.org/eval/1828137?filter=random)  ⤴️ 3630 | 9986
   - [[🐧❗]](https://hydra.nixos.org/build/342197119) [haskell.packages.microhs](https://hydra.nixos.org/eval/1828137?filter=haskell.packages.microhs.random)
@@ -755,6 +754,7 @@
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/342201314) [haskellPackages.lattest-lib](https://hydra.nixos.org/eval/1828137?filter=haskellPackages.lattest-lib) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/342201446) [haskellPackages.lifted-stm](https://hydra.nixos.org/eval/1828137?filter=haskellPackages.lifted-stm) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/342201556) [haskellPackages.lrucaching-haxl](https://hydra.nixos.org/eval/1828137?filter=haskellPackages.lrucaching-haxl) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/342319288) [maintained](https://hydra.nixos.org/eval/1828137?filter=maintained) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/342201621) [haskellPackages.mem-info](https://hydra.nixos.org/eval/1828137?filter=haskellPackages.mem-info) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/342201773) [haskellPackages.mig-rio](https://hydra.nixos.org/eval/1828137?filter=haskellPackages.mig-rio) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/342201814) [haskellPackages.monad-schedule](https://hydra.nixos.org/eval/1828137?filter=haskellPackages.monad-schedule) 
