@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1828767](https://hydra.nixos.org/eval/1828767) of nixpkgs commit [5cbd2e1](https://github.com/NixOS/nixpkgs/commits/5cbd2e121e86d95affc8a5d4c4d3d4abf7631c14) as of 2026-09-03 16:05 UTC*
+*evaluation [1828767](https://hydra.nixos.org/eval/1828767) of nixpkgs commit [5cbd2e1](https://github.com/NixOS/nixpkgs/commits/5cbd2e121e86d95affc8a5d4c4d3d4abf7631c14) as of 2026-09-03 20:44 UTC*
 
 🔴 **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -7,9 +7,9 @@
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1828767?filter=.x86_64-linux) | 394 | 474 | 1 | 7014 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
+ | --- | --- | --- | --- | --- | --- | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1828767?filter=.x86_64-linux) | 393 | 474 | 1 | 1 | 7014 | 
 #### Maintained Linux packages with build failure
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/344282300) [haskellPackages.cachix-api](https://hydra.nixos.org/eval/1828767?filter=haskellPackages.cachix-api) @domenkozar
 - [ ] [futhark](https://hydra.nixos.org/eval/1828767?filter=futhark) @athas
@@ -184,7 +184,7 @@
   - [[🐧❗]](https://hydra.nixos.org/build/344288822) [nixosTests](https://hydra.nixos.org/eval/1828767?filter=nixosTests.xmonad)
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/344288820) [nixosTests.xmonad-xdg-autostart](https://hydra.nixos.org/eval/1828767?filter=nixosTests.xmonad-xdg-autostart) @oxalica
 #### Unmaintained packages with build failure
-<details><summary>414 job(s) </summary>
+<details><summary>413 job(s) </summary>
 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/344286286) [haskellPackages.polysemy](https://hydra.nixos.org/eval/1828767?filter=haskellPackages.polysemy)  ⤴️ 23 | 80
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/344286126) [haskellPackages.patch](https://hydra.nixos.org/eval/1828767?filter=haskellPackages.patch)  ⤴️ 15 | 50
@@ -348,7 +348,6 @@
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/344286274) [haskellPackages.pointfree](https://hydra.nixos.org/eval/1828767?filter=haskellPackages.pointfree)  ⤴️ 0 | 1
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/344286458) [haskellPackages.processing-for-haskell](https://hydra.nixos.org/eval/1828767?filter=haskellPackages.processing-for-haskell)  ⤴️ 0 | 1
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/344287007) [haskellPackages.selda-postgresql](https://hydra.nixos.org/eval/1828767?filter=haskellPackages.selda-postgresql)  ⤴️ 0 | 1
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/344287243) [haskellPackages.simple-vec3](https://hydra.nixos.org/eval/1828767?filter=haskellPackages.simple-vec3)  ⤴️ 0 | 1
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/344287524) [haskellPackages.streamly-fsnotify](https://hydra.nixos.org/eval/1828767?filter=haskellPackages.streamly-fsnotify)  ⤴️ 0 | 1
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/344288357) [haskellPackages.wai-middleware-caching-redis](https://hydra.nixos.org/eval/1828767?filter=haskellPackages.wai-middleware-caching-redis)  ⤴️ 0 | 1
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/344288434) [haskellPackages.what4-domains](https://hydra.nixos.org/eval/1828767?filter=haskellPackages.what4-domains)  ⤴️ 0 | 1
