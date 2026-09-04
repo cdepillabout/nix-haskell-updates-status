@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1828767](https://hydra.nixos.org/eval/1828767) of nixpkgs commit [5cbd2e1](https://github.com/NixOS/nixpkgs/commits/5cbd2e121e86d95affc8a5d4c4d3d4abf7631c14) as of 2026-09-03 20:44 UTC*
+*evaluation [1828767](https://hydra.nixos.org/eval/1828767) of nixpkgs commit [5cbd2e1](https://github.com/NixOS/nixpkgs/commits/5cbd2e121e86d95affc8a5d4c4d3d4abf7631c14) as of 2026-09-04 10:55 UTC*
 
 🔴 **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -7,9 +7,9 @@
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1828767?filter=.x86_64-linux) | 393 | 474 | 1 | 1 | 7014 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Success ✅ | 
+ | --- | --- | --- | --- | --- | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1828767?filter=.x86_64-linux) | 393 | 474 | 1 | 7015 | 
 #### Maintained Linux packages with build failure
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/344282300) [haskellPackages.cachix-api](https://hydra.nixos.org/eval/1828767?filter=haskellPackages.cachix-api) @domenkozar
 - [ ] [futhark](https://hydra.nixos.org/eval/1828767?filter=futhark) @athas
