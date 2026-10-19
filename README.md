@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1829685](https://hydra.nixos.org/eval/1829685) of nixpkgs commit [4e9d303](https://github.com/NixOS/nixpkgs/commits/4e9d30321477ac61612e3925e167697fb94a288d) as of 2026-10-18 23:06 UTC*
+*evaluation [1829685](https://hydra.nixos.org/eval/1829685) of nixpkgs commit [4e9d303](https://github.com/NixOS/nixpkgs/commits/4e9d30321477ac61612e3925e167697fb94a288d) as of 2026-10-19 07:33 UTC*
 
 🔴 **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -159,7 +159,6 @@
   - [[🐧❗]](https://hydra.nixos.org/build/347796846) [haskell.packages.ghc967](https://hydra.nixos.org/eval/1829685?filter=haskell.packages.ghc967.haskell-language-server)
   - [[🐧❗]](https://hydra.nixos.org/build/347796983) [haskell.packages.ghc984](https://hydra.nixos.org/eval/1829685?filter=haskell.packages.ghc984.haskell-language-server)
   - [[🐧✅]](https://hydra.nixos.org/build/347798943) [haskellPackages](https://hydra.nixos.org/eval/1829685?filter=haskellPackages.haskell-language-server)
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/347803727) [hci](https://hydra.nixos.org/eval/1829685?filter=hci) @roberth
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/347803714) [hedgewars](https://hydra.nixos.org/eval/1829685?filter=hedgewars) @fpletz @kragniz
 - [ ] [hello](https://hydra.nixos.org/eval/1829685?filter=hello) @cdepillabout @guibou @maralorn @sternenseemann @wolfgangwalther
   - [[🐧✅]](https://hydra.nixos.org/build/347798867) [haskellPackages](https://hydra.nixos.org/eval/1829685?filter=haskellPackages.hello)
@@ -171,10 +170,6 @@
   - [[🐧❗]](https://hydra.nixos.org/build/347803799) [pkgsStatic.haskell.packages.native-bignum.ghc948](https://hydra.nixos.org/eval/1829685?filter=pkgsStatic.haskell.packages.native-bignum.ghc948.hello)
   - [[🐧✅]](https://hydra.nixos.org/build/347803826) [pkgsStatic.haskellPackages](https://hydra.nixos.org/eval/1829685?filter=pkgsStatic.haskellPackages.hello)
   - [[🐧✅]](https://hydra.nixos.org/build/347803838) [tests.haskell.ghcWithPackages](https://hydra.nixos.org/eval/1829685?filter=tests.haskell.ghcWithPackages.hello)
-- [ ] [hercules-ci-agent](https://hydra.nixos.org/eval/1829685?filter=hercules-ci-agent) @roberth
-  - [[🐧❗]](https://hydra.nixos.org/build/347803703) [toplevel](https://hydra.nixos.org/eval/1829685?filter=hercules-ci-agent)
-  - [[🐧❗]](https://hydra.nixos.org/build/347798947) [haskellPackages](https://hydra.nixos.org/eval/1829685?filter=haskellPackages.hercules-ci-agent)
-- [ ] [[🐧❗]](https://hydra.nixos.org/build/347798965) [haskellPackages.hercules-ci-cli](https://hydra.nixos.org/eval/1829685?filter=haskellPackages.hercules-ci-cli) @roberth
 - [ ] [hlint](https://hydra.nixos.org/eval/1829685?filter=hlint) @maralorn
   - [[🐧✅]](https://hydra.nixos.org/build/347803687) [toplevel](https://hydra.nixos.org/eval/1829685?filter=hlint)
   - [[🐧✅]](https://hydra.nixos.org/build/347795254) [haskell.packages.ghc9103](https://hydra.nixos.org/eval/1829685?filter=haskell.packages.ghc9103.hlint)
@@ -684,7 +679,7 @@
 </details>
 
 #### Unmaintained packages with failed dependency
-<details><summary>534 job(s) </summary>
+<details><summary>539 job(s) </summary>
 
 - [ ] [hashable](https://hydra.nixos.org/eval/1829685?filter=hashable)  ⤴️ 4108 | 9786
   - [[🐧✅]](https://hydra.nixos.org/build/347795225) [haskell.packages.ghc9103](https://hydra.nixos.org/eval/1829685?filter=haskell.packages.ghc9103.hashable)
@@ -846,6 +841,9 @@
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/347797266) [haskellPackages.core-webserver-warp](https://hydra.nixos.org/eval/1829685?filter=haskellPackages.core-webserver-warp)  ⤴️ 1 | 1
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/347797403) [haskellPackages.debruijn](https://hydra.nixos.org/eval/1829685?filter=haskellPackages.debruijn)  ⤴️ 1 | 1
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/347797490) [haskellPackages.decidable](https://hydra.nixos.org/eval/1829685?filter=haskellPackages.decidable)  ⤴️ 1 | 1
+- [ ] [hercules-ci-agent](https://hydra.nixos.org/eval/1829685?filter=hercules-ci-agent)  ⤴️ 1 | 1
+  - [[🐧❗]](https://hydra.nixos.org/build/347803703) [toplevel](https://hydra.nixos.org/eval/1829685?filter=hercules-ci-agent)
+  - [[🐧❗]](https://hydra.nixos.org/build/347798947) [haskellPackages](https://hydra.nixos.org/eval/1829685?filter=haskellPackages.hercules-ci-agent)
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/347798902) [haskellPackages.hgg-3d](https://hydra.nixos.org/eval/1829685?filter=haskellPackages.hgg-3d)  ⤴️ 1 | 1
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/347799046) [haskellPackages.hnix-store-json](https://hydra.nixos.org/eval/1829685?filter=haskellPackages.hnix-store-json)  ⤴️ 1 | 1
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/347799000) [haskellPackages.hnix-store-tests](https://hydra.nixos.org/eval/1829685?filter=haskellPackages.hnix-store-tests)  ⤴️ 1 | 1
@@ -1049,6 +1047,8 @@
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/347798797) [haskellPackages.haskell-bee-redis](https://hydra.nixos.org/eval/1829685?filter=haskellPackages.haskell-bee-redis) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/347798802) [haskellPackages.haskell-bee-stm](https://hydra.nixos.org/eval/1829685?filter=haskellPackages.haskell-bee-stm) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/347798847) [haskellPackages.haxl-effectful](https://hydra.nixos.org/eval/1829685?filter=haskellPackages.haxl-effectful) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/347803727) [hci](https://hydra.nixos.org/eval/1829685?filter=hci) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/347798965) [haskellPackages.hercules-ci-cli](https://hydra.nixos.org/eval/1829685?filter=haskellPackages.hercules-ci-cli) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/347798920) [haskellPackages.hgg-analyze-bridge](https://hydra.nixos.org/eval/1829685?filter=haskellPackages.hgg-analyze-bridge) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/347798992) [haskellPackages.hlrdb](https://hydra.nixos.org/eval/1829685?filter=haskellPackages.hlrdb) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/347798984) [haskellPackages.hmatrix-repa](https://hydra.nixos.org/eval/1829685?filter=haskellPackages.hmatrix-repa) 
