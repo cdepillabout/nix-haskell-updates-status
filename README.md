@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1830552](https://hydra.nixos.org/eval/1830552) of nixpkgs commit [60271a8](https://github.com/NixOS/nixpkgs/commits/60271a8b7daaff2f75114b2593a351577874303c) as of 2026-10-24 12:52 UTC*
+*evaluation [1830552](https://hydra.nixos.org/eval/1830552) of nixpkgs commit [60271a8](https://github.com/NixOS/nixpkgs/commits/60271a8b7daaff2f75114b2593a351577874303c) as of 2026-10-24 15:38 UTC*
 
 🔴 **Branch not mergeable**
   * Too many outstanding jobs on x86_64-linux.
@@ -10,7 +10,7 @@
 
  | Platform | Failed ❌ | DependencyFailed ❗ | Unfinished ⏳ | Success ✅ | 
  | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1830552?filter=.x86_64-linux) | 5 | 36 | 7938 | 453 | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1830552?filter=.x86_64-linux) | 6 | 45 | 7570 | 812 | 
 #### Maintained Linux packages with build failure
 - [ ] [ghc902Binary](https://hydra.nixos.org/eval/1830552?filter=ghc902Binary) @cdepillabout @maralorn @sternenseemann @wolfgangwalther
   - [[🐧✅]](https://hydra.nixos.org/build/350445142) [haskell.compiler](https://hydra.nixos.org/eval/1830552?filter=haskell.compiler.ghc902Binary)
@@ -140,12 +140,13 @@
   - [[🐧⏳]](https://hydra.nixos.org/build/350445381) [haskell.packages.ghc984](https://hydra.nixos.org/eval/1830552?filter=haskell.packages.ghc984.weeder)
   - [[🐧⏳]](https://hydra.nixos.org/build/350453393) [haskellPackages](https://hydra.nixos.org/eval/1830552?filter=haskellPackages.weeder)
 #### Unmaintained packages with build failure
-<details><summary>17 job(s) </summary>
+<details><summary>18 job(s) </summary>
 
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/350451594) [haskellPackages.scale](https://hydra.nixos.org/eval/1830552?filter=haskellPackages.scale)  ⤴️ 8 | 9
 - [ ] [ghc-exactprint](https://hydra.nixos.org/eval/1830552?filter=ghc-exactprint)  ⤴️ 3 | 16
   - [[🐧✅]](https://hydra.nixos.org/build/350445190) [haskell.packages.ghc9103](https://hydra.nixos.org/eval/1830552?filter=haskell.packages.ghc9103.ghc-exactprint)
   - [[🐧✅]](https://hydra.nixos.org/build/350445217) [haskell.packages.ghc9125](https://hydra.nixos.org/eval/1830552?filter=haskell.packages.ghc9125.ghc-exactprint)
-  - [[🐧⏳]](https://hydra.nixos.org/build/350445256) [haskell.packages.ghc9141](https://hydra.nixos.org/eval/1830552?filter=haskell.packages.ghc9141.ghc-exactprint)
+  - [[🐧✅]](https://hydra.nixos.org/build/350445256) [haskell.packages.ghc9141](https://hydra.nixos.org/eval/1830552?filter=haskell.packages.ghc9141.ghc-exactprint)
   - [[🐧❌]](https://hydra.nixos.org/build/350445271) [haskell.packages.ghc9142](https://hydra.nixos.org/eval/1830552?filter=haskell.packages.ghc9142.ghc-exactprint)
   - [[🐧✅]](https://hydra.nixos.org/build/350445363) [haskell.packages.ghc984](https://hydra.nixos.org/eval/1830552?filter=haskell.packages.ghc984.ghc-exactprint)
   - [[🐧✅]](https://hydra.nixos.org/build/350448177) [haskellPackages](https://hydra.nixos.org/eval/1830552?filter=haskellPackages.ghc-exactprint)
@@ -162,23 +163,31 @@
 </details>
 
 #### Unmaintained packages with failed dependency
-<details><summary>46 job(s) </summary>
+<details><summary>60 job(s) </summary>
 
 - [ ] [random](https://hydra.nixos.org/eval/1830552?filter=random)  ⤴️ 4078 | 10045
   - [[🐧❗]](https://hydra.nixos.org/build/350445435) [haskell.packages.microhs](https://hydra.nixos.org/eval/1830552?filter=haskell.packages.microhs.random)
   - [[🐧✅]](https://hydra.nixos.org/build/350451261) [haskellPackages](https://hydra.nixos.org/eval/1830552?filter=haskellPackages.random)
   - [[🐧❗]](https://hydra.nixos.org/build/350453754) [pkgsMusl.haskellPackages](https://hydra.nixos.org/eval/1830552?filter=pkgsMusl.haskellPackages.random)
   - [[🐧✅]](https://hydra.nixos.org/build/350453764) [pkgsStatic.haskell.packages.native-bignum.ghc948](https://hydra.nixos.org/eval/1830552?filter=pkgsStatic.haskell.packages.native-bignum.ghc948.random)
-  - [[🐧⏳]](https://hydra.nixos.org/build/350453805) [pkgsStatic.haskellPackages](https://hydra.nixos.org/eval/1830552?filter=pkgsStatic.haskellPackages.random)
+  - [[🐧✅]](https://hydra.nixos.org/build/350453805) [pkgsStatic.haskellPackages](https://hydra.nixos.org/eval/1830552?filter=pkgsStatic.haskellPackages.random)
 - [ ] [lens](https://hydra.nixos.org/eval/1830552?filter=lens)  ⤴️ 1071 | 2686
   - [[🐧✅]](https://hydra.nixos.org/build/350449754) [haskellPackages](https://hydra.nixos.org/eval/1830552?filter=haskellPackages.lens)
   - [[🐧❗]](https://hydra.nixos.org/build/350453809) [pkgsMusl.haskellPackages](https://hydra.nixos.org/eval/1830552?filter=pkgsMusl.haskellPackages.lens)
   - [[🐧⏳]](https://hydra.nixos.org/build/350453810) [pkgsStatic.haskell.packages.native-bignum.ghc948](https://hydra.nixos.org/eval/1830552?filter=pkgsStatic.haskell.packages.native-bignum.ghc948.lens)
   - [[🐧⏳]](https://hydra.nixos.org/build/350453813) [pkgsStatic.haskellPackages](https://hydra.nixos.org/eval/1830552?filter=pkgsStatic.haskellPackages.lens)
+- [ ] [microlens](https://hydra.nixos.org/eval/1830552?filter=microlens)  ⤴️ 584 | 1155
+  - [[🐧✅]](https://hydra.nixos.org/build/350450081) [haskellPackages](https://hydra.nixos.org/eval/1830552?filter=haskellPackages.microlens)
+  - [[🐧⏳]](https://hydra.nixos.org/build/350453705) [pkgsCross.ghcjs.haskell.packages.ghc912](https://hydra.nixos.org/eval/1830552?filter=pkgsCross.ghcjs.haskell.packages.ghc912.microlens)
+  - [[🐧⏳]](https://hydra.nixos.org/build/350453720) [pkgsCross.ghcjs.haskell.packages.ghcHEAD](https://hydra.nixos.org/eval/1830552?filter=pkgsCross.ghcjs.haskell.packages.ghcHEAD.microlens)
+  - [[🐧⏳]](https://hydra.nixos.org/build/350453713) [pkgsCross.ghcjs.haskellPackages](https://hydra.nixos.org/eval/1830552?filter=pkgsCross.ghcjs.haskellPackages.microlens)
+  - [[🐧❗]](https://hydra.nixos.org/build/350453722) [pkgsCross.ucrt64.haskell.packages.ghc912](https://hydra.nixos.org/eval/1830552?filter=pkgsCross.ucrt64.haskell.packages.ghc912.microlens)
 - [ ] [hscolour](https://hydra.nixos.org/eval/1830552?filter=hscolour)  ⤴️ 21 | 80
   - [[🐧⏳]](https://hydra.nixos.org/build/350453669) [toplevel](https://hydra.nixos.org/eval/1830552?filter=hscolour)
   - [[🐧❗]](https://hydra.nixos.org/build/350445383) [haskell.packages.microhs](https://hydra.nixos.org/eval/1830552?filter=haskell.packages.microhs.hscolour)
-  - [[🐧⏳]](https://hydra.nixos.org/build/350449082) [haskellPackages](https://hydra.nixos.org/eval/1830552?filter=haskellPackages.hscolour)
+  - [[🐧✅]](https://hydra.nixos.org/build/350449082) [haskellPackages](https://hydra.nixos.org/eval/1830552?filter=haskellPackages.hscolour)
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/350450084) [haskellPackages.memory-hexstring](https://hydra.nixos.org/eval/1830552?filter=haskellPackages.memory-hexstring)  ⤴️ 7 | 8
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/350453365) [haskellPackages.web3-crypto](https://hydra.nixos.org/eval/1830552?filter=haskellPackages.web3-crypto)  ⤴️ 5 | 6
 - [ ] [hoogle](https://hydra.nixos.org/eval/1830552?filter=hoogle)  ⤴️ 3 | 6
   - [[🐧❗]](https://hydra.nixos.org/build/350445260) [haskell.packages.ghc9103](https://hydra.nixos.org/eval/1830552?filter=haskell.packages.ghc9103.hoogle)
   - [[🐧⏳]](https://hydra.nixos.org/build/350445245) [haskell.packages.ghc9125](https://hydra.nixos.org/eval/1830552?filter=haskell.packages.ghc9125.hoogle)
@@ -188,6 +197,11 @@
   - [[🐧❗]](https://hydra.nixos.org/build/350445610) [haskell.packages.ghc967](https://hydra.nixos.org/eval/1830552?filter=haskell.packages.ghc967.hoogle)
   - [[🐧❗]](https://hydra.nixos.org/build/350445422) [haskell.packages.ghc984](https://hydra.nixos.org/eval/1830552?filter=haskell.packages.ghc984.hoogle)
   - [[🐧⏳]](https://hydra.nixos.org/build/350449025) [haskellPackages](https://hydra.nixos.org/eval/1830552?filter=haskellPackages.hoogle)
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/350453363) [haskellPackages.web3-bignum](https://hydra.nixos.org/eval/1830552?filter=haskellPackages.web3-bignum)  ⤴️ 3 | 4
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/350453371) [haskellPackages.web3-solidity](https://hydra.nixos.org/eval/1830552?filter=haskellPackages.web3-solidity)  ⤴️ 3 | 4
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/350453369) [haskellPackages.web3-ethereum](https://hydra.nixos.org/eval/1830552?filter=haskellPackages.web3-ethereum)  ⤴️ 2 | 3
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/350453367) [haskellPackages.web3-polkadot](https://hydra.nixos.org/eval/1830552?filter=haskellPackages.web3-polkadot)  ⤴️ 2 | 3
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/350453373) [haskellPackages.web3](https://hydra.nixos.org/eval/1830552?filter=haskellPackages.web3)  ⤴️ 1 | 2
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/350445372) [haskell.packages.microhs.array](https://hydra.nixos.org/eval/1830552?filter=haskell.packages.microhs.array) 
 - [ ] [cabal2nix-unstable](https://hydra.nixos.org/eval/1830552?filter=cabal2nix-unstable) 
   - [[🐧❗]](https://hydra.nixos.org/build/350445261) [haskell.packages.ghc9103](https://hydra.nixos.org/eval/1830552?filter=haskell.packages.ghc9103.cabal2nix-unstable)
@@ -204,6 +218,7 @@
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/350445378) [haskell.packages.microhs.mtl](https://hydra.nixos.org/eval/1830552?filter=haskell.packages.microhs.mtl) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/350445379) [haskell.packages.microhs.os-string](https://hydra.nixos.org/eval/1830552?filter=haskell.packages.microhs.os-string) 
 - [ ] [[🐧❗]](https://hydra.nixos.org/build/350445401) [haskell.packages.microhs.parsec](https://hydra.nixos.org/eval/1830552?filter=haskell.packages.microhs.parsec) 
+- [ ] [[🐧❗]](https://hydra.nixos.org/build/350452021) [haskellPackages.solana-haskell-sdk](https://hydra.nixos.org/eval/1830552?filter=haskellPackages.solana-haskell-sdk) 
 - [ ] [terminfo](https://hydra.nixos.org/eval/1830552?filter=terminfo) 
   - [[🐧❗]](https://hydra.nixos.org/build/350445386) [haskell.packages.microhs](https://hydra.nixos.org/eval/1830552?filter=haskell.packages.microhs.terminfo)
   - [[🐧⏳]](https://hydra.nixos.org/build/350453777) [pkgsStatic.haskell.packages.native-bignum.ghc948](https://hydra.nixos.org/eval/1830552?filter=pkgsStatic.haskell.packages.native-bignum.ghc948.terminfo)
