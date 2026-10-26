@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1830552](https://hydra.nixos.org/eval/1830552) of nixpkgs commit [60271a8](https://github.com/NixOS/nixpkgs/commits/60271a8b7daaff2f75114b2593a351577874303c) as of 2026-10-26 12:32 UTC*
+*evaluation [1830552](https://hydra.nixos.org/eval/1830552) of nixpkgs commit [60271a8](https://github.com/NixOS/nixpkgs/commits/60271a8b7daaff2f75114b2593a351577874303c) as of 2026-10-26 22:27 UTC*
 
 🔴 **Branch not mergeable**
   * `mergeable` jobset failed.
@@ -27,7 +27,6 @@
 - [ ] [haskell-debugger](https://hydra.nixos.org/eval/1830552?filter=haskell-debugger) @alexfmpe
   - [[🐧✅]](https://hydra.nixos.org/build/350445276) [haskell.packages.ghc9141](https://hydra.nixos.org/eval/1830552?filter=haskell.packages.ghc9141.haskell-debugger)
   - [[🐧❌]](https://hydra.nixos.org/build/350445314) [haskell.packages.ghc9142](https://hydra.nixos.org/eval/1830552?filter=haskell.packages.ghc9142.haskell-debugger)
-- [ ] [[🐧❌]](https://hydra.nixos.org/build/350448852) [haskellPackages.hercules-ci-api](https://hydra.nixos.org/eval/1830552?filter=haskellPackages.hercules-ci-api) @roberth
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/350449232) [haskellPackages.http-barf](https://hydra.nixos.org/eval/1830552?filter=haskellPackages.http-barf) @mangoiv
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/350450838) [haskellPackages.pdftotext](https://hydra.nixos.org/eval/1830552?filter=haskellPackages.pdftotext) @mpscholten
 - [ ] [pinboard-notes-backup](https://hydra.nixos.org/eval/1830552?filter=pinboard-notes-backup) @bdesham
@@ -175,7 +174,7 @@
   - [[🐧✅]](https://hydra.nixos.org/build/350445381) [haskell.packages.ghc984](https://hydra.nixos.org/eval/1830552?filter=haskell.packages.ghc984.weeder)
   - [[🐧✅]](https://hydra.nixos.org/build/350453393) [haskellPackages](https://hydra.nixos.org/eval/1830552?filter=haskellPackages.weeder)
 #### Unmaintained packages with build failure
-<details><summary>449 job(s) </summary>
+<details><summary>450 job(s) </summary>
 
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/350451882) [haskellPackages.singletons-base](https://hydra.nixos.org/eval/1830552?filter=haskellPackages.singletons-base)  ⤴️ 17 | 49
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/350447938) [haskellPackages.fmt](https://hydra.nixos.org/eval/1830552?filter=haskellPackages.fmt)  ⤴️ 15 | 38
@@ -229,6 +228,7 @@
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/350451443) [haskellPackages.requirements](https://hydra.nixos.org/eval/1830552?filter=haskellPackages.requirements)  ⤴️ 2 | 6
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/350451638) [haskellPackages.sdl2-mixer](https://hydra.nixos.org/eval/1830552?filter=haskellPackages.sdl2-mixer)  ⤴️ 2 | 5
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/350446679) [haskellPackages.browse](https://hydra.nixos.org/eval/1830552?filter=haskellPackages.browse)  ⤴️ 2 | 2
+- [ ] [[🐧❌]](https://hydra.nixos.org/build/350448852) [haskellPackages.hercules-ci-api](https://hydra.nixos.org/eval/1830552?filter=haskellPackages.hercules-ci-api)  ⤴️ 2 | 2
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/350448903) [haskellPackages.hgg-rasterific](https://hydra.nixos.org/eval/1830552?filter=haskellPackages.hgg-rasterific)  ⤴️ 2 | 2
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/350448986) [haskellPackages.hookup](https://hydra.nixos.org/eval/1830552?filter=haskellPackages.hookup)  ⤴️ 2 | 2
 - [ ] [[🐧❌]](https://hydra.nixos.org/build/350450173) [haskellPackages.monad-abort-fd](https://hydra.nixos.org/eval/1830552?filter=haskellPackages.monad-abort-fd)  ⤴️ 2 | 2
