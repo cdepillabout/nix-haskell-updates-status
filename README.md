@@ -1,5 +1,5 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1830924](https://hydra.nixos.org/eval/1830924) of nixpkgs commit [f84abe4](https://github.com/NixOS/nixpkgs/commits/f84abe4bf1d356c442ff52a80fe8248b2b5b23f1) as of 2026-11-03 23:01 UTC*
+*evaluation [1830924](https://hydra.nixos.org/eval/1830924) of nixpkgs commit [f84abe4](https://github.com/NixOS/nixpkgs/commits/f84abe4bf1d356c442ff52a80fe8248b2b5b23f1) as of 2026-11-04 05:30 UTC*
 
 🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
@@ -619,7 +619,7 @@
 #### Unmaintained packages with failed dependency
 <details><summary>431 job(s) </summary>
 
-- [ ] [random](https://hydra.nixos.org/eval/1830924?filter=random)  ⤴️ 4051 | 10045
+- [ ] [random](https://hydra.nixos.org/eval/1830924?filter=random)  ⤴️ 4051 | 10046
   - [[🐧❗]](https://hydra.nixos.org/build/350445435) [haskell.packages.microhs](https://hydra.nixos.org/eval/1830924?filter=haskell.packages.microhs.random)
   - [[🐧✅]](https://hydra.nixos.org/build/350451261) [haskellPackages](https://hydra.nixos.org/eval/1830924?filter=haskellPackages.random)
   - [[🐧❗]](https://hydra.nixos.org/build/351589040) [pkgsMusl.haskellPackages](https://hydra.nixos.org/eval/1830924?filter=pkgsMusl.haskellPackages.random)
