@@ -1,14 +1,14 @@
 ### [haskell-updates build report from hydra](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates)
-*evaluation [1831228](https://hydra.nixos.org/eval/1831228) of nixpkgs commit [1aaf5f9](https://github.com/NixOS/nixpkgs/commits/1aaf5f9c1576ad9f5ae8091858b2d8ca97872492) as of 2026-11-10 01:20 UTC*
+*evaluation [1831228](https://hydra.nixos.org/eval/1831228) of nixpkgs commit [1aaf5f9](https://github.com/NixOS/nixpkgs/commits/1aaf5f9c1576ad9f5ae8091858b2d8ca97872492) as of 2026-11-10 14:34 UTC*
 
 🟡 **Potential issues** (and possibly [evaluation errors](https://hydra.nixos.org/jobset/nixpkgs/haskell-updates))
   * `maintained` jobset failed.
 
 #### Build summary
 
- | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Unfinished ⏳ | Success ✅ | 
- | --- | --- | --- | --- | --- | --- | 
- | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1831228?filter=.x86_64-linux) | 416 | 369 | 1 | 2 | 7558 | 
+ | Platform | Failed ❌ | DependencyFailed ❗ | TimedOut ⌛🚫 | Success ✅ | 
+ | --- | --- | --- | --- | --- | 
+ | [x86_64-linux 🐧](https://hydra.nixos.org/eval/1831228?filter=.x86_64-linux) | 416 | 369 | 1 | 7558 | 
 #### Maintained Linux packages with build failure
 - [ ] [ghc](https://hydra.nixos.org/eval/1831228?filter=ghc) @cdepillabout @guibou @maralorn @sternenseemann @wolfgangwalther
   - [[🐧✅]](https://hydra.nixos.org/build/352904874) [haskellPackages](https://hydra.nixos.org/eval/1831228?filter=haskellPackages.ghc)
@@ -141,7 +141,7 @@
   - [[🐧✅]](https://hydra.nixos.org/build/352905533) [haskellPackages](https://hydra.nixos.org/eval/1831228?filter=haskellPackages.hello)
   - [[🐧✅]](https://hydra.nixos.org/build/352910371) [pkgsCross.aarch64-multiplatform.haskellPackages](https://hydra.nixos.org/eval/1831228?filter=pkgsCross.aarch64-multiplatform.haskellPackages.hello)
   - [[🐧✅]](https://hydra.nixos.org/build/352910369) [pkgsCross.ghcjs.haskell.packages.ghc912](https://hydra.nixos.org/eval/1831228?filter=pkgsCross.ghcjs.haskell.packages.ghc912.hello)
-  - [[🐧⏳]](https://hydra.nixos.org/build/352910374) [pkgsCross.ghcjs.haskell.packages.ghcHEAD](https://hydra.nixos.org/eval/1831228?filter=pkgsCross.ghcjs.haskell.packages.ghcHEAD.hello)
+  - [[🐧❗]](https://hydra.nixos.org/build/352910374) [pkgsCross.ghcjs.haskell.packages.ghcHEAD](https://hydra.nixos.org/eval/1831228?filter=pkgsCross.ghcjs.haskell.packages.ghcHEAD.hello)
   - [[🐧✅]](https://hydra.nixos.org/build/352910379) [pkgsCross.ghcjs.haskellPackages](https://hydra.nixos.org/eval/1831228?filter=pkgsCross.ghcjs.haskellPackages.hello)
   - [[🐧❗]](https://hydra.nixos.org/build/352910392) [pkgsMusl.haskellPackages](https://hydra.nixos.org/eval/1831228?filter=pkgsMusl.haskellPackages.hello)
   - [[🐧✅]](https://hydra.nixos.org/build/352910398) [pkgsStatic.haskell.packages.native-bignum.ghc948](https://hydra.nixos.org/eval/1831228?filter=pkgsStatic.haskell.packages.native-bignum.ghc948.hello)
@@ -628,7 +628,7 @@
 - [ ] [microlens](https://hydra.nixos.org/eval/1831228?filter=microlens)  ⤴️ 581 | 1155
   - [[🐧✅]](https://hydra.nixos.org/build/352906775) [haskellPackages](https://hydra.nixos.org/eval/1831228?filter=haskellPackages.microlens)
   - [[🐧✅]](https://hydra.nixos.org/build/352910370) [pkgsCross.ghcjs.haskell.packages.ghc912](https://hydra.nixos.org/eval/1831228?filter=pkgsCross.ghcjs.haskell.packages.ghc912.microlens)
-  - [[🐧⏳]](https://hydra.nixos.org/build/352910376) [pkgsCross.ghcjs.haskell.packages.ghcHEAD](https://hydra.nixos.org/eval/1831228?filter=pkgsCross.ghcjs.haskell.packages.ghcHEAD.microlens)
+  - [[🐧❗]](https://hydra.nixos.org/build/352910376) [pkgsCross.ghcjs.haskell.packages.ghcHEAD](https://hydra.nixos.org/eval/1831228?filter=pkgsCross.ghcjs.haskell.packages.ghcHEAD.microlens)
   - [[🐧✅]](https://hydra.nixos.org/build/352910375) [pkgsCross.ghcjs.haskellPackages](https://hydra.nixos.org/eval/1831228?filter=pkgsCross.ghcjs.haskellPackages.microlens)
   - [[🐧❗]](https://hydra.nixos.org/build/352910381) [pkgsCross.ucrt64.haskell.packages.ghc912](https://hydra.nixos.org/eval/1831228?filter=pkgsCross.ucrt64.haskell.packages.ghc912.microlens)
 - [ ] [hscolour](https://hydra.nixos.org/eval/1831228?filter=hscolour)  ⤴️ 21 | 80
